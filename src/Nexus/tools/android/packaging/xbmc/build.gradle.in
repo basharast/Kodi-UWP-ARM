@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion @TARGET_SDK@
+    defaultConfig {
+        applicationId "@APP_PACKAGE@"
+        minSdkVersion @TARGET_MINSDK@
+        targetSdkVersion @TARGET_SDK@
+        versionCode @APP_VERSION_CODE_ANDROID@
+        versionName "@APP_VERSION@"
+    }
+    signingConfigs {
+        release {
+            keyAlias System.getenv("KODI_ANDROID_KEY_ALIAS")
+            keyPassword System.getenv("KODI_ANDROID_KEY_PASSWORD")
+            storeFile file(System.getenv("KODI_ANDROID_STORE_FILE"))
+            storePassword System.getenv("KODI_ANDROID_STORE_PASSWORD")
+            enableV1Signing true
+            enableV2Signing true
+            enableV3Signing true
+        }
+
+    }
+    buildTypes {
+        debug {
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+        }
+        relwithdebinfo {
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+        }
+        release {
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+        }
+    }
+    aaptOptions {
+        ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['java']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['lib']
+        }
+    }
+    packagingOptions{
+      doNotStrip '**.setup'
+    }
+}
+
+project.afterEvaluate {
+    preBuild.dependsOn
+}
+
+dependencies {
+    // New support library to for channels/programs development.
+    implementation 'androidx.tvprovider:tvprovider:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
