@@ -11,7 +11,7 @@
 # Target
 
 - Windows ARM
-- Min build 15063
+- Min build 15035
 
 # Credits
 - Kodi Team (Original & main developers)
