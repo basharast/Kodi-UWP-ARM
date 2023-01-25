@@ -13,8 +13,11 @@
 - Windows ARM
 - Min build 15035
 
+# UWP improvements
+This app supported by [UWP2Win32](https://github.com/basharast/UWP2Win32)
+
 # Credits
 - Kodi Team (Original & main developers)
-- Bashar Astifan (UWP ARM Optimizations)
+- Bashar Astifan (UWP ARM improvements)
 - [Gustave Monce](https://github.com/gus33000) (DLL dynamic loading solution)
 
