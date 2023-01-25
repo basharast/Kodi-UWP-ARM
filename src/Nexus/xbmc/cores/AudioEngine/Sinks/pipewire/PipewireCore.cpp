@@ -8,7 +8,7 @@
 
 #include "PipewireCore.h"
 
-#include "cores/AudioEngine/Sinks/pipewire/Pipewire.h"
+#include "cores/AudioEngine/Sinks/pipewire/PipewireContext.h"
 #include "cores/AudioEngine/Sinks/pipewire/PipewireThreadLoop.h"
 #include "utils/log.h"
 
@@ -21,24 +21,22 @@ namespace SINK
 namespace PIPEWIRE
 {
 
-CPipewireCore::CPipewireCore(pw_context* context) : m_coreEvents(CreateCoreEvents())
+CPipewireCore::CPipewireCore(CPipewireContext& context)
+  : m_context(context), m_coreEvents(CreateCoreEvents())
 {
-  m_core.reset(pw_context_connect(context, nullptr, 0));
+  m_core.reset(pw_context_connect(context.Get(), nullptr, 0));
   if (!m_core)
   {
     CLog::Log(LOGERROR, "CPipewireCore: failed to create core: {}", strerror(errno));
     throw std::runtime_error("CPipewireCore: failed to create core");
   }
+
+  pw_core_add_listener(m_core.get(), &m_coreListener, &m_coreEvents, this);
 }
 
 CPipewireCore::~CPipewireCore()
 {
   spa_hook_remove(&m_coreListener);
-}
-
-void CPipewireCore::AddListener(void* userdata)
-{
-  pw_core_add_listener(m_core.get(), &m_coreListener, &m_coreEvents, userdata);
 }
 
 void CPipewireCore::Sync()
@@ -48,9 +46,8 @@ void CPipewireCore::Sync()
 
 void CPipewireCore::OnCoreDone(void* userdata, uint32_t id, int seq)
 {
-  auto pipewire = reinterpret_cast<CPipewire*>(userdata);
-  auto core = pipewire->GetCore();
-  auto loop = pipewire->GetThreadLoop();
+  auto core = reinterpret_cast<CPipewireCore*>(userdata);
+  auto loop = &core->GetContext().GetThreadLoop();
 
   if (core->GetSync() == seq)
     loop->Signal(false);

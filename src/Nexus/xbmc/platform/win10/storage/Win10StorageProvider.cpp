@@ -76,6 +76,13 @@ void CStorageProvider::GetLocalDrives(VECSOURCES &localDrives)
   share.m_iDriveType = CMediaSource::SOURCE_TYPE_LOCAL;
   localDrives.push_back(share);
 
+  CMediaSource docs;
+  docs.strPath = CSpecialProtocol::TranslatePath("win-lib://documents");
+  docs.strName = g_localizeStrings.Get(20249);
+  docs.m_ignore = true;
+  docs.m_iDriveType = CMediaSource::SOURCE_TYPE_LOCAL;
+  localDrives.push_back(docs);
+ 
   GetDrivesByType(localDrives, LOCAL_DRIVES, true);
 }
 

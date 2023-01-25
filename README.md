@@ -16,4 +16,5 @@
 # Credits
 - Kodi Team (Original & main developers)
 - Bashar Astifan (UWP ARM Optimizations)
+- [Gustave Monce](https://github.com/gus33000) (DLL dynamic loading solution)
 
