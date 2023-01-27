@@ -16,6 +16,11 @@
 # UWP improvements
 This app supported by [UWP2Win32](https://github.com/basharast/UWP2Win32)
 
+# Helpful links
+
+[Kodi Wiki](https://kodi.wiki/view/Main_Page)
+
+
 # Credits
 - Kodi Team (Original & main developers)
 - Bashar Astifan (UWP ARM improvements)
