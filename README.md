@@ -13,6 +13,10 @@
 - Windows ARM
 - Min build 15035
 
+# Surface (ARM64)
+- Please note Qualcomm and Windows are no longer support ARM32 (which what I do)
+- My work is focus on legacy support for older devices and ARM devices that still support ARM32
+
 # UWP improvements
 This app supported by [UWP2Win32](https://github.com/basharast/UWP2Win32)
 
