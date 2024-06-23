@@ -15,7 +15,7 @@ to learn how to make this working for older devices follow these steps:
 
 ## Basic
 - The current compatible versions are Matrix, Nexus (Omega still in test)
-- Use Kode official build instructions [Click here](https://github.com/xbmc/xbmc/blob/master/docs/README.Windows.md)
+- Use Kodi's official build instructions [Click here](https://github.com/xbmc/xbmc/blob/master/docs/README.Windows.md)
 - Hunt everything related to HDMI and XBOX and disable it
 - Ensure there are no `FromApp` APIs used those don't work on any build below 16299
 - You can skip build errors but keeping the target at 19041 and min build at 14393
