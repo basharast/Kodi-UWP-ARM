@@ -9,7 +9,7 @@ it will crash, need more check, I guess because of the ffmpeg stuff (now it's 6 
 
 Kodi has specific way to build,
 
-if you have different build tools than mine will give you a lot of errors
+if you have different build tools than mine will give you a lot of errors using my build
 
 to learn how to make this working for older devices follow these steps:
 
@@ -19,7 +19,7 @@ to learn how to make this working for older devices follow these steps:
 - Hunt everything related to HDMI and XBOX and disable it
 - Ensure there are no `FromApp` APIs used those don't work on any build below 16299
 - You can skip build errors but keeping the target at 19041 and min build at 14393
-- Using any older build than 19041 will give you a hell or build errors
+- Using any older build than 19041 will give you a hell of build errors
 
 ## Specific (Audio legacy bug)
 - This took me a lot of time to catch without debug
