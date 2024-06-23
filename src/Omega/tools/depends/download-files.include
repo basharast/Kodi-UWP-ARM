@@ -1,0 +1,55 @@
+HASH_TYPE := sha512
+HASH_TOOL ?= $(SHA512SUM)
+
+SED_FLAG = -i
+ifeq ($(NATIVE_OS), osx)
+  HASH_TOOL = $(SHASUM) -a $(shell echo $(HASH_TYPE) | sed 's/^sha//')
+  SED_FLAG = -i ''
+endif
+
+# non-depends builds might not set this, use defaults
+ifeq ($(HASH_TOOL),)
+  HASH_TOOL = sha512sum
+  HASH_TOOL_FLAGS = -c --status
+endif
+
+.PHONY: all download
+
+all: download
+
+FULL_URL ?= $(BASE_URL)/$(ARCHIVE)
+
+$(TARBALLS_LOCATION)/$(ARCHIVE).$(HASH_TYPE): download
+
+download:
+	@{\
+          cd $(TARBALLS_LOCATION) ;\
+          if [ -f "$(ARCHIVE)" ]; then \
+            HASH_SUM="$$($(HASH_TOOL) $(ARCHIVE) | cut -f 1 -d " ")" ;\
+            if [ "$${HASH_SUM}" = "$(SHA512)" ]; then \
+              $(HASH_TOOL) $(ARCHIVE) > $(ARCHIVE).$(HASH_TYPE) ;\
+              exit 0 ;\
+            else \
+              echo "corrupt archive found $(ARCHIVE) - redownloading" ;\
+            fi ;\
+          fi ;\
+          ATTEMPTS=1 ;\
+          while [ "$${ATTEMPTS}" -le 3 ]; do \
+            echo "download $(ARCHIVE) attempt $$ATTEMPTS" ;\
+            $(RETRIEVE_TOOL) $(RETRIEVE_TOOL_FLAGS) $(ARCHIVE) $(FULL_URL) ;\
+            HASH_SUM="$$($(HASH_TOOL) $(ARCHIVE) | cut -f 1 -d " ")" ;\
+            if [ "$${HASH_SUM}" = "$(SHA512)" ]; then \
+              $(HASH_TOOL) $(ARCHIVE) > $(ARCHIVE).$(HASH_TYPE) ;\
+              exit 0 ;\
+            fi ;\
+            ATTEMPTS=$$((ATTEMPTS + 1)) ;\
+            echo "Error: failed to verify hash sum of $(ARCHIVE)" ;\
+            echo "Expected type   : $(HASH_TYPE)" ;\
+            echo "Found value     : $${HASH_SUM}" ;\
+            echo "Expected value  : $(SHA512)" ;\
+            echo "retrying.." ;\
+            rm $(ARCHIVE) ;\
+            sleep 3 ;\
+          done ;\
+          exit 1 ;\
+        }

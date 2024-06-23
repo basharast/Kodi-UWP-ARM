@@ -1,5 +1,0 @@
-include 'xbmc'
-
-rootProject.name = "XBMC"
-
-project(':xbmc').projectDir = new File('xbmc')

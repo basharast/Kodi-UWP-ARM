@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+body { font-family: Verdana, Arial; }
+a { cursor: pointer; }
+a:hover { cursor: pointer; }
+table
+{
+width: 100%;
+font-family:
+Verdana, Arial;
+font-size: 10px;
+cursor: pointer;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+th { text-align: right; }
+</style>
+</head>
+<body>
+<center><a href="@ABOUT_WEBSITE@">@DEV_NAME@</a></center>
+<br>
+<table style="font-family:Verdana;">
+
+<tr>
+<th>Documentation</th>
+<td><a href="@DOCS_WEBSITE@">@DOCS_WEBSITE@</a></td>
+</tr>
+
+<tr>
+<th width="40%">Need Help?</th>
+<td width="60%"><a href="@FORUM_WEBSITE@">@FORUM_WEBSITE@</a></td>
+</tr>
+
+</table>
+
+</body>
+</html>

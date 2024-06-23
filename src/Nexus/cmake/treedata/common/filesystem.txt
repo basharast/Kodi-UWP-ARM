@@ -1,3 +1,0 @@
-xbmc/filesystem                         filesystem
-xbmc/filesystem/MusicDatabaseDirectory  filesystem/musicdatabase
-xbmc/filesystem/VideoDatabaseDirectory  filesystem/videodatabase
