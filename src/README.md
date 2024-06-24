@@ -36,7 +36,7 @@ ____
 
 # Nexus
 
-- You need to use the build project as it
+- You need to use the build project as-is
 - if you have different build tools than mine will give you a lot of errors
 - Be careful, any change on CMake files will get some imports out
 - If you can fix it then do it, otherwise don't change CMake files
