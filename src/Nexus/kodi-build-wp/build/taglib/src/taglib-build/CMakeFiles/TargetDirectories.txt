@@ -1,0 +1,7 @@
+C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/docs.dir
+C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/uninstall.dir
+C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/ZERO_CHECK.dir
+C:/kodi-build-wp/build/taglib/src/taglib-build/taglib/CMakeFiles/tag.dir
+C:/kodi-build-wp/build/taglib/src/taglib-build/taglib/CMakeFiles/INSTALL.dir

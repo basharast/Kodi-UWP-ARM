@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.pocketcdg"
+		name="PocketCDG"
+		version="0.0.1.20"
+		provider-name="RedBug">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.pocketcdg.dll">
+		<platforms></platforms>
+		<extensions>cdg</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.pocketcdg</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">PocketCDG git</summary>
+		<description lang="da_DK">PocketCDG er en MP3 karaoke musikafspiller.</description>
+		<description lang="en_GB">PocketCDG is an MP3 karaoke music player.</description>
+		<description lang="it_IT">PocketCDG è un lettore musicale karaoke MP3.</description>
+		<description lang="ko_KR">PocketCDG는 MP3 노래방 음악 플레이어입니다.</description>
+		<description lang="zh_CN">PocketCDG 是一款 MP3 卡拉 OK 音乐播放器。</description>
+	</extension>
+</addon>

@@ -1,0 +1,196 @@
+The target system is: WindowsStore - 10.0.18362.0 - 
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;;/O2;/Ob2;/DNDEBUG
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+Build started 1/20/2023 6:39:41 AM.
+Project "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(505,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj]
+  Creating directory "Debug\CompilerIdC.tlog\".
+  Creating directory "Generated Files\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\CL.exe /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\\" /I"Generated Files\\" /IDebug\ /nologo /W0 /WX- /diagnostics:column /sdl /MP /Od /Oi /Oy- /D _UNICODE /D UNICODE /D __WRL_NO_DEFAULT_LIB__ /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /APPCONTAINER /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:ARM Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\Hostx64\arm\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(PrepareForBuild target) -> 
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(505,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/3.25.0-msvc1/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-vpmfhn
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fa1d6.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vpmfhn\\" /I"Generated Files\\" /IcmTC_fa1d6.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa1d6.dir\Debug\\" /Fd"cmTC_fa1d6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vpmfhn\cmTC_fa1d6.vcxproj]
+  cmTC_fa1d6.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vpmfhn\Debug\cmTC_fa1d6.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vpmfhn\cmTC_fa1d6.vcxproj]
+  cmTC_fa1d6 -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vpmfhn\AppPackages\cmTC_fa1d6\cmTC_fa1d6_1.0.0.0_ARM_Debug_Test\cmTC_fa1d6_1.0.0.0_ARM_Debug.msix
+  cmTC_fa1d6 -> cmTC_fa1d6.dir\Debug\Symbols\cmTC_fa1d6_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-u7d7io
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1271d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-u7d7io\\" /I"Generated Files\\" /IcmTC_1271d.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1271d.dir\Debug\\" /Fd"cmTC_1271d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-u7d7io\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-u7d7io\cmTC_1271d.vcxproj]
+  cmTC_1271d.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-u7d7io\Debug\cmTC_1271d.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-u7d7io\cmTC_1271d.vcxproj]
+  cmTC_1271d -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-u7d7io\AppPackages\cmTC_1271d\cmTC_1271d_1.0.0.0_ARM_Debug_Test\cmTC_1271d_1.0.0.0_ARM_Debug.msix
+  cmTC_1271d -> cmTC_1271d.dir\Debug\Symbols\cmTC_1271d_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-be7rl2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e82b0.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-be7rl2\\" /I"Generated Files\\" /IcmTC_e82b0.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e82b0.dir\Debug\\" /Fd"cmTC_e82b0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-be7rl2\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-be7rl2\cmTC_e82b0.vcxproj]
+  cmTC_e82b0.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-be7rl2\Debug\cmTC_e82b0.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-be7rl2\cmTC_e82b0.vcxproj]
+  cmTC_e82b0 -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-be7rl2\AppPackages\cmTC_e82b0\cmTC_e82b0_1.0.0.0_ARM_Debug_Test\cmTC_e82b0_1.0.0.0_ARM_Debug.msix
+  cmTC_e82b0 -> cmTC_e82b0.dir\Debug\Symbols\cmTC_e82b0_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-y3fxma
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ebd7e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-y3fxma\\" /I"Generated Files\\" /IcmTC_ebd7e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebd7e.dir\Debug\\" /Fd"cmTC_ebd7e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-y3fxma\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-y3fxma\cmTC_ebd7e.vcxproj]
+  cmTC_ebd7e.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-y3fxma\Debug\cmTC_ebd7e.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-y3fxma\cmTC_ebd7e.vcxproj]
+  cmTC_ebd7e -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-y3fxma\AppPackages\cmTC_ebd7e\cmTC_ebd7e_1.0.0.0_ARM_Debug_Test\cmTC_ebd7e_1.0.0.0_ARM_Debug.msix
+  cmTC_ebd7e -> cmTC_ebd7e.dir\Debug\Symbols\cmTC_ebd7e_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-1j6f5e
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_377b4.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-1j6f5e\\" /I"Generated Files\\" /IcmTC_377b4.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_377b4.dir\Debug\\" /Fd"cmTC_377b4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-1j6f5e\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-1j6f5e\cmTC_377b4.vcxproj]
+  cmTC_377b4.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-1j6f5e\Debug\cmTC_377b4.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-1j6f5e\cmTC_377b4.vcxproj]
+  cmTC_377b4 -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-1j6f5e\AppPackages\cmTC_377b4\cmTC_377b4_1.0.0.0_ARM_Debug_Test\cmTC_377b4_1.0.0.0_ARM_Debug.msix
+  cmTC_377b4 -> cmTC_377b4.dir\Debug\Symbols\cmTC_377b4_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-ng1hbw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ae877.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-ng1hbw\\" /I"Generated Files\\" /IcmTC_ae877.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae877.dir\Debug\\" /Fd"cmTC_ae877.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-ng1hbw\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-ng1hbw\cmTC_ae877.vcxproj]
+  cmTC_ae877.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-ng1hbw\Debug\cmTC_ae877.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-ng1hbw\cmTC_ae877.vcxproj]
+  cmTC_ae877 -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-ng1hbw\AppPackages\cmTC_ae877\cmTC_ae877_1.0.0.0_ARM_Debug_Test\cmTC_ae877_1.0.0.0_ARM_Debug.msix
+  cmTC_ae877 -> cmTC_ae877.dir\Debug\Symbols\cmTC_ae877_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-yjygsx
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_35d3e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-yjygsx\\" /I"Generated Files\\" /IcmTC_35d3e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35d3e.dir\Debug\\" /Fd"cmTC_35d3e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-yjygsx\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-yjygsx\cmTC_35d3e.vcxproj]
+  cmTC_35d3e.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-yjygsx\Debug\cmTC_35d3e.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-yjygsx\cmTC_35d3e.vcxproj]
+  cmTC_35d3e -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-yjygsx\AppPackages\cmTC_35d3e\cmTC_35d3e_1.0.0.0_ARM_Debug_Test\cmTC_35d3e_1.0.0.0_ARM_Debug.msix
+  cmTC_35d3e -> cmTC_35d3e.dir\Debug\Symbols\cmTC_35d3e_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-4kj6q9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eff4d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-4kj6q9\\" /I"Generated Files\\" /IcmTC_eff4d.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eff4d.dir\Debug\\" /Fd"cmTC_eff4d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-4kj6q9\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-4kj6q9\cmTC_eff4d.vcxproj]
+  cmTC_eff4d.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-4kj6q9\Debug\cmTC_eff4d.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-4kj6q9\cmTC_eff4d.vcxproj]
+  cmTC_eff4d -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-4kj6q9\AppPackages\cmTC_eff4d\cmTC_eff4d_1.0.0.0_ARM_Debug_Test\cmTC_eff4d_1.0.0.0_ARM_Debug.msix
+  cmTC_eff4d -> cmTC_eff4d.dir\Debug\Symbols\cmTC_eff4d_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-s0b03m
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9cb60.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-s0b03m\\" /I"Generated Files\\" /IcmTC_9cb60.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9cb60.dir\Debug\\" /Fd"cmTC_9cb60.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-s0b03m\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-s0b03m\cmTC_9cb60.vcxproj]
+  cmTC_9cb60.vcxproj -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-s0b03m\Debug\cmTC_9cb60.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-s0b03m\cmTC_9cb60.vcxproj]
+  cmTC_9cb60 -> C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-s0b03m\AppPackages\cmTC_9cb60\cmTC_9cb60_1.0.0.0_ARM_Debug_Test\cmTC_9cb60_1.0.0.0_ARM_Debug.msix
+  cmTC_9cb60 -> cmTC_9cb60.dir\Debug\Symbols\cmTC_9cb60_1.0.0.0_ARM_Debug.appxsym
+
+
+

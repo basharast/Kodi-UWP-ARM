@@ -1,0 +1,146 @@
+# game.libretro.cap32 language file
+# Addon Name: game.libretro.cap32
+# Addon id: game.libretro.cap32
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cap32\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-02 07:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-cap32/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Amstrad - CPC (Caprice32) 4.5 HI"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models."
+msgstr "Caprice32 是 Amstrad CPC 8位家用电脑系列的模拟器。它忠实地仿真了 CPC464、CPC664 和 CPC6128 机型。"
+
+msgctxt "Addon Disclaimer"
+msgid "Written by Ulrich Doewich"
+msgstr "作者：Ulrich Doewich"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Controls > User 1 Controller Config"
+msgstr "控制 > 用户1控制器配置"
+
+msgctxt "#30002"
+msgid "Controls > User 2 Controller Config"
+msgstr "控制 > 用户2控制器配置"
+
+msgctxt "#30003"
+msgid "Controls > Combo Key"
+msgstr "控制 > 组合键"
+
+msgctxt "#30004"
+msgid "Controls > Use internal Remap DB"
+msgstr "控制 > 使用内部重映射数据库"
+
+msgctxt "#30005"
+msgid "Light Gun > Input"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Light Gun > Show Crosshair"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Advanced > Autorun"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Advanced > Ram size"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Video > Green Phosphor blueish"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Video > Monitor Intensity"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Video Advanced > Color Depth"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Status Bar"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Keyboard Transparency"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Floppy Sound"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Monitor Type"
+msgstr ""
+
+msgctxt "#30017"
+msgid "CPC Language"
+msgstr ""
+
+#~ msgctxt "#30005"
+#~ msgid "Model"
+#~ msgstr "型号"
+
+#~ msgctxt "#30006"
+#~ msgid "Advanced > Autorun"
+#~ msgstr "高级 > 自动运行"
+
+#~ msgctxt "#30007"
+#~ msgid "Advanced > Ram size"
+#~ msgstr "高级 > 内存大小"
+
+#~ msgctxt "#30008"
+#~ msgid "Video > Green Phosphor blueish"
+#~ msgstr "视频 > 绿色荧光粉带蓝色"
+
+#~ msgctxt "#30009"
+#~ msgid "Video > Monitor Intensity"
+#~ msgstr "视频 > 监视器强度"
+
+#~ msgctxt "#30010"
+#~ msgid "Video Advanced > Color Depth"
+#~ msgstr "视频高级 > 色深"
+
+#~ msgctxt "#30011"
+#~ msgid "Status Bar"
+#~ msgstr "状态栏"
+
+#~ msgctxt "#30012"
+#~ msgid "Floppy Sound"
+#~ msgstr "软盘声音"
+
+#~ msgctxt "#30013"
+#~ msgid "Monitor Type"
+#~ msgstr "监视器类型"
+
+#~ msgctxt "#30014"
+#~ msgid "CPC Language"
+#~ msgstr "CPC 语言"
+
+#~ msgctxt "#30009"
+#~ msgid "Status Bar"
+#~ msgstr "状态栏"

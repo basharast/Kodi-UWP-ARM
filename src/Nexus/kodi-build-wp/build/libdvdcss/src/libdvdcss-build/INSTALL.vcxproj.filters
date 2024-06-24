@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3df7ed60cce1b0f477ecc57b71f2fc53\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FB32CA45-D5A4-3B83-9F0F-0C0C08CE77B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

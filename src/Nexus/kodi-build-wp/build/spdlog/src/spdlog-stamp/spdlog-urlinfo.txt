@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/spdlog/src/spdlog-stamp/download-spdlog.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/spdlog/src/spdlog-stamp/verify-spdlog.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/spdlog/src/spdlog-stamp/extract-spdlog.cmake
+source_dir=C:/kodi-build-wp/build/spdlog/src/spdlog
+work_dir=C:/kodi-build-wp/build/spdlog/src
+url(s)=http://mirrors.kodi.tv/build-deps/sources/spdlog-1.10.0.tar.gz
+hash=SHA512=e82ec0a0c813ed2f1c8a31a0f21dbb733d0a7bd8d05284feae3bd66040bc53ad47a93b26c3e389c7e5623cfdeba1854d690992c842748e072aab3e6e6ecc5666
+no_extract=
+

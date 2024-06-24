@@ -1,0 +1,4 @@
+C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/dvdcss.dir
+C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/ZERO_CHECK.dir

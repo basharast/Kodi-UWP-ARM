@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|ARM">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|ARM">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C98FCF2-AA59-30F9-984D-15FBA94309D4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ApplicationType>Windows Store</ApplicationType>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+    <Platform>ARM</Platform>
+    <ProjectName>generate_json_header</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\caf97077aa9c7c4490aef0f666d43f31\addon.xml.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Generating xbmc.json/addon.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal
+cd C:\kodi
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_SOURCE_DIR=C:/kodi -DCORE_BINARY_DIR=C:/kodi-build-wp -DCORE_SYSTEM_NAME=windowsstore -P C:/kodi/xbmc/interfaces/json-rpc/schema/GenerateAddonXml.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;C:\kodi\addons\xbmc.json\addon.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\addons\xbmc.json\addon.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Generating xbmc.json/addon.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal
+cd C:\kodi
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_SOURCE_DIR=C:/kodi -DCORE_BINARY_DIR=C:/kodi-build-wp -DCORE_SYSTEM_NAME=windowsstore -P C:/kodi/xbmc/interfaces/json-rpc/schema/GenerateAddonXml.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;C:\kodi\addons\xbmc.json\addon.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\addons\xbmc.json\addon.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">Generating xbmc.json/addon.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">setlocal
+cd C:\kodi
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_SOURCE_DIR=C:/kodi -DCORE_BINARY_DIR=C:/kodi-build-wp -DCORE_SYSTEM_NAME=windowsstore -P C:/kodi/xbmc/interfaces/json-rpc/schema/GenerateAddonXml.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;C:\kodi\addons\xbmc.json\addon.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\addons\xbmc.json\addon.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">Generating xbmc.json/addon.xml</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">setlocal
+cd C:\kodi
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_SOURCE_DIR=C:/kodi -DCORE_BINARY_DIR=C:/kodi-build-wp -DCORE_SYSTEM_NAME=windowsstore -P C:/kodi/xbmc/interfaces/json-rpc/schema/GenerateAddonXml.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;C:\kodi\addons\xbmc.json\addon.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\addons\xbmc.json\addon.xml</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\5931d6892e62fb8158a9312955f1166a\ServiceDescription.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Generating ServiceDescription.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal
+cd C:\kodi-build-wp\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\kodi\project\BuildDependencies\win10-arm\bin\json-rpc\JsonSchemaBuilder.exe C:/kodi/xbmc/interfaces/json-rpc/schema/version.txt C:/kodi/xbmc/interfaces/json-rpc/schema/license.txt C:/kodi/xbmc/interfaces/json-rpc/schema/methods.json C:/kodi/xbmc/interfaces/json-rpc/schema/types.json C:/kodi/xbmc/interfaces/json-rpc/schema/notifications.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\ServiceDescription.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Generating ServiceDescription.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal
+cd C:\kodi-build-wp\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\kodi\project\BuildDependencies\win10-arm\bin\json-rpc\JsonSchemaBuilder.exe C:/kodi/xbmc/interfaces/json-rpc/schema/version.txt C:/kodi/xbmc/interfaces/json-rpc/schema/license.txt C:/kodi/xbmc/interfaces/json-rpc/schema/methods.json C:/kodi/xbmc/interfaces/json-rpc/schema/types.json C:/kodi/xbmc/interfaces/json-rpc/schema/notifications.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\ServiceDescription.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">Generating ServiceDescription.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">setlocal
+cd C:\kodi-build-wp\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\kodi\project\BuildDependencies\win10-arm\bin\json-rpc\JsonSchemaBuilder.exe C:/kodi/xbmc/interfaces/json-rpc/schema/version.txt C:/kodi/xbmc/interfaces/json-rpc/schema/license.txt C:/kodi/xbmc/interfaces/json-rpc/schema/methods.json C:/kodi/xbmc/interfaces/json-rpc/schema/types.json C:/kodi/xbmc/interfaces/json-rpc/schema/notifications.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\ServiceDescription.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">Generating ServiceDescription.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">setlocal
+cd C:\kodi-build-wp\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\kodi\project\BuildDependencies\win10-arm\bin\json-rpc\JsonSchemaBuilder.exe C:/kodi/xbmc/interfaces/json-rpc/schema/version.txt C:/kodi/xbmc/interfaces/json-rpc/schema/license.txt C:/kodi/xbmc/interfaces/json-rpc/schema/methods.json C:/kodi/xbmc/interfaces/json-rpc/schema/types.json C:/kodi/xbmc/interfaces/json-rpc/schema/notifications.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi\xbmc\interfaces\json-rpc\schema\version.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\license.txt;C:\kodi\xbmc\interfaces\json-rpc\schema\methods.json;C:\kodi\xbmc\interfaces\json-rpc\schema\types.json;C:\kodi\xbmc\interfaces\json-rpc\schema\notifications.json;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\ServiceDescription.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\9b666dbaa4751e7e4b58d6ba9e4a1ac0\generate_json_header.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\ServiceDescription.h;C:\kodi-build-wp\addons\xbmc.json\addon.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate_json_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\ServiceDescription.h;C:\kodi-build-wp\addons\xbmc.json\addon.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate_json_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\ServiceDescription.h;C:\kodi-build-wp\addons\xbmc.json\addon.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate_json_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\ServiceDescription.h;C:\kodi-build-wp\addons\xbmc.json\addon.xml;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate_json_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi\xbmc\interfaces\json-rpc\schema\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Building Custom Rule C:/kodi/xbmc/interfaces/json-rpc/schema/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/interfaces/json-rpc/schema/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Building Custom Rule C:/kodi/xbmc/interfaces/json-rpc/schema/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/interfaces/json-rpc/schema/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">Building Custom Rule C:/kodi/xbmc/interfaces/json-rpc/schema/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/interfaces/json-rpc/schema/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">Building Custom Rule C:/kodi/xbmc/interfaces/json-rpc/schema/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/interfaces/json-rpc/schema/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate_json_header">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\kodi-build-wp\ZERO_CHECK.vcxproj">
+      <Project>{172F5007-1FB0-3569-914C-9331B6055149}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

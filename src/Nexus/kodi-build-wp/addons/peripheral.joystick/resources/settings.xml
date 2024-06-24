@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+  <section id="addon" label="-1">
+    <category id="main" label="30000">
+      <group id="1" label="-1">
+
+
+
+        <setting id="driver_xinput" type="boolean" label="30003">
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+
+      </group>
+    </category>
+  </section>
+</settings>

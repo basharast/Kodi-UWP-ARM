@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="vb_3dmode" values="anaglyph|cyberscope|side-by-side|vli|hli" default="anaglyph"/>
+		<setting label="30002" type="select" id="vb_anaglyph_preset" values="disabled|red &amp; blue|red &amp; cyan|red &amp; electric cyan|green &amp; magenta|yellow &amp; blue" default="disabled"/>
+		<setting label="30003" type="select" id="vb_color_mode" values="black &amp; red|black &amp; white|black &amp; blue|black &amp; cyan|black &amp; electric cyan|black &amp; green|black &amp; magenta|black &amp; yellow" default="black &amp; red"/>
+		<setting label="30004" type="select" id="vb_right_analog_to_digital" values="disabled|enabled|invert x|invert y|invert both" default="disabled"/>
+		<setting label="30005" type="select" id="vb_cpu_emulation" values="fast|accurate" default="fast"/>
+	</category>
+</settings>

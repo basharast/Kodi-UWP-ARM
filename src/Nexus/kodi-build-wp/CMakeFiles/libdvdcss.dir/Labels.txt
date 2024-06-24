@@ -1,0 +1,13 @@
+# Target labels
+ libdvdcss
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/libdvdcss
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/libdvdcss.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/libdvdcss-complete.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-build.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-configure.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-download.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-install.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-patch.rule
+C:/kodi-build-wp/CMakeFiles/edc5d131260e241d2f3347acf929070c/libdvdcss-update.rule

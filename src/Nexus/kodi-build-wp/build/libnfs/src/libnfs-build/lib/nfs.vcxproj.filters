@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\libnfs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\libnfs-sync.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\libnfs-zdr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\multithreading.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\nfs_v3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\nfs_v4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\pdu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\socket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\libnfs\src\libnfs\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\rquota\nfs_rquota.dir\$(Configuration)\libnfs-raw-rquota.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\rquota\nfs_rquota.dir\$(Configuration)\rquota.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\portmap\nfs_portmap.dir\$(Configuration)\libnfs-raw-portmap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\portmap\nfs_portmap.dir\$(Configuration)\portmap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nsm\nfs_nsm.dir\$(Configuration)\libnfs-raw-nsm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nsm\nfs_nsm.dir\$(Configuration)\nsm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nlm\nfs_nlm.dir\$(Configuration)\libnfs-raw-nlm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nlm\nfs_nlm.dir\$(Configuration)\nlm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nfs4\nfs_nfs4.dir\$(Configuration)\libnfs-raw-nfs4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nfs4\nfs_nfs4.dir\$(Configuration)\nfs4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nfs\nfs_nfs.dir\$(Configuration)\libnfs-raw-nfs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nfs\nfs_nfs.dir\$(Configuration)\nfs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\nfs\nfs_nfs.dir\$(Configuration)\nfsacl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\mount\nfs_mount.dir\$(Configuration)\libnfs-raw-mount.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\mount\nfs_mount.dir\$(Configuration)\mount.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\kodi-build-wp\build\libnfs\src\libnfs-build\win32\nfs_win32.dir\$(Configuration)\win32_compat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{A9BFFA15-9EB3-321C-BBE9-726A671849CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4F0DE3BE-92E4-395F-B8A8-68843E8070F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

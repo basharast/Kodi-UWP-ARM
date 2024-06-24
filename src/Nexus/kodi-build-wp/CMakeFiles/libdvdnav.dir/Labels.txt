@@ -1,0 +1,13 @@
+# Target labels
+ libdvdnav
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/libdvdnav
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/libdvdnav.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/libdvdnav-complete.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-build.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-configure.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-download.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-install.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-patch.rule
+C:/kodi-build-wp/CMakeFiles/c822b57c8a74cddd23755fdceeeb7631/libdvdnav-update.rule

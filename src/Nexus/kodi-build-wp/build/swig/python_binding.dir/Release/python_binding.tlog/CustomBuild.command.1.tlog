@@ -1,0 +1,94 @@
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMCADDON.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmcaddon.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmcaddon.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmcaddon.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmcaddon.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMCDRM.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmcdrm.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmcdrm.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmcdrm.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmcdrm.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMCGUI.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmcgui.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmcgui.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmcgui.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmcgui.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMC.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmc.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmc.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmc.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmc.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMCPLUGIN.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmcplugin.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmcplugin.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmcplugin.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmcplugin.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMCVFS.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmcvfs.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmcvfs.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmcvfs.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmcvfs.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\671868B888905BD5FA0599BBCFD1A836\ADDONMODULEXBMCWSGI.I.CPP.RULE
+setlocal
+C:\kodi\project\BuildDependencies\win10-arm\bin\swig\swig.exe -w401 -c++ -o AddonModuleXbmcwsgi.i.xml -xml -IC:/kodi/xbmc -xmllang python C:/kodi/xbmc/interfaces/swig/../swig/AddonModuleXbmcwsgi.i
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Java\jdk-19\bin\java.exe" -cp C:/kodi/tools/codegenerator/groovy/groovy-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-xml-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/groovy-templates-4.0.6.jar;C:/kodi/tools/codegenerator/groovy/commons-lang-2.6.jar;C:/kodi/tools/codegenerator;C:/kodi/xbmc/interfaces/swig/../python groovy.ui.GroovyMain C:/kodi/tools/codegenerator/Generator.groovy AddonModuleXbmcwsgi.i.xml C:/kodi/xbmc/interfaces/swig/../python/PythonSwig.cpp.template AddonModuleXbmcwsgi.i.cpp > nul
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI\XBMC\INTERFACES\SWIG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/swig/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

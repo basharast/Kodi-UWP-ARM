@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\caf97077aa9c7c4490aef0f666d43f31\addon.xml.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\5931d6892e62fb8158a9312955f1166a\ServiceDescription.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\9b666dbaa4751e7e4b58d6ba9e4a1ac0\generate_json_header.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi\xbmc\interfaces\json-rpc\schema\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\kodi-build-wp\build\interfaces\json-rpc\schema\CMakeFiles\generate_json_header" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B43CD052-A5F7-3415-B01A-6FE8CB1267E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

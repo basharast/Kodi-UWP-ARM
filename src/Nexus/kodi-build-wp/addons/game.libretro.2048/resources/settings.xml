@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="2048_theme" values="Light|Dark" default="Light"/>
+		<setting label="30002" type="select" id="2048_fps" values="60|120|240" default="60"/>
+	</category>
+</settings>

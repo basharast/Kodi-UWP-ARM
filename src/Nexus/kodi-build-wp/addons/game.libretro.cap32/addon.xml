@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.cap32"
+		name="Amstrad - CPC/GX4000 (Caprice32)"
+		version="4.5.3.30"
+		provider-name="Ulrich Doewich, dantoine">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.amstrad.joystick" version="1.0.0"/>
+		<import addon="game.controller.amstrad.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.cap32.dll">
+		<platforms>Amstrad</platforms>
+		<extensions>dsk|sna|zip|tap|cdt|voc|cpr|m3u</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>true</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.cap32</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Amstrad - CPC (Caprice32) 4.5 HI</summary>
+		<description lang="da_DK">Caprice32 er en emulator til Amstrad CPC 8-bit computerserien. Den efterligner trofast CPC464-, CPC664- og CPC6128-modellerne.</description>
+		<description lang="en_GB">Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models.</description>
+		<description lang="es_ES">Caprice32 es un emulador para la serie de ordenadores domésticos Amstrad CPC de 8 bits. Imita fielmente los modelos CPC464, CPC664 y CPC6128.</description>
+		<description lang="zh_CN">Caprice32 是 Amstrad CPC 8位家用电脑系列的模拟器。它忠实地仿真了 CPC464、CPC664 和 CPC6128 机型。</description>
+		<disclaimer lang="da_DK">Skrevet af Ulrich Doewich</disclaimer>
+		<disclaimer lang="en_GB">Written by Ulrich Doewich</disclaimer>
+		<disclaimer lang="es_ES">Escrito por Ulrich Doewich</disclaimer>
+		<disclaimer lang="zh_CN">作者：Ulrich Doewich</disclaimer>
+	</extension>
+</addon>

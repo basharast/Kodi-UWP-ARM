@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <AppxManifest Include="C:\kodi-build-wp\package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\kodi\xbmc\platform\win10\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\kodi\tools\windows\packaging\uwp\media\SplashScreen.scale-200.png">
+      <Filter>media</Filter>
+    </Image>
+    <Image Include="C:\kodi\tools\windows\packaging\uwp\media\banner310x150.png">
+      <Filter>media</Filter>
+    </Image>
+    <Image Include="C:\kodi\tools\windows\packaging\uwp\media\icon150x150.png">
+      <Filter>media</Filter>
+    </Image>
+    <Image Include="C:\kodi\tools\windows\packaging\uwp\media\icon44x44.png">
+      <Filter>media</Filter>
+    </Image>
+    <Image Include="C:\kodi\tools\windows\packaging\uwp\media\icon50x50.png">
+      <Filter>media</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\kodi\tools\windows\packaging\uwp\kodi_temp_key.pfx" />
+    <None Include="C:\kodi\LICENSE.md" />
+    <None Include="C:\kodi\privacy-policy.txt" />
+    <None Include="C:\kodi\cmake\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\kodi-build-wp\resources.dir\$(Configuration)\XBMC_PC.res">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{BCFFCF77-5352-3B8F-BED1-1FB1161F9DB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E0D609E3-19EE-3FBA-91C5-CE732B825299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media">
+      <UniqueIdentifier>{FFD95D36-2C21-344B-9B7E-C45E5236A029}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="quicknes_aspect_ratio_par" values="PAR|4:3" default="PAR"/>
+		<setting label="30002" type="select" id="quicknes_use_overscan_h" values="enabled|disabled" default="enabled"/>
+		<setting label="30003" type="select" id="quicknes_use_overscan_v" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="quicknes_palette" values="default|asqrealc|nintendo-vc|rgb|yuv-v3|unsaturated-final|sony-cxa2025as-us|pal|bmf-final2|bmf-final3|smooth-fbx|composite-direct-fbx|pvm-style-d93-fbx|ntsc-hardware-fbx|nes-classic-fbx-fs|nescap|wavebeam" default="default"/>
+		<setting label="30005" type="select" id="quicknes_no_sprite_limit" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="quicknes_audio_nonlinear" values="nonlinear|linear|stereo panning" default="nonlinear"/>
+		<setting label="30007" type="select" id="quicknes_audio_eq" values="default|famicom|tv|flat|crisp|tinny" default="default"/>
+		<setting label="30008" type="select" id="quicknes_turbo_enable" values="none|player 1|player 2|both" default="none"/>
+		<setting label="30009" type="select" id="quicknes_turbo_pulse_width" values="3|1|2|5|10|15|30|60" default="3"/>
+		<setting label="30010" type="select" id="quicknes_up_down_allowed" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\reflection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_cpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_csharp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_dart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_kotlin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_go.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_java.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_ts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_php.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_python.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_lobster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_lua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_rust.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_fbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_grpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_json_schema.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\idl_gen_swift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\flatc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\flatc_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\src\code_generators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\cpp_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\go_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\java_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\python_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\swift_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\ts_generator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\flatbuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\idl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\reflection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\reflection_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\stl_emulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\flexbuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\minireflect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\include\flatbuffers\code_generators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\schema_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\cpp_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\go_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\java_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\python_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\swift_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\flatc\src\flatc\grpc\src\compiler\ts_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\flatc\src\flatc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E22D284F-2EBB-3603-A638-CAC8CE97A27B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{217CD6D9-EE2B-36D8-8658-1C820AAF1A80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

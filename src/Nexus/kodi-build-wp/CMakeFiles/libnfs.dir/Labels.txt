@@ -1,0 +1,13 @@
+# Target labels
+ libnfs
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/libnfs
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/libnfs.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/libnfs-complete.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-build.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-configure.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-download.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-install.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-patch.rule
+C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-update.rule

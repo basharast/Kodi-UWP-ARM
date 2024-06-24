@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="xrick_crop_borders" values="enabled|disabled" default="enabled"/>
+		<setting label="30002" type="select" id="xrick_cheat1" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="xrick_cheat2" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="xrick_cheat3" values="disabled|enabled" default="disabled"/>
+	</category>
+</settings>

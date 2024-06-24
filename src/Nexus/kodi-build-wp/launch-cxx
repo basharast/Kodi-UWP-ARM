@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "C:/Strawberry/c/bin/ccache.exe" "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.41.33901/bin/Hostx64/arm/cl.exe" "$@"

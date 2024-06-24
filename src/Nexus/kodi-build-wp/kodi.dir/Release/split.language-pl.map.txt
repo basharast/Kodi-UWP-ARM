@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-pl"
+"ResourceDimensions"		"language-pl"
+
+[Files]
+"C:\kodi-build-wp\kodi.dir\Release\split.language-pl.pri"			"resources.pri"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\license.html"			"addons\webinterface.default\lang\pl\license.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\lang-readme.html"			"addons\webinterface.default\lang\pl\lang-readme.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\keybind-readme.html"			"addons\webinterface.default\lang\pl\keybind-readme.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\help-overview.html"			"addons\webinterface.default\lang\pl\help-overview.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\app-readme.html"			"addons\webinterface.default\lang\pl\app-readme.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\app-changelog.html"			"addons\webinterface.default\lang\pl\app-changelog.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\pl\addons.html"			"addons\webinterface.default\lang\pl\addons.html"

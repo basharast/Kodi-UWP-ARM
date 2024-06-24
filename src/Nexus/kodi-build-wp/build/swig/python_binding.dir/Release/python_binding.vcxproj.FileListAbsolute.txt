@@ -1,0 +1,16 @@
+C:\kodi-build-wp\build\swig\Release\python_binding.pri
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\priconfig.xml
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\priconfig.xml.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\unfiltered.layout.resfiles
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\unfiltered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\filtered.layout.resfiles
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\filtered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\excluded.layout.resfiles
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\excluded.layout.resfiles.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\resources.resfiles
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\resources.resfiles.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\pri.resfiles
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\pri.resfiles.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\qualifiers.txt
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\qualifiers.txt.intermediate
+C:\kodi-build-wp\build\swig\python_binding.dir\Release\MultipleQualifiersPerDimensionFound.txt

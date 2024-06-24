@@ -1,0 +1,126 @@
+# game.libretro.pokemini language file
+# Addon Name: game.libretro.pokemini
+# Addon id: game.libretro.pokemini
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.pokemini\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-04-13 18:25i\n"
+"PO-Revision-Date: 2022-08-01 10:14+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-pokemini/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Pokemon Mini (PokeMini) v0.60"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PokeMini emulates the obscure Pokémon Mini handheld. While functional, it does not support color files or savestates currently.[CR][CR]To use a real BIOS, place [I]bios.min[/I] in the emulator's userdata folder."
+msgstr "PokeMini 仿真默默无闻的 Pokémon Mini 掌机。虽然功能正常，但它目前不支持颜色文件或保存状态。[CR][CR]要使用真正的 BIOS，请将 [I]BIOS.min[/I] 放在模拟器的 userdata 文件夹中。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Video Scale (Restart)"
+msgstr "视频缩放（重新启动）"
+
+msgctxt "#30002"
+msgid "60Hz Mode"
+msgstr "60Hz 模式"
+
+msgctxt "#30003"
+msgid "LCD Filter"
+msgstr "液晶显示滤波器"
+
+msgctxt "#30004"
+msgid "LCD Mode"
+msgstr "液晶显示模式"
+
+msgctxt "#30005"
+msgid "LCD Contrast"
+msgstr "液晶显示对比度"
+
+msgctxt "#30006"
+msgid "LCD Brightness"
+msgstr "液晶显示亮度"
+
+msgctxt "#30007"
+msgid "Palette"
+msgstr "调色板"
+
+msgctxt "#30008"
+msgid "Piezo Filter"
+msgstr "压电滤波器"
+
+msgctxt "#30009"
+msgid "Low Pass Filter"
+msgstr "低通滤波器"
+
+msgctxt "#30010"
+msgid "Low Pass Filter Level (%)"
+msgstr "低通滤波器电平（%）"
+
+msgctxt "#30011"
+msgid "Screen Shake Level"
+msgstr "屏幕震动级别"
+
+msgctxt "#30012"
+msgid "Controller Rumble Level"
+msgstr "控制器振动级别"
+
+msgctxt "#30013"
+msgid "Turbo Button Period"
+msgstr "Turbo 按钮周期"
+
+#~ msgctxt "#30002"
+#~ msgid "LCD Filter"
+#~ msgstr "液晶显示滤波器"
+
+#~ msgctxt "#30003"
+#~ msgid "LCD Mode"
+#~ msgstr "液晶显示模式"
+
+#~ msgctxt "#30004"
+#~ msgid "LCD Contrast"
+#~ msgstr "液晶显示对比度"
+
+#~ msgctxt "#30005"
+#~ msgid "LCD Brightness"
+#~ msgstr "液晶显示亮度"
+
+#~ msgctxt "#30006"
+#~ msgid "Palette"
+#~ msgstr "调色板"
+
+#~ msgctxt "#30007"
+#~ msgid "Piezo Filter"
+#~ msgstr "压电滤波器"
+
+#~ msgctxt "#30008"
+#~ msgid "Low Pass Filter"
+#~ msgstr "低通滤波器"
+
+#~ msgctxt "#30009"
+#~ msgid "Low Pass Filter Level (%)"
+#~ msgstr "低通滤波器电平（%）"
+
+#~ msgctxt "#30010"
+#~ msgid "Screen Shake Level"
+#~ msgstr "屏幕震动级别"
+
+#~ msgctxt "#30011"
+#~ msgid "Controller Rumble Level"
+#~ msgstr "控制器振动级别"
+
+#~ msgctxt "#30012"
+#~ msgid "Turbo Button Period"
+#~ msgstr "Turbo 按钮周期"

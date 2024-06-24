@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-nl"
+"ResourceDimensions"		"language-nl"
+
+[Files]
+"C:\kodi-build-wp\kodi.dir\Release\split.language-nl.pri"			"resources.pri"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\nl\keybind-readme.html"			"addons\webinterface.default\lang\nl\keybind-readme.html"

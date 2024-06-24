@@ -1,0 +1,4 @@
+C:/kodi-build-wp/build/crossguid/src/crossguid-build/CMakeFiles/crossguid.dir
+C:/kodi-build-wp/build/crossguid/src/crossguid-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/crossguid/src/crossguid-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/crossguid/src/crossguid-build/CMakeFiles/ZERO_CHECK.dir

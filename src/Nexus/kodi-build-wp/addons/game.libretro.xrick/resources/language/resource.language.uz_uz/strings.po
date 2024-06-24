@@ -1,0 +1,45 @@
+# game.libretro.xrick language file
+# Addon Name: game.libretro.xrick
+# Addon id: game.libretro.xrick
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.xrick\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-25 06:08i\n"
+"PO-Revision-Date: 2021-08-25 06:08i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uz_uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Rick Dangerous (XRick) 021212-Dev"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "XRick is an open source implementation of the legendary game [I]Rick Dangerous[/I]."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Crop Borders"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Cheat: Trainer Mode"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Cheat: Invulnerability Mode"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Cheat: Expose Mode"
+msgstr ""

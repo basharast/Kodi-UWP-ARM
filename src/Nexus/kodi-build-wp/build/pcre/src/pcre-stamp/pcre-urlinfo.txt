@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/pcre/src/pcre-stamp/download-pcre.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/pcre/src/pcre-stamp/verify-pcre.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/pcre/src/pcre-stamp/extract-pcre.cmake
+source_dir=C:/kodi-build-wp/build/pcre/src/pcre
+work_dir=C:/kodi-build-wp/build/pcre/src
+url(s)=http://mirrors.kodi.tv/build-deps/sources/pcre-8.45.tar.bz2
+hash=SHA512=91bff52eed4a2dfc3f3bfdc9c672b88e7e2ffcf3c4b121540af8a4ae8c1ce05178430aa6b8000658b9bb7b4252239357250890e20ceb84b79cdfcde05154061a
+no_extract=
+

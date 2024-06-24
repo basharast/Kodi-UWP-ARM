@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-ngp"
+		name="SNK - Neo Geo Pocket / Color (Beetle NeoPop)"
+		version="1.29.0.29"
+		provider-name="neopop_uk, Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ngp" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.beetle-ngp.dll">
+		<platforms>NGP</platforms>
+		<extensions>ngp|ngc|ngpc|npc</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-ngp</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1</summary>
+		<description lang="da_DK">Baseret på NeoPop er denne emulator tilstrækkelig til at spille de fleste kommercielt udgivne spil temmelig godt, men ikke særlig præcist med hensyn til detaljer på lavt niveau.</description>
+		<description lang="en_GB">Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details.</description>
+		<description lang="es_ES">Basado en NeoPop, este emulador es suficiente para ejecutar muy bien la mayoria de los juegos comerciales, pero no es muy bueno aclarando detalles de bajo nivel.</description>
+		<description lang="it_IT">Basato su NeoPop, questo emulatore è sufficiente per giocare abbastanza bene alla maggior parte dei giochi rilasciati in commercio, ma non molto accurato in termini di dettagli di basso livello.</description>
+		<description lang="ko_KR">NeoPop을 기반으로 하는 이 에뮬레이터는 대부분의 상업적으로 출시된 게임을 플레이하기에는 충분하지만, 세부 사항 측면에서는 그다지 정확하지 않습니다.</description>
+		<description lang="zh_CN">基于 NeoPop，该模拟器足以很好地玩大多数商业发行的游戏，但在低阶细节方面并不十分准确。</description>
+	</extension>
+</addon>

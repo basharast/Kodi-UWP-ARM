@@ -1,0 +1,16 @@
+C:\kodi-build-wp\build\upnp\Release\upnp.pri
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\priconfig.xml
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\priconfig.xml.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\unfiltered.layout.resfiles
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\unfiltered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\filtered.layout.resfiles
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\filtered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\excluded.layout.resfiles
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\excluded.layout.resfiles.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\resources.resfiles
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\resources.resfiles.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\pri.resfiles
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\pri.resfiles.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\qualifiers.txt
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\qualifiers.txt.intermediate
+C:\kodi-build-wp\build\upnp\upnp.dir\Release\MultipleQualifiersPerDimensionFound.txt

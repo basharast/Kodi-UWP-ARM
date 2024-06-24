@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\LIBDVDNAV\SRC\LIBDVDNAV-BUILD\CMAKEFILES\0A7EB1498A5FFCA88D9AE1DEA2473DAC\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,4 @@
+C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/travis_doc.dir
+C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/ZERO_CHECK.dir

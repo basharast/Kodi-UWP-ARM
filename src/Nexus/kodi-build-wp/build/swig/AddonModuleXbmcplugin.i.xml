@@ -1,0 +1,2244 @@
+<?xml version="1.0" ?> 
+<top id="1" addr="00EFC630" >
+    <attributelist id="2" addr="00EFC630" >
+        <attribute name="outfile" value="AddonModuleXbmcplugin.i.xml" id="3" addr="00F0EC50" />
+        <attribute name="name" value="xbmcplugin" id="4" addr="00F0EC50" />
+        <attribute name="module" value="xbmcplugin" id="5" addr="00F079D0" />
+        <attribute name="inputfile" value="C:\\kodi\\xbmc\\interfaces\\swig\\..\\swig\\AddonModuleXbmcplugin.i" id="6" addr="00F0EC50" />
+        <attribute name="classes" value="00F06510" id="7" addr="00F06510" />
+        <attribute name="infile" value="C:\\kodi\\xbmc\\interfaces\\swig\\..\\swig\\AddonModuleXbmcplugin.i" id="8" addr="00F0EC50" />
+        <attribute name="outfile_h" value="AddonModuleXbmcplugin.i.h" id="9" addr="00F0EC50" />
+    </attributelist >
+
+    <include id="10" addr="00F04AB0" >
+        <attributelist id="11" addr="00F04AB0" >
+            <attribute name="name" value="C:\\kodi\\project\\BuildDependencies\\win10-arm\\bin\\swig\\Lib\\swig.swg" id="12" addr="00F0EC50" />
+        </attributelist >
+
+        <include id="13" addr="00F04AE0" >
+            <attributelist id="14" addr="00F04AE0" >
+                <attribute name="name" value="C:\\kodi\\project\\BuildDependencies\\win10-arm\\bin\\swig\\Lib\\swigwarnings.swg" id="15" addr="00F0EC50" />
+            </attributelist >
+
+            <include id="16" addr="00F04B70" >
+                <attributelist id="17" addr="00F04B70" >
+                    <attribute name="name" value="C:\\kodi\\project\\BuildDependencies\\win10-arm\\bin\\swig\\Lib\\swigwarn.swg" id="18" addr="00F0EC50" />
+                </attributelist >
+             
+            </include >
+        </include >
+        <include id="19" addr="00F04E00" >
+            <attributelist id="20" addr="00F04E00" >
+                <attribute name="name" value="C:\\kodi\\project\\BuildDependencies\\win10-arm\\bin\\swig\\Lib\\swigfragments.swg" id="21" addr="00F0EC50" />
+            </attributelist >
+
+            <fragment id="22" addr="00F04E90" >
+                <attributelist id="23" addr="00F04E90" >
+                    <attribute name="value" value="&lt;float.h>" id="24" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;float.h>&#10;" id="25" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="26" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="27" addr="00F04F80" >
+                <attributelist id="28" addr="00F04F80" >
+                    <attribute name="value" value="&lt;limits.h>" id="29" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;limits.h>&#10;#if !defined(SWIG_NO_LLONG_MAX)&#10;# if !defined(LLONG_MAX) &amp;&amp; defined(__GNUC__) &amp;&amp; defined (__LONG_LONG_MAX__)&#10;#   define LLONG_MAX __LONG_LONG_MAX__&#10;#   define LLONG_MIN (-LLONG_MAX - 1LL)&#10;#   define ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)&#10;# endif&#10;#endif&#10;" id="30" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="31" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="32" addr="00F05020" >
+                <attributelist id="33" addr="00F05020" >
+                    <attribute name="value" value="&lt;math.h>" id="34" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;math.h>&#10;" id="35" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="36" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="37" addr="00F050B0" >
+                <attributelist id="38" addr="00F050B0" >
+                    <attribute name="value" value="&lt;stddef.h>" id="39" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;stddef.h>&#10;" id="40" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="41" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="42" addr="00F05140" >
+                <attributelist id="43" addr="00F05140" >
+                    <attribute name="value" value="&lt;stdio.h>" id="44" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;stdio.h>&#10;#if (defined(_MSC_VER) &amp;&amp; (_MSC_VER &lt; 1900)) || defined(__BORLANDC__) || defined(_WATCOM)&#10;# ifndef snprintf&#10;#  define snprintf _snprintf&#10;# endif&#10;#endif&#10;" id="45" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="46" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="47" addr="00F051D0" >
+                <attributelist id="48" addr="00F051D0" >
+                    <attribute name="value" value="&lt;stdlib.h>" id="49" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;stdlib.h>&#10;#ifdef _MSC_VER&#10;# ifndef strtoull&#10;#  define strtoull _strtoui64&#10;# endif&#10;# ifndef strtoll&#10;#  define strtoll _strtoi64&#10;# endif&#10;#endif&#10;" id="50" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="51" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="52" addr="00F05260" >
+                <attributelist id="53" addr="00F05260" >
+                    <attribute name="value" value="&lt;wchar.h>" id="54" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;wchar.h>&#10;#include &lt;limits.h>&#10;#ifndef WCHAR_MIN&#10;#  define WCHAR_MIN 0&#10;#endif&#10;#ifndef WCHAR_MAX&#10;#  define WCHAR_MAX 65535&#10;#endif&#10;" id="55" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="56" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="57" addr="00F052F0" >
+                <attributelist id="58" addr="00F052F0" >
+                    <attribute name="value" value="&lt;algorithm>" id="59" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;algorithm>&#10;" id="60" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="61" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="62" addr="00F05380" >
+                <attributelist id="63" addr="00F05380" >
+                    <attribute name="value" value="&lt;stdexcept>" id="64" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;stdexcept>&#10;" id="65" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="66" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="67" addr="00F05410" >
+                <attributelist id="68" addr="00F05410" >
+                    <attribute name="value" value="&lt;string>" id="69" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;string>&#10;" id="70" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="71" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="72" addr="00F054A0" >
+                <attributelist id="73" addr="00F054A0" >
+                    <attribute name="value" value="&lt;memory>" id="74" addr="00F0EC50" />
+                    <attribute name="code" value="&#10;#include &lt;memory>&#10;" id="75" addr="00F0EC50" />
+                    <attribute name="section" value="header" id="76" addr="00F0EC50" />
+                </attributelist >
+             
+            </fragment >
+        </include >
+        <namespace id="77" addr="00F06210" >
+            <attributelist id="78" addr="00F06210" >
+                <attribute name="sym_name" value="std" id="79" addr="00F0EC50" />
+                <attribute name="name" value="std" id="80" addr="00F0EC50" />
+                <typescope id="81" addr="00F0DD60" >
+                    <attributelist id="82" addr="00F0DD60" >
+                        <attribute name="name" value="std" id="83" addr="00F0EC50" />
+                        <typetab id="84" addr="00F0DD70" >
+                            <attributelist id="85" addr="00F0DD70" >
+                                <attribute name="initializer_list" value="initializer_list" id="86" addr="00F0EC50" />
+                            </attributelist >
+                            <typetabsitem id="87" addr="00F0DE20" >
+                                <attributelist id="88" addr="00F0DE20" >
+                                </attributelist >
+                            </typetabsitem >
+                        </typetab >
+                        <attribute name="parent" value="00EFBD20" id="89" addr="00EFBD20" />
+                        <attribute name="qname" value="std" id="90" addr="00F0EC50" />
+                        <attribute name="symtab" value="00F06270" id="91" addr="00F06270" />
+                    </attributelist >
+                    <typescopesitem id="92" addr="00F06230" >
+                        <attributelist id="93" addr="00F06230" >
+                        </attributelist >
+                    </typescopesitem >
+                    <typescopesitem id="94" addr="00F0DD70" >
+                        <attributelist id="95" addr="00F0DD70" >
+                            <attribute name="initializer_list" value="initializer_list" id="96" addr="00F0EC50" />
+                        </attributelist >
+                    </typescopesitem >
+                    <typescopesitem id="97" addr="00EFBD20" >
+                        <attributelist id="98" addr="00EFBD20" >
+                            <attribute name="name" value="" id="99" addr="00F0EC50" />
+                            <typetab id="100" addr="00EFBD50" >
+                                <attributelist id="101" addr="00EFBD50" >
+                                </attributelist >
+                            </typetab >
+                        </attributelist >
+                    </typescopesitem >
+                    <typescopesitem id="102" addr="00F0DD80" >
+                        <attributelist id="103" addr="00F0DD80" >
+                        </attributelist >
+                    </typescopesitem >
+                    <typescopesitem id="104" addr="00F06270" >
+                        <attributelist id="105" addr="00F06270" >
+                            <attribute name="name" value="std" id="106" addr="00F0EC50" />
+                            <attribute name="csymtab" value="00F06290" id="107" addr="00F06290" />
+                            <attribute name="symtab" value="00F06260" id="108" addr="00F06260" />
+                        </attributelist >
+                    </typescopesitem >
+                </typescope >
+                <attribute name="symtab" value="00F06270" id="109" addr="00F06270" />
+                <attribute name="sym_symtab" value="00EFBCA0" id="110" addr="00EFBCA0" />
+                <attribute name="sym_overname" value="__SWIG_0" id="111" addr="00F0EC50" />
+            </attributelist >
+
+            <template id="112" addr="00F06360" >
+                <attributelist id="113" addr="00F06360" >
+                    <attribute name="templatetype" value="class" id="114" addr="00F0EC50" />
+                    <attribute name="sym_typename" value="1" id="115" addr="00F0EC50" />
+                    <attribute name="name" value="initializer_list" id="116" addr="00F0EC50" />
+                    <attribute name="sym_symtab" value="00F06270" id="117" addr="00F06270" />
+                    <attribute name="symtab" value="00F06470" id="118" addr="00F06470" />
+                    <attribute name="allows_typedef" value="1" id="119" addr="00F0EC50" />
+                    <attribute name="kind" value="class" id="120" addr="00F0EC50" />
+                    <attribute name="sym_name" value="initializer_list" id="121" addr="00F0EC50" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="122" addr="00F0EC50" />
+                    <templateparms id="123" addr="00F06300" >
+                        <parm id="124">
+                            <attributelist id="125" addr="00F06300" >
+                                <attribute name="name" value="T" id="126" addr="00F0EC50" />
+                                <attribute name="type" value="typename T" id="127" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </templateparms >
+                </attributelist >
+
+                <access id="128" addr="00F06550" >
+                    <attributelist id="129" addr="00F06550" >
+                        <attribute name="kind" value="public" id="130" addr="00F0EC50" />
+                    </attributelist >
+                 
+                </access >
+            </template >
+            <typemap id="131" addr="00F06880" >
+                <attributelist id="132" addr="00F06880" >
+                    <kwargs id="133" addr="00F06700" >
+                        <attributelist id="134" addr="00F06700" >
+                            <attribute name="name" value="warning" id="135" addr="00F0EC50" />
+                            <attribute name="value" value="476:Initialization using std::initializer_list." id="136" addr="00F0EC50" />
+                        </attributelist >
+                        <kwargssitem id="137" addr="00F067C0" >
+                            <attributelist id="138" addr="00F067C0" >
+                            </attributelist >
+                        </kwargssitem >
+                        <kwargssitem id="139" addr="00F066F0" >
+                            <attributelist id="140" addr="00F066F0" >
+                            </attributelist >
+                        </kwargssitem >
+                    </kwargs >
+                    <attribute name="code" value="" id="141" addr="00F0EC50" />
+                    <attribute name="method" value="in" id="142" addr="00F0EC50" />
+                </attributelist >
+
+                <typemapitem id="143" addr="00F06810" >
+                    <attributelist id="144" addr="00F06810" >
+                        <parmlist id="145" addr="00F06830" >
+                            <parm id="146">
+                                <attributelist id="147" addr="00F06830" >
+                                    <attribute name="type" value="std::initializer_list&lt;(T)>" id="148" addr="00F0EC50" />
+                                </attributelist >
+                            </parm >
+                        </parmlist >
+                    </attributelist >
+                 
+                </typemapitem >
+            </typemap >
+            <typemap id="149" addr="00F06A10" >
+                <attributelist id="150" addr="00F06A10" >
+                    <kwargs id="151" addr="00F068E0" >
+                        <attributelist id="152" addr="00F068E0" >
+                            <attribute name="name" value="precedence" id="153" addr="00F0EC50" />
+                            <attribute name="value" value="0" id="154" addr="00F0EC50" />
+                        </attributelist >
+                        <kwargssitem id="155" addr="00F068F0" >
+                            <attributelist id="156" addr="00F068F0" >
+                            </attributelist >
+                        </kwargssitem >
+                        <kwargssitem id="157" addr="00F06900" >
+                            <attributelist id="158" addr="00F06900" >
+                            </attributelist >
+                        </kwargssitem >
+                    </kwargs >
+                    <attribute name="code" value="" id="159" addr="00F0EC50" />
+                    <attribute name="method" value="typecheck" id="160" addr="00F0EC50" />
+                </attributelist >
+
+                <typemapitem id="161" addr="00F069B0" >
+                    <attributelist id="162" addr="00F069B0" >
+                        <parmlist id="163" addr="00F069D0" >
+                            <parm id="164">
+                                <attributelist id="165" addr="00F069D0" >
+                                    <attribute name="type" value="std::initializer_list&lt;(T)>" id="166" addr="00F0EC50" />
+                                </attributelist >
+                            </parm >
+                        </parmlist >
+                    </attributelist >
+                 
+                </typemapitem >
+            </typemap >
+        </namespace >
+        <typemap id="167" addr="00F06B00" >
+            <attributelist id="168" addr="00F06B00" >
+                <attribute name="code" value="delete [] $1;" id="169" addr="00F0EC50" />
+                <attribute name="method" value="newfree" id="170" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="171" addr="00F06A90" >
+                <attributelist id="172" addr="00F06A90" >
+                    <parmlist id="173" addr="00F06AB0" >
+                        <parm id="174">
+                            <attributelist id="175" addr="00F06AB0" >
+                                <attribute name="type" value="p.char" id="176" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="177" addr="00F06BF0" >
+            <attributelist id="178" addr="00F06BF0" >
+                <attribute name="code" value="{&#10;  delete [] $1;&#10;  if ($input) {&#10;     $1 = ($1_type) (new char[strlen((const char *)$input)+1]);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="179" addr="00F0EC50" />
+                <attribute name="method" value="memberin" id="180" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="181" addr="00F06B90" >
+                <attributelist id="182" addr="00F06B90" >
+                    <parmlist id="183" addr="00F06BB0" >
+                        <parm id="184">
+                            <attributelist id="185" addr="00F06BB0" >
+                                <attribute name="type" value="p.char" id="186" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="187" addr="00F06D20" >
+            <attributelist id="188" addr="00F06D20" >
+                <kwargs id="189" addr="00F06C40" >
+                    <attributelist id="190" addr="00F06C40" >
+                        <attribute name="name" value="warning" id="191" addr="00F0EC50" />
+                        <attribute name="value" value="451:Setting a const char * variable may leak memory." id="192" addr="00F0EC50" />
+                    </attributelist >
+                    <kwargssitem id="193" addr="00F06C50" >
+                        <attributelist id="194" addr="00F06C50" >
+                        </attributelist >
+                    </kwargssitem >
+                    <kwargssitem id="195" addr="00F06C30" >
+                        <attributelist id="196" addr="00F06C30" >
+                        </attributelist >
+                    </kwargssitem >
+                </kwargs >
+                <attribute name="code" value="{&#10;  if ($input) {&#10;     $1 = ($1_type) (new char[strlen((const char *)$input)+1]);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="197" addr="00F0EC50" />
+                <attribute name="method" value="memberin" id="198" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="199" addr="00F06CC0" >
+                <attributelist id="200" addr="00F06CC0" >
+                    <parmlist id="201" addr="00F06CE0" >
+                        <parm id="202">
+                            <attributelist id="203" addr="00F06CE0" >
+                                <attribute name="type" value="p.q(const).char" id="204" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="205" addr="00F06E10" >
+            <attributelist id="206" addr="00F06E10" >
+                <attribute name="code" value="{&#10;  delete [] $1;&#10;  if ($input) {&#10;     $1 = ($1_type) (new char[strlen((const char *)$input)+1]);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="207" addr="00F0EC50" />
+                <attribute name="method" value="globalin" id="208" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="209" addr="00F06DB0" >
+                <attributelist id="210" addr="00F06DB0" >
+                    <parmlist id="211" addr="00F06DD0" >
+                        <parm id="212">
+                            <attributelist id="213" addr="00F06DD0" >
+                                <attribute name="type" value="p.char" id="214" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="215" addr="00F06F40" >
+            <attributelist id="216" addr="00F06F40" >
+                <kwargs id="217" addr="00F06E60" >
+                    <attributelist id="218" addr="00F06E60" >
+                        <attribute name="name" value="warning" id="219" addr="00F0EC50" />
+                        <attribute name="value" value="451:Setting a const char * variable may leak memory." id="220" addr="00F0EC50" />
+                    </attributelist >
+                    <kwargssitem id="221" addr="00F06E70" >
+                        <attributelist id="222" addr="00F06E70" >
+                        </attributelist >
+                    </kwargssitem >
+                    <kwargssitem id="223" addr="00F06E50" >
+                        <attributelist id="224" addr="00F06E50" >
+                        </attributelist >
+                    </kwargssitem >
+                </kwargs >
+                <attribute name="code" value="{&#10;  if ($input) {&#10;     $1 = ($1_type) (new char[strlen((const char *)$input)+1]);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="225" addr="00F0EC50" />
+                <attribute name="method" value="globalin" id="226" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="227" addr="00F06EE0" >
+                <attributelist id="228" addr="00F06EE0" >
+                    <parmlist id="229" addr="00F06F00" >
+                        <parm id="230">
+                            <attributelist id="231" addr="00F06F00" >
+                                <attribute name="type" value="p.q(const).char" id="232" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="233" addr="00F07050" >
+            <attributelist id="234" addr="00F07050" >
+                <attribute name="code" value="{&#10;  if($input) {&#10;    strncpy((char*)$1, (const char *)$input, $1_dim0-1);&#10;    $1[$1_dim0-1] = 0;&#10;  } else {&#10;    $1[0] = 0;&#10;  }&#10;}" id="235" addr="00F0EC50" />
+                <attribute name="method" value="memberin" id="236" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="237" addr="00F06FF0" >
+                <attributelist id="238" addr="00F06FF0" >
+                    <parmlist id="239" addr="00F07010" >
+                        <parm id="240">
+                            <attributelist id="241" addr="00F07010" >
+                                <attribute name="type" value="a(ANY).char" id="242" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="243" addr="00F07160" >
+            <attributelist id="244" addr="00F07160" >
+                <attribute name="code" value="{&#10;  if($input) {&#10;    strncpy((char*)$1, (const char *)$input, $1_dim0-1);&#10;    $1[$1_dim0-1] = 0;&#10;  } else {&#10;    $1[0] = 0;&#10;  }&#10;}" id="245" addr="00F0EC50" />
+                <attribute name="method" value="globalin" id="246" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="247" addr="00F07100" >
+                <attributelist id="248" addr="00F07100" >
+                    <parmlist id="249" addr="00F07120" >
+                        <parm id="250">
+                            <attributelist id="251" addr="00F07120" >
+                                <attribute name="type" value="a(ANY).char" id="252" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="253" addr="00F07250" >
+            <attributelist id="254" addr="00F07250" >
+                <attribute name="code" value="{&#10;  if ($input) strcpy((char *)$1, (const char *)$input);&#10;  else $1[0] = 0;&#10;}" id="255" addr="00F0EC50" />
+                <attribute name="method" value="memberin" id="256" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="257" addr="00F071F0" >
+                <attributelist id="258" addr="00F071F0" >
+                    <parmlist id="259" addr="00F07210" >
+                        <parm id="260">
+                            <attributelist id="261" addr="00F07210" >
+                                <attribute name="type" value="a().char" id="262" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="263" addr="00F07340" >
+            <attributelist id="264" addr="00F07340" >
+                <attribute name="code" value="{&#10;  if ($input) strcpy((char *)$1, (const char *)$input);&#10;  else $1[0] = 0;&#10;}" id="265" addr="00F0EC50" />
+                <attribute name="method" value="globalin" id="266" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="267" addr="00F072E0" >
+                <attributelist id="268" addr="00F072E0" >
+                    <parmlist id="269" addr="00F07300" >
+                        <parm id="270">
+                            <attributelist id="271" addr="00F07300" >
+                                <attribute name="type" value="a().char" id="272" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="273" addr="00F07450" >
+            <attributelist id="274" addr="00F07450" >
+                <attribute name="code" value="{&#10;  size_t ii;&#10;  $1_basetype *b = ($1_basetype *) $1;&#10;  for (ii = 0; ii &lt; (size_t)$1_size; ii++) b[ii] = *(($1_basetype *) $input + ii);&#10;}" id="275" addr="00F0EC50" />
+                <attribute name="method" value="memberin" id="276" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="277" addr="00F073F0" >
+                <attributelist id="278" addr="00F073F0" >
+                    <parmlist id="279" addr="00F07410" >
+                        <parm id="280">
+                            <attributelist id="281" addr="00F07410" >
+                                <attribute name="type" value="a(ANY).SWIGTYPE" id="282" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="283" addr="00F07560" >
+            <attributelist id="284" addr="00F07560" >
+                <attribute name="code" value="{&#10;  size_t ii;&#10;  $1_basetype *b = ($1_basetype *) $1;&#10;  for (ii = 0; ii &lt; (size_t)$1_size; ii++) b[ii] = *(($1_basetype *) $input + ii);&#10;}" id="285" addr="00F0EC50" />
+                <attribute name="method" value="globalin" id="286" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="287" addr="00F07500" >
+                <attributelist id="288" addr="00F07500" >
+                    <parmlist id="289" addr="00F07520" >
+                        <parm id="290">
+                            <attributelist id="291" addr="00F07520" >
+                                <attribute name="type" value="a(ANY).SWIGTYPE" id="292" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="293" addr="00F07690" >
+            <attributelist id="294" addr="00F07690" >
+                <attribute name="code" value="{&#10;  $basetype (*inp)[$1_dim1] = ($basetype (*)[$1_dim1])($input);&#10;  $basetype (*dest)[$1_dim1] = ($basetype (*)[$1_dim1])($1);&#10;  size_t ii = 0;&#10;  for (; ii &lt; $1_dim0; ++ii) {&#10;    $basetype *ip = inp[ii];&#10;    $basetype *dp = dest[ii];&#10;    size_t jj = 0;&#10;    for (; jj &lt; $1_dim1; ++jj) dp[jj] = ip[jj];&#10;  }&#10;}" id="295" addr="00F0EC50" />
+                <attribute name="method" value="memberin" id="296" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="297" addr="00F07600" >
+                <attributelist id="298" addr="00F07600" >
+                    <parmlist id="299" addr="00F07650" >
+                        <parm id="300">
+                            <attributelist id="301" addr="00F07650" >
+                                <attribute name="type" value="a(ANY).a(ANY).SWIGTYPE" id="302" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="303" addr="00F077C0" >
+            <attributelist id="304" addr="00F077C0" >
+                <attribute name="code" value="{&#10;  $basetype (*inp)[$1_dim1] = ($basetype (*)[$1_dim1])($input);&#10;  $basetype (*dest)[$1_dim1] = ($basetype (*)[$1_dim1])($1);&#10;  size_t ii = 0;&#10;  for (; ii &lt; $1_dim0; ++ii) {&#10;    $basetype *ip = inp[ii];&#10;    $basetype *dp = dest[ii];&#10;    size_t jj = 0;&#10;    for (; jj &lt; $1_dim1; ++jj) dp[jj] = ip[jj];&#10;  }&#10;}" id="305" addr="00F0EC50" />
+                <attribute name="method" value="globalin" id="306" addr="00F0EC50" />
+            </attributelist >
+
+            <typemapitem id="307" addr="00F07730" >
+                <attributelist id="308" addr="00F07730" >
+                    <parmlist id="309" addr="00F07780" >
+                        <parm id="310">
+                            <attributelist id="311" addr="00F07780" >
+                                <attribute name="type" value="a(ANY).a(ANY).SWIGTYPE" id="312" addr="00F0EC50" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <insert id="313" addr="00F07820" >
+            <attributelist id="314" addr="00F07820" >
+                <attribute name="code" value="&#10;#ifdef __cplusplus&#10;/* SwigValueWrapper is described in swig.swg */&#10;template&lt;typename T> class SwigValueWrapper {&#10;  struct SwigMovePointer {&#10;    T *ptr;&#10;    SwigMovePointer(T *p) : ptr(p) { }&#10;    ~SwigMovePointer() { delete ptr; }&#10;    SwigMovePointer&amp; operator=(SwigMovePointer&amp; rhs) { T* oldptr = ptr; ptr = 0; delete oldptr; ptr = rhs.ptr; rhs.ptr = 0; return *this; }&#10;  } pointer;&#10;  SwigValueWrapper&amp; operator=(const SwigValueWrapper&lt;T>&amp; rhs);&#10;  SwigValueWrapper(const SwigValueWrapper&lt;T>&amp; rhs);&#10;public:&#10;  SwigValueWrapper() : pointer(0) { }&#10;  SwigValueWrapper&amp; operator=(const T&amp; t) { SwigMovePointer tmp(new T(t)); pointer = tmp; return *this; }&#10;  operator T&amp;() const { return *pointer.ptr; }&#10;  T *operator&amp;() { return pointer.ptr; }&#10;};" id="315" addr="00F0EC50" />
+                <attribute name="section" value="runtime" id="316" addr="00F0EC50" />
+            </attributelist >
+         
+        </insert >
+        <insert id="317" addr="00F07880" >
+            <attributelist id="318" addr="00F07880" >
+                <attribute name="code" value="&#10;template &lt;typename T> T SwigValueInit() {&#10;  return T();&#10;}&#10;#endif&#10;" id="319" addr="00F0EC50" />
+                <attribute name="section" value="runtime" id="320" addr="00F0EC50" />
+            </attributelist >
+         
+        </insert >
+        <insert id="321" addr="00F078F0" >
+            <attributelist id="322" addr="00F078F0" >
+                <attribute name="code" value="/* -----------------------------------------------------------------------------&#10; *  This section contains generic SWIG labels for method/variable&#10; *  declarations/attributes, and other compiler dependent labels.&#10; * ----------------------------------------------------------------------------- */&#10;&#10;/* template workaround for compilers that cannot correctly implement the C++ standard */&#10;#ifndef SWIGTEMPLATEDISAMBIGUATOR&#10;# if defined(__SUNPRO_CC) &amp;&amp; (__SUNPRO_CC &lt;= 0x560)&#10;#  define SWIGTEMPLATEDISAMBIGUATOR template&#10;# elif defined(__HP_aCC)&#10;/* Needed even with `aCC -AA' when `aCC -V' reports HP ANSI C++ B3910B A.03.55 */&#10;/* If we find a maximum version that requires this, the test would be __HP_aCC &lt;= 35500 for A.03.55 */&#10;#  define SWIGTEMPLATEDISAMBIGUATOR template&#10;# else&#10;#  define SWIGTEMPLATEDISAMBIGUATOR&#10;# endif&#10;#endif&#10;&#10;/* inline attribute */&#10;#ifndef SWIGINLINE&#10;# if defined(__cplusplus) || (defined(__GNUC__) &amp;&amp; !defined(__STRICT_ANSI__))&#10;#   define SWIGINLINE inline&#10;# else&#10;#   define SWIGINLINE&#10;# endif&#10;#endif&#10;&#10;/* attribute recognised by some compilers to avoid 'unused' warnings */&#10;#ifndef SWIGUNUSED&#10;# if defined(__GNUC__)&#10;#   if !(defined(__cplusplus)) || (__GNUC__ > 3 || (__GNUC__ == 3 &amp;&amp; __GNUC_MINOR__ >= 4))&#10;#     define SWIGUNUSED __attribute__ ((__unused__))&#10;#   else&#10;#     define SWIGUNUSED&#10;#   endif&#10;# elif defined(__ICC)&#10;#   define SWIGUNUSED __attribute__ ((__unused__))&#10;# else&#10;#   define SWIGUNUSED&#10;# endif&#10;#endif&#10;&#10;#ifndef SWIG_MSC_UNSUPPRESS_4505&#10;# if defined(_MSC_VER)&#10;#   pragma warning(disable : 4505) /* unreferenced local function has been removed */&#10;# endif&#10;#endif&#10;&#10;#ifndef SWIGUNUSEDPARM&#10;# ifdef __cplusplus&#10;#   define SWIGUNUSEDPARM(p)&#10;# else&#10;#   define SWIGUNUSEDPARM(p) p SWIGUNUSED&#10;# endif&#10;#endif&#10;&#10;/* internal SWIG method */&#10;#ifndef SWIGINTERN&#10;# define SWIGINTERN static SWIGUNUSED&#10;#endif&#10;&#10;/* internal inline SWIG method */&#10;#ifndef SWIGINTERNINLINE&#10;# define SWIGINTERNINLINE SWIGINTERN SWIGINLINE&#10;#endif&#10;&#10;/* exporting methods */&#10;#if defined(__GNUC__)&#10;#  if (__GNUC__ >= 4) || (__GNUC__ == 3 &amp;&amp; __GNUC_MINOR__ >= 4)&#10;#    ifndef GCC_HASCLASSVISIBILITY&#10;#      define GCC_HASCLASSVISIBILITY&#10;#    endif&#10;#  endif&#10;#endif&#10;&#10;#ifndef SWIGEXPORT&#10;# if defined(_WIN32) || defined(__WIN32__) || defined(__CYGWIN__)&#10;#   if defined(STATIC_LINKED)&#10;#     define SWIGEXPORT&#10;#   else&#10;#     define SWIGEXPORT __declspec(dllexport)&#10;#   endif&#10;# else&#10;#   if defined(__GNUC__) &amp;&amp; defined(GCC_HASCLASSVISIBILITY)&#10;#     define SWIGEXPORT __attribute__ ((visibility(&quot;default&quot;)))&#10;#   else&#10;#     define SWIGEXPORT&#10;#   endif&#10;# endif&#10;#endif&#10;&#10;/* calling conventions for Windows */&#10;#ifndef SWIGSTDCALL&#10;# if defined(_WIN32) || defined(__WIN32__) || defined(__CYGWIN__)&#10;#   define SWIGSTDCALL __stdcall&#10;# else&#10;#   define SWIGSTDCALL&#10;# endif&#10;#endif&#10;&#10;/* Deal with Microsoft's attempt at deprecating C standard runtime functions */&#10;#if !defined(SWIG_NO_CRT_SECURE_NO_DEPRECATE) &amp;&amp; defined(_MSC_VER) &amp;&amp; !defined(_CRT_SECURE_NO_DEPRECATE)&#10;# define _CRT_SECURE_NO_DEPRECATE&#10;#endif&#10;&#10;/* Deal with Microsoft's attempt at deprecating methods in the standard C++ library */&#10;#if !defined(SWIG_NO_SCL_SECURE_NO_DEPRECATE) &amp;&amp; defined(_MSC_VER) &amp;&amp; !defined(_SCL_SECURE_NO_DEPRECATE)&#10;# define _SCL_SECURE_NO_DEPRECATE&#10;#endif&#10;&#10;/* Deal with Apple's deprecated 'AssertMacros.h' from Carbon-framework */&#10;#if defined(__APPLE__) &amp;&amp; !defined(__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES)&#10;# define __ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES 0&#10;#endif&#10;&#10;/* Intel's compiler complains if a variable which was never initialised is&#10; * cast to void, which is a common idiom which we use to indicate that we&#10; * are aware a variable isn't used.  So we just silence that warning.&#10; * See: https://github.com/swig/swig/issues/192 for more discussion.&#10; */&#10;#ifdef __INTEL_COMPILER&#10;# pragma warning disable 592&#10;#endif&#10;" id="323" addr="00F0EC50" />
+                <attribute name="section" value="runtime" id="324" addr="00F0EC50" />
+            </attributelist >
+         
+        </insert >
+    </include >
+    <include id="325" addr="00F079B0" >
+        <attributelist id="326" addr="00F079B0" >
+            <attribute name="name" value="C:\\kodi\\xbmc\\interfaces\\swig\\..\\swig\\AddonModuleXbmcplugin.i" id="327" addr="00F0EC50" />
+            <attribute name="module" value="" id="328" addr="00F07A00" />
+            <attribute name="options" value="00F07970" id="329" addr="00F07970" />
+        </attributelist >
+
+        <module id="330" addr="00F079D0" >
+            <attributelist id="331" addr="00F079D0" >
+                <attribute name="name" value="xbmcplugin" id="332" addr="00F0EC50" />
+            </attributelist >
+         
+        </module >
+        <insert id="333" addr="00F07A20" >
+            <attributelist id="334" addr="00F07A20" >
+                <attribute name="code" value="&#10;#if defined(TARGET_WINDOWS)&#10;#  include &lt;windows.h>&#10;#endif&#10;&#10;#include &quot;interfaces/legacy/ModuleXbmcplugin.h&quot;&#10;&#10;using namespace XBMCAddon;&#10;using namespace xbmcplugin;&#10;&#10;#if defined(__GNUG__)&#10;#pragma GCC diagnostic ignored &quot;-Wstrict-aliasing&quot;&#10;#endif&#10;&#10;" id="335" addr="00F0EC50" />
+            </attributelist >
+         
+        </insert >
+        <include id="336" addr="00F07B30" >
+            <attributelist id="337" addr="00F07B30" >
+                <attribute name="name" value="C:\\kodi\\xbmc\\interfaces\\legacy\\swighelper.h" id="338" addr="00F0EC50" />
+            </attributelist >
+         
+        </include >
+        <include id="339" addr="00F07B70" >
+            <attributelist id="340" addr="00F07B70" >
+                <attribute name="name" value="C:\\kodi\\xbmc\\interfaces\\legacy\\AddonString.h" id="341" addr="00F0EC50" />
+            </attributelist >
+
+            <namespace id="342" addr="00F07BC0" >
+                <attributelist id="343" addr="00F07BC0" >
+                    <attribute name="sym_name" value="XBMCAddon" id="344" addr="00F0EC50" />
+                    <attribute name="name" value="XBMCAddon" id="345" addr="00F0EC50" />
+                    <attribute name="csym_nextSibling" value="00F07F10" id="346" addr="00F07F10" />
+                    <attribute name="sym_nextSibling" value="00F07F10" id="347" addr="00F07F10" />
+                    <typescope id="348" addr="00F0DDC0" >
+                        <attributelist id="349" addr="00F0DDC0" >
+                            <attribute name="name" value="XBMCAddon" id="350" addr="00F0EC50" />
+                            <typetab id="351" addr="00F0DDE0" >
+                                <attributelist id="352" addr="00F0DDE0" >
+                                    <attribute name="String" value="std::string" id="353" addr="00F0EC50" />
+                                </attributelist >
+                                <typetabsitem id="354" addr="00F0DEE0" >
+                                    <attributelist id="355" addr="00F0DEE0" >
+                                    </attributelist >
+                                </typetabsitem >
+                            </typetab >
+                            <attribute name="parent" value="00EFBD20" id="356" addr="00EFBD20" />
+                            <attribute name="qname" value="XBMCAddon" id="357" addr="00F0EC50" />
+                            <attribute name="symtab" value="00F07C10" id="358" addr="00F07C10" />
+                        </attributelist >
+                        <typescopesitem id="359" addr="00F07BE0" >
+                            <attributelist id="360" addr="00F07BE0" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="361" addr="00F0DDE0" >
+                            <attributelist id="362" addr="00F0DDE0" >
+                                <attribute name="String" value="std::string" id="363" addr="00F0EC50" />
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="364" addr="00EFBD20" >
+                            <attributelist id="365" addr="00EFBD20" >
+                                <attribute name="name" value="" id="366" addr="00F0EC50" />
+                                <typetab id="367" addr="00EFBD50" >
+                                    <attributelist id="368" addr="00EFBD50" >
+                                    </attributelist >
+                                </typetab >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="369" addr="00F0DE60" >
+                            <attributelist id="370" addr="00F0DE60" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="371" addr="00F07C10" >
+                            <attributelist id="372" addr="00F07C10" >
+                                <attribute name="name" value="XBMCAddon" id="373" addr="00F0EC50" />
+                                <attribute name="csymtab" value="00F07C30" id="374" addr="00F07C30" />
+                                <attribute name="symtab" value="00F07C00" id="375" addr="00F07C00" />
+                            </attributelist >
+                        </typescopesitem >
+                    </typescope >
+                    <attribute name="symtab" value="00F07C10" id="376" addr="00F07C10" />
+                    <attribute name="sym_symtab" value="00EFBCA0" id="377" addr="00EFBCA0" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="378" addr="00F0EC50" />
+                </attributelist >
+
+                <cdecl id="379" addr="00F07CE0" >
+                    <attributelist id="380" addr="00F07CE0" >
+                        <attribute name="sym_name" value="String" id="381" addr="00F0EC50" />
+                        <attribute name="name" value="XBMCAddon::String" id="382" addr="00F0EC50" />
+                        <attribute name="decl" value="" id="383" addr="00F0EC50" />
+                        <attribute name="storage" value="typedef" id="384" addr="00F0EC50" />
+                        <attribute name="kind" value="typedef" id="385" addr="00F0EC50" />
+                        <attribute name="type" value="std::string" id="386" addr="00F0EC50" />
+                        <attribute name="sym_symtab" value="00F07C10" id="387" addr="00F07C10" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="388" addr="00F0EC50" />
+                    </attributelist >
+                 
+                </cdecl >
+                <cdecl id="389" addr="00F07DF0" >
+                    <attributelist id="390" addr="00F07DF0" >
+                        <attribute name="sym_name" value="emptyString" id="391" addr="00F0EC50" />
+                        <attribute name="name" value="XBMCAddon::emptyString" id="392" addr="00F0EC50" />
+                        <attribute name="decl" value="" id="393" addr="00F0EC50" />
+                        <attribute name="storage" value="extern" id="394" addr="00F0EC50" />
+                        <attribute name="kind" value="variable" id="395" addr="00F0EC50" />
+                        <attribute name="type" value="XBMCAddon::String" id="396" addr="00F0EC50" />
+                        <attribute name="sym_symtab" value="00F07C10" id="397" addr="00F07C10" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="398" addr="00F0EC50" />
+                    </attributelist >
+                 
+                </cdecl >
+            </namespace >
+        </include >
+        <include id="399" addr="00F07EC0" >
+            <attributelist id="400" addr="00F07EC0" >
+                <attribute name="name" value="C:\\kodi\\xbmc\\interfaces\\legacy\\ModuleXbmcplugin.h" id="401" addr="00F0EC50" />
+            </attributelist >
+
+            <namespace id="402" addr="00F07F10" >
+                <attributelist id="403" addr="00F07F10" >
+                    <attribute name="sym_name" value="XBMCAddon" id="404" addr="00F0EC50" />
+                    <attribute name="name" value="XBMCAddon" id="405" addr="00F0EC50" />
+                    <attribute name="sym_previousSibling" value="00F07BC0" id="406" addr="00F07BC0" />
+                    <typescope id="407" addr="00F0DDC0" >
+                        <attributelist id="408" addr="00F0DDC0" >
+                            <attribute name="name" value="XBMCAddon" id="409" addr="00F0EC50" />
+                            <typetab id="410" addr="00F0DDE0" >
+                                <attributelist id="411" addr="00F0DDE0" >
+                                    <attribute name="String" value="std::string" id="412" addr="00F0EC50" />
+                                </attributelist >
+                                <typetabsitem id="413" addr="00F0DEE0" >
+                                    <attributelist id="414" addr="00F0DEE0" >
+                                    </attributelist >
+                                </typetabsitem >
+                            </typetab >
+                            <attribute name="parent" value="00EFBD20" id="415" addr="00EFBD20" />
+                            <attribute name="qname" value="XBMCAddon" id="416" addr="00F0EC50" />
+                            <attribute name="symtab" value="00F07C10" id="417" addr="00F07C10" />
+                        </attributelist >
+                        <typescopesitem id="418" addr="00F07BE0" >
+                            <attributelist id="419" addr="00F07BE0" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="420" addr="00F0DDE0" >
+                            <attributelist id="421" addr="00F0DDE0" >
+                                <attribute name="String" value="std::string" id="422" addr="00F0EC50" />
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="423" addr="00EFBD20" >
+                            <attributelist id="424" addr="00EFBD20" >
+                                <attribute name="name" value="" id="425" addr="00F0EC50" />
+                                <typetab id="426" addr="00EFBD50" >
+                                    <attributelist id="427" addr="00EFBD50" >
+                                    </attributelist >
+                                </typetab >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="428" addr="00F0DE60" >
+                            <attributelist id="429" addr="00F0DE60" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="430" addr="00F07C10" >
+                            <attributelist id="431" addr="00F07C10" >
+                                <attribute name="name" value="XBMCAddon" id="432" addr="00F0EC50" />
+                                <attribute name="csymtab" value="00F07C30" id="433" addr="00F07C30" />
+                                <attribute name="symtab" value="00F07C00" id="434" addr="00F07C00" />
+                            </attributelist >
+                        </typescopesitem >
+                    </typescope >
+                    <attribute name="symtab" value="00F07C10" id="435" addr="00F07C10" />
+                    <attribute name="sym_symtab" value="00EFBCA0" id="436" addr="00EFBCA0" />
+                </attributelist >
+
+                <namespace id="437" addr="00F07FB0" >
+                    <attributelist id="438" addr="00F07FB0" >
+                        <attribute name="sym_name" value="xbmcplugin" id="439" addr="00F0EC50" />
+                        <attribute name="name" value="xbmcplugin" id="440" addr="00F0EC50" />
+                        <attribute name="feature_knownapitypes" value="XBMCAddon::xbmcgui::ListItem" id="441" addr="00F0EC50" />
+                        <typescope id="442" addr="00F0DFD0" >
+                            <attributelist id="443" addr="00F0DFD0" >
+                                <attribute name="name" value="xbmcplugin" id="444" addr="00F0EC50" />
+                                <typetab id="445" addr="00F0DFE0" >
+                                    <attributelist id="446" addr="00F0DFE0" >
+                                    </attributelist >
+                                </typetab >
+                                <attribute name="parent" value="00F0DDC0" id="447" addr="00F0DDC0" />
+                                <attribute name="qname" value="XBMCAddon::xbmcplugin" id="448" addr="00F0EC50" />
+                                <attribute name="symtab" value="00F08000" id="449" addr="00F08000" />
+                            </attributelist >
+                            <typescopesitem id="450" addr="00F07FD0" >
+                                <attributelist id="451" addr="00F07FD0" >
+                                </attributelist >
+                            </typescopesitem >
+                            <typescopesitem id="452" addr="00F0DFE0" >
+                                <attributelist id="453" addr="00F0DFE0" >
+                                </attributelist >
+                            </typescopesitem >
+                            <typescopesitem id="454" addr="00F0DDC0" >
+                                <attributelist id="455" addr="00F0DDC0" >
+                                    <attribute name="name" value="XBMCAddon" id="456" addr="00F0EC50" />
+                                    <typetab id="457" addr="00F0DDE0" >
+                                        <attributelist id="458" addr="00F0DDE0" >
+                                            <attribute name="String" value="std::string" id="459" addr="00F0EC50" />
+                                        </attributelist >
+                                        <typetabsitem id="460" addr="00F0DEE0" >
+                                            <attributelist id="461" addr="00F0DEE0" >
+                                            </attributelist >
+                                        </typetabsitem >
+                                    </typetab >
+                                    <attribute name="parent" value="00EFBD20" id="462" addr="00EFBD20" />
+                                    <attribute name="qname" value="XBMCAddon" id="463" addr="00F0EC50" />
+                                    <attribute name="symtab" value="00F07C10" id="464" addr="00F07C10" />
+                                </attributelist >
+                            </typescopesitem >
+                            <typescopesitem id="465" addr="00F0DFF0" >
+                                <attributelist id="466" addr="00F0DFF0" >
+                                </attributelist >
+                            </typescopesitem >
+                            <typescopesitem id="467" addr="00F08000" >
+                                <attributelist id="468" addr="00F08000" >
+                                    <attribute name="name" value="xbmcplugin" id="469" addr="00F0EC50" />
+                                    <attribute name="csymtab" value="00F08020" id="470" addr="00F08020" />
+                                    <attribute name="symtab" value="00F07FF0" id="471" addr="00F07FF0" />
+                                </attributelist >
+                            </typescopesitem >
+                        </typescope >
+                        <attribute name="symtab" value="00F08000" id="472" addr="00F08000" />
+                        <attribute name="sym_symtab" value="00F07C10" id="473" addr="00F07C10" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="474" addr="00F0EC50" />
+                    </attributelist >
+
+                    <cdecl id="475" addr="00F083F0" >
+                        <attributelist id="476" addr="00F083F0" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addDirectoryItem" id="477" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="478" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F08570" id="479" addr="00F08570" />
+                            <attribute name="csym_nextSibling" value="00F08570" id="480" addr="00F08570" />
+                            <attribute name="kind" value="function" id="481" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addDirectoryItem" id="482" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,r.q(const).XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem,bool,int)." id="483" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F083F0" id="484" addr="00F083F0" />
+                            <parmlist id="485" addr="00F080E0" >
+                                <parm id="486">
+                                    <attributelist id="487" addr="00F080E0" >
+                                        <attribute name="name" value="handle" id="488" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="489" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="490">
+                                    <attributelist id="491" addr="00F08180" >
+                                        <attribute name="name" value="url" id="492" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="493" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="494">
+                                    <attributelist id="495" addr="00F08240" >
+                                        <attribute name="name" value="listitem" id="496" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).XBMCAddon::xbmcgui::ListItem" id="497" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="498">
+                                    <attributelist id="499" addr="00F082E0" >
+                                        <attribute name="name" value="isFolder" id="500" addr="00F0EC50" />
+                                        <attribute name="value" value="false" id="501" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="502" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="503">
+                                    <attributelist id="504" addr="00F08390" >
+                                        <attribute name="name" value="totalItems" id="505" addr="00F0EC50" />
+                                        <attribute name="value" value="0" id="506" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="507" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="bool" id="508" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="509" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="510" addr="00F08570" >
+                        <attributelist id="511" addr="00F08570" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addDirectoryItem" id="512" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="513" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F086F0" id="514" addr="00F086F0" />
+                            <attribute name="csym_nextSibling" value="00F086F0" id="515" addr="00F086F0" />
+                            <attribute name="sym_previousSibling" value="00F083F0" id="516" addr="00F083F0" />
+                            <attribute name="kind" value="function" id="517" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addDirectoryItem" id="518" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F083F0" id="519" addr="00F083F0" />
+                            <attribute name="decl" value="f(int,r.q(const).XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem,bool)." id="520" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F083F0" id="521" addr="00F083F0" />
+                            <parmlist id="522" addr="00F08420" >
+                                <parm id="523">
+                                    <attributelist id="524" addr="00F08420" >
+                                        <attribute name="name" value="handle" id="525" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="526" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="527">
+                                    <attributelist id="528" addr="00F08490" >
+                                        <attribute name="name" value="url" id="529" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="530" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="531">
+                                    <attributelist id="532" addr="00F084D0" >
+                                        <attribute name="name" value="listitem" id="533" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).XBMCAddon::xbmcgui::ListItem" id="534" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="535">
+                                    <attributelist id="536" addr="00F08510" >
+                                        <attribute name="name" value="isFolder" id="537" addr="00F0EC50" />
+                                        <attribute name="value" value="false" id="538" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="539" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="bool" id="540" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_1" id="541" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="542" addr="00F086F0" >
+                        <attributelist id="543" addr="00F086F0" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addDirectoryItem" id="544" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="545" addr="00F08000" />
+                            <attribute name="sym_previousSibling" value="00F08570" id="546" addr="00F08570" />
+                            <attribute name="kind" value="function" id="547" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addDirectoryItem" id="548" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F083F0" id="549" addr="00F083F0" />
+                            <attribute name="decl" value="f(int,r.q(const).XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem)." id="550" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F083F0" id="551" addr="00F083F0" />
+                            <parmlist id="552" addr="00F08620" >
+                                <parm id="553">
+                                    <attributelist id="554" addr="00F08620" >
+                                        <attribute name="name" value="handle" id="555" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="556" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="557">
+                                    <attributelist id="558" addr="00F08660" >
+                                        <attribute name="name" value="url" id="559" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="560" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="561">
+                                    <attributelist id="562" addr="00F086A0" >
+                                        <attribute name="name" value="listitem" id="563" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).XBMCAddon::xbmcgui::ListItem" id="564" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="bool" id="565" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_2" id="566" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="567" addr="00F08BF0" >
+                        <attributelist id="568" addr="00F08BF0" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addDirectoryItems" id="569" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="570" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F08CE0" id="571" addr="00F08CE0" />
+                            <attribute name="csym_nextSibling" value="00F08CE0" id="572" addr="00F08CE0" />
+                            <attribute name="kind" value="function" id="573" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addDirectoryItems" id="574" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,r.q(const).std::vector&lt;(Tuple&lt;(XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem,bool)>)>,int)." id="575" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F08BF0" id="576" addr="00F08BF0" />
+                            <parmlist id="577" addr="00F087E0" >
+                                <parm id="578">
+                                    <attributelist id="579" addr="00F087E0" >
+                                        <attribute name="name" value="handle" id="580" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="581" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="582">
+                                    <attributelist id="583" addr="00F08B90" >
+                                        <attribute name="name" value="items" id="584" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).std::vector&lt;(Tuple&lt;(XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem,bool)>)>" id="585" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="586">
+                                    <attributelist id="587" addr="00F08B20" >
+                                        <attribute name="name" value="totalItems" id="588" addr="00F0EC50" />
+                                        <attribute name="value" value="0" id="589" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="590" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="bool" id="591" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="592" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="593" addr="00F08CE0" >
+                        <attributelist id="594" addr="00F08CE0" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addDirectoryItems" id="595" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="596" addr="00F08000" />
+                            <attribute name="sym_previousSibling" value="00F08BF0" id="597" addr="00F08BF0" />
+                            <attribute name="kind" value="function" id="598" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addDirectoryItems" id="599" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F08BF0" id="600" addr="00F08BF0" />
+                            <attribute name="decl" value="f(int,r.q(const).std::vector&lt;(Tuple&lt;(XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem,bool)>)>)." id="601" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F08BF0" id="602" addr="00F08BF0" />
+                            <parmlist id="603" addr="00F08C20" >
+                                <parm id="604">
+                                    <attributelist id="605" addr="00F08C20" >
+                                        <attribute name="name" value="handle" id="606" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="607" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="608">
+                                    <attributelist id="609" addr="00F08C90" >
+                                        <attribute name="name" value="items" id="610" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).std::vector&lt;(Tuple&lt;(XBMCAddon::String,p.q(const).XBMCAddon::xbmcgui::ListItem,bool)>)>" id="611" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="bool" id="612" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_1" id="613" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="614" addr="00F09010" >
+                        <attributelist id="615" addr="00F09010" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::endOfDirectory" id="616" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="617" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F09160" id="618" addr="00F09160" />
+                            <attribute name="csym_nextSibling" value="00F09160" id="619" addr="00F09160" />
+                            <attribute name="kind" value="function" id="620" addr="00F0EC50" />
+                            <attribute name="sym_name" value="endOfDirectory" id="621" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,bool,bool,bool)." id="622" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09010" id="623" addr="00F09010" />
+                            <parmlist id="624" addr="00F08DD0" >
+                                <parm id="625">
+                                    <attributelist id="626" addr="00F08DD0" >
+                                        <attribute name="name" value="handle" id="627" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="628" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="629">
+                                    <attributelist id="630" addr="00F08E70" >
+                                        <attribute name="name" value="succeeded" id="631" addr="00F0EC50" />
+                                        <attribute name="value" value="true" id="632" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="633" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="634">
+                                    <attributelist id="635" addr="00F08F10" >
+                                        <attribute name="name" value="updateListing" id="636" addr="00F0EC50" />
+                                        <attribute name="value" value="false" id="637" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="638" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="639">
+                                    <attributelist id="640" addr="00F08FB0" >
+                                        <attribute name="name" value="cacheToDisc" id="641" addr="00F0EC50" />
+                                        <attribute name="value" value="true" id="642" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="643" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="644" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="645" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="646" addr="00F09160" >
+                        <attributelist id="647" addr="00F09160" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::endOfDirectory" id="648" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="649" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F09260" id="650" addr="00F09260" />
+                            <attribute name="csym_nextSibling" value="00F09260" id="651" addr="00F09260" />
+                            <attribute name="sym_previousSibling" value="00F09010" id="652" addr="00F09010" />
+                            <attribute name="kind" value="function" id="653" addr="00F0EC50" />
+                            <attribute name="sym_name" value="endOfDirectory" id="654" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F09010" id="655" addr="00F09010" />
+                            <attribute name="decl" value="f(int,bool,bool)." id="656" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09010" id="657" addr="00F09010" />
+                            <parmlist id="658" addr="00F09040" >
+                                <parm id="659">
+                                    <attributelist id="660" addr="00F09040" >
+                                        <attribute name="name" value="handle" id="661" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="662" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="663">
+                                    <attributelist id="664" addr="00F090B0" >
+                                        <attribute name="name" value="succeeded" id="665" addr="00F0EC50" />
+                                        <attribute name="value" value="true" id="666" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="667" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="668">
+                                    <attributelist id="669" addr="00F09100" >
+                                        <attribute name="name" value="updateListing" id="670" addr="00F0EC50" />
+                                        <attribute name="value" value="false" id="671" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="672" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="673" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_1" id="674" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="675" addr="00F09260" >
+                        <attributelist id="676" addr="00F09260" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::endOfDirectory" id="677" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="678" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F09310" id="679" addr="00F09310" />
+                            <attribute name="csym_nextSibling" value="00F09310" id="680" addr="00F09310" />
+                            <attribute name="sym_previousSibling" value="00F09160" id="681" addr="00F09160" />
+                            <attribute name="kind" value="function" id="682" addr="00F0EC50" />
+                            <attribute name="sym_name" value="endOfDirectory" id="683" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F09010" id="684" addr="00F09010" />
+                            <attribute name="decl" value="f(int,bool)." id="685" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09010" id="686" addr="00F09010" />
+                            <parmlist id="687" addr="00F09190" >
+                                <parm id="688">
+                                    <attributelist id="689" addr="00F09190" >
+                                        <attribute name="name" value="handle" id="690" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="691" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="692">
+                                    <attributelist id="693" addr="00F09200" >
+                                        <attribute name="name" value="succeeded" id="694" addr="00F0EC50" />
+                                        <attribute name="value" value="true" id="695" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="696" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="697" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_2" id="698" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="699" addr="00F09310" >
+                        <attributelist id="700" addr="00F09310" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::endOfDirectory" id="701" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="702" addr="00F08000" />
+                            <attribute name="sym_previousSibling" value="00F09260" id="703" addr="00F09260" />
+                            <attribute name="kind" value="function" id="704" addr="00F0EC50" />
+                            <attribute name="sym_name" value="endOfDirectory" id="705" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F09010" id="706" addr="00F09010" />
+                            <attribute name="decl" value="f(int)." id="707" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09010" id="708" addr="00F09010" />
+                            <parmlist id="709" addr="00F09290" >
+                                <parm id="710">
+                                    <attributelist id="711" addr="00F09290" >
+                                        <attribute name="name" value="handle" id="712" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="713" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="714" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_3" id="715" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="716" addr="00F095A0" >
+                        <attributelist id="717" addr="00F095A0" >
+                            <attribute name="sym_name" value="setResolvedUrl" id="718" addr="00F0EC50" />
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setResolvedUrl" id="719" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,bool,p.q(const).XBMCAddon::xbmcgui::ListItem)." id="720" addr="00F0EC50" />
+                            <parmlist id="721" addr="00F09400" >
+                                <parm id="722">
+                                    <attributelist id="723" addr="00F09400" >
+                                        <attribute name="name" value="handle" id="724" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="725" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="726">
+                                    <attributelist id="727" addr="00F09480" >
+                                        <attribute name="name" value="succeeded" id="728" addr="00F0EC50" />
+                                        <attribute name="type" value="bool" id="729" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="730">
+                                    <attributelist id="731" addr="00F09540" >
+                                        <attribute name="name" value="listitem" id="732" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).XBMCAddon::xbmcgui::ListItem" id="733" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="kind" value="function" id="734" addr="00F0EC50" />
+                            <attribute name="type" value="void" id="735" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="736" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="737" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="738" addr="00F09920" >
+                        <attributelist id="739" addr="00F09920" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addSortMethod" id="740" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="741" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F09A60" id="742" addr="00F09A60" />
+                            <attribute name="csym_nextSibling" value="00F09A60" id="743" addr="00F09A60" />
+                            <attribute name="kind" value="function" id="744" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addSortMethod" id="745" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,int,r.q(const).XBMCAddon::String,r.q(const).XBMCAddon::String)." id="746" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09920" id="747" addr="00F09920" />
+                            <parmlist id="748" addr="00F09690" >
+                                <parm id="749">
+                                    <attributelist id="750" addr="00F09690" >
+                                        <attribute name="name" value="handle" id="751" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="752" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="753">
+                                    <attributelist id="754" addr="00F09720" >
+                                        <attribute name="name" value="sortMethod" id="755" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="756" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="757">
+                                    <attributelist id="758" addr="00F097F0" >
+                                        <attribute name="name" value="labelMask" id="759" addr="00F0EC50" />
+                                        <attribute name="value" value="XBMCAddon::emptyString" id="760" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="761" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="762">
+                                    <attributelist id="763" addr="00F098C0" >
+                                        <attribute name="name" value="label2Mask" id="764" addr="00F0EC50" />
+                                        <attribute name="value" value="XBMCAddon::emptyString" id="765" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="766" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="767" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="768" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="769" addr="00F09A60" >
+                        <attributelist id="770" addr="00F09A60" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addSortMethod" id="771" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="772" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F09B50" id="773" addr="00F09B50" />
+                            <attribute name="csym_nextSibling" value="00F09B50" id="774" addr="00F09B50" />
+                            <attribute name="sym_previousSibling" value="00F09920" id="775" addr="00F09920" />
+                            <attribute name="kind" value="function" id="776" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addSortMethod" id="777" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F09920" id="778" addr="00F09920" />
+                            <attribute name="decl" value="f(int,int,r.q(const).XBMCAddon::String)." id="779" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09920" id="780" addr="00F09920" />
+                            <parmlist id="781" addr="00F09950" >
+                                <parm id="782">
+                                    <attributelist id="783" addr="00F09950" >
+                                        <attribute name="name" value="handle" id="784" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="785" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="786">
+                                    <attributelist id="787" addr="00F099C0" >
+                                        <attribute name="name" value="sortMethod" id="788" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="789" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="790">
+                                    <attributelist id="791" addr="00F09A00" >
+                                        <attribute name="name" value="labelMask" id="792" addr="00F0EC50" />
+                                        <attribute name="value" value="XBMCAddon::emptyString" id="793" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="794" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="795" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_1" id="796" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="797" addr="00F09B50" >
+                        <attributelist id="798" addr="00F09B50" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::addSortMethod" id="799" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="800" addr="00F08000" />
+                            <attribute name="sym_previousSibling" value="00F09A60" id="801" addr="00F09A60" />
+                            <attribute name="kind" value="function" id="802" addr="00F0EC50" />
+                            <attribute name="sym_name" value="addSortMethod" id="803" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F09920" id="804" addr="00F09920" />
+                            <attribute name="decl" value="f(int,int)." id="805" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F09920" id="806" addr="00F09920" />
+                            <parmlist id="807" addr="00F09A90" >
+                                <parm id="808">
+                                    <attributelist id="809" addr="00F09A90" >
+                                        <attribute name="name" value="handle" id="810" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="811" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="812">
+                                    <attributelist id="813" addr="00F09B00" >
+                                        <attribute name="name" value="sortMethod" id="814" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="815" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="816" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_2" id="817" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="818" addr="00F09D50" >
+                        <attributelist id="819" addr="00F09D50" >
+                            <attribute name="sym_name" value="getSetting" id="820" addr="00F0EC50" />
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::getSetting" id="821" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,p.q(const).char)." id="822" addr="00F0EC50" />
+                            <parmlist id="823" addr="00F09C50" >
+                                <parm id="824">
+                                    <attributelist id="825" addr="00F09C50" >
+                                        <attribute name="name" value="handle" id="826" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="827" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="828">
+                                    <attributelist id="829" addr="00F09CF0" >
+                                        <attribute name="name" value="id" id="830" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="831" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="kind" value="function" id="832" addr="00F0EC50" />
+                            <attribute name="type" value="XBMCAddon::String" id="833" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="834" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="835" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="836" addr="00F09FE0" >
+                        <attributelist id="837" addr="00F09FE0" >
+                            <attribute name="sym_name" value="setSetting" id="838" addr="00F0EC50" />
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setSetting" id="839" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,r.q(const).XBMCAddon::String,r.q(const).XBMCAddon::String)." id="840" addr="00F0EC50" />
+                            <parmlist id="841" addr="00F09E40" >
+                                <parm id="842">
+                                    <attributelist id="843" addr="00F09E40" >
+                                        <attribute name="name" value="handle" id="844" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="845" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="846">
+                                    <attributelist id="847" addr="00F09EE0" >
+                                        <attribute name="name" value="id" id="848" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="849" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="850">
+                                    <attributelist id="851" addr="00F09F80" >
+                                        <attribute name="name" value="value" id="852" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="853" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="kind" value="function" id="854" addr="00F0EC50" />
+                            <attribute name="type" value="void" id="855" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="856" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="857" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="858" addr="00F0A1D0" >
+                        <attributelist id="859" addr="00F0A1D0" >
+                            <attribute name="sym_name" value="setContent" id="860" addr="00F0EC50" />
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setContent" id="861" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,p.q(const).char)." id="862" addr="00F0EC50" />
+                            <parmlist id="863" addr="00F0A0D0" >
+                                <parm id="864">
+                                    <attributelist id="865" addr="00F0A0D0" >
+                                        <attribute name="name" value="handle" id="866" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="867" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="868">
+                                    <attributelist id="869" addr="00F0A170" >
+                                        <attribute name="name" value="content" id="870" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="871" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="kind" value="function" id="872" addr="00F0EC50" />
+                            <attribute name="type" value="void" id="873" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="874" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="875" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="876" addr="00F0A3C0" >
+                        <attributelist id="877" addr="00F0A3C0" >
+                            <attribute name="sym_name" value="setPluginCategory" id="878" addr="00F0EC50" />
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setPluginCategory" id="879" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,r.q(const).XBMCAddon::String)." id="880" addr="00F0EC50" />
+                            <parmlist id="881" addr="00F0A2C0" >
+                                <parm id="882">
+                                    <attributelist id="883" addr="00F0A2C0" >
+                                        <attribute name="name" value="handle" id="884" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="885" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="886">
+                                    <attributelist id="887" addr="00F0A360" >
+                                        <attribute name="name" value="category" id="888" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="889" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="kind" value="function" id="890" addr="00F0EC50" />
+                            <attribute name="type" value="void" id="891" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="892" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="893" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="894" addr="00F0A850" >
+                        <attributelist id="895" addr="00F0A850" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setPluginFanart" id="896" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="897" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F0A9F0" id="898" addr="00F0A9F0" />
+                            <attribute name="csym_nextSibling" value="00F0A9F0" id="899" addr="00F0A9F0" />
+                            <attribute name="kind" value="function" id="900" addr="00F0EC50" />
+                            <attribute name="sym_name" value="setPluginFanart" id="901" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,p.q(const).char,p.q(const).char,p.q(const).char,p.q(const).char)." id="902" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F0A850" id="903" addr="00F0A850" />
+                            <parmlist id="904" addr="00F0A4B0" >
+                                <parm id="905">
+                                    <attributelist id="906" addr="00F0A4B0" >
+                                        <attribute name="name" value="handle" id="907" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="908" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="909">
+                                    <attributelist id="910" addr="00F0A580" >
+                                        <attribute name="name" value="image" id="911" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="912" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="913" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="914">
+                                    <attributelist id="915" addr="00F0A650" >
+                                        <attribute name="name" value="color1" id="916" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="917" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="918" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="919">
+                                    <attributelist id="920" addr="00F0A720" >
+                                        <attribute name="name" value="color2" id="921" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="922" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="923" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="924">
+                                    <attributelist id="925" addr="00F0A7F0" >
+                                        <attribute name="name" value="color3" id="926" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="927" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="928" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="929" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="930" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="931" addr="00F0A9F0" >
+                        <attributelist id="932" addr="00F0A9F0" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setPluginFanart" id="933" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="934" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F0AB40" id="935" addr="00F0AB40" />
+                            <attribute name="csym_nextSibling" value="00F0AB40" id="936" addr="00F0AB40" />
+                            <attribute name="sym_previousSibling" value="00F0A850" id="937" addr="00F0A850" />
+                            <attribute name="kind" value="function" id="938" addr="00F0EC50" />
+                            <attribute name="sym_name" value="setPluginFanart" id="939" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F0A850" id="940" addr="00F0A850" />
+                            <attribute name="decl" value="f(int,p.q(const).char,p.q(const).char,p.q(const).char)." id="941" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F0A850" id="942" addr="00F0A850" />
+                            <parmlist id="943" addr="00F0A880" >
+                                <parm id="944">
+                                    <attributelist id="945" addr="00F0A880" >
+                                        <attribute name="name" value="handle" id="946" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="947" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="948">
+                                    <attributelist id="949" addr="00F0A8F0" >
+                                        <attribute name="name" value="image" id="950" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="951" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="952" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="953">
+                                    <attributelist id="954" addr="00F0A940" >
+                                        <attribute name="name" value="color1" id="955" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="956" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="957" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="958">
+                                    <attributelist id="959" addr="00F0A990" >
+                                        <attribute name="name" value="color2" id="960" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="961" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="962" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="963" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_1" id="964" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="965" addr="00F0AB40" >
+                        <attributelist id="966" addr="00F0AB40" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setPluginFanart" id="967" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="968" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F0AC40" id="969" addr="00F0AC40" />
+                            <attribute name="csym_nextSibling" value="00F0AC40" id="970" addr="00F0AC40" />
+                            <attribute name="sym_previousSibling" value="00F0A9F0" id="971" addr="00F0A9F0" />
+                            <attribute name="kind" value="function" id="972" addr="00F0EC50" />
+                            <attribute name="sym_name" value="setPluginFanart" id="973" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F0A850" id="974" addr="00F0A850" />
+                            <attribute name="decl" value="f(int,p.q(const).char,p.q(const).char)." id="975" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F0A850" id="976" addr="00F0A850" />
+                            <parmlist id="977" addr="00F0AA20" >
+                                <parm id="978">
+                                    <attributelist id="979" addr="00F0AA20" >
+                                        <attribute name="name" value="handle" id="980" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="981" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="982">
+                                    <attributelist id="983" addr="00F0AA90" >
+                                        <attribute name="name" value="image" id="984" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="985" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="986" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="987">
+                                    <attributelist id="988" addr="00F0AAE0" >
+                                        <attribute name="name" value="color1" id="989" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="990" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="991" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="992" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_2" id="993" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="994" addr="00F0AC40" >
+                        <attributelist id="995" addr="00F0AC40" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setPluginFanart" id="996" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="997" addr="00F08000" />
+                            <attribute name="sym_nextSibling" value="00F0ACF0" id="998" addr="00F0ACF0" />
+                            <attribute name="csym_nextSibling" value="00F0ACF0" id="999" addr="00F0ACF0" />
+                            <attribute name="sym_previousSibling" value="00F0AB40" id="1000" addr="00F0AB40" />
+                            <attribute name="kind" value="function" id="1001" addr="00F0EC50" />
+                            <attribute name="sym_name" value="setPluginFanart" id="1002" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F0A850" id="1003" addr="00F0A850" />
+                            <attribute name="decl" value="f(int,p.q(const).char)." id="1004" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F0A850" id="1005" addr="00F0A850" />
+                            <parmlist id="1006" addr="00F0AB70" >
+                                <parm id="1007">
+                                    <attributelist id="1008" addr="00F0AB70" >
+                                        <attribute name="name" value="handle" id="1009" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="1010" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="1011">
+                                    <attributelist id="1012" addr="00F0ABE0" >
+                                        <attribute name="name" value="image" id="1013" addr="00F0EC50" />
+                                        <attribute name="value" value="NULL" id="1014" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="1015" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="1016" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_3" id="1017" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="1018" addr="00F0ACF0" >
+                        <attributelist id="1019" addr="00F0ACF0" >
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setPluginFanart" id="1020" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1021" addr="00F08000" />
+                            <attribute name="sym_previousSibling" value="00F0AC40" id="1022" addr="00F0AC40" />
+                            <attribute name="kind" value="function" id="1023" addr="00F0EC50" />
+                            <attribute name="sym_name" value="setPluginFanart" id="1024" addr="00F0EC50" />
+                            <attribute name="defaultargs" value="00F0A850" id="1025" addr="00F0A850" />
+                            <attribute name="decl" value="f(int)." id="1026" addr="00F0EC50" />
+                            <attribute name="sym_overloaded" value="00F0A850" id="1027" addr="00F0A850" />
+                            <parmlist id="1028" addr="00F0AC70" >
+                                <parm id="1029">
+                                    <attributelist id="1030" addr="00F0AC70" >
+                                        <attribute name="name" value="handle" id="1031" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="1032" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="type" value="void" id="1033" addr="00F0EC50" />
+                            <attribute name="sym_overname" value="__SWIG_4" id="1034" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <cdecl id="1035" addr="00F0AF80" >
+                        <attributelist id="1036" addr="00F0AF80" >
+                            <attribute name="sym_name" value="setProperty" id="1037" addr="00F0EC50" />
+                            <attribute name="name" value="XBMCAddon::xbmcplugin::setProperty" id="1038" addr="00F0EC50" />
+                            <attribute name="decl" value="f(int,p.q(const).char,r.q(const).XBMCAddon::String)." id="1039" addr="00F0EC50" />
+                            <parmlist id="1040" addr="00F0ADE0" >
+                                <parm id="1041">
+                                    <attributelist id="1042" addr="00F0ADE0" >
+                                        <attribute name="name" value="handle" id="1043" addr="00F0EC50" />
+                                        <attribute name="type" value="int" id="1044" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="1045">
+                                    <attributelist id="1046" addr="00F0AE80" >
+                                        <attribute name="name" value="key" id="1047" addr="00F0EC50" />
+                                        <attribute name="type" value="p.q(const).char" id="1048" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                                <parm id="1049">
+                                    <attributelist id="1050" addr="00F0AF20" >
+                                        <attribute name="name" value="value" id="1051" addr="00F0EC50" />
+                                        <attribute name="type" value="r.q(const).XBMCAddon::String" id="1052" addr="00F0EC50" />
+                                    </attributelist >
+                                </parm >
+                            </parmlist >
+                            <attribute name="kind" value="function" id="1053" addr="00F0EC50" />
+                            <attribute name="type" value="void" id="1054" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1055" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1056" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </cdecl >
+                    <constant id="1057" addr="00F0B070" >
+                        <attributelist id="1058" addr="00F0B070" >
+                            <attribute name="sym_name" value="SORT_METHOD_NONE" id="1059" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_NONE" id="1060" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_NONE" id="1061" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1062" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_NONE" id="1063" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1064" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1065" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1066" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1067" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1068" addr="00F0B190" >
+                        <attributelist id="1069" addr="00F0B190" >
+                            <attribute name="sym_name" value="SORT_METHOD_LABEL" id="1070" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_LABEL" id="1071" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_LABEL" id="1072" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1073" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_LABEL" id="1074" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1075" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1076" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1077" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1078" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1079" addr="00F0B290" >
+                        <attributelist id="1080" addr="00F0B290" >
+                            <attribute name="sym_name" value="SORT_METHOD_LABEL_IGNORE_THE" id="1081" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_LABEL_IGNORE_THE" id="1082" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_LABEL_IGNORE_THE" id="1083" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1084" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_LABEL_IGNORE_THE" id="1085" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1086" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1087" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1088" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1089" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1090" addr="00F0B390" >
+                        <attributelist id="1091" addr="00F0B390" >
+                            <attribute name="sym_name" value="SORT_METHOD_DATE" id="1092" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_DATE" id="1093" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_DATE" id="1094" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1095" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_DATE" id="1096" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1097" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1098" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1099" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1100" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1101" addr="00F0B490" >
+                        <attributelist id="1102" addr="00F0B490" >
+                            <attribute name="sym_name" value="SORT_METHOD_SIZE" id="1103" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_SIZE" id="1104" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_SIZE" id="1105" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1106" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_SIZE" id="1107" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1108" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1109" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1110" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1111" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1112" addr="00F0B590" >
+                        <attributelist id="1113" addr="00F0B590" >
+                            <attribute name="sym_name" value="SORT_METHOD_FILE" id="1114" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_FILE" id="1115" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_FILE" id="1116" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1117" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_FILE" id="1118" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1119" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1120" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1121" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1122" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1123" addr="00F0B690" >
+                        <attributelist id="1124" addr="00F0B690" >
+                            <attribute name="sym_name" value="SORT_METHOD_DRIVE_TYPE" id="1125" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_DRIVE_TYPE" id="1126" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_DRIVE_TYPE" id="1127" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1128" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_DRIVE_TYPE" id="1129" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1130" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1131" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1132" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1133" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1134" addr="00F0B790" >
+                        <attributelist id="1135" addr="00F0B790" >
+                            <attribute name="sym_name" value="SORT_METHOD_TRACKNUM" id="1136" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_TRACKNUM" id="1137" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_TRACKNUM" id="1138" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1139" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_TRACKNUM" id="1140" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1141" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1142" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1143" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1144" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1145" addr="00F0B890" >
+                        <attributelist id="1146" addr="00F0B890" >
+                            <attribute name="sym_name" value="SORT_METHOD_DURATION" id="1147" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_DURATION" id="1148" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_DURATION" id="1149" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1150" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_DURATION" id="1151" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1152" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1153" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1154" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1155" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1156" addr="00F0B990" >
+                        <attributelist id="1157" addr="00F0B990" >
+                            <attribute name="sym_name" value="SORT_METHOD_TITLE" id="1158" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_TITLE" id="1159" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_TITLE" id="1160" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1161" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_TITLE" id="1162" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1163" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1164" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1165" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1166" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1167" addr="00F0BA90" >
+                        <attributelist id="1168" addr="00F0BA90" >
+                            <attribute name="sym_name" value="SORT_METHOD_TITLE_IGNORE_THE" id="1169" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_TITLE_IGNORE_THE" id="1170" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_TITLE_IGNORE_THE" id="1171" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1172" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_TITLE_IGNORE_THE" id="1173" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1174" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1175" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1176" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1177" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1178" addr="00F0BB90" >
+                        <attributelist id="1179" addr="00F0BB90" >
+                            <attribute name="sym_name" value="SORT_METHOD_ARTIST" id="1180" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_ARTIST" id="1181" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_ARTIST" id="1182" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1183" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_ARTIST" id="1184" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1185" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1186" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1187" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1188" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1189" addr="00F0BC90" >
+                        <attributelist id="1190" addr="00F0BC90" >
+                            <attribute name="sym_name" value="SORT_METHOD_ARTIST_IGNORE_THE" id="1191" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_ARTIST_IGNORE_THE" id="1192" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_ARTIST_IGNORE_THE" id="1193" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1194" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_ARTIST_IGNORE_THE" id="1195" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1196" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1197" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1198" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1199" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1200" addr="00F0BD90" >
+                        <attributelist id="1201" addr="00F0BD90" >
+                            <attribute name="sym_name" value="SORT_METHOD_ALBUM" id="1202" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_ALBUM" id="1203" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_ALBUM" id="1204" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1205" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_ALBUM" id="1206" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1207" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1208" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1209" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1210" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1211" addr="00F0BE90" >
+                        <attributelist id="1212" addr="00F0BE90" >
+                            <attribute name="sym_name" value="SORT_METHOD_ALBUM_IGNORE_THE" id="1213" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_ALBUM_IGNORE_THE" id="1214" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_ALBUM_IGNORE_THE" id="1215" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1216" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_ALBUM_IGNORE_THE" id="1217" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1218" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1219" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1220" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1221" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1222" addr="00F0BF90" >
+                        <attributelist id="1223" addr="00F0BF90" >
+                            <attribute name="sym_name" value="SORT_METHOD_GENRE" id="1224" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_GENRE" id="1225" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_GENRE" id="1226" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1227" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_GENRE" id="1228" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1229" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1230" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1231" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1232" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1233" addr="00F0C090" >
+                        <attributelist id="1234" addr="00F0C090" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_YEAR" id="1235" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_YEAR" id="1236" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_YEAR" id="1237" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1238" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_YEAR" id="1239" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1240" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1241" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1242" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1243" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1244" addr="00F0C190" >
+                        <attributelist id="1245" addr="00F0C190" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_RATING" id="1246" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_RATING" id="1247" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_RATING" id="1248" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1249" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_RATING" id="1250" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1251" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1252" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1253" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1254" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1255" addr="00F0C290" >
+                        <attributelist id="1256" addr="00F0C290" >
+                            <attribute name="sym_name" value="SORT_METHOD_PROGRAM_COUNT" id="1257" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_PROGRAM_COUNT" id="1258" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_PROGRAM_COUNT" id="1259" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1260" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_PROGRAM_COUNT" id="1261" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1262" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1263" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1264" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1265" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1266" addr="00F0C390" >
+                        <attributelist id="1267" addr="00F0C390" >
+                            <attribute name="sym_name" value="SORT_METHOD_PLAYLIST_ORDER" id="1268" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_PLAYLIST_ORDER" id="1269" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_PLAYLIST_ORDER" id="1270" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1271" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_PLAYLIST_ORDER" id="1272" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1273" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1274" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1275" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1276" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1277" addr="00F0C490" >
+                        <attributelist id="1278" addr="00F0C490" >
+                            <attribute name="sym_name" value="SORT_METHOD_EPISODE" id="1279" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_EPISODE" id="1280" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_EPISODE" id="1281" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1282" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_EPISODE" id="1283" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1284" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1285" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1286" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1287" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1288" addr="00F0C590" >
+                        <attributelist id="1289" addr="00F0C590" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_TITLE" id="1290" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_TITLE" id="1291" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_TITLE" id="1292" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1293" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_TITLE" id="1294" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1295" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1296" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1297" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1298" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1299" addr="00F0C690" >
+                        <attributelist id="1300" addr="00F0C690" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_SORT_TITLE" id="1301" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_SORT_TITLE" id="1302" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_SORT_TITLE" id="1303" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1304" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_SORT_TITLE" id="1305" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1306" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1307" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1308" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1309" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1310" addr="00F0C790" >
+                        <attributelist id="1311" addr="00F0C790" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE" id="1312" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE" id="1313" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE" id="1314" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1315" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE" id="1316" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1317" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1318" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1319" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1320" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1321" addr="00F0C890" >
+                        <attributelist id="1322" addr="00F0C890" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE" id="1323" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE" id="1324" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE" id="1325" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1326" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE" id="1327" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1328" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1329" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1330" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1331" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1332" addr="00F0C990" >
+                        <attributelist id="1333" addr="00F0C990" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE_IGNORE_THE" id="1334" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE_IGNORE_THE" id="1335" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE_IGNORE_THE" id="1336" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1337" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_ORIGINAL_TITLE_IGNORE_THE" id="1338" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1339" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1340" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1341" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1342" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1343" addr="00F0CA90" >
+                        <attributelist id="1344" addr="00F0CA90" >
+                            <attribute name="sym_name" value="SORT_METHOD_PRODUCTIONCODE" id="1345" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_PRODUCTIONCODE" id="1346" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_PRODUCTIONCODE" id="1347" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1348" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_PRODUCTIONCODE" id="1349" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1350" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1351" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1352" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1353" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1354" addr="00F0CB90" >
+                        <attributelist id="1355" addr="00F0CB90" >
+                            <attribute name="sym_name" value="SORT_METHOD_SONG_RATING" id="1356" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_SONG_RATING" id="1357" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_SONG_RATING" id="1358" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1359" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_SONG_RATING" id="1360" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1361" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1362" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1363" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1364" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1365" addr="00F0CC90" >
+                        <attributelist id="1366" addr="00F0CC90" >
+                            <attribute name="sym_name" value="SORT_METHOD_MPAA_RATING" id="1367" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_MPAA_RATING" id="1368" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_MPAA_RATING" id="1369" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1370" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_MPAA_RATING" id="1371" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1372" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1373" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1374" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1375" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1376" addr="00F0CD90" >
+                        <attributelist id="1377" addr="00F0CD90" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_RUNTIME" id="1378" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_RUNTIME" id="1379" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_RUNTIME" id="1380" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1381" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_RUNTIME" id="1382" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1383" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1384" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1385" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1386" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1387" addr="00F0CE90" >
+                        <attributelist id="1388" addr="00F0CE90" >
+                            <attribute name="sym_name" value="SORT_METHOD_STUDIO" id="1389" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_STUDIO" id="1390" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_STUDIO" id="1391" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1392" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_STUDIO" id="1393" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1394" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1395" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1396" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1397" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1398" addr="00F0CF90" >
+                        <attributelist id="1399" addr="00F0CF90" >
+                            <attribute name="sym_name" value="SORT_METHOD_STUDIO_IGNORE_THE" id="1400" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_STUDIO_IGNORE_THE" id="1401" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_STUDIO_IGNORE_THE" id="1402" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1403" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_STUDIO_IGNORE_THE" id="1404" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1405" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1406" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1407" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1408" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1409" addr="00F0D090" >
+                        <attributelist id="1410" addr="00F0D090" >
+                            <attribute name="sym_name" value="SORT_METHOD_UNSORTED" id="1411" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_UNSORTED" id="1412" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_UNSORTED" id="1413" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1414" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_UNSORTED" id="1415" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1416" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1417" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1418" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1419" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1420" addr="00F0D190" >
+                        <attributelist id="1421" addr="00F0D190" >
+                            <attribute name="sym_name" value="SORT_METHOD_BITRATE" id="1422" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_BITRATE" id="1423" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_BITRATE" id="1424" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1425" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_BITRATE" id="1426" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1427" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1428" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1429" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1430" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1431" addr="00F0D290" >
+                        <attributelist id="1432" addr="00F0D290" >
+                            <attribute name="sym_name" value="SORT_METHOD_LISTENERS" id="1433" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_LISTENERS" id="1434" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_LISTENERS" id="1435" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1436" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_LISTENERS" id="1437" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1438" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1439" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1440" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1441" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1442" addr="00F0D390" >
+                        <attributelist id="1443" addr="00F0D390" >
+                            <attribute name="sym_name" value="SORT_METHOD_COUNTRY" id="1444" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_COUNTRY" id="1445" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_COUNTRY" id="1446" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1447" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_COUNTRY" id="1448" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1449" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1450" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1451" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1452" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1453" addr="00F0D490" >
+                        <attributelist id="1454" addr="00F0D490" >
+                            <attribute name="sym_name" value="SORT_METHOD_DATEADDED" id="1455" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_DATEADDED" id="1456" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_DATEADDED" id="1457" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1458" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_DATEADDED" id="1459" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1460" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1461" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1462" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1463" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1464" addr="00F0D590" >
+                        <attributelist id="1465" addr="00F0D590" >
+                            <attribute name="sym_name" value="SORT_METHOD_FULLPATH" id="1466" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_FULLPATH" id="1467" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_FULLPATH" id="1468" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1469" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_FULLPATH" id="1470" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1471" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1472" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1473" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1474" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1475" addr="00F0D690" >
+                        <attributelist id="1476" addr="00F0D690" >
+                            <attribute name="sym_name" value="SORT_METHOD_LABEL_IGNORE_FOLDERS" id="1477" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_LABEL_IGNORE_FOLDERS" id="1478" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_LABEL_IGNORE_FOLDERS" id="1479" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1480" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_LABEL_IGNORE_FOLDERS" id="1481" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1482" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1483" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1484" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1485" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1486" addr="00F0D790" >
+                        <attributelist id="1487" addr="00F0D790" >
+                            <attribute name="sym_name" value="SORT_METHOD_LASTPLAYED" id="1488" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_LASTPLAYED" id="1489" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_LASTPLAYED" id="1490" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1491" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_LASTPLAYED" id="1492" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1493" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1494" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1495" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1496" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1497" addr="00F0D890" >
+                        <attributelist id="1498" addr="00F0D890" >
+                            <attribute name="sym_name" value="SORT_METHOD_PLAYCOUNT" id="1499" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_PLAYCOUNT" id="1500" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_PLAYCOUNT" id="1501" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1502" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_PLAYCOUNT" id="1503" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1504" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1505" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1506" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1507" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1508" addr="00F0D990" >
+                        <attributelist id="1509" addr="00F0D990" >
+                            <attribute name="sym_name" value="SORT_METHOD_CHANNEL" id="1510" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_CHANNEL" id="1511" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_CHANNEL" id="1512" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1513" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_CHANNEL" id="1514" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1515" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1516" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1517" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1518" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1519" addr="00F0DA90" >
+                        <attributelist id="1520" addr="00F0DA90" >
+                            <attribute name="sym_name" value="SORT_METHOD_DATE_TAKEN" id="1521" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_DATE_TAKEN" id="1522" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_DATE_TAKEN" id="1523" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1524" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_DATE_TAKEN" id="1525" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1526" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1527" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1528" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1529" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1530" addr="00F0DB90" >
+                        <attributelist id="1531" addr="00F0DB90" >
+                            <attribute name="sym_name" value="SORT_METHOD_VIDEO_USER_RATING" id="1532" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_VIDEO_USER_RATING" id="1533" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_VIDEO_USER_RATING" id="1534" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1535" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_VIDEO_USER_RATING" id="1536" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1537" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1538" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1539" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1540" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                    <constant id="1541" addr="00F0DC90" >
+                        <attributelist id="1542" addr="00F0DC90" >
+                            <attribute name="sym_name" value="SORT_METHOD_SONG_USER_RATING" id="1543" addr="00F0EC50" />
+                            <attribute name="name" value="SORT_METHOD_SONG_USER_RATING" id="1544" addr="00F0EC50" />
+                            <attribute name="rawval" value="SORT_METHOD_SONG_USER_RATING" id="1545" addr="00F0EC50" />
+                            <attribute name="feature_immutable" value="1" id="1546" addr="00F0EC50" />
+                            <attribute name="value" value="SORT_METHOD_SONG_USER_RATING" id="1547" addr="00F0EC50" />
+                            <attribute name="storage" value="%constant" id="1548" addr="00F0EC50" />
+                            <attribute name="type" value="int" id="1549" addr="00F0EC50" />
+                            <attribute name="sym_symtab" value="00F08000" id="1550" addr="00F08000" />
+                            <attribute name="sym_overname" value="__SWIG_0" id="1551" addr="00F0EC50" />
+                        </attributelist >
+                     
+                    </constant >
+                </namespace >
+            </namespace >
+        </include >
+    </include >
+</top >

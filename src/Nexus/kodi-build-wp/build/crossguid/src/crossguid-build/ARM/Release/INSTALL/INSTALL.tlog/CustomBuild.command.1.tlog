@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\CROSSGUID\SRC\CROSSGUID-BUILD\CMAKEFILES\824605DDA38E829E9470D6C9AC1411DB\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

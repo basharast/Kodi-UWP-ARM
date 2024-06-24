@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\FLATBUFFERS\SRC\FLATBUFFERS-BUILD\CMAKEFILES\A8BF91E73F15D214A254E07D4375C8EA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/flatbuffers/src/flatbuffers -BC:/kodi-build-wp/build/flatbuffers/src/flatbuffers-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-build/FlatBuffers.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

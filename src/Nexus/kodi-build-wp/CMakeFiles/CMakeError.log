@@ -1,0 +1,373 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '--version'
+cl : Command line error D8003 : missing source filename
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line error D8004 : '/V' requires an argument
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+cl : Command line warning D9002 : ignoring unknown option '-qversion'
+cl : Command line error D8003 : missing source filename
+Determining if the _X86_ exist failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-p6al1z
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9d335.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-p6al1z\\" /I"Generated Files\\" /IcmTC_9d335.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d335.dir\Debug\\" /Fd"cmTC_9d335.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-p6al1z\CheckSymbolExists.c"
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-p6al1z\CheckSymbolExists.c(8,24): error C2065: '_X86_': undeclared identifier [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-p6al1z\cmTC_9d335.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-p6al1z\cmTC_9d335.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <Windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _X86_
+  return ((int*)(&_X86_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _AMD64_ exist failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-ia5zvy
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7904a.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ia5zvy\\" /I"Generated Files\\" /IcmTC_7904a.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7904a.dir\Debug\\" /Fd"cmTC_7904a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ia5zvy\CheckSymbolExists.c"
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ia5zvy\CheckSymbolExists.c(8,26): error C2065: '_AMD64_': undeclared identifier [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ia5zvy\cmTC_7904a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ia5zvy\cmTC_7904a.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <Windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _AMD64_
+  return ((int*)(&_AMD64_))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fadvise exist failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-qbpkl0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_02cdc.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckSymbolExists.c
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qbpkl0\CheckSymbolExists.c(8,32): error C2065: 'posix_fadvise': undeclared identifier [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qbpkl0\cmTC_02cdc.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qbpkl0\\" /I"Generated Files\\" /IcmTC_02cdc.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02cdc.dir\Debug\\" /Fd"cmTC_02cdc.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qbpkl0\CheckSymbolExists.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qbpkl0\cmTC_02cdc.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fadvise
+  return ((int*)(&posix_fadvise))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAS_BUILTIN_SYNC_ADD_AND_FETCH failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-qecfa5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ee6a3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qecfa5\src.cxx(4,55): error C3861: '__sync_add_and_fetch': identifier not found [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qecfa5\cmTC_ee6a3.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qecfa5\\" /I"Generated Files\\" /IcmTC_ee6a3.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D HAS_BUILTIN_SYNC_ADD_AND_FETCH /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_ee6a3.dir\Debug\\" /Fd"cmTC_ee6a3.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue  /await "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qecfa5\src.cxx"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-qecfa5\cmTC_ee6a3.vcxproj]
+
+
+Source file was:
+
+                             int main()
+                             {
+                               long* temp=0; long ret=__sync_add_and_fetch(temp, 1);
+                             }
+
+Performing C++ SOURCE FILE Test HAS_BUILTIN_SYNC_SUB_AND_FETCH failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-4tgypw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0db55.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-4tgypw\src.cxx(4,55): error C3861: '__sync_sub_and_fetch': identifier not found [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-4tgypw\cmTC_0db55.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-4tgypw\\" /I"Generated Files\\" /IcmTC_0db55.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D HAS_BUILTIN_SYNC_SUB_AND_FETCH /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_0db55.dir\Debug\\" /Fd"cmTC_0db55.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue  /await "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-4tgypw\src.cxx"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-4tgypw\cmTC_0db55.vcxproj]
+
+
+Source file was:
+
+                             int main()
+                             {
+                               long* temp=0; long ret=__sync_sub_and_fetch(temp, 1);
+                             }
+
+Performing C++ SOURCE FILE Test HAS_BUILTIN_SYNC_VAL_COMPARE_AND_SWAP failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-k5tm7c
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3f69c.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-k5tm7c\src.cxx(4,55): error C3861: '__sync_val_compare_and_swap': identifier not found [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-k5tm7c\cmTC_3f69c.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-k5tm7c\\" /I"Generated Files\\" /IcmTC_3f69c.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D HAS_BUILTIN_SYNC_VAL_COMPARE_AND_SWAP /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_3f69c.dir\Debug\\" /Fd"cmTC_3f69c.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue  /await "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-k5tm7c\src.cxx"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-k5tm7c\cmTC_3f69c.vcxproj]
+
+
+Source file was:
+
+                             int main()
+                             {
+                               long* temp=0; long ret=__sync_val_compare_and_swap(temp, 1, 1);
+                             }
+
+Determining if the include file sys/inotify.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-g9l53d
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_34d49.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-g9l53d\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/inotify.h': No such file or directory [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-g9l53d\cmTC_34d49.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-g9l53d\\" /I"Generated Files\\" /IcmTC_34d49.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34d49.dir\Debug\\" /Fd"cmTC_34d49.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-g9l53d\CheckIncludeFile.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-g9l53d\cmTC_34d49.vcxproj]
+
+
+
+Determining if the function localtime_r exists failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-hv27sx
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_00592.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-hv27sx\\" /I"Generated Files\\" /IcmTC_00592.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D CHECK_FUNCTION_EXISTS=localtime_r /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00592.dir\Debug\\" /Fd"cmTC_00592.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-hv27sx\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-hv27sx\cmTC_00592.vcxproj]
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol localtime_r referenced in function main [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-hv27sx\cmTC_00592.vcxproj]
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-hv27sx\Debug\cmTC_00592.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-hv27sx\cmTC_00592.vcxproj]
+
+
+
+Determining if the function gmtime_r exists failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-aoou7o
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_521f6.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-aoou7o\\" /I"Generated Files\\" /IcmTC_521f6.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D CHECK_FUNCTION_EXISTS=gmtime_r /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_521f6.dir\Debug\\" /Fd"cmTC_521f6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-aoou7o\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-aoou7o\cmTC_521f6.vcxproj]
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gmtime_r referenced in function main [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-aoou7o\cmTC_521f6.vcxproj]
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-aoou7o\Debug\cmTC_521f6.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-aoou7o\cmTC_521f6.vcxproj]
+
+
+
+Determining if the STATX_BTIME exist failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-rg8fs0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_24af5.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckSymbolExists.c
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-rg8fs0\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'linux/stat.h': No such file or directory [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-rg8fs0\cmTC_24af5.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-rg8fs0\\" /I"Generated Files\\" /IcmTC_24af5.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D _GNU_SOURCE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_24af5.dir\Debug\\" /Fd"cmTC_24af5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-rg8fs0\CheckSymbolExists.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-rg8fs0\cmTC_24af5.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <linux/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef STATX_BTIME
+  return ((int*)(&STATX_BTIME))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-82yiwx
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1d6e3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-82yiwx\\" /I"Generated Files\\" /IcmTC_1d6e3.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d6e3.dir\Debug\\" /Fd"cmTC_1d6e3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-82yiwx\src.c"
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-82yiwx\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-82yiwx\cmTC_1d6e3.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-82yiwx\cmTC_1d6e3.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-mowzsc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_533ff.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-mowzsc\\" /I"Generated Files\\" /IcmTC_533ff.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_533ff.dir\Debug\\" /Fd"cmTC_533ff.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-mowzsc\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-mowzsc\cmTC_533ff.vcxproj]
+LINK : fatal error LNK1181: cannot open input file 'pthreads.lib' [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-mowzsc\cmTC_533ff.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-ugzmol
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b2673.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ugzmol\\" /I"Generated Files\\" /IcmTC_b2673.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2673.dir\Debug\\" /Fd"cmTC_b2673.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ugzmol\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ugzmol\cmTC_b2673.vcxproj]
+LINK : fatal error LNK1181: cannot open input file 'pthread.lib' [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-ugzmol\cmTC_b2673.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test NFS_SET_TIMEOUT failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-cbzb6d
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_558d5.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-cbzb6d\src.cxx(3,15): fatal  error C1083: Cannot open include file: 'nfsc/libnfs.h': No such file or directory [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-cbzb6d\cmTC_558d5.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi\project\BuildDependencies\win10-arm\include" /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-cbzb6d\\" /I"Generated Files\\" /IcmTC_558d5.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NFS_SET_TIMEOUT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"cmTC_558d5.dir\Debug\\" /Fd"cmTC_558d5.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue  /await "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-cbzb6d\src.cxx"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-cbzb6d\cmTC_558d5.vcxproj]
+
+
+Source file was:
+
+     
+     #include <nfsc/libnfs.h>
+     int main()
+     {
+       nfs_set_timeout(NULL, 0);
+     }
+  
+
+Performing C++ SOURCE FILE Test NFS_MOUNT_GETEXPORTS_TIMEOUT failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-0dmjow
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a0cd6.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-0dmjow\src.cxx(3,15): fatal  error C1083: Cannot open include file: 'nfsc/libnfs.h': No such file or directory [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-0dmjow\cmTC_a0cd6.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi\project\BuildDependencies\win10-arm\include" /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-0dmjow\\" /I"Generated Files\\" /IcmTC_a0cd6.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NFS_MOUNT_GETEXPORTS_TIMEOUT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"cmTC_a0cd6.dir\Debug\\" /Fd"cmTC_a0cd6.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue  /await "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-0dmjow\src.cxx"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-0dmjow\cmTC_a0cd6.vcxproj]
+
+
+Source file was:
+
+     
+     #include <nfsc/libnfs.h>
+     int main()
+     {
+       mount_getexports_timeout(NULL, 0);
+     }
+  
+
+Determining if the function iconv exists failed with the following output:
+Change Dir: C:/kodi-build-wp/CMakeFiles/CMakeScratch/TryCompile-40we2a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d0148.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-40we2a\\" /I"Generated Files\\" /IcmTC_d0148.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D CHECK_FUNCTION_EXISTS=iconv /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0148.dir\Debug\\" /Fd"cmTC_d0148.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-40we2a\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-40we2a\cmTC_d0148.vcxproj]
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol iconv referenced in function main [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-40we2a\cmTC_d0148.vcxproj]
+C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-40we2a\Debug\cmTC_d0148.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\CMakeFiles\CMakeScratch\TryCompile-40we2a\cmTC_d0148.vcxproj]
+
+
+

@@ -1,0 +1,78 @@
+# game.libretro.vecx language file
+# Addon Name: game.libretro.vecx
+# Addon id: game.libretro.vecx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.vecx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-11-09 12:13i\n"
+"PO-Revision-Date: 2021-12-17 12:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-vecx/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
+
+msgctxt "Addon Summary"
+msgid "GCE - Vectrex (vecx) 1.2"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Vecx is a Vectrex video game system emulator. It can run most Vectrex software."
+msgstr "Vecx er en Vectrex videospilsystem emulator, der kan køre det meste Vectrex-software."
+
+msgctxt "Addon Disclaimer"
+msgid "Written by Richard Bannister"
+msgstr "Skrevet af Richard Bannister"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Use Hardware Rendering"
+msgstr "Brug hardware-rendering"
+
+msgctxt "#30002"
+msgid "Internal Resolution Multiplier"
+msgstr "Intern multiplikator af opløsning"
+
+msgctxt "#30003"
+msgid "Hardware Rendering Resolution"
+msgstr "Opløsning for hardware-rendering"
+
+msgctxt "#30004"
+msgid "Line brightness"
+msgstr "Lysstyrke for linjer"
+
+msgctxt "#30005"
+msgid "Line width"
+msgstr "Linjebredde"
+
+msgctxt "#30006"
+msgid "Bloom brightness"
+msgstr "Blomstringens lysstyrke"
+
+msgctxt "#30007"
+msgid "Bloom width"
+msgstr "Blomstringens bredde"
+
+msgctxt "#30008"
+msgid "Scale vector display horizontally"
+msgstr "Skaler vektorvisning vandret"
+
+msgctxt "#30009"
+msgid "Scale vector display vertically"
+msgstr "Skaler vektorvisning lodret"
+
+msgctxt "#30010"
+msgid "Horizontal shift"
+msgstr "Vandret forskydning"
+
+msgctxt "#30011"
+msgid "Vertical shift"
+msgstr "Lodret forskydning"

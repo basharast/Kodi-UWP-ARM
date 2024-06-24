@@ -1,0 +1,15 @@
+C:/kodi/project/BuildDependencies/win10-arm/lib/dvdread.lib
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/bitreader.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/dvd_reader.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/dvd_udf.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/ifo_print.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/ifo_read.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/ifo_types.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/nav_print.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/nav_read.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/nav_types.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdread/version.h
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdread/dvdread.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdread/dvdread-release.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdread/dvdread-config.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdread/dvdread-config-version.cmake

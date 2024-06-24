@@ -1,0 +1,101 @@
+stages:
+    - build
+
+variables:
+    GIT_SUBMODULE_STRATEGY: normal
+
+build-debian:
+    image: registry.videolan.org/vlc-debian-unstable:20200529132440
+    stage: build
+    tags:
+        - docker
+        - amd64
+    script:
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure
+        - make -j $(getconf _NPROCESSORS_ONLN)
+
+build-macos:
+    stage: build
+    tags:
+        - catalina
+        - amd64
+    script:
+        - curl -sS -O https://artifacts.videolan.org/vlc/macos-x86_64/vlc-contrib-x86_64-apple-darwin19-aeb120a889fe12f4636fe470bbc25b0fbc53a4d5.tar.bz2
+        - tar xf vlc-contrib-x86_64-apple-darwin19-aeb120a889fe12f4636fe470bbc25b0fbc53a4d5.tar.bz2
+        - cd x86_64-apple-darwin19
+        - curl -sS -o ./change_prefix.sh 'https://git.videolan.org/?p=vlc.git;a=blob_plain;f=contrib/src/change_prefix.sh;hb=HEAD'
+        - chmod +x ./change_prefix.sh
+        - ./change_prefix.sh
+        - export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:`pwd -P`/lib/pkgconfig/"
+        - export PATH="$PATH:`pwd -P`/bin/"
+        - cd ../
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure
+        - make -j $(getconf _NPROCESSORS_ONLN)
+        - make install DESTDIR=`pwd`/artifacts
+    artifacts:
+        name: "$CI_JOB_NAME-$CI_COMMIT_REF_SLUG"
+        paths:
+            - build/artifacts/
+        expire_in: 1 week
+
+build-win64:
+    image: registry.videolan.org/vlc-debian-win64:20201106143728
+    stage: build
+    tags:
+        - docker
+        - amd64
+    script:
+        - wget -nv https://artifacts.videolan.org/vlc/win64/vlc-contrib-x86_64-w64-mingw32-367001997fa588ab18e13c648501667906cc3fb7.tar.bz2
+        - tar xf vlc-contrib-x86_64-w64-mingw32-367001997fa588ab18e13c648501667906cc3fb7.tar.bz2
+        - cd x86_64-w64-mingw32
+        - wget -nv -O ./change_prefix.sh 'https://git.videolan.org/?p=vlc.git;a=blob_plain;f=contrib/src/change_prefix.sh;hb=HEAD'
+        - chmod +x ./change_prefix.sh
+        - ./change_prefix.sh
+        - cd ..
+        - export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:`realpath x86_64-w64-mingw32`/lib/pkgconfig/"
+        - export PATH="$PATH:`realpath x86_64-w64-mingw32`/bin/"
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure --host=x86_64-w64-mingw32
+        - make -j $(getconf _NPROCESSORS_ONLN)
+        - make install DESTDIR=`pwd`/artifacts
+    artifacts:
+        name: "$CI_JOB_NAME-$CI_COMMIT_REF_SLUG"
+        paths:
+            - build/artifacts/
+        expire_in: 1 week
+
+build-win32:
+    image: registry.videolan.org/vlc-debian-win32:20201106141924
+    stage: build
+    tags:
+        - docker
+        - amd64
+    script:
+        - wget -nv https://artifacts.videolan.org/vlc/win32/vlc-contrib-i686-w64-mingw32-367001997fa588ab18e13c648501667906cc3fb7.tar.bz2
+        - tar xf vlc-contrib-i686-w64-mingw32-367001997fa588ab18e13c648501667906cc3fb7.tar.bz2
+        - cd i686-w64-mingw32
+        - wget -nv -O ./change_prefix.sh 'https://git.videolan.org/?p=vlc.git;a=blob_plain;f=contrib/src/change_prefix.sh;hb=HEAD'
+        - chmod +x ./change_prefix.sh
+        - ./change_prefix.sh
+        - cd ..
+        - export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:`realpath i686-w64-mingw32`/lib/pkgconfig/"
+        - export PATH="$PATH:`realpath i686-w64-mingw32`/bin/"
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure --host=i686-w64-mingw32
+        - make -j $(getconf _NPROCESSORS_ONLN)
+        - make install DESTDIR=`pwd`/artifacts
+    artifacts:
+        name: "$CI_JOB_NAME-$CI_COMMIT_REF_SLUG"
+        paths:
+            - build/artifacts/
+        expire_in: 1 week

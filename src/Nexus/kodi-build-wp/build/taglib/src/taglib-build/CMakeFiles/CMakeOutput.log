@@ -1,0 +1,307 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;;/O2;/Ob2;/DNDEBUG
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+Build started 1/20/2023 6:37:04 AM.
+Project "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:ARM Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\Hostx64\arm\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.75
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/3.25.0-msvc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: /MP;/DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;/EHsc;/wd"4996";/wd"4146";/wd"4251";/wd"4668";/wd"5033";/EHsc;/await;/permissive-;;/O2;/Ob2;/DNDEBUG;/Zi
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+Build started 1/20/2023 6:37:06 AM.
+Project "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:ARM Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\Hostx64\arm\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/3.25.0-msvc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-k1s4c9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ad003.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad003.dir\Debug\\" /Fd"cmTC_ad003.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_ad003.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-k1s4c9\Debug\cmTC_ad003.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-mqxrbl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_809fc.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_809fc.dir\Debug\\" /Fd"cmTC_809fc.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /analyze- /errorReport:queue  /await "C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_809fc.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-mqxrbl\Debug\cmTC_809fc.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-223vkk
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8cb0d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8cb0d.dir\Debug\\" /Fd"cmTC_8cb0d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-223vkk\CheckIncludeFile.c"
+  cmTC_8cb0d.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-223vkk\Debug\cmTC_8cb0d.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-z45dg5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e4c55.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4c55.dir\Debug\\" /Fd"cmTC_e4c55.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-z45dg5\CheckIncludeFile.c"
+  cmTC_e4c55.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-z45dg5\Debug\cmTC_e4c55.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-ft8xlc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_02947.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02947.dir\Debug\\" /Fd"cmTC_02947.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-ft8xlc\CheckIncludeFile.c"
+  cmTC_02947.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-ft8xlc\Debug\cmTC_02947.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-yf7qn6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_40f88.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  SIZEOF_SHORT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40f88.dir\Debug\\" /Fd"cmTC_40f88.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-yf7qn6\SIZEOF_SHORT.c"
+  cmTC_40f88.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-yf7qn6\Debug\cmTC_40f88.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-zpeem7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_98ac3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  SIZEOF_INT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98ac3.dir\Debug\\" /Fd"cmTC_98ac3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-zpeem7\SIZEOF_INT.c"
+  cmTC_98ac3.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-zpeem7\Debug\cmTC_98ac3.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-z0r3sb
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eafe5.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eafe5.dir\Debug\\" /Fd"cmTC_eafe5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-z0r3sb\SIZEOF_LONGLONG.c"
+  SIZEOF_LONGLONG.c
+  cmTC_eafe5.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-z0r3sb\Debug\cmTC_eafe5.exe
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-xj6ush
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5ae0a.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ae0a.dir\Debug\\" /Fd"cmTC_5ae0a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-xj6ush\SIZEOF_WCHAR_T.c"
+  SIZEOF_WCHAR_T.c
+  cmTC_5ae0a.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-xj6ush\Debug\cmTC_5ae0a.exe
+
+
+
+Determining size of float passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-deqy31
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e66ee.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e66ee.dir\Debug\\" /Fd"cmTC_e66ee.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-deqy31\SIZEOF_FLOAT.c"
+  SIZEOF_FLOAT.c
+  cmTC_e66ee.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-deqy31\Debug\cmTC_e66ee.exe
+
+
+
+Determining size of double passed with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-gk90gx
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c1489.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  SIZEOF_DOUBLE.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1489.dir\Debug\\" /Fd"cmTC_c1489.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-gk90gx\SIZEOF_DOUBLE.c"
+  cmTC_c1489.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-gk90gx\Debug\cmTC_c1489.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_WIN_ATOMIC succeeded with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-8eweun
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_26fc2.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_WIN_ATOMIC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_26fc2.dir\Debug\\" /Fd"cmTC_26fc2.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /wd4996 /analyze- /errorReport:queue  /await "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-8eweun\src.cxx"
+  cmTC_26fc2.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-8eweun\Debug\cmTC_26fc2.exe
+
+
+Source file was:
+
+        #include <windows.h>
+        int main() {
+          volatile LONG x;
+          InterlockedIncrement(&x);
+          LONG y = InterlockedDecrement(&x);
+          return 0;
+        }
+      
+
+Performing C++ SOURCE FILE Test HAVE_MSC_BYTESWAP succeeded with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-uc0nh8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c3da1.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_MSC_BYTESWAP /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_c3da1.dir\Debug\\" /Fd"cmTC_c3da1.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /wd4996 /analyze- /errorReport:queue  /await "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-uc0nh8\src.cxx"
+  cmTC_c3da1.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-uc0nh8\Debug\cmTC_c3da1.exe
+
+
+Source file was:
+
+      #include <stdlib.h>
+      int main() {
+        _byteswap_ushort(0);
+        _byteswap_ulong(0);
+        _byteswap_uint64(0);
+        return 0;
+      }
+    
+
+Performing C++ SOURCE FILE Test HAVE_VSNPRINTF succeeded with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-pbwrrp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2d979.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_VSNPRINTF /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_2d979.dir\Debug\\" /Fd"cmTC_2d979.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /wd4996 /analyze- /errorReport:queue  /await "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-pbwrrp\src.cxx"
+C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-pbwrrp\src.cxx(7): warning C4700: uninitialized local variable 'args' used [C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-pbwrrp\cmTC_2d979.vcxproj]
+  cmTC_2d979.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-pbwrrp\Debug\cmTC_2d979.exe
+
+
+Source file was:
+
+  #include <cstdio>
+  #include <cstdarg>
+  int main() {
+    char buf[20];
+    va_list args;
+    vsnprintf(buf, 20, "%d", args);
+    return 0;
+  }
+
+
+Performing C++ SOURCE FILE Test HAVE_ISO_STRDUP succeeded with the following output:
+Change Dir: C:/kodi-build-wp/build/taglib/src/taglib-build/CMakeFiles/CMakeScratch/TryCompile-xxq9t4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fa73d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_ISO_STRDUP /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_fa73d.dir\Debug\\" /Fd"cmTC_fa73d.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /wd4996 /analyze- /errorReport:queue  /await "C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-xxq9t4\src.cxx"
+  cmTC_fa73d.vcxproj -> C:\kodi-build-wp\build\taglib\src\taglib-build\CMakeFiles\CMakeScratch\TryCompile-xxq9t4\Debug\cmTC_fa73d.exe
+
+
+Source file was:
+
+  #include <cstring>
+  int main() {
+    _strdup(0);
+    return 0;
+  }
+
+

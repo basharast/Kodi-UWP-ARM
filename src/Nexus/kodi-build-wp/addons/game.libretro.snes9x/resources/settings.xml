@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="snes9x_region" values="auto|ntsc|pal" default="auto"/>
+		<setting label="30002" type="select" id="snes9x_aspect" values="4:3|4:3 scaled|uncorrected|auto|ntsc|pal" default="4:3"/>
+		<setting label="30003" type="select" id="snes9x_overscan" values="enabled|12_pixels|16_pixels|auto|disabled" default="enabled"/>
+		<setting label="30004" type="select" id="snes9x_hires_blend" values="disabled|merge|blur" default="disabled"/>
+		<setting label="30005" type="select" id="snes9x_blargg" values="disabled|monochrome|rf|composite|s-video|rgb" default="disabled"/>
+		<setting label="30006" type="select" id="snes9x_audio_interpolation" values="gaussian|cubic|sinc|none|linear" default="gaussian"/>
+		<setting label="30007" type="select" id="snes9x_up_down_allowed" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="snes9x_overclock_superfx" values="100%|50%|60%|70%|80%|90%|150%|200%|250%|300%|350%|400%|450%|500%" default="100%"/>
+		<setting label="30009" type="select" id="snes9x_overclock_cycles" values="disabled|light|compatible|max" default="disabled"/>
+		<setting label="30010" type="select" id="snes9x_reduce_sprite_flicker" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="snes9x_randomize_memory" values="disabled|enabled" default="disabled"/>
+		<setting label="30012" type="select" id="snes9x_block_invalid_vram_access" values="enabled|disabled" default="enabled"/>
+		<setting label="30013" type="select" id="snes9x_echo_buffer_hack" values="disabled|enabled" default="disabled"/>
+		<setting label="30014" type="select" id="snes9x_lightgun_mode" values="Lightgun|Touchscreen" default="Lightgun"/>
+		<setting label="30015" type="select" id="snes9x_superscope_reverse_buttons" values="disabled|enabled" default="disabled"/>
+		<setting label="30016" type="select" id="snes9x_superscope_crosshair" values="2|0|1|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="2"/>
+		<setting label="30017" type="select" id="snes9x_superscope_color" values="White|White (blend)|Red|Red (blend)|Orange|Orange (blend)|Yellow|Yellow (blend)|Green|Green (blend)|Cyan|Cyan (blend)|Sky|Sky (blend)|Blue|Blue (blend)|Violet|Violet (blend)|Pink|Pink (blend)|Purple|Purple (blend)|Black|Black (blend)|25% Grey|25% Grey (blend)|50% Grey|50% Grey (blend)|75% Grey|75% Grey (blend)" default="White"/>
+		<setting label="30018" type="select" id="snes9x_justifier1_crosshair" values="4|0|1|2|3|5|6|7|8|9|10|11|12|13|14|15|16" default="4"/>
+		<setting label="30019" type="select" id="snes9x_justifier1_color" values="Blue|Blue (blend)|Violet|Violet (blend)|Pink|Pink (blend)|Purple|Purple (blend)|Black|Black (blend)|25% Grey|25% Grey (blend)|50% Grey|50% Grey (blend)|75% Grey|75% Grey (blend)|White|White (blend)|Red|Red (blend)|Orange|Orange (blend)|Yellow|Yellow (blend)|Green|Green (blend)|Cyan|Cyan (blend)|Sky|Sky (blend)" default="Blue"/>
+		<setting label="30020" type="select" id="snes9x_justifier2_crosshair" values="4|0|1|2|3|5|6|7|8|9|10|11|12|13|14|15|16" default="4"/>
+		<setting label="30021" type="select" id="snes9x_justifier2_color" values="Pink|Pink (blend)|Purple|Purple (blend)|Black|Black (blend)|25% Grey|25% Grey (blend)|50% Grey|50% Grey (blend)|75% Grey|75% Grey (blend)|White|White (blend)|Red|Red (blend)|Orange|Orange (blend)|Yellow|Yellow (blend)|Green|Green (blend)|Cyan|Cyan (blend)|Sky|Sky (blend)|Blue|Blue (blend)|Violet|Violet (blend)" default="Pink"/>
+		<setting label="30022" type="select" id="snes9x_rifle_crosshair" values="2|0|1|3|4|5|6|7|8|9|10|11|12|13|14|15|16" default="2"/>
+		<setting label="30023" type="select" id="snes9x_rifle_color" values="White|White (blend)|Red|Red (blend)|Orange|Orange (blend)|Yellow|Yellow (blend)|Green|Green (blend)|Cyan|Cyan (blend)|Sky|Sky (blend)|Blue|Blue (blend)|Violet|Violet (blend)|Pink|Pink (blend)|Purple|Purple (blend)|Black|Black (blend)|25% Grey|25% Grey (blend)|50% Grey|50% Grey (blend)|75% Grey|75% Grey (blend)" default="White"/>
+		<setting label="30024" type="select" id="snes9x_layer_1" values="enabled|disabled" default="enabled"/>
+		<setting label="30025" type="select" id="snes9x_layer_2" values="enabled|disabled" default="enabled"/>
+		<setting label="30026" type="select" id="snes9x_layer_3" values="enabled|disabled" default="enabled"/>
+		<setting label="30027" type="select" id="snes9x_layer_4" values="enabled|disabled" default="enabled"/>
+		<setting label="30028" type="select" id="snes9x_layer_5" values="enabled|disabled" default="enabled"/>
+		<setting label="30029" type="select" id="snes9x_gfx_clip" values="enabled|disabled" default="enabled"/>
+		<setting label="30030" type="select" id="snes9x_gfx_transp" values="enabled|disabled" default="enabled"/>
+		<setting label="30031" type="select" id="snes9x_sndchan_1" values="enabled|disabled" default="enabled"/>
+		<setting label="30032" type="select" id="snes9x_sndchan_2" values="enabled|disabled" default="enabled"/>
+		<setting label="30033" type="select" id="snes9x_sndchan_3" values="enabled|disabled" default="enabled"/>
+		<setting label="30034" type="select" id="snes9x_sndchan_4" values="enabled|disabled" default="enabled"/>
+		<setting label="30035" type="select" id="snes9x_sndchan_5" values="enabled|disabled" default="enabled"/>
+		<setting label="30036" type="select" id="snes9x_sndchan_6" values="enabled|disabled" default="enabled"/>
+		<setting label="30037" type="select" id="snes9x_sndchan_7" values="enabled|disabled" default="enabled"/>
+		<setting label="30038" type="select" id="snes9x_sndchan_8" values="enabled|disabled" default="enabled"/>
+	</category>
+</settings>

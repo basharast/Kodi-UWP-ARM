@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\FMT\SRC\FMT-BUILD\CMAKEFILES\3CEEE21F6DE58C799C34417F89A406E7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/fmt/src/fmt -BC:/kodi-build-wp/build/fmt/src/fmt-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/kodi-build-wp/build/fmt/src/fmt-build/FMT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

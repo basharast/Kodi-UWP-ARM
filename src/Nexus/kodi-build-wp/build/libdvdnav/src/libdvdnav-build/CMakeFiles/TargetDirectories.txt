@@ -1,0 +1,4 @@
+C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/dvdnav.dir
+C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/ZERO_CHECK.dir

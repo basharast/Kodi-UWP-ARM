@@ -1,0 +1,186 @@
+# game.libretro.81 language file
+# Addon Name: game.libretro.81
+# Addon id: game.libretro.81
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.81\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 02:43i\n"
+"PO-Revision-Date: 2021-11-04 20:38+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-81/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1\n"
+
+msgctxt "Addon Summary"
+msgid "Sinclair - ZX 81 (EightyOne) 1.0a 028da99"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "EightyOne is an emulator for the range of home computers made by Sinclair Research (and their clones) in the 1980s."
+msgstr "EightyOne 是辛克莱研究公司（Sinclair Research）在20世纪80年代制造的系列家用电脑的仿真器。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Tape Fast Load"
+msgstr "磁带快速读入"
+
+msgctxt "#30002"
+msgid "8K-16K Contents"
+msgstr "8K-16K 内容"
+
+msgctxt "#30003"
+msgid "Hide Video Border"
+msgstr "隐藏视频边框"
+
+msgctxt "#30004"
+msgid "High Resolution"
+msgstr "高分辨率"
+
+msgctxt "#30005"
+msgid "Emulate Chroma 81"
+msgstr "仿真 Chroma 81"
+
+msgctxt "#30006"
+msgid "Video Presets"
+msgstr "视频预置"
+
+msgctxt "#30007"
+msgid "Sound emulation"
+msgstr "声音仿真"
+
+msgctxt "#30008"
+msgid "Joypad Left mapping"
+msgstr "游戏手柄左映射"
+
+msgctxt "#30009"
+msgid "Joypad Right mapping"
+msgstr "游戏手柄右映射"
+
+msgctxt "#30010"
+msgid "Joypad Up mapping"
+msgstr "游戏手柄上映射"
+
+msgctxt "#30011"
+msgid "Joypad Down mapping"
+msgstr "游戏手柄下映射"
+
+msgctxt "#30012"
+msgid "Joypad A button mapping"
+msgstr "游戏手柄A按钮映射"
+
+msgctxt "#30013"
+msgid "Joypad B button mapping"
+msgstr "游戏手柄B按钮映射"
+
+msgctxt "#30014"
+msgid "Joypad X button mapping"
+msgstr "游戏手柄X按钮映射"
+
+msgctxt "#30015"
+msgid "Joypad Y button mapping"
+msgstr "游戏手柄Y按钮映射"
+
+msgctxt "#30016"
+msgid "Joypad L button mapping"
+msgstr "游戏手柄L按钮映射"
+
+msgctxt "#30017"
+msgid "Joypad R button mapping"
+msgstr "游戏手柄R按钮映射"
+
+msgctxt "#30018"
+msgid "Joypad L2 button mapping"
+msgstr "游戏手柄L2按钮映射"
+
+msgctxt "#30019"
+msgid "Joypad R2 button mapping"
+msgstr "游戏手柄R2按钮映射"
+
+msgctxt "#30020"
+msgid "Transparent Keyboard Overlay"
+msgstr "透明键盘覆盖"
+
+msgctxt "#30021"
+msgid "Time to Release Key in ms"
+msgstr "释放键时间（毫秒）"
+
+#~ msgctxt "#30003"
+#~ msgid "High Resolution"
+#~ msgstr "高分辨率"
+
+#~ msgctxt "#30004"
+#~ msgid "Emulate Chroma 81"
+#~ msgstr "模拟 Chroma 81"
+
+#~ msgctxt "#30005"
+#~ msgid "Video Presets"
+#~ msgstr "视频预设"
+
+#~ msgctxt "#30006"
+#~ msgid "Sound emulation"
+#~ msgstr "声音模拟"
+
+#~ msgctxt "#30007"
+#~ msgid "Joypad Left mapping"
+#~ msgstr "手柄左映射"
+
+#~ msgctxt "#30008"
+#~ msgid "Joypad Right mapping"
+#~ msgstr "手柄右映射"
+
+#~ msgctxt "#30009"
+#~ msgid "Joypad Up mapping"
+#~ msgstr "手柄上映射"
+
+#~ msgctxt "#30010"
+#~ msgid "Joypad Down mapping"
+#~ msgstr "手柄下映射"
+
+#~ msgctxt "#30011"
+#~ msgid "Joypad A button mapping"
+#~ msgstr "手柄A键映射"
+
+#~ msgctxt "#30012"
+#~ msgid "Joypad B button mapping"
+#~ msgstr "手柄B键映射"
+
+#~ msgctxt "#30013"
+#~ msgid "Joypad X button mapping"
+#~ msgstr "手柄X键映射"
+
+#~ msgctxt "#30014"
+#~ msgid "Joypad Y button mapping"
+#~ msgstr "手柄Y键映射"
+
+#~ msgctxt "#30015"
+#~ msgid "Joypad L button mapping"
+#~ msgstr "手柄L键映射"
+
+#~ msgctxt "#30016"
+#~ msgid "Joypad R button mapping"
+#~ msgstr "手柄R键映射"
+
+#~ msgctxt "#30017"
+#~ msgid "Joypad L2 button mapping"
+#~ msgstr "手柄L2键映射"
+
+#~ msgctxt "#30018"
+#~ msgid "Joypad R2 button mapping"
+#~ msgstr "手柄R2键映射"
+
+#~ msgctxt "#30019"
+#~ msgid "Transparent Keyboard Overlay"
+#~ msgstr "透明键盘覆盖"
+
+#~ msgctxt "#30020"
+#~ msgid "Time to Release Key in ms"
+#~ msgstr "释放键的时间（毫秒）"

@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/libnfs/src/libnfs-stamp/download-libnfs.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/libnfs/src/libnfs-stamp/verify-libnfs.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/libnfs/src/libnfs-stamp/extract-libnfs.cmake
+source_dir=C:/kodi-build-wp/build/libnfs/src/libnfs
+work_dir=C:/kodi-build-wp/build/libnfs/src
+url(s)=http://mirrors.kodi.tv/build-deps/sources/libnfs-5.0.2.tar.gz
+hash=SHA512=6dcf4ea8a01b35beb53694625d20fbebd858a88725c2742671878ad6fe7877999f93d262fb58a435b00c283c3e6fb6fa7222d04bb4540bf674b7ce196e9424f5
+no_extract=
+

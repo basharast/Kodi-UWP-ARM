@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-stamp/download-flatbuffers.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-stamp/verify-flatbuffers.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-stamp/extract-flatbuffers.cmake
+source_dir=C:/kodi-build-wp/build/flatbuffers/src/flatbuffers
+work_dir=C:/kodi-build-wp/build/flatbuffers/src
+url(s)=http://mirrors.kodi.tv/build-deps/sources/flatbuffers-2.0.0.tar.gz
+hash=SHA512=26a06b572c0e4c9685743bd2d2162ac7dcd74b9324624cc3f3ef5b154c0cee7c52a04b77cdc184245d2d6ae38dfdcc4fd66001c318aa8ca001d2bf1d85d66a89
+no_extract=
+

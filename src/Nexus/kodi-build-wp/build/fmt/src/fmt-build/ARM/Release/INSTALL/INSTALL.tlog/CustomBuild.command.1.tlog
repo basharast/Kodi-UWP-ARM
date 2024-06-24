@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\FMT\SRC\FMT-BUILD\CMAKEFILES\3CEEE21F6DE58C799C34417F89A406E7\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

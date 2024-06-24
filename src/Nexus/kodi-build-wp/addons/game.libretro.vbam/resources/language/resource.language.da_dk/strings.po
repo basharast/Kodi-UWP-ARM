@@ -1,0 +1,274 @@
+# game.libretro.vbam language file
+# Addon Name: game.libretro.vbam
+# Addon id: game.libretro.vbam
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.vbam\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-01-02 23:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-vbam/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Game Boy Advance (VBA-M) 2.1.3 254f6ef"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "VBA-M is a Nintendo Game Boy and Game Boy Advance emulator based on the official VisualBoyAdvance by Forgotten and the VBA development team."
+msgstr "VBA-M er en Nintendo Game Boy og Game Boy Advance-emulator baseret på den officielle VisualBoyAdvance af Forgotten og VBA-udviklingsteamet."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Use Official BIOS (If Available)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Force-Enable RTC"
+msgstr ""
+
+msgctxt "#30003"
+msgid "(GB) Emulated Hardware (Needs Restart)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "(GB) Enable Colorizer Hack (Needs Restart)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "(GB) Color Palette"
+msgstr ""
+
+msgctxt "#30006"
+msgid "(GB) Show Borders"
+msgstr ""
+
+msgctxt "#30007"
+msgid "(GB) Color Correction"
+msgstr ""
+
+msgctxt "#30008"
+msgid "LCD Color Filter"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Interframe Blending"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Sound Interpolation"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Sound Filtering"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Enable Turbo Buttons"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Turbo Delay (in frames)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Solar Sensor Level"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Sensors Deadzone (%)"
+msgstr "Dødzone for sensorer (%)"
+
+msgctxt "#30016"
+msgid "Sensor Sensitivity (Gyroscope) (%)"
+msgstr "Følsomhed af sensorer (gyroskop) (%)"
+
+msgctxt "#30017"
+msgid "Sensor Sensitivity (Tilt) (%)"
+msgstr "Følsomhed af sensorer (tilt) (%)"
+
+msgctxt "#30018"
+msgid "Swap Left/Right Analog"
+msgstr "Byt venstre/højre analog"
+
+msgctxt "#30019"
+msgid "Sound Channel 1"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Sound Channel 2"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Sound Channel 3"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Sound Channel 4"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Sound DMA Channel A"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Sound DMA Channel B"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Show Background Layer 1"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Show Background Layer 2"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Show Background Layer 3"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Show Background Layer 4"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Show Sprite Layer"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Show Window Layer 1"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Show Window Layer 2"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Show Sprite Window Layer"
+msgstr ""
+
+#~ msgctxt "#30001"
+#~ msgid "Solar Sensor Level"
+#~ msgstr "Niveau for solsensor"
+
+#~ msgctxt "#30002"
+#~ msgid "Use Official BIOS (If Available)"
+#~ msgstr "Brug officiel BIOS (hvis tilgængelig)"
+
+#~ msgctxt "#30003"
+#~ msgid "Force-Enable RTC"
+#~ msgstr "Gennemtving aktivering af RTC"
+
+#~ msgctxt "#30004"
+#~ msgid "Sound Interpolation"
+#~ msgstr "Lydinterpolation"
+
+#~ msgctxt "#30005"
+#~ msgid "Sound Filtering"
+#~ msgstr "Lydfiltrering"
+
+#~ msgctxt "#30006"
+#~ msgid "(GB) Color Palette"
+#~ msgstr "(GB) Farvepalette"
+
+#~ msgctxt "#30007"
+#~ msgid "(GB) Emulated Hardware (Needs Restart)"
+#~ msgstr "(GB) Emuleret hardware (kræver genstart)"
+
+#~ msgctxt "#30008"
+#~ msgid "(GB) Enable Colorizer Hack (Needs Restart)"
+#~ msgstr "(GB) Aktiver farvelægnings-hack (kræver genstart)"
+
+#~ msgctxt "#30009"
+#~ msgid "(GB) Show Borders"
+#~ msgstr "(GB) Vis kanter"
+
+#~ msgctxt "#30010"
+#~ msgid "(GB) Color Correction"
+#~ msgstr "(GB) Farvekorrektion"
+
+#~ msgctxt "#30011"
+#~ msgid "LCD Color Filter"
+#~ msgstr "LCD farvefilter"
+
+#~ msgctxt "#30012"
+#~ msgid "Interframe Blending"
+#~ msgstr "Interframe-blanding"
+
+#~ msgctxt "#30013"
+#~ msgid "Enable Turbo Buttons"
+#~ msgstr "Aktiver turboknapper"
+
+#~ msgctxt "#30014"
+#~ msgid "Turbo Delay (in frames)"
+#~ msgstr "Forsinkelse af turbo (i frames)"
+
+#~ msgctxt "#30019"
+#~ msgid "Show Advanced Options"
+#~ msgstr "Vis avancerede indstillinger"
+
+#~ msgctxt "#30020"
+#~ msgid "Sound Channel 1"
+#~ msgstr "Lydkanal 1"
+
+#~ msgctxt "#30021"
+#~ msgid "Sound Channel 2"
+#~ msgstr "Lydkanal 2"
+
+#~ msgctxt "#30022"
+#~ msgid "Sound Channel 3"
+#~ msgstr "Lydkanal 3"
+
+#~ msgctxt "#30023"
+#~ msgid "Sound Channel 4"
+#~ msgstr "Lydkanal 4"
+
+#~ msgctxt "#30024"
+#~ msgid "Sound DMA Channel A"
+#~ msgstr "Lyd DMA-kanal A"
+
+#~ msgctxt "#30025"
+#~ msgid "Sound DMA Channel B"
+#~ msgstr "Lyd DMA-kanal B"
+
+#~ msgctxt "#30026"
+#~ msgid "Show Background Layer 1"
+#~ msgstr "Vis baggrundslag 1"
+
+#~ msgctxt "#30027"
+#~ msgid "Show Background Layer 2"
+#~ msgstr "Vis baggrundslag 2"
+
+#~ msgctxt "#30028"
+#~ msgid "Show Background Layer 3"
+#~ msgstr "Vis baggrundslag 3"
+
+#~ msgctxt "#30029"
+#~ msgid "Show Background Layer 4"
+#~ msgstr "Vis baggrundslag 4"
+
+#~ msgctxt "#30030"
+#~ msgid "Show Sprite Layer"
+#~ msgstr "Vis sprite-lag"
+
+#~ msgctxt "#30031"
+#~ msgid "Show Window Layer 1"
+#~ msgstr "Vis vindues-lag 1"
+
+#~ msgctxt "#30032"
+#~ msgid "Show Window Layer 2"
+#~ msgstr "Vis vindues-lag 2"
+
+#~ msgctxt "#30033"
+#~ msgid "Show Sprite Window Layer"
+#~ msgstr "Vis sprite vindues-lag"

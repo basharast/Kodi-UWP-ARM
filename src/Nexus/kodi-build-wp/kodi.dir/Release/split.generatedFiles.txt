@@ -1,0 +1,10 @@
+kodi.dir\Release\split.pri
+kodi.dir\Release\split.map.txt
+kodi.dir\Release\split.language-de.pri
+kodi.dir\Release\split.language-de.map.txt
+kodi.dir\Release\split.language-fr.pri
+kodi.dir\Release\split.language-fr.map.txt
+kodi.dir\Release\split.language-nl.pri
+kodi.dir\Release\split.language-nl.map.txt
+kodi.dir\Release\split.language-pl.pri
+kodi.dir\Release\split.language-pl.map.txt

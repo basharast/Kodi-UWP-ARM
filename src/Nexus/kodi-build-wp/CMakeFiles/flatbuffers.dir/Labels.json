@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/flatbuffers"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/flatbuffers.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/flatbuffers-complete.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-build.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-configure.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-download.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-install.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-mkdir.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-patch.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/93c4b4ceed7f53b9a2144ae261ef6765/flatbuffers-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flatbuffers"
+		],
+		"name" : "flatbuffers"
+	}
+}

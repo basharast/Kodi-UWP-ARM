@@ -1,0 +1,17 @@
+C:\kodi-build-wp\compileinfo.dir\Release\compileinfo.lib
+C:\kodi-build-wp\compileinfo.dir\Release\priconfig.xml
+C:\kodi-build-wp\compileinfo.dir\Release\priconfig.xml.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\unfiltered.layout.resfiles
+C:\kodi-build-wp\compileinfo.dir\Release\unfiltered.layout.resfiles.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\filtered.layout.resfiles
+C:\kodi-build-wp\compileinfo.dir\Release\filtered.layout.resfiles.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\excluded.layout.resfiles
+C:\kodi-build-wp\compileinfo.dir\Release\excluded.layout.resfiles.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\resources.resfiles
+C:\kodi-build-wp\compileinfo.dir\Release\resources.resfiles.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\pri.resfiles
+C:\kodi-build-wp\compileinfo.dir\Release\pri.resfiles.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\compileinfo.pri
+C:\kodi-build-wp\compileinfo.dir\Release\qualifiers.txt
+C:\kodi-build-wp\compileinfo.dir\Release\qualifiers.txt.intermediate
+C:\kodi-build-wp\compileinfo.dir\Release\MultipleQualifiersPerDimensionFound.txt

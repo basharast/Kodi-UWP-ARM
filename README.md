@@ -30,6 +30,9 @@ to get the latest updates enable that from:
 
 [Kodi Wiki](https://kodi.wiki/view/Main_Page)
 
+# Build
+
+Please check the source page (src) for build instructions
 
 # Credits
 - Kodi Team (Original & main developers)

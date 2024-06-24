@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_checkerboard_left.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_checkerboard_right.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_default.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_fonts.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_interlaced_left.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_interlaced_right.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_multi_texture_blend.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_texture.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_texture_noblend.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\0796f0807c5a680a02e5e111ca13a55d\guishader_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\5bcd10baa235d9e063a64e1782fae9cf\generate_shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi\xbmc\guilib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\kodi-build-wp\build\guilib\CMakeFiles\generate_shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B43CD052-A5F7-3415-B01A-6FE8CB1267E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

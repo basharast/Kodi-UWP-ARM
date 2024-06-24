@@ -1,0 +1,10 @@
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\bitreader.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\bitreader.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_input.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\dvd_input.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_reader.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\dvd_reader.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_udf.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\dvd_udf.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\ifo_print.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\ifo_print.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\ifo_read.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\ifo_read.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\md5.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\md5.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\nav_print.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\nav_print.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\nav_read.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\nav_read.obj
+C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\logger.c;C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\logger.obj

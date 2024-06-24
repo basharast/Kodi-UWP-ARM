@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/rapidjson/src/rapidjson-stamp/download-rapidjson.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/rapidjson/src/rapidjson-stamp/verify-rapidjson.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;C:/kodi-build-wp/build/rapidjson/src/rapidjson-stamp/extract-rapidjson.cmake
+source_dir=C:/kodi-build-wp/build/rapidjson/src/rapidjson
+work_dir=C:/kodi-build-wp/build/rapidjson/src
+url(s)=http://mirrors.kodi.tv/build-deps/sources/rapidjson-1.1.0.tar.gz
+hash=SHA512=2e82a4bddcd6c4669541f5945c2d240fb1b4fdd6e239200246d3dd50ce98733f0a4f6d3daa56f865d8c88779c036099c52a9ae85d47ad263686b68a88d832dff
+no_extract=
+

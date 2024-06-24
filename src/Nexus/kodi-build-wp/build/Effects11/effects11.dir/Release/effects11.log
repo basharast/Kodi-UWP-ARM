@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/kodi/lib/win32/Effects11/CMakeLists.txt
+  d3dxGlobal.cpp
+  EffectAPI.cpp
+  EffectLoad.cpp
+  EffectNonRuntime.cpp
+  EffectReflection.cpp
+  EffectRuntime.cpp
+  effects11.vcxproj -> C:\kodi-build-wp\build\Effects11\Release\effects11.lib

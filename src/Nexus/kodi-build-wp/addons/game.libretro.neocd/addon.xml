@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.neocd"
+		name="SNK - Neo Geo CD (NeoCD)"
+		version="20.22.0.12"
+		provider-name="Elta">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.neocd.dll">
+		<platforms></platforms>
+		<extensions>cue|chd</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>LGPLv3</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.neocd</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">SNK - Neo Geo CD (NeoCD) 2021</summary>
+		<description lang="da_DK">NeoCD til libretro er komplet omskrivning af NeoCD-emulatoren i moderne C++11.</description>
+		<description lang="en_GB">NeoCD for libretro is complete rewrite of the NeoCD emulator in modern C++11.</description>
+		<description lang="it_IT">NeoCD per libretro è una completa riscrittura dell&apos;emulatore NeoCD nel moderno C++11.</description>
+		<description lang="ko_KR">libretro용 NeoCD는 최신 C++11에서 NeoCD 에뮬레이터를 완전히 다시 작성했습니다.</description>
+		<description lang="zh_CN">libretro 的 NeoCD 是在 modern C++11 中对 NeoCD 模拟器的完全重写。</description>
+	</extension>
+</addon>

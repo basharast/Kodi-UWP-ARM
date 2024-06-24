@@ -1,0 +1,3 @@
+C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/flatbuffers/src/flatbuffers-build/CMakeFiles/ZERO_CHECK.dir

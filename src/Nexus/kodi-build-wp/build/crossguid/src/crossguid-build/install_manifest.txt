@@ -1,0 +1,7 @@
+C:/kodi/project/BuildDependencies/win10-arm/lib/crossguid.lib
+C:/kodi/project/BuildDependencies/win10-arm/include/crossguid/guid.hpp
+C:/kodi/project/BuildDependencies/win10-arm/share/crossguid/cmake/crossguid-config.cmake
+C:/kodi/project/BuildDependencies/win10-arm/share/crossguid/cmake/crossguid-config-release.cmake
+C:/kodi/project/BuildDependencies/win10-arm/share/crossguid/LICENSE
+C:/kodi/project/BuildDependencies/win10-arm/share/crossguid/README.md
+C:/kodi/project/BuildDependencies/win10-arm/lib/pkgconfig/crossguid.pc

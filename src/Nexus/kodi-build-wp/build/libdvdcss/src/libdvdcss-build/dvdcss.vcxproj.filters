@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\css.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\device.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\ioctl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\libdvdcss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\msvc\uwpapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\css.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\csstables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\ioctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\libdvdcss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\src\dvdcss\dvdcss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\libdvdcss\src\libdvdcss\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{69527547-4F72-38EC-8000-95DCBC8BDAC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40411D5F-01A8-3CB6-ACBA-9C3DC9ECD051}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

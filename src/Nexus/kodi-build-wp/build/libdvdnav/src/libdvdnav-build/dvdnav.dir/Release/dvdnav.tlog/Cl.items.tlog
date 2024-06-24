@@ -1,0 +1,13 @@
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\dvdnav.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\dvdnav.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\read_cache.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\read_cache.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\navigation.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\navigation.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\highlight.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\highlight.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\logger.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\logger.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\searching.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\searching.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\settings.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\settings.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\vm\decoder.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\decoder.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\vm\vm.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\vm.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\vm\play.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\play.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\vm\getset.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\getset.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\vm\vmget.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\vmget.obj
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav\src\vm\vmcmd.c;C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\dvdnav.dir\Release\vmcmd.obj

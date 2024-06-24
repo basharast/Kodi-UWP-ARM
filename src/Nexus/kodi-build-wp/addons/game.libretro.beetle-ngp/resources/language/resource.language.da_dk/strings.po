@@ -1,0 +1,42 @@
+# game.libretro.beetle-ngp language file
+# Addon Name: game.libretro.beetle-ngp
+# Addon id: game.libretro.beetle-ngp
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-ngp\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2021-10-11 09:47+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-ngp/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details."
+msgstr "Baseret på NeoPop er denne emulator tilstrækkelig til at spille de fleste kommercielt udgivne spil temmelig godt, men ikke særlig præcist med hensyn til detaljer på lavt niveau."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Language (*)"
+msgstr "Sprog (*)"
+
+#~ msgctxt "#30002"
+#~ msgid "Sound Output Sample Rate"
+#~ msgstr "Samplefrekvens for lydudgang"
+
+#~ msgctxt "#30003"
+#~ msgid "Color Depth"
+#~ msgstr "Farvedybde"

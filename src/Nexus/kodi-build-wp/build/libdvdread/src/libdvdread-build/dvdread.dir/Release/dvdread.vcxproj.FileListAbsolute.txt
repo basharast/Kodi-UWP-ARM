@@ -1,0 +1,16 @@
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\Release\dvdread.pri
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\priconfig.xml
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\priconfig.xml.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\unfiltered.layout.resfiles
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\unfiltered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\filtered.layout.resfiles
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\filtered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\excluded.layout.resfiles
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\excluded.layout.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\resources.resfiles
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\resources.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\pri.resfiles
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\pri.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\qualifiers.txt
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\qualifiers.txt.intermediate
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\dvdread.dir\Release\MultipleQualifiersPerDimensionFound.txt

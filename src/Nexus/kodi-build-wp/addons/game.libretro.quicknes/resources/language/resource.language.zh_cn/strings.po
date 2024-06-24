@@ -1,0 +1,70 @@
+# game.libretro.quicknes language file
+# Addon Name: game.libretro.quicknes
+# Addon id: game.libretro.quicknes
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.quicknes\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-03-17 10:07i\n"
+"PO-Revision-Date: 2022-08-01 10:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-quicknes/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - NES / Famicom (QuickNES) 1.0-WIP"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of the QuickNES core library, originally by Shay Green, heavily modified. QuickNES is a newer emulator that seems to have good compatibility."
+msgstr "QuickNES 核心库的一个迁移，最初由 Shay Green 提供，经过了大量修改。QuickNES 是一种新的模拟器，似乎具有良好的兼容性。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Aspect Ratio"
+msgstr "宽高比"
+
+msgctxt "#30002"
+msgid "Show Horizontal Overscan"
+msgstr "显示水平过扫描"
+
+msgctxt "#30003"
+msgid "Show Vertical Overscan"
+msgstr "显示垂直过扫描"
+
+msgctxt "#30004"
+msgid "Color Palette"
+msgstr "调色板"
+
+msgctxt "#30005"
+msgid "No Sprite Limit"
+msgstr "无 Sprite 限制"
+
+msgctxt "#30006"
+msgid "Audio Mode"
+msgstr "音频模式"
+
+msgctxt "#30007"
+msgid "Audio Equalizer Preset"
+msgstr "音频均衡器预设"
+
+msgctxt "#30008"
+msgid "Turbo Enable"
+msgstr "Turbo 启用"
+
+msgctxt "#30009"
+msgid "Turbo Pulse Width (in frames)"
+msgstr "Turbo 脉冲宽度（帧）"
+
+msgctxt "#30010"
+msgid "Allow Opposing Directions"
+msgstr "允许反向"

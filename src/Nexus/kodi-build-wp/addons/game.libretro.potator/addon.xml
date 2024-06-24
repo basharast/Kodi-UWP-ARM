@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.potator"
+		name="Watara - Supervision (Potator)"
+		version="1.0.5.11"
+		provider-name="Normmatt, Cal2, infval, Alekmaul">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.potator.dll">
+		<platforms></platforms>
+		<extensions>bin|sv</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Public Domain</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.potator</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Watara - Supervision (Potator) 1.0.5 </summary>
+		<description lang="da_DK">Potator er en Watara SuperVision-emulator.[CR][CR]For at bruge denne emulator skal du have kompatible ROM&apos;er med .sv- og .bin-udvidelser.</description>
+		<description lang="en_GB">Potator is a Watara SuperVision emulator.[CR][CR]To use this emulator, you must have compatibles ROMs with .sv and .bin extensions.</description>
+		<description lang="zh_CN">Potator 是 Watara SuperVision 模拟器。[CR][CR]需要有扩展名为 .sv 和 .bin 的兼容 ROM 才能使用此模拟器。</description>
+	</extension>
+</addon>

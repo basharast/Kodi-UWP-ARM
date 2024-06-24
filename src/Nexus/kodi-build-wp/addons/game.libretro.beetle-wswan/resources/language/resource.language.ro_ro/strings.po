@@ -1,0 +1,65 @@
+# game.libretro.beetle-wswan language file
+# Addon Name: game.libretro.beetle-wswan
+# Addon id: game.libretro.beetle-wswan
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-wswan\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-02-05 20:27i\n"
+"PO-Revision-Date: 2019-02-05 20:27i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ro_ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+
+msgctxt "Addon Summary"
+msgid "Bandai - WonderSwan/Color (Beetle Cygne) v0.9.35.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Display Rotation"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Rotate Button Mappings"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Color Palette"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Color Depth (Restart Required)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30007"
+msgid "60Hz Mode"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Sound Output Sample Rate"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio Filter"
+msgstr ""

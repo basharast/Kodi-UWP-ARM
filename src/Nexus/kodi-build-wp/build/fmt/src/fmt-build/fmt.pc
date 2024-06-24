@@ -1,0 +1,11 @@
+prefix=C:/kodi/project/BuildDependencies/win10-arm
+exec_prefix=C:/kodi/project/BuildDependencies/win10-arm
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 9.1.0
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+

@@ -1,0 +1,1 @@
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\rquota\nfs_rquota.dir\Release\nfs_rquota.lib

@@ -1,0 +1,118 @@
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_CHECKERBOARD_LEFT.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_checkerboard_left.h /E PS /T ps_4_0_level_9_1 /Vn guishader_checkerboard_left /Qstrip_reflect C:/kodi/system/shaders/guishader_checkerboard_left.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_CHECKERBOARD_RIGHT.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_checkerboard_right.h /E PS /T ps_4_0_level_9_1 /Vn guishader_checkerboard_right /Qstrip_reflect C:/kodi/system/shaders/guishader_checkerboard_right.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_DEFAULT.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_default.h /E PS /T ps_4_0_level_9_1 /Vn guishader_default /Qstrip_reflect C:/kodi/system/shaders/guishader_default.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_FONTS.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_fonts.h /E PS /T ps_4_0_level_9_1 /Vn guishader_fonts /Qstrip_reflect C:/kodi/system/shaders/guishader_fonts.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_INTERLACED_LEFT.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_interlaced_left.h /E PS /T ps_4_0_level_9_1 /Vn guishader_interlaced_left /Qstrip_reflect C:/kodi/system/shaders/guishader_interlaced_left.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_INTERLACED_RIGHT.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_interlaced_right.h /E PS /T ps_4_0_level_9_1 /Vn guishader_interlaced_right /Qstrip_reflect C:/kodi/system/shaders/guishader_interlaced_right.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_MULTI_TEXTURE_BLEND.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_multi_texture_blend.h /E PS /T ps_4_0_level_9_1 /Vn guishader_multi_texture_blend /Qstrip_reflect C:/kodi/system/shaders/guishader_multi_texture_blend.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_TEXTURE.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_texture.h /E PS /T ps_4_0_level_9_1 /Vn guishader_texture /Qstrip_reflect C:/kodi/system/shaders/guishader_texture.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_TEXTURE_NOBLEND.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_texture_noblend.h /E PS /T ps_4_0_level_9_1 /Vn guishader_texture_noblend /Qstrip_reflect C:/kodi/system/shaders/guishader_texture_noblend.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\0796F0807C5A680A02E5E111CA13A55D\GUISHADER_VERT.H.RULE
+setlocal
+"C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\fxc.exe" /Fh guishader_vert.h /E VS /T vs_4_0_level_9_1 /Vn guishader_vert /Qstrip_reflect C:/kodi/system/shaders/guishader_vert.hlsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\5BCD10BAA235D9E063A64E1782FAE9CF\GENERATE_SHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI\XBMC\GUILIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/guilib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

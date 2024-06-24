@@ -1,0 +1,158 @@
+# game.libretro.cannonball language file
+# Addon Name: game.libretro.cannonball
+# Addon id: game.libretro.cannonball
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cannonball\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 03:30i\n"
+"PO-Revision-Date: 2022-08-08 10:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-"
+"ons-game/game-libretro-cannonball/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Cannonball git"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Cannonball is an enhanced version of the seminal arcade racer OutRun designed by Yu Suzuki."
+msgstr "[CR]《加农炮》（Cannonball）是克里斯·怀特（Chris White）在2014年创作的 OutRun 游[CR]戏引擎的娱乐作品。[CR][CR]《加农炮》（Cannonball）是克里斯·怀特（Chris White）在2014年创作的 OutRun 游[CR]戏引擎的娱乐作品。"
+
+"《加农炮》（Cannonball）是克里斯·怀特（Chris White）在2014年创作的 OutRun 游"
+"戏引擎的娱乐作品。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Menu > Show at Start"
+msgstr "菜单 > 开始时显示"
+
+msgctxt "#30002"
+msgid "Menu > Road Scroll Speed"
+msgstr "菜单 > 道路滚动速度"
+
+msgctxt "#30003"
+msgid "Video > Frame Rate"
+msgstr "视频 > 帧率"
+
+msgctxt "#30004"
+msgid "Video > Widescreen Mode"
+msgstr "视频 > 宽屏模式"
+
+msgctxt "#30005"
+msgid "Video > High-Resolution Mode"
+msgstr "视频 > 高分辨率模式"
+
+msgctxt "#30006"
+msgid "Audio > Enable"
+msgstr "音频 > 启用"
+
+msgctxt "#30007"
+msgid "Audio > Advertise Sound (Restart)"
+msgstr "音频 > 播发声音（重新启动）"
+
+msgctxt "#30008"
+msgid "Audio > Preview Music (Restart)"
+msgstr "音频 > 预览音乐（重新启动）"
+
+msgctxt "#30009"
+msgid "Audio > Fix Samples (Restart)"
+msgstr "音频 > 修复样本（重新启动）"
+
+msgctxt "#30010"
+msgid "Input > Gear Mode"
+msgstr "输入 > 档位模式"
+
+msgctxt "#30011"
+msgid "Input > Analog Controls"
+msgstr "输入 > 模拟控制"
+
+msgctxt "#30012"
+msgid "Input > Digital Steer Speed (Restart)"
+msgstr "输入 > 数字转向速度（重新启动）"
+
+msgctxt "#30013"
+msgid "Input > Digital Pedal Speed (Restart)"
+msgstr "输入 > 数字踏板速度（重新启动）"
+
+msgctxt "#30014"
+msgid "Input > Haptic Feedback Strength"
+msgstr "输入 > 触觉反馈强度"
+
+msgctxt "#30015"
+msgid "Engine > Use Japanese Tracks (Restart)"
+msgstr "引擎 > 使用日语音轨（重新启动）"
+
+msgctxt "#30016"
+msgid "Engine > Freeplay Mode"
+msgstr "引擎 > 自由播放模式"
+
+msgctxt "#30017"
+msgid "Engine > Force AI to Play"
+msgstr "引擎 > 强制 AI 播放"
+
+msgctxt "#30018"
+msgid "Engine > Time Limit (Restart)"
+msgstr "引擎 > 时间限制（重新启动）"
+
+msgctxt "#30019"
+msgid "Engine > Traffic Difficulty (Restart)"
+msgstr "引擎 > 车流困难度（重新启动）"
+
+msgctxt "#30020"
+msgid "Engine > Extra Level Objects (Restart)"
+msgstr "引擎 > 额外级别对象（重新启动）"
+
+msgctxt "#30021"
+msgid "Engine > Use Prototype Stage 1 (Restart)"
+msgstr "引擎 > 使用原型阶段1（重新启动）"
+
+msgctxt "#30022"
+msgid "Engine > New Attract Mode (Restart)"
+msgstr "引擎 > 新吸引模式（重新启动）"
+
+msgctxt "#30023"
+msgid "Engine > Randomize Traffic Patterns (Restart)"
+msgstr "引擎 > 随机化车流模式（重新启动）"
+
+msgctxt "#30024"
+msgid "Engine > Fix Game Bugs (Restart)"
+msgstr "引擎 > 修复游戏错误（重新启动）"
+
+msgctxt "#30025"
+msgid "Engine > Fix Timing Bugs (Restart)"
+msgstr "引擎 > 修复计时错误（重新启动）"
+
+msgctxt "#30026"
+msgid "Engine > Time Trial Laps (Restart)"
+msgstr "引擎 > 计时赛圈数（重新启动）"
+
+msgctxt "#30027"
+msgid "Engine > Time Trial Traffic Level (Restart)"
+msgstr "引擎 > 计时赛车流级别（重新启动）"
+
+msgctxt "#30028"
+msgid "Engine > Continuous Mode Traffic Level (Restart)"
+msgstr "引擎 > 连续模式车流级别（重新启动）"
+
+msgctxt "#30029"
+msgid "Engine > Display Debug Info (Restart)"
+msgstr "引擎 > 显示调试信息（重新启动）"
+
+#~ msgctxt "Addon Description"
+#~ msgid ""
+#~ "Cannonball is an OutRun game engine recreation written by Chris White in "
+#~ "2014."
+#~ msgstr ""
+#~ "《加农炮》（Cannonball）是克里斯·怀特（Chris White）在2014年创作的 OutRun "
+#~ "游戏引擎的娱乐作品。"

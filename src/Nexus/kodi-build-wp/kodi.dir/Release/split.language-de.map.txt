@@ -1,0 +1,9 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-de"
+"ResourceDimensions"		"language-de"
+
+[Files]
+"C:\kodi-build-wp\kodi.dir\Release\split.language-de.pri"			"resources.pri"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\de\lang-readme.html"			"addons\webinterface.default\lang\de\lang-readme.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\de\keybind-readme.html"			"addons\webinterface.default\lang\de\keybind-readme.html"
+"C:\kodi-build-wp\kodi.dir\Release\PackageLayout\addons\webinterface.default\lang\de\app-readme.html"			"addons\webinterface.default\lang\de\app-readme.html"

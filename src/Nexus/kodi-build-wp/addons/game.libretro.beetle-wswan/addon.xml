@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-wswan"
+		name="Bandai - WonderSwan/Color (Beetle Cygne)"
+		version="0.9.35.31"
+		provider-name="Dox, Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ws" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.beetle-wswan.dll">
+		<platforms>WSW</platforms>
+		<extensions>ws|wsc|pc2</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-wswan</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Bandai - WonderSwan/Color (Beetle Cygne) v0.9.35.1</summary>
+		<description lang="da_DK">Fritstående port af Mednafen WonderSwan til libretro, i sig selv en fork af Cygne.</description>
+		<description lang="en_GB">Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne.</description>
+		<description lang="it_IT">Port autonomo di Mednafen WonderSwan su libretro, a sua volta un fork di Cygne.</description>
+		<description lang="zh_CN">从 Mednafen WonderSwan 到 Librector 的独立移植，它本身就是 Cygne 的一个分支。</description>
+	</extension>
+</addon>

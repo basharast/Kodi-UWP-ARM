@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\LIBDVDCSS\SRC\LIBDVDCSS-BUILD\CMAKEFILES\3DF7ED60CCE1B0F477ECC57B71F2FC53\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/libdvdcss/src/libdvdcss -BC:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/dvdcss.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,459 @@
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-jaemj1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bf9d2.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-jaemj1\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-jaemj1\cmTC_bf9d2.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf9d2.dir\Debug\\" /Fd"cmTC_bf9d2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-jaemj1\CheckIncludeFile.c"
+
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-qimvhh
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_56e52.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_56e52.dir\Debug\\" /Fd"cmTC_56e52.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-qimvhh\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-qimvhh\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-qimvhh\cmTC_56e52.vcxproj]
+
+
+
+Determining if the include file fuse.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-p9tgfc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_df375.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df375.dir\Debug\\" /Fd"cmTC_df375.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-p9tgfc\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-p9tgfc\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'fuse.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-p9tgfc\cmTC_df375.vcxproj]
+
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-uk8ob6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f4567.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4567.dir\Debug\\" /Fd"cmTC_f4567.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-uk8ob6\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-uk8ob6\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-uk8ob6\cmTC_f4567.vcxproj]
+
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-1rjodw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_da5dd.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1rjodw\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1rjodw\cmTC_da5dd.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da5dd.dir\Debug\\" /Fd"cmTC_da5dd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1rjodw\CheckIncludeFile.c"
+
+
+
+Determining if the include file netinet/tcp.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-cyl1rp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_479d4.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cyl1rp\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cyl1rp\cmTC_479d4.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_479d4.dir\Debug\\" /Fd"cmTC_479d4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cyl1rp\CheckIncludeFile.c"
+
+
+
+Determining if the include file net/if.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-cxrapw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43ccd.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43ccd.dir\Debug\\" /Fd"cmTC_43ccd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cxrapw\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cxrapw\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'net/if.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cxrapw\cmTC_43ccd.vcxproj]
+
+
+
+Determining if the include file poll.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-cdngv4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ebe30.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebe30.dir\Debug\\" /Fd"cmTC_ebe30.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cdngv4\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cdngv4\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'poll.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-cdngv4\cmTC_ebe30.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-1147a8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_590a3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_590a3.dir\Debug\\" /Fd"cmTC_590a3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1147a8\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1147a8\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1147a8\cmTC_590a3.vcxproj]
+
+
+
+Determining if the include file sys/filio.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-o9gde9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1552c.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-o9gde9\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/filio.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-o9gde9\cmTC_1552c.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1552c.dir\Debug\\" /Fd"cmTC_1552c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-o9gde9\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/ioctl.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-y6y4lt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a218b.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-y6y4lt\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-y6y4lt\cmTC_a218b.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a218b.dir\Debug\\" /Fd"cmTC_a218b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-y6y4lt\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-s6bjpe
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8770a.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s6bjpe\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s6bjpe\cmTC_8770a.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8770a.dir\Debug\\" /Fd"cmTC_8770a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s6bjpe\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/statvfs.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-x9s2q8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0efcf.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-x9s2q8\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/statvfs.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-x9s2q8\cmTC_0efcf.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0efcf.dir\Debug\\" /Fd"cmTC_0efcf.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-x9s2q8\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/sysmacros.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-isr7cu
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e02bd.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-isr7cu\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/sysmacros.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-isr7cu\cmTC_e02bd.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e02bd.dir\Debug\\" /Fd"cmTC_e02bd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-isr7cu\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-yz2k0t
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f6b1.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-yz2k0t\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-yz2k0t\cmTC_6f6b1.vcxproj]
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f6b1.dir\Debug\\" /Fd"cmTC_6f6b1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-yz2k0t\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/vfs.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-fvafyp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3c7bc.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-fvafyp\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/vfs.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-fvafyp\cmTC_3c7bc.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c7bc.dir\Debug\\" /Fd"cmTC_3c7bc.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-fvafyp\CheckIncludeFile.c"
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-ekjb0g
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_85b3e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85b3e.dir\Debug\\" /Fd"cmTC_85b3e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-ekjb0g\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-ekjb0g\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-ekjb0g\cmTC_85b3e.vcxproj]
+
+
+
+Determining if the include file utime.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-x5l9nf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e9ad6.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9ad6.dir\Debug\\" /Fd"cmTC_e9ad6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-x5l9nf\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-x5l9nf\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'utime.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-x5l9nf\cmTC_e9ad6.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_LEN failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-g53lu5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_046e2.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-g53lu5\src.c(2,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-g53lu5\cmTC_046e2.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_SOCKADDR_LEN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_046e2.dir\Debug\\" /Fd"cmTC_046e2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-g53lu5\src.c"
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr *)0)->sa_len);
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_STORAGE failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-1763sl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_25295.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_SOCKADDR_STORAGE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25295.dir\Debug\\" /Fd"cmTC_25295.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1763sl\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1763sl\src.c(2,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-1763sl\cmTC_25295.vcxproj]
+
+
+Source file was:
+
+#include <sys/socket.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-s7b25b
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_164ca.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_164ca.dir\Debug\\" /Fd"cmTC_164ca.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s7b25b\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s7b25b\src.c(6,36): error C2039: 'st_mtim': is not a member of 'stat' [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s7b25b\cmTC_164ca.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\sys/stat.h(87,12): message : see declaration of 'stat' [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-s7b25b\cmTC_164ca.vcxproj]
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test HAVE_SO_BINDTODEVICE failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-o1yqve
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_da454.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_SO_BINDTODEVICE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da454.dir\Debug\\" /Fd"cmTC_da454.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-o1yqve\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-o1yqve\src.c(1,10): fatal  error C1083: Cannot open include file: 'net/if.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-o1yqve\cmTC_da454.vcxproj]
+
+
+Source file was:
+#include <net/if.h>
+                         int main(void)
+                         {
+                           int i = SO_BINDTODEVICE;
+                         }
+
+Performing C SOURCE FILE Test HAVE_TALLOC_TEVENT failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-zpazq5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a6ea2.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_TALLOC_TEVENT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6ea2.dir\Debug\\" /Fd"cmTC_a6ea2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-zpazq5\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-zpazq5\src.c(1,10): fatal  error C1083: Cannot open include file: 'talloc.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-zpazq5\cmTC_a6ea2.vcxproj]
+
+
+Source file was:
+#include <talloc.h>
+                         #include <tevent.h>
+                         int main(void)
+                         {
+                           struct tevent_context *ctx = tevent_context_init(NULL);
+                           int major = talloc_version_major();
+                         }
+
+Performing C SOURCE FILE Test HAVE_CLOCK_GETTIME failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-xd0czr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e9da1.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D HAVE_CLOCK_GETTIME /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9da1.dir\Debug\\" /Fd"cmTC_e9da1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-xd0czr\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-xd0czr\src.c(4,72): error C2065: 'CLOCK_MONOTONIC_COARSE': undeclared identifier [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-xd0czr\cmTC_e9da1.vcxproj]
+
+
+Source file was:
+#include <time.h>
+                         int main(void)
+                         {
+                           int i = clock_gettime(CLOCK_MONOTONIC_COARSE, NULL);
+                         }
+
+Performing C SOURCE FILE Test NO_LFS_REQUIRED failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-bz2zex
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_49d28.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D NO_LFS_REQUIRED /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49d28.dir\Debug\\" /Fd"cmTC_49d28.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\src.c(3,46): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\cmTC_49d28.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\src.c(3,81): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\cmTC_49d28.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\src.c(3,120): error C2118: negative subscript [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-bz2zex\cmTC_49d28.vcxproj]
+
+
+Source file was:
+#include <sys/types.h>
+                         #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                         int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                         int main()
+                         {
+                           return 0;
+                         }
+
+Performing C SOURCE FILE Test _FILE_OFFSET_BITS failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-rzgzvj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b3d88.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D _FILE_OFFSET_BITS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3d88.dir\Debug\\" /Fd"cmTC_b3d88.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\src.c(2,1): warning C4005: '_FILE_OFFSET_BITS': macro redefinition [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\cmTC_b3d88.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\src.c(2,1): message : '_FILE_OFFSET_BITS' previously declared on the command line [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\cmTC_b3d88.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\src.c(4,48): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\cmTC_b3d88.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\src.c(4,83): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\cmTC_b3d88.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\src.c(4,122): error C2118: negative subscript [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-rzgzvj\cmTC_b3d88.vcxproj]
+
+
+Source file was:
+#include <sys/types.h>
+                           #define _FILE_OFFSET_BITS 64
+                           #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                           int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                           int main()
+                           {
+                             return 0;
+                           }
+
+Performing C SOURCE FILE Test _LARGE_FILES failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-mar1ol
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d4be3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D _LARGE_FILES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4be3.dir\Debug\\" /Fd"cmTC_d4be3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\src.c"
+  src.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\src.c(4,48): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\cmTC_d4be3.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\src.c(4,83): warning C4293: '<<': shift count negative or too big, undefined behavior [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\cmTC_d4be3.vcxproj]
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\src.c(4,122): error C2118: negative subscript [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-mar1ol\cmTC_d4be3.vcxproj]
+
+
+Source file was:
+#include <sys/types.h>
+                           #define _LARGE_FILES 1
+                           #define LARGE_OFF_T (((off_t) 1 << 62) - 1 + ((off_t) 1 << 62))
+                           int off_t_is_large[(LARGE_OFF_T % 2147483629 == 721 && LARGE_OFF_T % 2147483647 == 1) ? 1 : -1];
+                           int main()
+                           {
+                             return 0;
+                           }
+
+Determining if the makedev exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-6ipr1b
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a4ae3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckSymbolExists.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-6ipr1b\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'sys/mkdev.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-6ipr1b\cmTC_a4ae3.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4ae3.dir\Debug\\" /Fd"cmTC_a4ae3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-6ipr1b\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/mkdev.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef makedev
+  return ((int*)(&makedev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the makedev exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libnfs/src/libnfs-build/CMakeFiles/CMakeScratch/TryCompile-wm0lec
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4c9c1.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckSymbolExists.c
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-wm0lec\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'sys/sysmacros.h': No such file or directory [C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-wm0lec\cmTC_4c9c1.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c9c1.dir\Debug\\" /Fd"cmTC_4c9c1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\libnfs\src\libnfs-build\CMakeFiles\CMakeScratch\TryCompile-wm0lec\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/sysmacros.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef makedev
+  return ((int*)(&makedev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

@@ -1,0 +1,70 @@
+# game.libretro.quicknes language file
+# Addon Name: game.libretro.quicknes
+# Addon id: game.libretro.quicknes
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.quicknes\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-03-17 10:07i\n"
+"PO-Revision-Date: 2022-04-14 22:47+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Spanish (Mexico) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-quicknes/es_mx/>\n"
+"Language: es_mx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.2\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - NES / Famicom (QuickNES) 1.0-WIP"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "A port of the QuickNES core library, originally by Shay Green, heavily modified. QuickNES is a newer emulator that seems to have good compatibility."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Ajustes"
+
+msgctxt "#30001"
+msgid "Aspect Ratio"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Show Horizontal Overscan"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Show Vertical Overscan"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Color Palette"
+msgstr ""
+
+msgctxt "#30005"
+msgid "No Sprite Limit"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio Mode"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Audio Equalizer Preset"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Turbo Enable"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Turbo Pulse Width (in frames)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Allow Opposing Directions"
+msgstr "Permitir direcciones opuestas"

@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|ARM">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|ARM">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8231F823-D6B1-3932-A064-734D8947A628}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ApplicationType>Windows Store</ApplicationType>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
+    <Platform>ARM</Platform>
+    <ProjectName>upnp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\upnp\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">upnp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">upnp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\upnp\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">upnp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">upnp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\upnp\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">upnp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">upnp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\upnp\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">upnp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">upnp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/kodi/project/BuildDependencies/win10-arm/include" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/python3.8" /external:I "C:/kodi/project/BuildDependencies/mingwlibs/win10-arm/include" /external:I "C:/kodi-build-wp/build/cores/RetroPlayer/messages" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/fribidi" /external:I "C:/Strawberry/c/lib/pkgconfig/../../include/fribidi" /external:I "C:/kodi/xbmc/contrib" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/lzo" /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT="UPnP/1.0 DLNADOC/1.50 Kodi";PLT_HTTP_DEFAULT_SERVER="UPnP/1.0 DLNADOC/1.50 Kodi";FRIBIDI_STATIC;D3D_DEBUG_INFO;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA="5.0.0";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH="C:/Program Files (x86)/kodi/lib/kodi";INSTALL_PATH="C:/Program Files (x86)/kodi/share/kodi";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT=\"UPnP/1.0 DLNADOC/1.50 Kodi\";PLT_HTTP_DEFAULT_SERVER=\"UPnP/1.0 DLNADOC/1.50 Kodi\";FRIBIDI_STATIC;D3D_DEBUG_INFO;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA=\"5.0.0\";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH=\"C:/Program Files (x86)/kodi/lib/kodi\";INSTALL_PATH=\"C:/Program Files (x86)/kodi/share/kodi\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM /ignore:4264 /ignore:4264</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/kodi/project/BuildDependencies/win10-arm/include" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/python3.8" /external:I "C:/kodi/project/BuildDependencies/mingwlibs/win10-arm/include" /external:I "C:/kodi-build-wp/build/cores/RetroPlayer/messages" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/fribidi" /external:I "C:/Strawberry/c/lib/pkgconfig/../../include/fribidi" /external:I "C:/kodi/xbmc/contrib" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/lzo" /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT="UPnP/1.0 DLNADOC/1.50 Kodi";PLT_HTTP_DEFAULT_SERVER="UPnP/1.0 DLNADOC/1.50 Kodi";FRIBIDI_STATIC;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA="5.0.0";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH="C:/Program Files (x86)/kodi/lib/kodi";INSTALL_PATH="C:/Program Files (x86)/kodi/share/kodi";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT=\"UPnP/1.0 DLNADOC/1.50 Kodi\";PLT_HTTP_DEFAULT_SERVER=\"UPnP/1.0 DLNADOC/1.50 Kodi\";FRIBIDI_STATIC;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA=\"5.0.0\";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH=\"C:/Program Files (x86)/kodi/lib/kodi\";INSTALL_PATH=\"C:/Program Files (x86)/kodi/share/kodi\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM /ignore:4264 /ignore:4264</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/kodi/project/BuildDependencies/win10-arm/include" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/python3.8" /external:I "C:/kodi/project/BuildDependencies/mingwlibs/win10-arm/include" /external:I "C:/kodi-build-wp/build/cores/RetroPlayer/messages" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/fribidi" /external:I "C:/Strawberry/c/lib/pkgconfig/../../include/fribidi" /external:I "C:/kodi/xbmc/contrib" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/lzo" /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT="UPnP/1.0 DLNADOC/1.50 Kodi";PLT_HTTP_DEFAULT_SERVER="UPnP/1.0 DLNADOC/1.50 Kodi";FRIBIDI_STATIC;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA="5.0.0";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH="C:/Program Files (x86)/kodi/lib/kodi";INSTALL_PATH="C:/Program Files (x86)/kodi/share/kodi";CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT=\"UPnP/1.0 DLNADOC/1.50 Kodi\";PLT_HTTP_DEFAULT_SERVER=\"UPnP/1.0 DLNADOC/1.50 Kodi\";FRIBIDI_STATIC;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA=\"5.0.0\";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH=\"C:/Program Files (x86)/kodi/lib/kodi\";INSTALL_PATH=\"C:/Program Files (x86)/kodi/share/kodi\";CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM /ignore:4264 /ignore:4264</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/kodi/project/BuildDependencies/win10-arm/include" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/python3.8" /external:I "C:/kodi/project/BuildDependencies/mingwlibs/win10-arm/include" /external:I "C:/kodi-build-wp/build/cores/RetroPlayer/messages" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/fribidi" /external:I "C:/Strawberry/c/lib/pkgconfig/../../include/fribidi" /external:I "C:/kodi/xbmc/contrib" /external:I "C:/kodi/project/BuildDependencies/win10-arm/include/lzo" /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT="UPnP/1.0 DLNADOC/1.50 Kodi";PLT_HTTP_DEFAULT_SERVER="UPnP/1.0 DLNADOC/1.50 Kodi";FRIBIDI_STATIC;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA="5.0.0";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH="C:/Program Files (x86)/kodi/lib/kodi";INSTALL_PATH="C:/Program Files (x86)/kodi/share/kodi";CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TARGET_WINDOWS;TARGET_WINDOWS_STORE;XBMC_EXPORT;MS_UWP;MS_STORE;WIN32_LEAN_AND_MEAN;NOMINMAX;HAS_DX;__STDC_CONSTANT_MACROS;TAGLIB_STATIC;NPT_CONFIG_ENABLE_LOGGING;PLT_HTTP_DEFAULT_USER_AGENT=\"UPnP/1.0 DLNADOC/1.50 Kodi\";PLT_HTTP_DEFAULT_SERVER=\"UPnP/1.0 DLNADOC/1.50 Kodi\";FRIBIDI_STATIC;HAS_WIN10_NETWORK;HAVE_INTTYPES_H=1;HAVE_LIBBLURAY=1;HAVE_LCMS2=1;CMS_NO_REGISTER_KEYWORD=1;HAS_WEB_SERVER=1;HAS_WEB_INTERFACE=1;HAS_FILESYSTEM_NFS=1;HAS_PYTHON=1;HAS_UDFREAD=1;HAVE_LIBXSLT=1;HAVE_NEW_CROSSGUID;FFMPEG_VER_SHA=\"5.0.0\";PCRE_STATIC=1;SPDLOG_FMT_EXTERNAL;SPDLOG_DEBUG_ON;SPDLOG_NO_ATOMIC_LEVELS;SPDLOG_ENABLE_PATTERN_PADDING;SPDLOG_COMPILED_LIB;SPDLOG_WCHAR_FILENAMES;SPDLOG_WCHAR_TO_UTF8_SUPPORT;TIXML_USE_STL=1;HAS_MARIADB=1;HAS_UPNP=1;BIN_INSTALL_PATH=\"C:/Program Files (x86)/kodi/lib/kodi\";INSTALL_PATH=\"C:/Program Files (x86)/kodi/share/kodi\";CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi;C:\kodi\lib;C:\kodi\xbmc;C:\kodi\xbmc\platform\win32;C:\kodi\xbmc\cores\VideoPlayer;C:\kodi-build-wp\build;C:\kodi-build-wp\build\include;C:\kodi\lib\libUPnP;C:\kodi\lib\libUPnP\Platinum\Source\Core;C:\kodi\lib\libUPnP\Platinum\Source\Platinum;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer;C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer;C:\kodi\lib\libUPnP\Neptune\Source\Core;C:\kodi\lib\libUPnP\Neptune\Source\System\Posix;C:\kodi\lib\libUPnP\Neptune\Source\System\Win32;C:\kodi\project\BuildDependencies\win10-arm\include;C:\kodi\project\BuildDependencies\win10-arm\include\python3.8;C:\kodi\project\BuildDependencies\mingwlibs\win10-arm\include;C:\kodi-build-wp\build\cores\RetroPlayer\messages;C:\kodi\project\BuildDependencies\win10-arm\include\fribidi;C:\Strawberry\c\lib\pkgconfig\..\..\include\fribidi;C:\kodi\xbmc\contrib;C:\kodi\project\BuildDependencies\win10-arm\include\lzo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM /ignore:4264 /ignore:4264</AdditionalOptions>
+    </Lib>
+    <Link>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi\lib\libUPnP\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Building Custom Rule C:/kodi/lib/libUPnP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/upnp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\upnp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Building Custom Rule C:/kodi/lib/libUPnP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/upnp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\upnp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">Building Custom Rule C:/kodi/lib/libUPnP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/upnp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\upnp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">Building Custom Rule C:/kodi/lib/libUPnP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/upnp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\upnp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltAction.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltArgument.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltConstants.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltCtrlPoint.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltCtrlPointTask.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDatagramStream.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceData.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceHost.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltEvent.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttp.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttpClientTask.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttpServer.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttpServerTask.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltIconsData.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltMimeType.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltProtocolInfo.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltService.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltSsdp.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltStateVariable.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltTaskManager.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltThreadTask.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltUPnP.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltDidl.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltFileMediaServer.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaBrowser.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaCache.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaItem.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaServer.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\ConnectionManagerSCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\ContentDirectorySCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\ContentDirectorywSearchSCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltSyncMediaBrowser.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\Neptune.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptAutomaticCleaner.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptBase64.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptBufferedStreams.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptCommon.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptDataBuffer.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptDebug.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptFile.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptHash.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptHttp.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptList.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptLogging.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptMessaging.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptNetwork.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptQueue.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptResults.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptRingBuffer.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptSimpleMessageQueue.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptSockets.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptStreams.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptStrings.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptSystem.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptThreads.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptTime.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptTls.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptUri.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptUtils.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptXml.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdResolver.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\StdC\NptStdcDebug.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\StdC\NptStdcEnvironment.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\PltMediaRenderer.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\PltMediaController.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\AVTransportSCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\RdrConnectionManagerSCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\RenderingControlSCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect\X_MS_MediaReceiverRegistrarSCPD.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect\PltMediaConnect.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Posix\NptPosixEnvironment.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Console.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Debug.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32DynamicLibraries.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32MessageQueue.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Network.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Queue.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32SerialPort.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32System.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Threads.cpp" />
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Time.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\kodi-build-wp\ZERO_CHECK.vcxproj">
+      <Project>{172F5007-1FB0-3569-914C-9331B6055149}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

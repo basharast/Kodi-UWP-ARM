@@ -1,0 +1,54 @@
+# game.libretro.tyrquake language file
+# Addon Name: game.libretro.tyrquake
+# Addon id: game.libretro.tyrquake
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.tyrquake\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-04 05:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-tyrquake/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Quake (TyrQuake) v0.62"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Tyr-Quake is a branch of the Quake source code released by id Software. It is intended to support Quake and Quakeworld while fixing little bugs that have come up over the years."
+msgstr "Tyr-Quake 是 id 软件发布的 Quake 源代码的一个分支。它旨在支持 Quake 和 Quakeworld，同时修复多年来出现的小错误。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Internal resolution (restart)"
+msgstr "内部分辨率（重新启动）"
+
+msgctxt "#30002"
+msgid "Framerate (restart)"
+msgstr "帧率（重启）"
+
+msgctxt "#30003"
+msgid "Colored lighting (restart)"
+msgstr "彩色光照（重新启动）"
+
+msgctxt "#30004"
+msgid "Rumble"
+msgstr "隆隆声"
+
+msgctxt "#30005"
+msgid "Invert Y Axis"
+msgstr "Y 轴反转"
+
+msgctxt "#30006"
+msgid "Analog Deadzone (percent)"
+msgstr "模拟死区（百分比）"

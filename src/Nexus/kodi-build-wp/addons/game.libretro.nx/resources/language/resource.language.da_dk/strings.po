@@ -1,0 +1,26 @@
+# game.libretro.nx language file
+# Addon Name: game.libretro.nx
+# Addon id: game.libretro.nx
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.nx\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 19:08i\n"
+"PO-Revision-Date: 2021-11-23 01:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-nx/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9\n"
+
+msgctxt "Addon Summary"
+msgid "Cave Story (NXEngine) 1.0.0.6"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "NXEngine is a complete open-source clone/rewrite of the masterpiece jump-and-run platformer Doukutsu Monogatari (also known as Cave Story)."
+msgstr "NXEngine er en komplet open source-klon/omskrivning af mesterværket jump-and-run platform Doukutsu Monogatari (også kendt som Cave Story)."

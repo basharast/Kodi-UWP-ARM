@@ -1,0 +1,11 @@
+prefix=C:/kodi/project/BuildDependencies/win10-arm
+exec_prefix=C:/kodi/project/BuildDependencies/win10-arm
+libdir=C:/kodi/project/BuildDependencies/win10-arm/lib
+includedir=C:/kodi/project/BuildDependencies/win10-arm/include
+
+Name: TagLib
+Description: Audio meta-data library
+Requires:
+Version: 1.13
+Libs: -L${libdir} -ltag -lz
+Cflags: -I${includedir} -I${includedir}/taglib

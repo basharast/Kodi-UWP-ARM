@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\50c78ecf682384a584a87ff6c4ae1f6b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{88E465EB-B3A2-32DF-8B9E-9BE08F89B534}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

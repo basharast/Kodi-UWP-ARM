@@ -1,0 +1,6 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The update step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command=C:/Program Files/Git/usr/bin/patch.exe;-p1;-i;C:/kodi/tools/depends/target/crossguid/001-fix-unused-function.patch;COMMAND;C:/Program Files/Git/usr/bin/patch.exe;-p1;-i;C:/kodi/tools/depends/target/crossguid/002-disable-Wall-error.patch
+work_dir=C:/kodi-build-wp/build/crossguid/src/crossguid

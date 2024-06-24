@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="vbam_usebios" values="disabled|enabled" default="disabled"/>
+		<setting label="30002" type="select" id="vbam_forceRTCenable" values="disabled|enabled" default="disabled"/>
+		<setting label="30003" type="select" id="vbam_gbHardware" values="gbc|auto|sgb|gb|gba|sgb2" default="gbc"/>
+		<setting label="30004" type="select" id="vbam_allowcolorizerhack" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="vbam_palettes" values="black and white|blue sea|dark knight|green forest|hot desert|pink dreams|wierd colors|original gameboy|gba sp" default="black and white"/>
+		<setting label="30006" type="select" id="vbam_showborders" values="disabled|enabled|auto" default="disabled"/>
+		<setting label="30007" type="select" id="vbam_gbcoloroption" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="vbam_lcdfilter" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="vbam_interframeblending" values="disabled|smart|motion blur" default="disabled"/>
+		<setting label="30010" type="select" id="vbam_soundinterpolation" values="enabled|disabled" default="enabled"/>
+		<setting label="30011" type="select" id="vbam_soundfiltering" values="5|0|1|2|3|4|6|7|8|9|10" default="5"/>
+		<setting label="30012" type="select" id="vbam_turboenable" values="enabled|disabled" default="enabled"/>
+		<setting label="30013" type="select" id="vbam_turbodelay" values="3|1|2|4|5|6|7|8|9|10|11|12|13|14|15" default="3"/>
+		<setting label="30014" type="select" id="vbam_solarsensor" values="0|1|2|3|4|5|6|7|8|9|10" default="0"/>
+		<setting label="30015" type="select" id="vbam_astick_deadzone" values="15|0|5|10|20|25|30" default="15"/>
+		<setting label="30016" type="select" id="vbam_gyro_sensitivity" values="100|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|105|110|115|120" default="100"/>
+		<setting label="30017" type="select" id="vbam_tilt_sensitivity" values="100|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|105|110|115|120" default="100"/>
+		<setting label="30018" type="select" id="vbam_swap_astick" values="disabled|enabled" default="disabled"/>
+		<setting label="30019" type="select" id="vbam_sound_1" values="enabled|disabled" default="enabled"/>
+		<setting label="30020" type="select" id="vbam_sound_2" values="enabled|disabled" default="enabled"/>
+		<setting label="30021" type="select" id="vbam_sound_3" values="enabled|disabled" default="enabled"/>
+		<setting label="30022" type="select" id="vbam_sound_4" values="enabled|disabled" default="enabled"/>
+		<setting label="30023" type="select" id="vbam_sound_5" values="enabled|disabled" default="enabled"/>
+		<setting label="30024" type="select" id="vbam_sound_6" values="enabled|disabled" default="enabled"/>
+		<setting label="30025" type="select" id="vbam_layer_1" values="enabled|disabled" default="enabled"/>
+		<setting label="30026" type="select" id="vbam_layer_2" values="enabled|disabled" default="enabled"/>
+		<setting label="30027" type="select" id="vbam_layer_3" values="enabled|disabled" default="enabled"/>
+		<setting label="30028" type="select" id="vbam_layer_4" values="enabled|disabled" default="enabled"/>
+		<setting label="30029" type="select" id="vbam_layer_5" values="enabled|disabled" default="enabled"/>
+		<setting label="30030" type="select" id="vbam_layer_6" values="enabled|disabled" default="enabled"/>
+		<setting label="30031" type="select" id="vbam_layer_7" values="enabled|disabled" default="enabled"/>
+		<setting label="30032" type="select" id="vbam_layer_8" values="enabled|disabled" default="enabled"/>
+	</category>
+</settings>

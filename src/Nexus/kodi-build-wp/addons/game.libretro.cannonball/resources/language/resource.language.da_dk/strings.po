@@ -1,0 +1,265 @@
+# game.libretro.cannonball language file
+# Addon Name: game.libretro.cannonball
+# Addon id: game.libretro.cannonball
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cannonball\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 03:30i\n"
+"PO-Revision-Date: 2022-08-08 10:14+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/"
+"game-libretro-cannonball/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Cannonball git"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Cannonball is an enhanced version of the seminal arcade racer OutRun designed by Yu Suzuki."
+msgstr "[CR]Cannonball er en OutRun game engine rekreation skrevet af Chris White i 2014.[CR][CR]Cannonball er en OutRun game engine rekreation skrevet af Chris White i 2014."
+
+"Cannonball er en OutRun game engine rekreation skrevet af Chris White i 2014."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Menu > Show at Start"
+msgstr "Menu > Vis ved opstart"
+
+msgctxt "#30002"
+msgid "Menu > Road Scroll Speed"
+msgstr "Menu > Hastighed for vejens rulning"
+
+msgctxt "#30003"
+msgid "Video > Frame Rate"
+msgstr "Video > Billedfrekvens"
+
+msgctxt "#30004"
+msgid "Video > Widescreen Mode"
+msgstr "Video > Tilstand for widescreen"
+
+msgctxt "#30005"
+msgid "Video > High-Resolution Mode"
+msgstr "Video > Tilstand for høj opløsning"
+
+msgctxt "#30006"
+msgid "Audio > Enable"
+msgstr "Lyd > Aktiver"
+
+msgctxt "#30007"
+msgid "Audio > Advertise Sound (Restart)"
+msgstr "Lyd > Annoncer lyd (genstart)"
+
+msgctxt "#30008"
+msgid "Audio > Preview Music (Restart)"
+msgstr "Lyd > Hør musik på forhånd (genstart)"
+
+msgctxt "#30009"
+msgid "Audio > Fix Samples (Restart)"
+msgstr "Lyd > Fix samples (genstart)"
+
+msgctxt "#30010"
+msgid "Input > Gear Mode"
+msgstr "Input > Geartilstand"
+
+msgctxt "#30011"
+msgid "Input > Analog Controls"
+msgstr "Input > Analoge controller"
+
+msgctxt "#30012"
+msgid "Input > Digital Steer Speed (Restart)"
+msgstr "Input > Hastighed af digital styring (genstart)"
+
+msgctxt "#30013"
+msgid "Input > Digital Pedal Speed (Restart)"
+msgstr "Input > Hastighed af digital pedal (genstart)"
+
+msgctxt "#30014"
+msgid "Input > Haptic Feedback Strength"
+msgstr "Input > Styrke af haptic feedback"
+
+msgctxt "#30015"
+msgid "Engine > Use Japanese Tracks (Restart)"
+msgstr "Motor > Brug japanske spor (genstart)"
+
+msgctxt "#30016"
+msgid "Engine > Freeplay Mode"
+msgstr "Motor > Tilstand for freeplay"
+
+msgctxt "#30017"
+msgid "Engine > Force AI to Play"
+msgstr "Motor > Tving AI til at spille"
+
+msgctxt "#30018"
+msgid "Engine > Time Limit (Restart)"
+msgstr "Motor > Tidsbegrænsning (genstart)"
+
+msgctxt "#30019"
+msgid "Engine > Traffic Difficulty (Restart)"
+msgstr "Motor > Sværhedsgrad af trafik (genstart)"
+
+msgctxt "#30020"
+msgid "Engine > Extra Level Objects (Restart)"
+msgstr "Motor > Ekstra level-objekter (genstart)"
+
+msgctxt "#30021"
+msgid "Engine > Use Prototype Stage 1 (Restart)"
+msgstr "Motor > Brug prototype trin 1 (genstart)"
+
+msgctxt "#30022"
+msgid "Engine > New Attract Mode (Restart)"
+msgstr "Motor > Ny tiltrækningstilstand (genstart)"
+
+msgctxt "#30023"
+msgid "Engine > Randomize Traffic Patterns (Restart)"
+msgstr "Motor > Tilfældige trafikmønstre (genstart)"
+
+msgctxt "#30024"
+msgid "Engine > Fix Game Bugs (Restart)"
+msgstr "Motor > Ret fejl i spillet (genstart)"
+
+msgctxt "#30025"
+msgid "Engine > Fix Timing Bugs (Restart)"
+msgstr "Motor > Ret tidsfejl (genstart)"
+
+msgctxt "#30026"
+msgid "Engine > Time Trial Laps (Restart)"
+msgstr "Motor > Omgange med tidskørsel (genstart)"
+
+msgctxt "#30027"
+msgid "Engine > Time Trial Traffic Level (Restart)"
+msgstr "Motor > Niveau på trafik ved tidskørsel (genstart)"
+
+msgctxt "#30028"
+msgid "Engine > Continuous Mode Traffic Level (Restart)"
+msgstr "Motor > Trafikniveau i kontinuerlig tilstand (genstart)"
+
+msgctxt "#30029"
+msgid "Engine > Display Debug Info (Restart)"
+msgstr "Motor > Vis fejlretningsinformation (genstart)"
+
+#~ msgctxt "#30001"
+#~ msgid "Menu At Start"
+#~ msgstr "Startmenu"
+
+#~ msgctxt "#30002"
+#~ msgid "Menu Road Scroll Speed"
+#~ msgstr "Hastighed for rulning af menu"
+
+#~ msgctxt "#30003"
+#~ msgid "Video Widescreen Mode"
+#~ msgstr "Tilstand for video i widescreen"
+
+#~ msgctxt "#30004"
+#~ msgid "Video High-Resolution Mode"
+#~ msgstr "Tilstand for video i høj opløsning"
+
+#~ msgctxt "#30005"
+#~ msgid "Video Framerate"
+#~ msgstr "Video billedfrekvens"
+
+#~ msgctxt "#30006"
+#~ msgid "Advertise Sound"
+#~ msgstr "Annoncer lyd"
+
+#~ msgctxt "#30007"
+#~ msgid "Preview Music"
+#~ msgstr "Forhåndsafspilning af musik"
+
+#~ msgctxt "#30008"
+#~ msgid "Fix Samples (use opr-10188.71f)"
+#~ msgstr "Fix samples (brug opr-10188.71f)"
+
+#~ msgctxt "#30009"
+#~ msgid "Gear Mode"
+#~ msgstr "Tilstand for gear"
+
+#~ msgctxt "#30010"
+#~ msgid "Analog Controls (off to allow digital speed setup)"
+#~ msgstr "Analoge kontroller (fra for at tillade digital hastighedsopsætning)"
+
+#~ msgctxt "#30011"
+#~ msgid "Digital Steer Speed"
+#~ msgstr "Digital styrehastighed"
+
+#~ msgctxt "#30012"
+#~ msgid "Digital Pedal Speed"
+#~ msgstr "Digital pedalhastighed"
+
+#~ msgctxt "#30013"
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgctxt "#30014"
+#~ msgid "Traffic"
+#~ msgstr "Trafik"
+
+#~ msgctxt "#30015"
+#~ msgid "Freeplay Mode"
+#~ msgstr "Tilstand for freeplay"
+
+#~ msgctxt "#30016"
+#~ msgid "Use Japanese Tracks Version"
+#~ msgstr "Brug japansk version til spor"
+
+#~ msgctxt "#30017"
+#~ msgid "Use Prototype Stage 1"
+#~ msgstr "Brug prototype trin 1"
+
+#~ msgctxt "#30018"
+#~ msgid "Objects Limit Enhanced"
+#~ msgstr "Objektgrænse forbedret"
+
+#~ msgctxt "#30019"
+#~ msgid "Original Traffic Patterns Randomization"
+#~ msgstr "Tilfældiggørelse af oprindelige trafikmønstre"
+
+#~ msgctxt "#30020"
+#~ msgid "Force AI To Play"
+#~ msgstr "Tving AI til at spille"
+
+#~ msgctxt "#30021"
+#~ msgid "Fix Original Game Bugs"
+#~ msgstr "Ret originale spilfejl"
+
+#~ msgctxt "#30022"
+#~ msgid "Fix Timing Bugs"
+#~ msgstr "Ret timingfejl"
+
+#~ msgctxt "#30023"
+#~ msgid "Display Debug Info For LayOut"
+#~ msgstr "Vis fejlretningsoplysninger for layout"
+
+#~ msgctxt "#30024"
+#~ msgid "New Attract"
+#~ msgstr "Ny attrakt"
+
+#~ msgctxt "#30025"
+#~ msgid "Time Trial Laps"
+#~ msgstr "Omgange af tidskørsler"
+
+#~ msgctxt "#30026"
+#~ msgid "Time Trial Traffic Amount"
+#~ msgstr "Mængde af trafik under tidskørsel"
+
+#~ msgctxt "#30027"
+#~ msgid "Continuous Mode Traffic Amount"
+#~ msgstr "Mængde af trafik under kontinuerlig tilstand"
+
+#~ msgctxt "Addon Description"
+#~ msgid ""
+#~ "Cannonball is an OutRun game engine recreation written by Chris White in "
+#~ "2014."
+#~ msgstr ""
+#~ "Cannonball er en OutRun game engine rekreation skrevet af Chris White i "
+#~ "2014."

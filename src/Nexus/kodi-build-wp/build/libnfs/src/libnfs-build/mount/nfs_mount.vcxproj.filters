@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\mount\libnfs-raw-mount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libnfs\src\libnfs\mount\mount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\kodi-build-wp\build\libnfs\src\libnfs\mount\libnfs-raw-mount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\libnfs\src\libnfs\mount\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D8A09CFE-4B60-3518-93E2-71CDF25A4960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4F0DE3BE-92E4-395F-B8A8-68843E8070F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

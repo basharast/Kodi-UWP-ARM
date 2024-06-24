@@ -1,0 +1,105 @@
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-xkco7g
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_64e51.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-xkco7g\\" /I"Generated Files\\" /IcmTC_64e51.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64e51.dir\Debug\\" /Fd"cmTC_64e51.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-xkco7g\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-xkco7g\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'dirent.h': No such file or directory [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-xkco7g\cmTC_64e51.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-xkco7g\cmTC_64e51.vcxproj]
+
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-j52ynt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e2d3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-j52ynt\\" /I"Generated Files\\" /IcmTC_3e2d3.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e2d3.dir\Debug\\" /Fd"cmTC_3e2d3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-j52ynt\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-j52ynt\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-j52ynt\cmTC_3e2d3.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-j52ynt\cmTC_3e2d3.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-vhajzg
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a3b7e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vhajzg\\" /I"Generated Files\\" /IcmTC_a3b7e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3b7e.dir\Debug\\" /Fd"cmTC_a3b7e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vhajzg\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vhajzg\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vhajzg\cmTC_a3b7e.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-vhajzg\cmTC_a3b7e.vcxproj]
+
+
+
+Determining if the include file sys/param.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-jnfh72
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6bd1e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-jnfh72\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-jnfh72\cmTC_6bd1e.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-jnfh72\\" /I"Generated Files\\" /IcmTC_6bd1e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6bd1e.dir\Debug\\" /Fd"cmTC_6bd1e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-jnfh72\CheckIncludeFile.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-jnfh72\cmTC_6bd1e.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-pkqtue
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0ab38.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pkqtue\\" /I"Generated Files\\" /IcmTC_0ab38.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ab38.dir\Debug\\" /Fd"cmTC_0ab38.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pkqtue\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pkqtue\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pkqtue\cmTC_0ab38.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pkqtue\cmTC_0ab38.vcxproj]
+
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-gu5u55
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43681.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-gu5u55\\" /I"Generated Files\\" /IcmTC_43681.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43681.dir\Debug\\" /Fd"cmTC_43681.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-gu5u55\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-gu5u55\cmTC_43681.vcxproj]
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-gu5u55\cmTC_43681.vcxproj]
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-gu5u55\Debug\cmTC_43681.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-gu5u55\cmTC_43681.vcxproj]
+
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/CMakeScratch/TryCompile-pq4nwi
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_79203.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  StandardHeadersExist.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pq4nwi\\" /I"Generated Files\\" /IcmTC_79203.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79203.dir\Debug\\" /Fd"cmTC_79203.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pq4nwi\StandardHeadersExist.c"
+C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pq4nwi\StandardHeadersExist.c(2,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pq4nwi\cmTC_79203.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdread\src\libdvdread-build\CMakeFiles\CMakeScratch\TryCompile-pq4nwi\cmTC_79203.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <inttypes.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+#include <float.h>
+
+
+int main(void){return 0;}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="q88_basic_mode" values="N88 V2|N88 V1H|N88 V1S|N" default="N88 V2"/>
+		<setting label="30002" type="select" id="q88_sub_cpu_mode" values="0|1|2" default="0"/>
+		<setting label="30003" type="select" id="q88_cpu_clock" values="4|8|16|32|64|1|2" default="4"/>
+		<setting label="30004" type="select" id="q88_sound_board" values="OPNA|OPN" default="OPNA"/>
+		<setting label="30005" type="select" id="q88_use_fdc_wait" values="enabled|disabled" default="enabled"/>
+		<setting label="30006" type="select" id="q88_pcg-8100" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="q88_save_to_disk_image" values="disabled|enabled" default="disabled"/>
+		<setting label="30008" type="select" id="q88_rumble" values="enabled|disabled" default="enabled"/>
+		<setting label="30009" type="select" id="q88_screen_size" values="full|half" default="full"/>
+	</category>
+</settings>

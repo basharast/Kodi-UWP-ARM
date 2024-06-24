@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\bitreader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_udf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\ifo_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\ifo_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\nav_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\nav_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\logger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\bswap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvd_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\dvdread_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\src\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\libdvdread\src\libdvdread\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2C494458-5467-3624-B795-058E645144C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4268A6CE-08D9-3E3F-9A0D-03318C5DF4F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\Release\dvdcss.pri
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\dvdcss.vcxproj.AssemblyReference.cache
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\priconfig.xml
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\priconfig.xml.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\unfiltered.layout.resfiles
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\unfiltered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\filtered.layout.resfiles
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\filtered.layout.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\excluded.layout.resfiles
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\excluded.layout.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\resources.resfiles
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\resources.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\pri.resfiles
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\pri.resfiles.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\qualifiers.txt
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\qualifiers.txt.intermediate
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\dvdcss.dir\Release\MultipleQualifiersPerDimensionFound.txt

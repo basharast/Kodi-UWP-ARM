@@ -1,0 +1,7 @@
+C:/kodi/project/BuildDependencies/win10-arm/lib/dvdcss.lib
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdcss/dvdcss.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdcss/version.h
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdcss/dvdcss.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdcss/dvdcss-release.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdcss/dvdcss-config.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdcss/dvdcss-config-version.cmake

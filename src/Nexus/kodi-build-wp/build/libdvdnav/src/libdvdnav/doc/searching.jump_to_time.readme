@@ -1,0 +1,178 @@
+PURPOSE:
+--------
+This file contains separate documentation to cover the functionality
+in the dvdnav_jump_to_sector_by_time patch.
+
+
+EXAMPLE:
+--------
+dvdnav_jump_to_sector_by_time(p_sys->dvdnav, 90000, 0);
+
+This will jump to the 10 second mark in the current DVD title.
+
+(Note that 90000 is in PTS, which is defined as PTS = time_in_ms * 90)
+
+
+KEY POINTS
+----------
+* dvdnav_jump_to_sector_by_time is a large patch. See BACKGROUND
+and DETAIL for an explanation on why the length is required
+
+* dvdnav_jump_to_sector_by_time is a standalone proc and introduces no 
+dependencies in the rest of searching.c.
+
+* Libraries can choose not to call the dvdnav_jump_to_sector_by_time
+and libdvdnav is otherwise unaffected
+
+
+BACKGROUND
+----------
+The Jump_to_sector_by_time patch is an alternative to dvdnav_time_search.
+Note that dvdnav_time_search is marked 'FIXME: right now, this function 
+does not use the time tables but interpolates only the cell times'
+
+The interpolation method is usually inaccurate: it interpolates using
+cells and sectors, but one sector does not equal one fixed unit of time.
+For example, consider a 10:00 cell that is 1000 sectors long.
+dvdnav_time_search reasons that 5:00 is 50% between 0:00 and 10:00,
+so it selects sector 500 since it is 50% between 500 and 1000.
+However this assumes that all sectors are the same length in time.
+In actuality, they are not, and jumping to sector 500 may actually
+jump instead to another time, like 5:12.
+
+The Jump_to_sector_by_time patch attempts to jump to a given time
+by using the aforementioned "time tables". Specifically it
+uses the time map and the vobu address map. Note that even with these
+two items, the patch is not simple, nor entirely accurate. The complexity
+will be evident in the DETAIL section below. The inaccuracy exists
+because interpolation is still used. Note that this interpolation
+is at a much smaller level: time map entries (4 - 5 seconds long)
+and vobus (1/2 second long) instead of dvdnav_time_search's 
+cells (which may be multiple minutes) and sectors (which doesn't
+really correspond to time)
+
+A completely accurate method would use this proc to get the starting
+VOBU, and then scan each VOBU's NAV packet time in the VOB files
+(instead of interpolating). However, this would require significant changes
+to dvdread, and may have some performance overhead. (Specifically,
+reading the VOB file and scanning through the VOBUs to find the matching time)
+
+
+DETAIL 
+------
+From a broad perspective, Jump_to_sector_by_time works like this:
+
+(1)  Find the two time map entries around a given time
+(2)  Get the vobus of these two time map entries
+(3)  Get the sector of the jump_time through interpolation of the vobus
+
+For clarity's sake, I will repeat the above with fabricated data
+(1)  Find the two time map entries around a given time
+     Given time 56...
+     Time map index 10 is identified as 55 seconds
+     56 seconds must be between time map entries 10 and 11
+(2)  Get the vobus of these two time map entries
+     Time entry 10 is at sector 193 which is vobu 405
+     Time entry 11 is at sector 303 which is vobu 455
+(3)  Get the sector of the jump_time through interpolation of the vobus
+     56 is 20% of the way between 55 and 60
+     415 is 20% of the way between 405 and 455
+     320 is the corresponding sector of vobu 415
+
+Note that step (1) actually requires more sub-steps
+(1a) Find the cell for a given time
+(1b) Find the tmap entries around the cell's start sector
+(1c) Find the vobus for these tmap entries and cell start
+(1d) Interpolate the time of earlier tmap entry
+(1e) Find the tmap entries around jump_time
+(2)  Get the vobus of these two time map entries
+(3)  Get the sector of the jump_time through interpolation of the vobus
+
+Again, here is the above with some fabricated data.
+
+(I try to represent the tables visually below. It was written with a
+fixed-width font.
+My apologies if it does not show up formatted well.)
+
+(1a) Find the cell for a given time
+     Given time 56...
+      ----  --------   --------  ----------  ----------
+      cell  bgn_time   end_time  bgn_sector  end_sector
+      ----  --------   --------  ----------  ----------
+        1       0         28          0          99
+--->    2      29        600        100        1000
+        3     601        900       1001        1400
+      ...
+**** Cell 2 encloses 56.
+
+
+(1b) Find the tmap entries around the cell's start sector
+      ----    ------
+      tmap    sector
+      ----    ------
+      ...
+       3       71
+--->   4       88
+--->   5      108
+       6      121
+      ...
+**** tmap entries 4 and 5 enclose cell start sector of 100.
+
+
+(1c) Find the vobus for these tmap entries and cell start
+      ----    ------
+      vobu    sector
+      ----    ------
+      ...
+--->  200      88
+      ...
+--->  208     100
+      209     102
+--->  210     108
+      ...
+****  200, 208 and 210 are the relevant vobus
+
+
+(1d) Interpolate the time of earlier tmap entry
+     208 is 80% of the way between 200 and 210
+     4 secs is 80% of 5 secs
+     25 is the time-point when subtracting 4 from 29 (cell_bgn)
+     vobu 200 is at 25 seconds
+**** 25 secs is the calculated time of tmap idx 4
+
+
+(1e) Find the tmap entries around jump_time
+      ----    ----   ------
+      tmap    time   sector
+      ----    ----   ------
+       4       25
+       5       30
+       6       35
+       7       40
+       8       45
+       9       50
+--->  10       55      193
+--->  11       60      303
+      ...
+**** 56 must be between tmap entries 10 and 11
+
+
+(2)  Get the vobus of these two time map entries
+      ----    ------
+      vobu    sector
+      ----    ------
+      ...
+--->  405     193
+      ...
+      415     320
+      ...
+--->  455     503
+      ...
+**** 405 and 445 are the relevant vobus
+
+
+(3)  Get the sector of the jump_time through interpolation of the vobus
+     56 is 20% of the way between 55 and 60
+     415 is 20% of the way between 405 and 455
+     320 is the corresponding sector of vobu 415
+**** 320 is the closest vobu sector for 56 secs

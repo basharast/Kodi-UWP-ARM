@@ -1,0 +1,326 @@
+# game.libretro.snes9x language file
+# Addon Name: game.libretro.snes9x
+# Addon id: game.libretro.snes9x
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-12 22:30+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x - Current) 1.60"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports."
+msgstr "Snes9x er en bærbar, freeware SNES- og Super Famicom-emulator.[CR][CR]Snes9x er kodet i C++ med tre CPU emuleringskerner på i386 Linux- og Windows-versionerne."
+
+msgctxt "Addon Disclaimer"
+msgid "The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information."
+msgstr "Snes9X-teamet er ikke forbundet med eller tilknyttet nogen nævnt virksomhed på nogen måde. Udtalelserne fra Snes9X-teamet afspejler ikke synspunkterne fra de forskellige virksomheder, der er nævnt her. Virksomheder og alle produkter, der vedrører det pågældende firma, er varemærker tilhørende det pågældende firma. Kontakt venligst det pågældende firma for varemærke- og copyrightoplysninger."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Console Region (Reload Core)"
+msgstr "Konsolområde (genstart kerne)"
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr "Foretrukket billedformat"
+
+msgctxt "#30003"
+msgid "Crop Overscan"
+msgstr "Beskær overskandering"
+
+msgctxt "#30004"
+msgid "Hi-Res Blending"
+msgstr "Blanding i høj opløsning"
+
+msgctxt "#30005"
+msgid "Blargg NTSC Filter"
+msgstr "Blargg NTSC-filter"
+
+msgctxt "#30006"
+msgid "Audio Interpolation"
+msgstr "Lydinterpolation"
+
+msgctxt "#30007"
+msgid "Allow Opposing Directions"
+msgstr "Tillad modsatte retninger"
+
+msgctxt "#30008"
+msgid "SuperFX Overclocking"
+msgstr "SuperFX overclocking"
+
+msgctxt "#30009"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr "Reducer hastighedsnedsættelse (hack, usikker)"
+
+msgctxt "#30010"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr "Reducer flimmer (hack, usikker)"
+
+msgctxt "#30011"
+msgid "Randomize Memory (Unsafe)"
+msgstr "Tilfældiggør hukommelse (usikker)"
+
+msgctxt "#30012"
+msgid "Block Invalid VRAM Access"
+msgstr "Bloker ugyldig VRAM-adgang"
+
+msgctxt "#30013"
+msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+msgstr "Hack for ekkobuffer (usikker, aktiver kun for gamle addmusic hacks)"
+
+msgctxt "#30014"
+msgid "Light Gun Mode"
+msgstr "Tilstand for lightgun"
+
+msgctxt "#30015"
+msgid "Super Scope Reverse Trigger Buttons"
+msgstr "Super Scope omvendte trigger-knapper"
+
+msgctxt "#30016"
+msgid "Super Scope Crosshair"
+msgstr "Super Scope crosshair"
+
+msgctxt "#30017"
+msgid "Super Scope Color"
+msgstr "Super Scope farve"
+
+msgctxt "#30018"
+msgid "Justifier 1 Crosshair"
+msgstr "Justifier 1 crosshair"
+
+msgctxt "#30019"
+msgid "Justifier 1 Color"
+msgstr "Justifier 1 farve"
+
+msgctxt "#30020"
+msgid "Justifier 2 Crosshair"
+msgstr "Justifier 2 crosshair"
+
+msgctxt "#30021"
+msgid "Justifier 2 Color"
+msgstr "Justifier 2 farve"
+
+msgctxt "#30022"
+msgid "M.A.C.S. Rifle Crosshair"
+msgstr "M.A.C.S. riffel crosshair"
+
+msgctxt "#30023"
+msgid "M.A.C.S. Rifle Color"
+msgstr "M.A.C.S. farve på riffel"
+
+msgctxt "#30024"
+msgid "Show Layer 1"
+msgstr "Vis lag 1"
+
+msgctxt "#30025"
+msgid "Show Layer 2"
+msgstr "Vis lag 2"
+
+msgctxt "#30026"
+msgid "Show Layer 3"
+msgstr "Vis lag 3"
+
+msgctxt "#30027"
+msgid "Show Layer 4"
+msgstr "Vis lag 4"
+
+msgctxt "#30028"
+msgid "Show Sprite Layer"
+msgstr "Vis sprite-lag"
+
+msgctxt "#30029"
+msgid "Enable Graphic Clip Windows"
+msgstr "Aktiver vinduer med grafikklip"
+
+msgctxt "#30030"
+msgid "Enable Transparency Effects"
+msgstr "Aktiver gennemsigtighedseffekter"
+
+msgctxt "#30031"
+msgid "Enable Sound Channel 1"
+msgstr "Aktiver lydkanal 1"
+
+msgctxt "#30032"
+msgid "Enable Sound Channel 2"
+msgstr "Aktiver lydkanal 2"
+
+msgctxt "#30033"
+msgid "Enable Sound Channel 3"
+msgstr "Aktiver lydkanal 3"
+
+msgctxt "#30034"
+msgid "Enable Sound Channel 4"
+msgstr "Aktiver lydkanal 4"
+
+msgctxt "#30035"
+msgid "Enable Sound Channel 5"
+msgstr "Aktiver lydkanal 5"
+
+msgctxt "#30036"
+msgid "Enable Sound Channel 6"
+msgstr "Aktiver lydkanal 6"
+
+msgctxt "#30037"
+msgid "Enable Sound Channel 7"
+msgstr "Aktiver lydkanal 7"
+
+msgctxt "#30038"
+msgid "Enable Sound Channel 8"
+msgstr "Aktiver lydkanal 8"
+
+#~ msgctxt "#30004"
+#~ msgid "Enable Hi-Res Mode"
+#~ msgstr "Aktiver tilstand for høj opløsning"
+
+#~ msgctxt "#30005"
+#~ msgid "Hi-Res Blending"
+#~ msgstr "Blanding i høj opløsning"
+
+#~ msgctxt "#30006"
+#~ msgid "Blargg NTSC Filter"
+#~ msgstr "Blargg NTSC-filter"
+
+#~ msgctxt "#30007"
+#~ msgid "Audio Interpolation"
+#~ msgstr "Lydinterpolation"
+
+#~ msgctxt "#30008"
+#~ msgid "Allow Opposing Directions"
+#~ msgstr "Tillad modsatte retninger"
+
+#~ msgctxt "#30009"
+#~ msgid "SuperFX Overclocking"
+#~ msgstr "SuperFX overclocking"
+
+#~ msgctxt "#30010"
+#~ msgid "Reduce Slowdown (Hack, Unsafe)"
+#~ msgstr "Reducer hastighedsnedsættelse (hack, usikker)"
+
+#~ msgctxt "#30011"
+#~ msgid "Reduce Flickering (Hack, Unsafe)"
+#~ msgstr "Reducer flimmer (hack, usikker)"
+
+#~ msgctxt "#30012"
+#~ msgid "Randomize Memory (Unsafe)"
+#~ msgstr "Tilfældiggør hukommelse (usikker)"
+
+#~ msgctxt "#30013"
+#~ msgid "Block Invalid VRAM Access"
+#~ msgstr "Bloker ugyldig VRAM-adgang"
+
+#~ msgctxt "#30014"
+#~ msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+#~ msgstr "Hack for ekkobuffer (usikker, aktiver kun for gamle addmusic hacks)"
+
+#~ msgctxt "#30015"
+#~ msgid "Light Gun Mode"
+#~ msgstr "Tilstand for lightgun"
+
+#~ msgctxt "#30016"
+#~ msgid "Super Scope Reverse Trigger Buttons"
+#~ msgstr "Super Scope omvendte trigger-knapper"
+
+#~ msgctxt "#30017"
+#~ msgid "Super Scope Crosshair"
+#~ msgstr "Super Scope crosshair"
+
+#~ msgctxt "#30018"
+#~ msgid "Super Scope Color"
+#~ msgstr "Super Scope farve"
+
+#~ msgctxt "#30019"
+#~ msgid "Justifier 1 Crosshair"
+#~ msgstr "Justifier 1 crosshair"
+
+#~ msgctxt "#30020"
+#~ msgid "Justifier 1 Color"
+#~ msgstr "Justifier 1 farve"
+
+#~ msgctxt "#30021"
+#~ msgid "Justifier 2 Crosshair"
+#~ msgstr "Justifier 2 crosshair"
+
+#~ msgctxt "#30022"
+#~ msgid "Justifier 2 Color"
+#~ msgstr "Justifier 2 farve"
+
+#~ msgctxt "#30023"
+#~ msgid "M.A.C.S. Rifle Crosshair"
+#~ msgstr "M.A.C.S. riffel crosshair"
+
+#~ msgctxt "#30024"
+#~ msgid "M.A.C.S. Rifle Color"
+#~ msgstr "M.A.C.S. farve på riffel"
+
+#~ msgctxt "#30025"
+#~ msgid "Show Layer 1"
+#~ msgstr "Vis lag 1"
+
+#~ msgctxt "#30026"
+#~ msgid "Show Layer 2"
+#~ msgstr "Vis lag 2"
+
+#~ msgctxt "#30027"
+#~ msgid "Show Layer 3"
+#~ msgstr "Vis lag 3"
+
+#~ msgctxt "#30028"
+#~ msgid "Show Layer 4"
+#~ msgstr "Vis lag 4"
+
+#~ msgctxt "#30029"
+#~ msgid "Show Sprite Layer"
+#~ msgstr "Vis sprite-lag"
+
+#~ msgctxt "#30031"
+#~ msgid "Enable Transparency Effects"
+#~ msgstr "Aktiver gennemsigtighedseffekter"
+
+#~ msgctxt "#30032"
+#~ msgid "Enable Sound Channel 1"
+#~ msgstr "Aktiver lydkanal 1"
+
+#~ msgctxt "#30033"
+#~ msgid "Enable Sound Channel 2"
+#~ msgstr "Aktiver lydkanal 2"
+
+#~ msgctxt "#30034"
+#~ msgid "Enable Sound Channel 3"
+#~ msgstr "Aktiver lydkanal 3"
+
+#~ msgctxt "#30035"
+#~ msgid "Enable Sound Channel 4"
+#~ msgstr "Aktiver lydkanal 4"
+
+#~ msgctxt "#30036"
+#~ msgid "Enable Sound Channel 5"
+#~ msgstr "Aktiver lydkanal 5"
+
+#~ msgctxt "#30037"
+#~ msgid "Enable Sound Channel 6"
+#~ msgstr "Aktiver lydkanal 6"
+
+#~ msgctxt "#30038"
+#~ msgid "Enable Sound Channel 7"
+#~ msgstr "Aktiver lydkanal 7"
+
+#~ msgctxt "#30039"
+#~ msgid "Enable Sound Channel 8"
+#~ msgstr "Aktiver lydkanal 8"

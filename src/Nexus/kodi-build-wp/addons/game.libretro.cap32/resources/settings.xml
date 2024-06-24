@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="cap32_retrojoy0" values="auto|qaop|incentive|joystick_port1" default="auto"/>
+		<setting label="30002" type="select" id="cap32_retrojoy1" values="auto|qaop|incentive|joystick_port1|joystick_port2" default="auto"/>
+		<setting label="30003" type="select" id="cap32_combokey" values="select|y|b|disabled" default="select"/>
+		<setting label="30004" type="select" id="cap32_db_mapkeys" values="enabled|disabled" default="enabled"/>
+		<setting label="30005" type="select" id="cap32_lightgun_input" values="disabled|phaser|gunstick" default="disabled"/>
+		<setting label="30006" type="select" id="cap32_lightgun_show" values="disabled|enabled" default="disabled"/>
+		<setting label="30007" type="select" id="cap32_model" values="6128|464|664|6128+ (experimental)" default="6128"/>
+		<setting label="30008" type="select" id="cap32_autorun" values="enabled|disabled" default="enabled"/>
+		<setting label="30009" type="select" id="cap32_ram" values="128|64|192|576" default="128"/>
+		<setting label="30010" type="select" id="cap32_advanced_green_phosphor" values="15|20|30|5|10" default="15"/>
+		<setting label="30011" type="select" id="cap32_scr_intensity" values="8|9|10|11|12|13|14|15|5|6|7" default="8"/>
+		<setting label="30012" type="select" id="cap32_gfx_colors" values="16bit|24bit" default="16bit"/>
+		<setting label="30013" type="select" id="cap32_statusbar" values="onloading|enabled|disabled" default="onloading"/>
+		<setting label="30014" type="select" id="cap32_keyboard_transparency" values="disabled|enabled" default="disabled"/>
+		<setting label="30015" type="select" id="cap32_floppy_sound" values="enabled|disabled" default="enabled"/>
+		<setting label="30016" type="select" id="cap32_scr_tube" values="color|green|white" default="color"/>
+		<setting label="30017" type="select" id="cap32_lang_layout" values="english|french|spanish" default="english"/>
+	</category>
+</settings>

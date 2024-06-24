@@ -1,0 +1,5 @@
+C:/kodi-build-wp/build/spdlog/src/spdlog-build/CMakeFiles/spdlog.dir
+C:/kodi-build-wp/build/spdlog/src/spdlog-build/CMakeFiles/PACKAGE.dir
+C:/kodi-build-wp/build/spdlog/src/spdlog-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/spdlog/src/spdlog-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/spdlog/src/spdlog-build/CMakeFiles/ZERO_CHECK.dir

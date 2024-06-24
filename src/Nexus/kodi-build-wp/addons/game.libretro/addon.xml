@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="game.libretro"
+       name="Libretro Compatibility"
+       version="20.2.0"
+       provider-name="Team Kodi">
+  <backwards-compatibility abi="1.0.0"/>
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.7"/>
+<import addon="kodi.binary.instance.game" minversion="3.0.0" version="3.0.0"/></requires>
+  <extension point="kodi.gameclient"
+       library_windowsstore="game.libretro.dll">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform></platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/kodi-game/game.libretro</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <summary lang="da_DK">Libretro kompatibilitetslag til Kodi&apos;s Game API</summary>
+    <summary lang="de_DE">Libretro-Kompatibilitätsschicht für Kodi&apos;s Spiele API</summary>
+    <summary lang="en_GB">Libretro compatibility layer for Kodi&apos;s Game API</summary>
+    <summary lang="hu_HU">Libreto Kompatibilis réteg Kodi Játék API-jának</summary>
+    <summary lang="it_IT">Compatibilità libretro per l&apos;API di gioco di Kodi</summary>
+    <summary lang="zh_CN">用于 Kodi 游戏 API 的 Libretro 兼容层</summary>
+    <description lang="da_DK">Dette add-on giver en wrapper til libretro-kerner, så de kan indlæses som spil-add-ons.</description>
+    <description lang="de_DE">Dieses Addon bietet einen Umwandler für Libretro-Kerne, mit dem sie als Spielsystem Add-On&apos;s für Kodi geladen und genutzt werden können.</description>
+    <description lang="en_GB">This add-on provides a wrapper for libretro cores, allowing them to be loaded as game add-ons.</description>
+    <description lang="it_IT">Questo Add-on fornisce un modulo sodtware per i core libretro, consentendo loro di essere caricati come Add-on di gioco.</description>
+    <description lang="zh_CN">这个插件为 libretro 内核提供了一个包装器，允许它们作为游戏插件加载。</description>
+  </extension>
+</addon>

@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\LIBDVDNAV\SRC\LIBDVDNAV-BUILD\CMAKEFILES\0A7EB1498A5FFCA88D9AE1DEA2473DAC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/libdvdnav/src/libdvdnav -BC:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/dvdnav.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

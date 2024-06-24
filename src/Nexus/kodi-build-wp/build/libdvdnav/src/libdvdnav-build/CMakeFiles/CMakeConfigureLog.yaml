@@ -1,0 +1,243 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The target system is: WindowsStore - 10.0.18362.0 - 
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;/O2;/Ob2;/DNDEBUG
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.0-preview-24230-06+4be99f898 for .NET Framework
+      Build started 6/20/2024 11:40:12 AM.
+      
+      Project "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+      C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets(519,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj]
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+        Creating directory "Generated Files\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\CL.exe /c /I"C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\\\" /I"Generated Files\\\\" /IDebug\\ /nologo /W0 /WX- /diagnostics:column /sdl /MP /Od /Oi /Oy- /D _UNICODE /D UNICODE /D __WRL_NO_DEFAULT_LIB__ /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FU"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\lib\\x86\\store\\references\\platform.winmd" /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /APPCONTAINER /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:ARM Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\Hostx64\\arm\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+      
+      "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj" (default target) (1) ->
+      (PrepareForBuild target) -> 
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets(519,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj]
+      
+          1 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.33
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/3.28.3-msvc11/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-7d01zy"
+      binary: "C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-7d01zy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /DUNICODE /D_UNICODE  /O2 /Ob2 /DNDEBUG"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-7d01zy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e7265.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.0-preview-24230-06+4be99f898 for .NET Framework
+        Build started 6/20/2024 11:40:14 AM.
+        
+        Project "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e7265.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\".
+          Creating directory "cmTC_e7265.dir\\Debug\\cmTC_e7265.tlog\\".
+          Creating directory "Generated Files\\".
+        GetInstalledSDKLocations:
+          Searching for SDKs targeting "UAP, 10.0.22621.0".
+          Searching for SDKs targeting "Windows, 8.1".
+        ResolveSDKReferences:
+            Reading SDK manifest file "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.VCLibs\\14.0\\SDKManifest.xml".
+            Targeted configuration and architecture "Debug|ARM"
+            Could not find "FrameworkIdentity" attribute "FrameworkIdentity-Debug-ARM" in the SDK manifest. 
+            Found "FrameworkIdentity" attribute "Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.33519.0, Publisher = 'CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US'" in the SDK manifest.
+            Found "APPX" location attribute "AppX-Debug-x86=.\\AppX\\Debug\\x86\\Microsoft.VCLibs.x86.Debug.14.00.appx" in the SDK manifest.
+            Found "APPX" location attribute "AppX-Debug-x64=.\\AppX\\Debug\\x64\\Microsoft.VCLibs.x64.Debug.14.00.appx" in the SDK manifest.
+            Found "APPX" location attribute "AppX-Debug-ARM=.\\AppX\\Debug\\ARM\\Microsoft.VCLibs.ARM.Debug.14.00.appx" in the SDK manifest.
+            Found "APPX" location attribute "AppX-Debug-ARM64=.\\AppX\\Debug\\ARM64\\Microsoft.VCLibs.ARM64.Debug.14.00.appx" in the SDK manifest.
+        ExpandSDKReferences:
+          Enumerating SDK Reference "Microsoft.VCLibs, Version=14.0" from "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.VCLibs\\14.0\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e7265.dir\\Debug\\cmTC_e7265.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e7265.dir\\Debug\\cmTC_e7265.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\CL.exe /c /I"C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\\\" /I"Generated Files\\\\" /IcmTC_e7265.dir\\Debug\\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7265.dir\\Debug\\\\" /Fd"cmTC_e7265.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /FU"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\lib\\x86\\store\\references\\platform.winmd" /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.33901 for ARM
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\\\" /I"Generated Files\\\\" /IcmTC_e7265.dir\\Debug\\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7265.dir\\Debug\\\\" /Fd"cmTC_e7265.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /FU"C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\lib\\x86\\store\\references\\platform.winmd" /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.exe" /INCREMENTAL /ILK:"cmTC_e7265.dir\\Debug\\cmTC_e7265.ilk" /NOLOGO WindowsApp.lib /MANIFEST /ManifestFile:"cmTC_e7265.dir\\Debug\\cmTC_e7265.exe.intermediate.manifest" /MANIFESTUAC:NO /DEBUG /PDB:"C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-7d01zy/Debug/cmTC_e7265.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.winmd" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-7d01zy/Debug/cmTC_e7265.lib" /MACHINE:ARM  /machine:ARM cmTC_e7265.dir\\Debug\\CMakeCCompilerABI.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj]
+          cmTC_e7265.vcxproj -> C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.exe
+        Manifest:
+          C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe /nologo /verbose /out:"C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.manifest" /manifest cmTC_e7265.dir\\Debug\\cmTC_e7265.exe.intermediate.manifest
+        ComputeProcessXamlFiles:
+          (Out) ProcessedXamlFiles == 
+        CustomOutputGroupForPackaging:
+          (Out) Project='cmTC_e7265' ProcessedXamlFiles == 
+          (Out) XamlPackagingRootFolder == C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\\\
+          (Out) ProcessedXamlFilesFullPath == 
+          (Out) Project='cmTC_e7265' CustomOutputGroupForPackagingOutput == 
+        _AddVCLibs140UniversalCrtDebugReference:
+            Reading SDK manifest file "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.UniversalCRT.Debug\\10.0.22621.0\\SDKManifest.xml".
+            Targeted configuration and architecture "Debug|arm"
+            No FrameworkIdentity attributes were found in the SDK manifest, treating this SDK as a non-framework SDK.
+            No "APPX" attributes indicating app package locations were found in the SDK manifest. If an app package is required at runtime the project may not run.
+        _GenerateProjectPriFileCore:
+          C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\MakePri.exe New -ProjectRoot C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\ -ConfigXml cmTC_e7265.dir\\Debug\\priconfig.xml -OutputFile C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.dir\\resources.pri -IndexName 01112DCF-5657-3819-9EC5-E001C0F4F7AF -Verbose -Overwrite  
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Microsoft.AppXPackage.Targets(2798,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj]
+          cmTC_e7265 -> C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.dir\\AppxManifest.xml
+        CheckForUnsupportedScenarios:
+          The specified XPath query did not capture any nodes.
+        _GenerateAppxPackageRecipeFile:
+          cmTC_e7265 -> C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.dir\\cmTC_e7265.build.appxrecipe
+        _GenerateAppxPackageFile:
+          C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\MakeAppx.exe pack /l /h sha256 /f cmTC_e7265.dir\\Debug\\package.map.txt /o /p C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\cmTC_e7265_1.0.0.0_ARM_Debug.msix  
+          cmTC_e7265 -> C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\cmTC_e7265_1.0.0.0_ARM_Debug.msix
+          cmTC_e7265 -> C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\cmTC_e7265_1.0.0.0_ARM_Debug.cer
+          cmTC_e7265 -> F63AAC84A0884CDB0126C3CDEA991E36DF064B3E
+        _GenerateAppxSymbolPackage:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\\\x64\\mspdbcmf.exe /check C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\Debug\\cmTC_e7265.pdb 
+          Microsoft (R) FastLink To Full PDB Converter Version 14.33.31424.0
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+           [Non FASTLINK] The input PDB file was not generated by the linker with /DEBUG:fastlink.
+          cmTC_e7265 -> cmTC_e7265.dir\\Debug\\Symbols\\cmTC_e7265_1.0.0.0_ARM_Debug.appxsym
+        _CreateTestLayout:
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\x64".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\ARM64".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\x86".
+          Copying file from "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.VCLibs\\14.0\\AppX\\Debug\\ARM64\\Microsoft.VCLibs.ARM64.Debug.14.00.appx" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\ARM64\\Microsoft.VCLibs.ARM64.Debug.14.00.appx".
+          Copying file from "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.VCLibs\\14.0\\AppX\\Debug\\x86\\Microsoft.VCLibs.x86.Debug.14.00.appx" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\x86\\Microsoft.VCLibs.x86.Debug.14.00.appx".
+          Copying file from "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.VCLibs\\14.0\\AppX\\Debug\\x64\\Microsoft.VCLibs.x64.Debug.14.00.appx" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\x64\\Microsoft.VCLibs.x64.Debug.14.00.appx".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\ARM".
+          Copying file from "C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs\\Microsoft.VCLibs\\14.0\\AppX\\Debug\\ARM\\Microsoft.VCLibs.ARM.Debug.14.00.appx" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Dependencies\\ARM\\Microsoft.VCLibs.ARM.Debug.14.00.appx".
+          Copying file from "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.dir\\Debug\\Symbols\\cmTC_e7265_1.0.0.0_ARM_Debug.appxsym" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\cmTC_e7265_1.0.0.0_ARM_Debug.appxsym".
+        _AddWindowsInstallScriptToTestLayout:
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.ps1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.ps1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\en-US".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\de-DE".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\en-US\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\en-US\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\cs-CZ".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\es-ES".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\fr-FR".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\de-DE\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\de-DE\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\it-IT".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\fr-FR\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\fr-FR\\Add-AppDevPackage.psd1".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\it-IT\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\it-IT\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\ko-KR".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\ja-JP".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\cs-CZ\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\cs-CZ\\Add-AppDevPackage.psd1".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\ko-KR\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\ko-KR\\Add-AppDevPackage.psd1".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\es-ES\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\es-ES\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\pt-BR".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\pt-BR\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\pt-BR\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\ru-RU".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\ja-JP\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\ja-JP\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\zh-CN".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\ru-RU\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\ru-RU\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\tr-TR".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\zh-CN\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\zh-CN\\Add-AppDevPackage.psd1".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\tr-TR\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\tr-TR\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\zh-TW".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\zh-TW\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\zh-TW\\Add-AppDevPackage.psd1".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Install.ps1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Install.ps1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\pl-PL".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Add-AppDevPackage.resources\\pl-PL\\Add-AppDevPackage.psd1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\Add-AppDevPackage.resources\\pl-PL\\Add-AppDevPackage.psd1".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies".
+          Creating directory "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Microsoft.VisualStudio.RemoteControl.dll" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\Microsoft.VisualStudio.RemoteControl.dll".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Microsoft.VisualStudio.Telemetry.dll" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\Microsoft.VisualStudio.Telemetry.dll".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\LogSideloadingTelemetry.ps1" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\LogSideloadingTelemetry.ps1".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Newtonsoft.Json.dll" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\Newtonsoft.Json.dll".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Microsoft.VisualStudio.Utilities.Internal.dll" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\Microsoft.VisualStudio.Utilities.Internal.dll".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Microsoft.Diagnostics.Tracing.EventSource.dll" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\Microsoft.Diagnostics.Tracing.EventSource.dll".
+          Copying file from "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\System.Runtime.CompilerServices.Unsafe.dll" to "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\AppPackages\\cmTC_e7265\\cmTC_e7265_1.0.0.0_ARM_Debug_Test\\TelemetryDependencies\\System.Runtime.CompilerServices.Unsafe.dll".
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e7265.dir\\Debug\\cmTC_e7265.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e7265.dir\\Debug\\cmTC_e7265.tlog\\cmTC_e7265.lastbuildstate".
+        Done Building Project "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj]
+        
+        
+        "C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj" (default target) (1) ->
+        (_GenerateCurrentProjectAppxManifest target) -> 
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Microsoft\\VisualStudio\\v17.0\\AppxPackage\\Microsoft.AppXPackage.Targets(2798,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\\kodi-build-wp\\build\\libdvdnav\\src\\libdvdnav-build\\CMakeFiles\\CMakeScratch\\TryCompile-7d01zy\\cmTC_e7265.vcxproj]
+        
+            2 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:05.08
+        
+      exitCode: 0
+...

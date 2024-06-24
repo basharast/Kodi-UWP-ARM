@@ -1,0 +1,13 @@
+C:/kodi/project/BuildDependencies/win10-arm/lib/pcre.lib
+C:/kodi/project/BuildDependencies/win10-arm/lib/pcreposix.lib
+C:/kodi/project/BuildDependencies/win10-arm/lib/pcrecpp.lib
+C:/kodi/project/BuildDependencies/win10-arm/include/pcre.h
+C:/kodi/project/BuildDependencies/win10-arm/include/pcreposix.h
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/PCRE/pcre.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/PCRE/pcre-release.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/PCRE/PCRE-config.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/PCRE/PCRE-config-version.cmake
+C:/kodi/project/BuildDependencies/win10-arm/include/pcrecpp.h
+C:/kodi/project/BuildDependencies/win10-arm/include/pcre_scanner.h
+C:/kodi/project/BuildDependencies/win10-arm/include/pcrecpparg.h
+C:/kodi/project/BuildDependencies/win10-arm/include/pcre_stringpiece.h

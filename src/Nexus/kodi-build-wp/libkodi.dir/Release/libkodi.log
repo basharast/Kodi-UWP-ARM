@@ -1,0 +1,1862 @@
+﻿  Building Custom Rule C:/kodi/CMakeLists.txt
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakeasminformation.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakecinformation.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakecxxinformation.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakecommonlanguageinclude.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakedependentoption.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakefindbinutils.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakefinddependencymacro.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakegenericsystem.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakeinitializeconfigs.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakelanguageinformation.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakeparsearguments.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakercinformation.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakesystemspecificinformation.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\cmakesystemspecificinitialize.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checkcsourcecompiles.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checkcxxsourcecompiles.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checkfunctionexists.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checkincludefile.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checkincludefilecxx.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checklibraryexists.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checksymbolexists.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\checktypesize.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\compiler\cmakecommoncompilermacros.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\compiler\msvc-asm.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\compiler\msvc-c.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\compiler\msvc-cxx.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\compiler\msvc.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\externalproject.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\externalproject\repositoryinfo.txt.in" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\externalproject\cfgcmd.txt.in" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\externalproject\download.cmake.in" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\externalproject\extractfile.cmake.in" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\externalproject\mkdirs.cmake.in" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\finddoxygen.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findgit.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findopenssl.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findpackagehandlestandardargs.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findpackagemessage.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findpkgconfig.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findpython\support.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findpython3.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findthreads.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\findzlib.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\internal\checksourcecompiles.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windows-msvc-c.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windows-msvc-cxx.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windows-msvc.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windows.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windowspaths.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windowsstore-msvc-c.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windowsstore-msvc-cxx.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\platform\windowsstore.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\selectlibraryconfigurations.cmake" does not exist. This may cause incremental build to work incorrectly.
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: Custom build for item "C:\kodi\CMakeLists.txt" succeeded, but specified dependency "c:\program files\microsoft visual studio\2022\preview\common7\ide\commonextensions\microsoft\cmake\cmake\share\cmake-3.25\modules\testcxxacceptsflag.cmake" does not exist. This may cause incremental build to work incorrectly.
+  pch.cpp
+  RPProcessInfoWin.cpp
+  RPWinRenderer.cpp
+  RPWinOutputShader.cpp
+  StorageAccess.cpp
+  StorageAsync.cpp
+  StorageExtensions.cpp
+  StorageHandler.cpp
+  StorageManager.cpp
+  StoragePath.cpp
+  StoragePickers.cpp
+  UIHelpers.cpp
+  UWP2C.cpp
+  DataCacheCore.cpp
+  FFmpeg.cpp
+  VideoSettings.cpp
+  AEResampleFactory.cpp
+  AESinkFactory.cpp
+  AEEncoderFFmpeg.cpp
+  ActiveAE.cpp
+  ActiveAEBuffer.cpp
+  ActiveAEFilter.cpp
+  ActiveAESink.cpp
+  ActiveAEStream.cpp
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEFilter.cpp(353,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244: '=': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:         with
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:         [
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:         ]
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEBuffer.cpp(108,51): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(211,10): warning C4305: 'return': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1199,49): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1223,45): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1299,51): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1337,62): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1341,54): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1360,59): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1387,39): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1392,40): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1398,35): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1420,42): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1913,78): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(1971,20): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2053,99): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2068,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2130,99): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2138,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2244,31): warning C4244: 'initializing': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2415,101): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2434,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2448,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2450,81): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAE.cpp(2475,24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAESink.cpp(287,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAESink.cpp(288,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAESink.cpp(906,82): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAESink.cpp(1032,29): warning C4244: 'return': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAESink.cpp(1084,23): warning C4244: 'return': conversion from 'double' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244: '=': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:         with
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:         [
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.h(71,59): warning C4244:         ]
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.cpp(91,38): warning C4244: '=': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.cpp(287,38): warning C4244: '=': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEStream.cpp(739,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ActiveAESound.cpp
+  ActiveAESettings.cpp
+  AEBitstreamPacker.cpp
+  AEChannelInfo.cpp
+  AEDeviceInfo.cpp
+  AELimiter.cpp
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAESound.cpp(126,34): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+  AEPackIEC61937.cpp
+C:\kodi\xbmc\cores\AudioEngine\Utils\AEPackIEC61937.cpp(213,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  AEStreamInfo.cpp
+  AEUtil.cpp
+  ActiveAEResampleFFMPEG.cpp
+  AESinkWASAPI.cpp
+  AESinkFactoryWin.cpp
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEResampleFFMPEG.cpp(197,55): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEResampleFFMPEG.cpp(279,24): warning C4244: 'return': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\cores\AudioEngine\Engines\ActiveAE\ActiveAEResampleFFMPEG.cpp(285,24): warning C4244: 'return': conversion from 'int64_t' to 'int', possible loss of data
+  AESinkXAudio.cpp
+  AESinkFactoryWin10.cpp
+  coff.cpp
+  dll.cpp
+  DllLoader.cpp
+  DllLoaderContainer.cpp
+  dll_tracker.cpp
+  dll_tracker_file.cpp
+  dll_tracker_library.cpp
+  dll_util.cpp
+  LibraryLoader.cpp
+  Win32DllLoader.cpp
+  emu_dummy.cpp
+  emu_msvcrt.cpp
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(34,53): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(35,53): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(37,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(38,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(39,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(40,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(41,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(42,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(43,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(44,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(45,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(46,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(47,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(48,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(49,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(50,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(51,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(52,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(53,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(54,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(55,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(56,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(57,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(58,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(59,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(60,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(61,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(62,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(63,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(64,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(65,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(66,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(67,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(68,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(69,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(70,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(71,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(72,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(73,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(74,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(75,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(76,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(77,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(78,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(79,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(80,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(81,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(82,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(83,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(84,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(85,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(86,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(87,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(88,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(90,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(91,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(92,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(93,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(95,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(98,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(99,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(100,35): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+C:\kodi\xbmc\cores\DllLoader\Win32DllLoader.cpp(102,36): warning C4838: conversion from 'int' to 'unsigned long' requires a narrowing conversion
+  EmuFileWrapper.cpp
+  ExternalPlayer.cpp
+  CodecFactory.cpp
+  PAPlayer.cpp
+  VideoPlayerCodec.cpp
+  PlayerCoreConfig.cpp
+  PlayerCoreFactory.cpp
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(401,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(406,54): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(408,54): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(909,83): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(992,49): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(1017,47): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(1020,76): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(1167,16): warning C4244: 'initializing': conversion from 'int64_t' to 'double', possible loss of data
+C:\kodi\xbmc\cores\paplayer\PAPlayer.cpp(1169,15): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
+  PlayerSelectionRule.cpp
+  AddonEvent.cpp
+  AddonManagementEvent.cpp
+  BaseEvent.cpp
+  EventLog.cpp
+  EventLogManager.cpp
+  MediaLibraryEvent.cpp
+  GUIViewStateEventLog.cpp
+  GUIWindowEventLog.cpp
+  kiss_fft.c
+  kiss_fftr.c
+  AddonsDirectory.cpp
+  AudioBookFileDirectory.cpp
+  CacheStrategy.cpp
+  CircularCache.cpp
+  CurlFile.cpp
+  DAVCommon.cpp
+C:\kodi\xbmc\filesystem\AudioBookFileDirectory.cpp(108,49): warning C4244: 'argument': conversion from 'double' to 'const int64_t', possible loss of data
+C:\kodi\xbmc\filesystem\AudioBookFileDirectory.cpp(109,17): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\filesystem\AudioBookFileDirectory.cpp(113,59): warning C4244: 'argument': conversion from 'double' to 'const int64_t', possible loss of data
+C:\kodi\xbmc\filesystem\AudioBookFileDirectory.cpp(118,72): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+C:\kodi\xbmc\filesystem\AudioBookFileDirectory.cpp(120,41): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\filesystem\CurlFile.cpp(177,44): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+C:\kodi\xbmc\filesystem\CurlFile.cpp(180,10): warning C4244: 'return': conversion from 'int64_t' to 'size_t', possible loss of data
+  DAVDirectory.cpp
+C:\kodi\xbmc\filesystem\CurlFile.cpp(1248,17): warning C4244: 'return': conversion from 'int64_t' to 'ssize_t', possible loss of data
+C:\kodi\xbmc\filesystem\CurlFile.cpp(1850,36): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\filesystem\CurlFile.cpp(1850,36): warning C4244:         with
+C:\kodi\xbmc\filesystem\CurlFile.cpp(1850,36): warning C4244:         [
+C:\kodi\xbmc\filesystem\CurlFile.cpp(1850,36): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\filesystem\CurlFile.cpp(1850,36): warning C4244:         ]
+  DAVFile.cpp
+  DirectoryCache.cpp
+  Directory.cpp
+  DirectoryFactory.cpp
+  DirectoryHistory.cpp
+  DllLibCurl.cpp
+  EventsDirectory.cpp
+  FavouritesDirectory.cpp
+  FileCache.cpp
+  FileDirectoryFactory.cpp
+  FileFactory.cpp
+  FTPDirectory.cpp
+  FTPParse.cpp
+  HTTPDirectory.cpp
+C:\kodi\xbmc\filesystem\FileCache.cpp(163,21): warning C4244: '=': conversion from '_Ty' to 'size_t', possible loss of data
+C:\kodi\xbmc\filesystem\FileCache.cpp(163,21): warning C4244:         with
+C:\kodi\xbmc\filesystem\FileCache.cpp(163,21): warning C4244:         [
+C:\kodi\xbmc\filesystem\FileCache.cpp(163,21): warning C4244:             _Ty=__int64
+C:\kodi\xbmc\filesystem\FileCache.cpp(163,21): warning C4244:         ]
+C:\kodi\xbmc\filesystem\FileCache.cpp(333,43): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+  IDirectory.cpp
+  IFile.cpp
+  ImageFile.cpp
+  LibraryDirectory.cpp
+  MultiPathDirectory.cpp
+  MultiPathFile.cpp
+  MusicDatabaseDirectory.cpp
+  MusicDatabaseFile.cpp
+  MusicFileDirectory.cpp
+  MusicSearchDirectory.cpp
+  OverrideDirectory.cpp
+  OverrideFile.cpp
+  PipeFile.cpp
+  PipesManager.cpp
+  PlaylistDirectory.cpp
+  PlaylistFileDirectory.cpp
+  PluginDirectory.cpp
+  PluginFile.cpp
+  PVRDirectory.cpp
+  ResourceDirectory.cpp
+  ResourceFile.cpp
+  RSSDirectory.cpp
+  ShoutcastFile.cpp
+  SmartPlaylistDirectory.cpp
+  SourcesDirectory.cpp
+  SpecialProtocol.cpp
+  SpecialProtocolDirectory.cpp
+  SpecialProtocolFile.cpp
+  StackDirectory.cpp
+  VideoDatabaseDirectory.cpp
+  VideoDatabaseFile.cpp
+  VirtualDirectory.cpp
+  XbtDirectory.cpp
+  XbtFile.cpp
+  XbtManager.cpp
+  ZeroconfDirectory.cpp
+  ZipDirectory.cpp
+  ZipFile.cpp
+  ZipManager.cpp
+  UDFBlockInput.cpp
+  UDFDirectory.cpp
+C:\kodi\xbmc\filesystem\ZipFile.cpp(183,27): warning C4244: 'initializing': conversion from 'int64_t' to 'ssize_t', possible loss of data
+C:\kodi\xbmc\filesystem\ZipFile.cpp(202,25): warning C4244: 'initializing': conversion from 'int64_t' to 'ssize_t', possible loss of data
+C:\kodi\xbmc\filesystem\ZipFile.cpp(215,25): warning C4244: 'initializing': conversion from 'int64_t' to 'ssize_t', possible loss of data
+C:\kodi\xbmc\filesystem\ZipFile.cpp(340,33): warning C4244: '=': conversion from 'int64_t' to 'size_t', possible loss of data
+C:\kodi\xbmc\filesystem\ZipFile.cpp(368,29): warning C4244: '=': conversion from 'int64_t' to 'ssize_t', possible loss of data
+  UDFFile.cpp
+  BlurayCallback.cpp
+  BlurayDirectory.cpp
+  BlurayFile.cpp
+  NFSDirectory.cpp
+  NFSFile.cpp
+  NptXbmcFile.cpp
+  UPnPDirectory.cpp
+  UPnPFile.cpp
+C:\kodi\xbmc\filesystem\NFSDirectory.cpp(155,31): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\kodi\xbmc\filesystem\NFSDirectory.cpp(157,39): warning C4244: '=': conversion from 'uint64_t' to 'long', possible loss of data
+C:\kodi\xbmc\filesystem\NFSDirectory.cpp(158,39): warning C4244: '=': conversion from 'uint64_t' to 'long', possible loss of data
+C:\kodi\xbmc\filesystem\NFSDirectory.cpp(159,39): warning C4244: '=': conversion from 'uint64_t' to 'long', possible loss of data
+  DirectoryNodeAlbum.cpp
+  DirectoryNodeAlbumRecentlyAdded.cpp
+C:\kodi\xbmc\filesystem\NFSFile.cpp(659,33): warning C4244: '=': conversion from 'uint64_t' to '_dev_t', possible loss of data
+C:\kodi\xbmc\filesystem\NFSFile.cpp(660,33): warning C4244: '=': conversion from 'uint64_t' to '_ino_t', possible loss of data
+C:\kodi\xbmc\filesystem\NFSFile.cpp(661,34): warning C4244: '=': conversion from 'uint64_t' to 'unsigned short', possible loss of data
+C:\kodi\xbmc\filesystem\NFSFile.cpp(662,35): warning C4244: '=': conversion from 'uint64_t' to 'short', possible loss of data
+C:\kodi\xbmc\filesystem\NFSFile.cpp(663,33): warning C4244: '=': conversion from 'uint64_t' to 'short', possible loss of data
+C:\kodi\xbmc\filesystem\NFSFile.cpp(664,33): warning C4244: '=': conversion from 'uint64_t' to 'short', possible loss of data
+C:\kodi\xbmc\filesystem\NFSFile.cpp(665,34): warning C4244: '=': conversion from 'uint64_t' to '_dev_t', possible loss of data
+  DirectoryNodeAlbumRecentlyAddedSong.cpp
+  DirectoryNodeAlbumRecentlyPlayed.cpp
+  DirectoryNodeAlbumRecentlyPlayedSong.cpp
+  DirectoryNodeAlbumTop100.cpp
+  DirectoryNodeAlbumTop100Song.cpp
+  DirectoryNodeArtist.cpp
+  DirectoryNodeDiscs.cpp
+  DirectoryNodeSingles.cpp
+  DirectoryNodeSong.cpp
+  DirectoryNodeSongTop100.cpp
+  DirectoryNodeTop100.cpp
+  DirectoryNodeEpisodes.cpp
+  DirectoryNodeInProgressTvShows.cpp
+  DirectoryNodeMoviesOverview.cpp
+  DirectoryNodeMusicVideosOverview.cpp
+  DirectoryNodeRecentlyAddedEpisodes.cpp
+  DirectoryNodeRecentlyAddedMovies.cpp
+  DirectoryNodeRecentlyAddedMusicVideos.cpp
+  DirectoryNodeSeasons.cpp
+  DirectoryNodeTitleMovies.cpp
+  DirectoryNodeTitleMusicVideos.cpp
+  DirectoryNodeTitleTvShows.cpp
+  DirectoryNodeTvShowsOverview.cpp
+  GameServices.cpp
+  GameUtils.cpp
+  GameClient.cpp
+  GameClientInGameSaves.cpp
+  GameClientProperties.cpp
+  GameClientSubsystem.cpp
+  GameClientTranslator.cpp
+  GameClientCheevos.cpp
+  GameClientController.cpp
+  GameClientDevice.cpp
+  GameClientHardware.cpp
+  GameClientInput.cpp
+  GameClientJoystick.cpp
+  GameClientKeyboard.cpp
+  GameClientMouse.cpp
+  GameClientPort.cpp
+  GameClientTopology.cpp
+  GameClientStreamAudio.cpp
+  GameClientStreams.cpp
+  GameClientStreamSwFramebuffer.cpp
+  GameClientStreamVideo.cpp
+  GameAgentManager.cpp
+  Controller.cpp
+  ControllerLayout.cpp
+  ControllerManager.cpp
+  ControllerTranslator.cpp
+  ControllerInstaller.cpp
+  ControllerSelect.cpp
+  GUIDialogAxisDetection.cpp
+  GUIDialogButtonCapture.cpp
+  GUIDialogIgnoreInput.cpp
+  GUICardinalFeatureButton.cpp
+  GUIControllerButton.cpp
+  GUIFeatureButton.cpp
+  GUIFeatureControls.cpp
+  GUIFeatureFactory.cpp
+  GUIFeatureTranslator.cpp
+  GUIGameController.cpp
+  GUIScalarFeatureButton.cpp
+  GUISelectKeyButton.cpp
+  GUIThrottleButton.cpp
+  GUIWheelButton.cpp
+  InputSink.cpp
+  PhysicalFeature.cpp
+  PhysicalTopology.cpp
+  ControllerGrid.cpp
+  ControllerHub.cpp
+  ControllerNode.cpp
+  GUIConfigurationWizard.cpp
+  GUIControllerList.cpp
+  GUIControllerWindow.cpp
+  GUIFeatureList.cpp
+  GUIDialogSelectGameClient.cpp
+  GUIDialogSelectSavestate.cpp
+  DialogGameAdvancedSettings.cpp
+  DialogGameOSD.cpp
+  DialogGameOSDHelp.cpp
+  DialogGameSaves.cpp
+  DialogGameStretchMode.cpp
+  DialogGameVideoFilter.cpp
+  DialogGameVideoRotation.cpp
+  DialogGameVideoSelect.cpp
+  DialogGameVolume.cpp
+  DialogInGameSaves.cpp
+  PhysicalPort.cpp
+  PortInput.cpp
+  PortManager.cpp
+  PortNode.cpp
+  GUIPortList.cpp
+  GUIPortWindow.cpp
+  GameInfoTag.cpp
+  GUIViewStateWindowGames.cpp
+  GUIWindowGames.cpp
+  AnnouncementManager.cpp
+  AddonBuiltins.cpp
+  ApplicationBuiltins.cpp
+  Builtins.cpp
+  CECBuiltins.cpp
+  GUIBuiltins.cpp
+  GUIControlBuiltins.cpp
+  GUIContainerBuiltins.cpp
+  LibraryBuiltins.cpp
+  OpticalBuiltins.cpp
+  PictureBuiltins.cpp
+  PlayerBuiltins.cpp
+  ProfileBuiltins.cpp
+  PVRBuiltins.cpp
+  SkinBuiltins.cpp
+  SystemBuiltins.cpp
+  WeatherBuiltins.cpp
+  ILanguageInvoker.cpp
+  LanguageInvokerThread.cpp
+C:\kodi\xbmc\interfaces\builtins\PlayerBuiltins.cpp(156,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  RunningScriptObserver.cpp
+  ScriptInvocationManager.cpp
+  ScriptRunner.cpp
+  InfoBool.cpp
+  InfoExpression.cpp
+  SkinVariable.cpp
+  AddonsOperations.cpp
+  ApplicationOperations.cpp
+  AudioLibrary.cpp
+  FavouritesOperations.cpp
+  FileItemHandler.cpp
+  FileOperations.cpp
+  GUIOperations.cpp
+  InputOperations.cpp
+C:\kodi\xbmc\interfaces\json-rpc\FileOperations.cpp(252,55): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+  JSONRPC.cpp
+  JSONServiceDescription.cpp
+  JSONUtils.cpp
+  PlayerOperations.cpp
+  PlaylistOperations.cpp
+  ProfilesOperations.cpp
+  PVROperations.cpp
+  SettingsOperations.cpp
+  SystemOperations.cpp
+  TextureOperations.cpp
+C:\kodi\xbmc\interfaces\json-rpc\PlaylistOperations.cpp(226,27): warning C4244: 'initializing': conversion from 'int64_t' to 'PLAYLIST::Id', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PVROperations.cpp(215,51): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PVROperations.cpp(236,51): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PVROperations.cpp(299,50): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PVROperations.cpp(411,51): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PVROperations.cpp(440,97): warning C4244: 'argument': conversion from 'int64_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PVROperations.cpp(457,51): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  VideoLibrary.cpp
+  XBMCOperations.cpp
+C:\kodi\xbmc\interfaces\json-rpc\PlayerOperations.cpp(456,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PlayerOperations.cpp(638,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PlayerOperations.cpp(761,29): warning C4244: 'initializing': conversion from 'int64_t' to 'PLAYLIST::Id', possible loss of data
+C:\kodi\xbmc\interfaces\json-rpc\PlayerOperations.cpp(1393,33): warning C4244: 'initializing': conversion from 'int64_t' to 'PLAYLIST::Id', possible loss of data
+  MediaType.cpp
+  CryptoSession.cpp
+  Album.cpp
+  Artist.cpp
+  GUIViewStateMusic.cpp
+  MusicDatabase.cpp
+  MusicDbUrl.cpp
+  MusicInfoLoader.cpp
+  MusicLibraryQueue.cpp
+  MusicThumbLoader.cpp
+  MusicUtils.cpp
+  Song.cpp
+  GUIDialogInfoProviderSettings.cpp
+  GUIDialogMusicInfo.cpp
+  GUIDialogMusicOSD.cpp
+  GUIDialogSongInfo.cpp
+  GUIDialogVisualisationPresetList.cpp
+  MusicAlbumInfo.cpp
+  MusicArtistInfo.cpp
+  MusicInfoScanner.cpp
+  MusicInfoScraper.cpp
+  MusicLibraryJob.cpp
+  MusicLibraryProgressJob.cpp
+  MusicLibraryCleaningJob.cpp
+  MusicLibraryExportJob.cpp
+  MusicLibraryImportJob.cpp
+  MusicLibraryScanningJob.cpp
+  MusicInfoTag.cpp
+  MusicInfoTagLoaderCDDA.cpp
+  MusicInfoTagLoaderDatabase.cpp
+  MusicInfoTagLoaderFactory.cpp
+  MusicInfoTagLoaderFFmpeg.cpp
+  MusicInfoTagLoaderShn.cpp
+  ReplayGain.cpp
+  TagLibVFSStream.cpp
+  TagLoaderTagLib.cpp
+  GUIWindowMusicBase.cpp
+  GUIWindowMusicNav.cpp
+  GUIWindowMusicPlaylist.cpp
+  GUIWindowMusicPlaylistEditor.cpp
+  GUIWindowVisualisation.cpp
+  MusicFileItemListModifier.cpp
+  DNSNameCache.cpp
+  EventClient.cpp
+  EventPacket.cpp
+  EventServer.cpp
+  GUIDialogNetworkSetup.cpp
+  NetworkServices.cpp
+  Socket.cpp
+  TCPServer.cpp
+  UdpClient.cpp
+  WakeOnAccess.cpp
+  ZeroconfBrowser.cpp
+  Zeroconf.cpp
+  WebServer.cpp
+  WebSocket.cpp
+  WebSocketManager.cpp
+  WebSocketV13.cpp
+C:\kodi\xbmc\network\WakeOnAccess.cpp(328,24): warning C4244: 'initializing': conversion from '_Rep' to 'int', possible loss of data
+C:\kodi\xbmc\network\WakeOnAccess.cpp(328,24): warning C4244:         with
+C:\kodi\xbmc\network\WakeOnAccess.cpp(328,24): warning C4244:         [
+C:\kodi\xbmc\network\WakeOnAccess.cpp(328,24): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\network\WakeOnAccess.cpp(328,24): warning C4244:         ]
+  WebSocketV8.cpp
+  EventLockHandle.cpp
+  EventPollHandle.cpp
+  EventScanner.cpp
+  Peripherals.cpp
+  AddonButtonMap.cpp
+  AddonButtonMapping.cpp
+  AddonInputHandling.cpp
+  PeripheralAddon.cpp
+  PeripheralAddonTranslator.cpp
+  PeripheralBus.cpp
+  PeripheralBusAddon.cpp
+  PeripheralBusApplication.cpp
+  Peripheral.cpp
+  PeripheralBluetooth.cpp
+  PeripheralDisk.cpp
+  PeripheralHID.cpp
+  PeripheralImon.cpp
+  PeripheralJoystick.cpp
+  PeripheralKeyboard.cpp
+  PeripheralMouse.cpp
+  PeripheralNIC.cpp
+  PeripheralNyxboard.cpp
+  PeripheralTuner.cpp
+  GUIDialogPeripherals.cpp
+  GUIDialogPeripheralSettings.cpp
+  Profile.cpp
+  ProfileManager.cpp
+  GUIDialogLockSettings.cpp
+  GUIDialogProfileSettings.cpp
+  GUIWindowSettingsProfile.cpp
+  PVRCachedImage.cpp
+  PVRCachedImages.cpp
+  PVRChannelNumberInputHandler.cpp
+C:\kodi\xbmc\pvr\PVRCachedImages.cpp(79,90): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  PVRComponentRegistration.cpp
+  PVRContextMenus.cpp
+  PVRDatabase.cpp
+  PVREdl.cpp
+  PVREventLogJob.cpp
+C:\kodi\xbmc\pvr\PVREdl.cpp(41,23): warning C4244: '=': conversion from 'const int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\PVREdl.cpp(42,21): warning C4244: '=': conversion from 'const int64_t' to 'int', possible loss of data
+  PVRItem.cpp
+  PVRManager.cpp
+  PVRPlaybackState.cpp
+  PVRStreamProperties.cpp
+  PVRThumbLoader.cpp
+  PVRClient.cpp
+  PVRClientCapabilities.cpp
+C:\kodi\xbmc\pvr\PVRPlaybackState.cpp(517,84): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  PVRClientMenuHooks.cpp
+  PVRClientUID.cpp
+  PVRClients.cpp
+  PVRChannel.cpp
+  PVRChannelGroup.cpp
+  PVRChannelGroupInternal.cpp
+  PVRChannelGroupMember.cpp
+  PVRChannelGroupSettings.cpp
+  PVRChannelGroups.cpp
+  PVRChannelGroupsContainer.cpp
+  PVRChannelNumber.cpp
+  PVRRadioRDSInfoTag.cpp
+  PVRChannelsPath.cpp
+  GUIDialogPVRChannelManager.cpp
+  GUIDialogPVRChannelsOSD.cpp
+  GUIDialogPVRGroupManager.cpp
+  GUIDialogPVRGuideInfo.cpp
+  GUIDialogPVRChannelGuide.cpp
+  GUIDialogPVRGuideControls.cpp
+  GUIDialogPVRGuideSearch.cpp
+  GUIDialogPVRRadioRDSInfo.cpp
+C:\kodi\xbmc\pvr\dialogs\GUIDialogPVRChannelManager.cpp(942,7): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  GUIDialogPVRRecordingInfo.cpp
+  GUIDialogPVRRecordingSettings.cpp
+  GUIDialogPVRTimerSettings.cpp
+  GUIDialogPVRClientPriorities.cpp
+  GUIDialogPVRItemsViewBase.cpp
+  EpgContainer.cpp
+  Epg.cpp
+  EpgDatabase.cpp
+  EpgInfoTag.cpp
+  EpgSearchFilter.cpp
+C:\kodi\xbmc\pvr\epg\EpgInfoTag.cpp(239,17): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\epg\EpgInfoTag.cpp(254,17): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\epg\EpgInfoTag.cpp(323,22): warning C4244: 'return': conversion from 'time_t' to 'int', possible loss of data
+  EpgSearchPath.cpp
+  EpgChannelData.cpp
+  EpgTagsCache.cpp
+  EpgTagsContainer.cpp
+  PVRGUIDirectory.cpp
+  GUIEPGGridContainer.cpp
+  GUIEPGGridContainerModel.cpp
+  PVRGUIActionListener.cpp
+  PVRGUIActionsChannels.cpp
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1214,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1214,23): warning C4244:         with
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1214,23): warning C4244:         [
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1214,23): warning C4244:             T=float
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1214,23): warning C4244:         ]
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1215,21): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1215,21): warning C4244:         with
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1215,21): warning C4244:         [
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1215,21): warning C4244:             T=float
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1215,21): warning C4244:         ]
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1219,23): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1219,23): warning C4244:         with
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1219,23): warning C4244:         [
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1219,23): warning C4244:             T=float
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1219,23): warning C4244:         ]
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1220,21): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1220,21): warning C4244:         with
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1220,21): warning C4244:         [
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1220,21): warning C4244:             T=float
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1220,21): warning C4244:         ]
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1936,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1937,55): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1955,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\GUIEPGGridContainer.cpp(1956,56): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  PVRGUIActionsClients.cpp
+  PVRGUIActionsDatabase.cpp
+  PVRGUIActionsEPG.cpp
+  PVRGUIActionsUtils.cpp
+  PVRGUIActionsParentalControl.cpp
+  PVRGUIActionsPlayback.cpp
+  PVRGUIActionsPowerManagement.cpp
+  PVRGUIActionsRecordings.cpp
+  PVRGUIActionsTimers.cpp
+  PVRGUIChannelIconUpdater.cpp
+  PVRGUIChannelNavigator.cpp
+  PVRGUIProgressHandler.cpp
+  PVRGUIInfo.cpp
+  PVRGUITimerInfo.cpp
+  PVRGUITimesInfo.cpp
+  PVRProvider.cpp
+  PVRProviders.cpp
+  PVRRecording.cpp
+C:\kodi\xbmc\pvr\guilib\guiinfo\PVRGUITimesInfo.cpp(83,43): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\guiinfo\PVRGUITimesInfo.cpp(150,51): warning C4244: '=': conversion from 'int64_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\guiinfo\PVRGUITimesInfo.cpp(160,30): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\pvr\guilib\guiinfo\PVRGUITimesInfo.cpp(229,62): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PVRRecordings.cpp
+  PVRRecordingsPath.cpp
+  PVRSettings.cpp
+  PVRTimerInfoTag.cpp
+  PVRTimerRuleMatcher.cpp
+  PVRTimers.cpp
+  PVRTimersPath.cpp
+C:\kodi\xbmc\pvr\timers\PVRTimerInfoTag.cpp(1192,22): warning C4244: 'return': conversion from 'time_t' to 'int', possible loss of data
+  PVRTimerType.cpp
+  GUIViewStatePVR.cpp
+  GUIWindowPVRBase.cpp
+C:\kodi\xbmc\pvr\timers\PVRTimers.cpp(172,47): warning C4244: 'argument': conversion from '_Rep' to 'int', possible loss of data
+C:\kodi\xbmc\pvr\timers\PVRTimers.cpp(172,47): warning C4244:         with
+C:\kodi\xbmc\pvr\timers\PVRTimers.cpp(172,47): warning C4244:         [
+C:\kodi\xbmc\pvr\timers\PVRTimers.cpp(172,47): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\pvr\timers\PVRTimers.cpp(172,47): warning C4244:         ]
+  GUIWindowPVRChannels.cpp
+  GUIWindowPVRGuide.cpp
+  GUIWindowPVRRecordings.cpp
+  GUIWindowPVRSearch.cpp
+  GUIWindowPVRTimers.cpp
+C:\kodi\xbmc\pvr\windows\GUIWindowPVRGuide.cpp(285,10): warning C4244: 'return': conversion from 'int64_t' to 'int', possible loss of data
+  GUIWindowPVRTimersBase.cpp
+  GUIWindowPVRTimerRules.cpp
+  RetroPlayer.cpp
+  RetroPlayerAutoSave.cpp
+  RetroPlayerInput.cpp
+  RetroPlayerUtils.cpp
+  AudioTranslator.cpp
+  BaseRenderBuffer.cpp
+  BaseRenderBufferPool.cpp
+  RenderBufferManager.cpp
+  RenderBufferGuiTexture.cpp
+  RenderBufferSysMem.cpp
+  Cheevos.cpp
+  GUIGameRenderManager.cpp
+  GUIGameSettings.cpp
+  GUIGameSettingsHandle.cpp
+  GUIGameVideoHandle.cpp
+  GUIRenderHandle.cpp
+  GUIRenderTarget.cpp
+  GUIRenderTargetFactory.cpp
+  GUIGameControl.cpp
+  GUIRenderSettings.cpp
+  GUIPlaybackControl.cpp
+  GameWindowFullScreen.cpp
+  GameWindowFullScreenText.cpp
+  GameLoop.cpp
+  ReversiblePlayback.cpp
+  RPProcessInfo.cpp
+  RenderContext.cpp
+  RenderSettings.cpp
+  RenderTranslator.cpp
+  RenderUtils.cpp
+  RenderVideoSettings.cpp
+  RPRenderManager.cpp
+  RPBaseRenderer.cpp
+  RPRendererGuiTexture.cpp
+  SavestateDatabase.cpp
+C:\kodi\xbmc\cores\RetroPlayer\rendering\VideoRenderers\RPBaseRenderer.cpp(147,19): warning C4244: '=': conversion from 'const unsigned int' to 'float', possible loss of data
+C:\kodi\xbmc\cores\RetroPlayer\rendering\VideoRenderers\RPBaseRenderer.cpp(148,20): warning C4244: '=': conversion from 'const unsigned int' to 'float', possible loss of data
+  SavestateFlatBuffer.cpp
+  RetroPlayerAudio.cpp
+  RetroPlayerStreamTypes.cpp
+  RetroPlayerVideo.cpp
+  RPStreamManager.cpp
+  BasicMemoryStream.cpp
+  DeltaPairMemoryStream.cpp
+  LinearMemoryStream.cpp
+  AdvancedSettings.cpp
+  DisplaySettings.cpp
+  LibExportSettings.cpp
+  MediaSettings.cpp
+  MediaSourceSettings.cpp
+  SettingAddon.cpp
+  SettingControl.cpp
+  SettingCreator.cpp
+  SettingDateTime.cpp
+C:\kodi\xbmc\settings\AdvancedSettings.cpp(743,63): warning C4305: 'argument': truncation from 'double' to 'const float'
+  SettingPath.cpp
+  SettingsBase.cpp
+  SettingsValueFlatJsonSerializer.cpp
+  SettingsValueXmlSerializer.cpp
+  SettingUtils.cpp
+  SkinSettings.cpp
+  SettingsComponent.cpp
+  SubtitlesSettings.cpp
+  DiscSettings.cpp
+  GUIDialogContentSettings.cpp
+  GUIDialogLibExportSettings.cpp
+  GUIDialogSettingsBase.cpp
+  GUIDialogSettingsManagerBase.cpp
+  GUIDialogSettingsManualBase.cpp
+  ISetting.cpp
+  ISettingControl.cpp
+  Setting.cpp
+  SettingCategoryAccess.cpp
+  SettingDependency.cpp
+  SettingRequirement.cpp
+  SettingSection.cpp
+  SettingsManager.cpp
+  SettingUpdate.cpp
+  GUIControlSettings.cpp
+  GUIWindowSettings.cpp
+  GUIWindowSettingsCategory.cpp
+  GUIWindowSettingsScreenCalibration.cpp
+  AutoSwitch.cpp
+  BackgroundInfoLoader.cpp
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(370,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(369,78): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(377,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(408,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(408,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(408,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(408,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(410,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(410,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(463,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(463,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(463,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(463,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(465,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(465,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(486,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(486,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(486,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(486,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(488,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(488,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(552,72): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\settings\windows\GUIWindowSettingsScreenCalibration.cpp(573,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  ContextMenuItem.cpp
+  ContextMenuManager.cpp
+  CueDocument.cpp
+  DatabaseManager.cpp
+C:\kodi\xbmc\CueDocument.cpp(207,64): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\CueDocument.cpp(443,56): warning C4244: 'return': conversion from 'int64_t' to 'int', possible loss of data
+  DbUrl.cpp
+  DynamicDll.cpp
+  FileItem.cpp
+  FileItemListModification.cpp
+  GUIInfoManager.cpp
+  GUILargeTextureManager.cpp
+  GUIPassword.cpp
+  InfoScanner.cpp
+  LangInfo.cpp
+  MediaSource.cpp
+C:\kodi\xbmc\FileItem.cpp(2103,65): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+  NfoFile.cpp
+C:\kodi\xbmc\GUIInfoManager.cpp(10920,63): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+  PasswordManager.cpp
+  PlayListPlayer.cpp
+  PartyModeManager.cpp
+  SectionLoader.cpp
+  SeekHandler.cpp
+  ServiceBroker.cpp
+  ServiceManager.cpp
+  SystemGlobals.cpp
+  TextureCache.cpp
+  TextureCacheJob.cpp
+  TextureDatabase.cpp
+  ThumbLoader.cpp
+  URL.cpp
+  Util.cpp
+  XBDateTime.cpp
+  AddonBuilder.cpp
+  BinaryAddonCache.cpp
+  AddonDatabase.cpp
+  AddonInstaller.cpp
+  AddonManager.cpp
+  AddonRepos.cpp
+  AddonStatusHandler.cpp
+  AddonSystemSettings.cpp
+C:\kodi\xbmc\addons\AddonInstaller.cpp(1155,68): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+  AddonUpdateRules.cpp
+  AddonVersion.cpp
+  ContextMenuAddon.cpp
+  ExtsMimeSupportList.cpp
+  FontResource.cpp
+  FilesystemInstaller.cpp
+  GameResource.cpp
+  ImageDecoder.cpp
+  ImageResource.cpp
+  LanguageResource.cpp
+  PluginSource.cpp
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(100,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(103,36): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(240,24): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(241,25): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(656,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\addons\ImageDecoder.cpp(124,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Repository.cpp
+  RepositoryUpdater.cpp
+  Scraper.cpp
+  ScreenSaver.cpp
+  Service.cpp
+  Skin.cpp
+C:\kodi\xbmc\addons\Scraper.cpp(303,31): warning C4101: 'sce': unreferenced local variable
+C:\kodi\xbmc\addons\Scraper.cpp(1244,76): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+  UISoundsResource.cpp
+  VFSEntry.cpp
+  Visualization.cpp
+  Webinterface.cpp
+  AddonInfoBuilder.cpp
+  AddonExtensions.cpp
+C:\kodi\xbmc\addons\VFSEntry.cpp(294,30): warning C4244: '=': conversion from 'uint64_t' to '_ino_t', possible loss of data
+  AddonInfo.cpp
+  AddonType.cpp
+  BinaryAddonManager.cpp
+  AddonDll.cpp
+  AddonInstanceHandler.cpp
+  BinaryAddonBase.cpp
+  GUIDialogAddonInfo.cpp
+  GUIDialogAddonSettings.cpp
+  GUIHelpers.cpp
+  GUIViewStateAddonBrowser.cpp
+  GUIWindowAddonBrowser.cpp
+  SkinTimer.cpp
+  SkinTimerManager.cpp
+C:\kodi\xbmc\addons\gui\GUIDialogAddonSettings.cpp(289,39): warning C4244: 'initializing': conversion from 'int64_t' to 'ADDON::AddonInstanceId', possible loss of data
+C:\kodi\xbmc\addons\gui\GUIDialogAddonSettings.cpp(337,57): warning C4244: '=': conversion from 'int64_t' to 'ADDON::AddonInstanceId', possible loss of data
+  AddonBase.cpp
+  AudioEngine.cpp
+  GUITranslator.cpp
+  Button.cpp
+  Edit.cpp
+  FadeLabel.cpp
+  Image.cpp
+  Label.cpp
+  RadioButton.cpp
+  Rendering.cpp
+  SettingsSlider.cpp
+  Slider.cpp
+  Spin.cpp
+  TextBox.cpp
+  ContextMenu.cpp
+  ExtendedProgressBar.cpp
+  FileBrowser.cpp
+  Numeric.cpp
+  OK.cpp
+  Select.cpp
+  TextViewer.cpp
+  YesNo.cpp
+  AddonSettings.cpp
+  SettingUrlEncodedString.cpp
+  AppEnvironment.cpp
+  AppInboundProtocol.cpp
+  Application.cpp
+  ApplicationActionListeners.cpp
+  ApplicationPlayer.cpp
+  ApplicationPlayerCallback.cpp
+  ApplicationPowerHandling.cpp
+  ApplicationSettingsHandling.cpp
+  ApplicationSkinHandling.cpp
+  ApplicationStackHelper.cpp
+C:\kodi\xbmc\application\ApplicationStackHelper.cpp(209,10): warning C4244: 'return': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\application\ApplicationPlayerCallback.cpp(132,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\application\ApplicationPlayerCallback.cpp(159,28): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+C:\kodi\xbmc\application\ApplicationPlayerCallback.cpp(248,49): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\application\ApplicationPlayerCallback.cpp(249,49): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  ApplicationVolumeHandling.cpp
+  AppParamParser.cpp
+  AppParams.cpp
+  Exception.cpp
+  Database.cpp
+  DatabaseQuery.cpp
+  dataset.cpp
+  qry_dat.cpp
+  sqlitedataset.cpp
+  mysqldataset.cpp
+  GUIDialogBoxBase.cpp
+  GUIDialogBusy.cpp
+  GUIDialogBusyNoCancel.cpp
+  GUIDialogButtonMenu.cpp
+C:\kodi\xbmc\dialogs\GUIDialogBusy.cpp(43,30): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\dialogs\GUIDialogBusy.cpp(43,30): warning C4244:         with
+C:\kodi\xbmc\dialogs\GUIDialogBusy.cpp(43,30): warning C4244:         [
+C:\kodi\xbmc\dialogs\GUIDialogBusy.cpp(43,30): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\dialogs\GUIDialogBusy.cpp(43,30): warning C4244:         ]
+  GUIDialogCache.cpp
+  GUIDialogColorPicker.cpp
+  GUIDialogContextMenu.cpp
+  GUIDialogExtendedProgressBar.cpp
+  GUIDialogFileBrowser.cpp
+  GUIDialogGamepad.cpp
+  GUIDialogKaiToast.cpp
+  GUIDialogKeyboardGeneric.cpp
+  GUIDialogKeyboardTouch.cpp
+  GUIDialogMediaFilter.cpp
+  GUIDialogMediaSource.cpp
+  GUIDialogNumeric.cpp
+  GUIDialogOK.cpp
+  GUIDialogPlayerControls.cpp
+  GUIDialogPlayerProcessInfo.cpp
+  GUIDialogProgress.cpp
+  GUIDialogSeekBar.cpp
+  GUIDialogSelect.cpp
+  GUIDialogSimpleMenu.cpp
+  GUIDialogSlider.cpp
+  GUIDialogSmartPlaylistEditor.cpp
+  GUIDialogSmartPlaylistRule.cpp
+  GUIDialogSubMenu.cpp
+  GUIDialogTextViewer.cpp
+  GUIDialogVolumeBar.cpp
+  GUIDialogYesNo.cpp
+  GUIDialogFavourites.cpp
+  GUIViewStateFavourites.cpp
+  GUIWindowFavourites.cpp
+C:\kodi\xbmc\dialogs\GUIDialogTextViewer.cpp(115,35): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+C:\kodi\xbmc\dialogs\GUIDialogTextViewer.cpp(116,41): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+  FavouritesService.cpp
+  FavouritesURL.cpp
+  DDSImage.cpp
+  DirtyRegionSolvers.cpp
+  DirtyRegionTracker.cpp
+  FFmpegImage.cpp
+  GUIAction.cpp
+  GUIAudioManager.cpp
+C:\kodi\xbmc\guilib\FFmpegImage.cpp(75,18): warning C4244: 'return': conversion from 'const _Ty' to 'size_t', possible loss of data
+C:\kodi\xbmc\guilib\FFmpegImage.cpp(75,18): warning C4244:         with
+C:\kodi\xbmc\guilib\FFmpegImage.cpp(75,18): warning C4244:         [
+C:\kodi\xbmc\guilib\FFmpegImage.cpp(75,18): warning C4244:             _Ty=int64_t
+C:\kodi\xbmc\guilib\FFmpegImage.cpp(75,18): warning C4244:         ]
+  GUIBaseContainer.cpp
+  GUIBorderedImage.cpp
+  GUIButtonControl.cpp
+  GUIColorButtonControl.cpp
+  GUIColorManager.cpp
+  GUIComponent.cpp
+  GUIControl.cpp
+  GUIControlFactory.cpp
+  GUIControlGroup.cpp
+  GUIControlGroupList.cpp
+  GUIControlLookup.cpp
+  GUIControlProfiler.cpp
+  GUIDialog.cpp
+  GUIEditControl.cpp
+C:\kodi\xbmc\guilib\GUIControlGroupList.cpp(54,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GUIFadeLabelControl.cpp
+  GUIFixedListContainer.cpp
+  GUIFont.cpp
+  GUIFontCache.cpp
+  GUIFontManager.cpp
+  GUIFontTTF.cpp
+  GUIImage.cpp
+  GUIIncludes.cpp
+  GUIKeyboardFactory.cpp
+  GUILabelControl.cpp
+  GUILabel.cpp
+  GUIListContainer.cpp
+  GUIListGroup.cpp
+  GUIListItem.cpp
+  GUIListItemLayout.cpp
+  GUIListLabel.cpp
+  GUIMessage.cpp
+  GUIMoverControl.cpp
+  GUIMultiImage.cpp
+  GUIPanelContainer.cpp
+  GUIProgressControl.cpp
+  GUIRadioButtonControl.cpp
+  GUIRangesControl.cpp
+  GUIRenderingControl.cpp
+  GUIResizeControl.cpp
+  GUIRSSControl.cpp
+  GUIScrollBarControl.cpp
+  GUISettingsSliderControl.cpp
+  GUISliderControl.cpp
+  GUISpinControl.cpp
+  GUISpinControlEx.cpp
+  GUIStaticItem.cpp
+  GUITextBox.cpp
+  GUITextLayout.cpp
+  GUITexture.cpp
+  GUIToggleButtonControl.cpp
+  GUIVideoControl.cpp
+  GUIVisualisationControl.cpp
+  GUIWindow.cpp
+  GUIWindowManager.cpp
+  GUIWrappingListContainer.cpp
+  imagefactory.cpp
+  IWindowManagerCallback.cpp
+  LocalizeStrings.cpp
+  StereoscopicsManager.cpp
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(100,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(103,36): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(240,24): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(241,25): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(656,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  TextureBundle.cpp
+  TextureBundleXBT.cpp
+  Texture.cpp
+  TextureManager.cpp
+  VisibleEffect.cpp
+  XBTF.cpp
+  XBTFReader.cpp
+  D3DResource.cpp
+  DirectXGraphics.cpp
+  GUIFontTTFDX.cpp
+  GUIShaderDX.cpp
+  GUITextureD3D.cpp
+  TextureDX.cpp
+  GUIInfo.cpp
+C:\kodi\xbmc\guilib\D3DResource.cpp(632,24): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+C:\kodi\xbmc\guilib\D3DResource.cpp(633,31): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+C:\kodi\xbmc\guilib\D3DResource.cpp(639,13): warning C4244: '=': conversion from 'int64_t' to 'UINT', possible loss of data
+  GUIInfoHelper.cpp
+C:\kodi\xbmc\guilib\GUIShaderDX.cpp(285,26): warning C4838: conversion from 'float' to 'unsigned __int64' requires a narrowing conversion
+C:\kodi\xbmc\guilib\GUIShaderDX.cpp(285,26): warning C4244: 'initializing': conversion from 'float' to 'unsigned __int64', possible loss of data
+C:\kodi\xbmc\guilib\GUIShaderDX.cpp(285,29): warning C4838: conversion from 'float' to 'unsigned __int64' requires a narrowing conversion
+C:\kodi\xbmc\guilib\GUIShaderDX.cpp(285,29): warning C4244: 'initializing': conversion from 'float' to 'unsigned __int64', possible loss of data
+C:\kodi\xbmc\guilib\GUIShaderDX.cpp(337,78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GUIInfoProviders.cpp
+C:\kodi\xbmc\guilib\GUIFontTTFDX.cpp(342,21): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\guilib\GUIFontTTFDX.cpp(343,25): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\guilib\GUIFontTTFDX.cpp(344,25): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\guilib\GUIFontTTFDX.cpp(345,25): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\guilib\GUIFontTTFDX.cpp(346,25): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\guilib\GUIFontTTFDX.cpp(347,25): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+  GUIInfoLabel.cpp
+  GUIInfoBool.cpp
+  GUIInfoColor.cpp
+  AddonsGUIInfo.cpp
+  GamesGUIInfo.cpp
+  GUIControlsGUIInfo.cpp
+  LibraryGUIInfo.cpp
+  MusicGUIInfo.cpp
+  PicturesGUIInfo.cpp
+  PlayerGUIInfo.cpp
+  SkinGUIInfo.cpp
+  SystemGUIInfo.cpp
+  VideoGUIInfo.cpp
+C:\kodi\xbmc\guilib\guiinfo\SkinGUIInfo.cpp(96,49): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  VisualisationGUIInfo.cpp
+C:\kodi\xbmc\guilib\guiinfo\PlayerGUIInfo.cpp(115,31): warning C4244: 'argument': conversion from 'double' to 'long', possible loss of data
+C:\kodi\xbmc\guilib\guiinfo\PlayerGUIInfo.cpp(168,26): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\guilib\guiinfo\PlayerGUIInfo.cpp(243,30): warning C4244: '/=': conversion from 'float' to 'int', possible loss of data
+  WeatherGUIInfo.cpp
+  AppTranslator.cpp
+  ButtonTranslator.cpp
+  CustomControllerTranslator.cpp
+C:\kodi\xbmc\guilib\guiinfo\VideoGUIInfo.cpp(401,66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  GamepadTranslator.cpp
+  InertialScrollingHandler.cpp
+  InputCodingTableBasePY.cpp
+  InputCodingTableFactory.cpp
+  InputCodingTableKorean.cpp
+  InputManager.cpp
+  InputTranslator.cpp
+  IRTranslator.cpp
+  JoystickMapper.cpp
+  Key.cpp
+  KeyboardLayout.cpp
+  KeyboardLayoutManager.cpp
+  KeyboardStat.cpp
+  KeyboardTranslator.cpp
+C:\kodi\xbmc\input\KeyboardStat.cpp(189,82): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\input\KeyboardStat.cpp(189,82): warning C4244:         with
+C:\kodi\xbmc\input\KeyboardStat.cpp(189,82): warning C4244:         [
+C:\kodi\xbmc\input\KeyboardStat.cpp(189,82): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\input\KeyboardStat.cpp(189,82): warning C4244:         ]
+  Keymap.cpp
+  KeymapEnvironment.cpp
+  TouchTranslator.cpp
+  WindowKeymap.cpp
+  WindowTranslator.cpp
+  XBMC_keytable.cpp
+  Action.cpp
+  ActionTranslator.cpp
+  ButtonStat.cpp
+  DeadzoneFilter.cpp
+  DriverPrimitive.cpp
+  JoystickEasterEgg.cpp
+  JoystickMonitor.cpp
+  JoystickTranslator.cpp
+  JoystickUtils.cpp
+  RumbleGenerator.cpp
+  GUIDialogNewJoystick.cpp
+  ButtonMapping.cpp
+  DriverReceiving.cpp
+  FeatureHandling.cpp
+  InputHandling.cpp
+  KeyHandler.cpp
+  KeymapHandler.cpp
+  KeymapHandling.cpp
+  KeyboardEasterEgg.cpp
+C:\kodi\xbmc\input\joysticks\generic\FeatureHandling.cpp(76,24): warning C4244: 'return': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\input\joysticks\generic\FeatureHandling.cpp(76,24): warning C4244:         with
+C:\kodi\xbmc\input\joysticks\generic\FeatureHandling.cpp(76,24): warning C4244:         [
+C:\kodi\xbmc\input\joysticks\generic\FeatureHandling.cpp(76,24): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\input\joysticks\generic\FeatureHandling.cpp(76,24): warning C4244:         ]
+  KeymapActionMap.cpp
+  KeyboardInputHandling.cpp
+  MouseStat.cpp
+  MouseTranslator.cpp
+  MouseInputHandling.cpp
+  DirectoryProvider.cpp
+  IListProvider.cpp
+  MultiProvider.cpp
+  StaticProvider.cpp
+  ApplicationMessenger.cpp
+  DialogHelper.cpp
+  DialogOKHelper.cpp
+  ExifParse.cpp
+  GUIDialogPictureInfo.cpp
+  GUIViewStatePictures.cpp
+  GUIWindowPictures.cpp
+  GUIWindowSlideShow.cpp
+  IptcParse.cpp
+  JpegParse.cpp
+  libexif.cpp
+  Picture.cpp
+  PictureInfoLoader.cpp
+  PictureInfoTag.cpp
+  PictureScalingAlgorithm.cpp
+  PictureThumbLoader.cpp
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(100,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(103,36): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(240,24): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(241,25): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(656,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\pictures\GUIWindowSlideShow.cpp(657,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\pictures\GUIWindowSlideShow.cpp(657,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SlideShowPicture.cpp
+  xbmc.cpp
+  PlayListB4S.cpp
+  PlayListFactory.cpp
+  PlayListM3U.cpp
+  PlayListPLS.cpp
+  PlayListURL.cpp
+  PlayListWPL.cpp
+  PlayListXML.cpp
+  PlayListXSPF.cpp
+  SmartPlayList.cpp
+  SmartPlaylistFileItemListModifier.cpp
+  DPMSSupport.cpp
+  IPowerSyscall.cpp
+  PowerManager.cpp
+  GUIViewStatePrograms.cpp
+  GUIWindowPrograms.cpp
+  RenderSystem.cpp
+  AutorunMediaJob.cpp
+C:\kodi\xbmc\rendering\RenderSystem.cpp(66,113): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\rendering\RenderSystem.cpp(65,130): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\rendering\RenderSystem.cpp(101,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\rendering\RenderSystem.cpp(101,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MediaManager.cpp
+  Event.cpp
+  Thread.cpp
+  Timer.cpp
+  ActorProtocol.cpp
+  AlarmClock.cpp
+  AliasShortcutUtils.cpp
+  Archive.cpp
+  Base64.cpp
+  BitstreamConverter.cpp
+  BitstreamReader.cpp
+  BitstreamStats.cpp
+  BitstreamWriter.cpp
+  BooleanLogic.cpp
+  CharArrayParser.cpp
+  CharsetDetection.cpp
+  ColorUtils.cpp
+  ContentUtils.cpp
+  CPUInfo.cpp
+  Crc32.cpp
+  CSSUtils.cpp
+  DatabaseUtils.cpp
+  Digest.cpp
+  DiscsUtils.cpp
+  EndianSwap.cpp
+  EmbeddedArt.cpp
+  ExecString.cpp
+  FileExtensionProvider.cpp
+  Fanart.cpp
+  FileOperationJob.cpp
+  FileUtils.cpp
+  FontUtils.cpp
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(100,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(103,36): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(240,24): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(241,25): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+C:\kodi\xbmc\addons\kodi-dev-kit\include\kodi\addon-instance\ImageDecoder.h(656,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GroupUtils.cpp
+  HTMLUtil.cpp
+  HttpHeader.cpp
+  HttpParser.cpp
+  HttpRangeUtils.cpp
+  HttpResponse.cpp
+  InfoLoader.cpp
+  JobManager.cpp
+  JSONVariantParser.cpp
+  JSONVariantWriter.cpp
+  LabelFormatter.cpp
+  LangCodeExpander.cpp
+  LegacyPathTranslation.cpp
+  Locale.cpp
+  log.cpp
+  Mime.cpp
+  MovingSpeed.cpp
+  Observer.cpp
+  POUtils.cpp
+  PlayerUtils.cpp
+  RecentlyAddedJob.cpp
+  RegExp.cpp
+  rfft.cpp
+  RingBuffer.cpp
+C:\kodi\xbmc\utils\rfft.cpp(62,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\utils\rfft.cpp(63,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  RssManager.cpp
+  RssReader.cpp
+  ProgressJob.cpp
+  SaveFileStateJob.cpp
+  ScraperParser.cpp
+  ScraperUrl.cpp
+  Screenshot.cpp
+C:\kodi\xbmc\utils\SaveFileStateJob.cpp(230,41): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  SortUtils.cpp
+  Speed.cpp
+  StreamDetails.cpp
+  StreamUtils.cpp
+  StringUtils.cpp
+  StringValidation.cpp
+  SystemInfo.cpp
+C:\kodi\xbmc\utils\StringUtils.cpp(795,99): warning C4244: 'argument': conversion from 'int64_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\utils\StringUtils.cpp(1582,23): warning C4244: 'argument': conversion from 'unsigned long' to 'const _Elem', possible loss of data
+C:\kodi\xbmc\utils\StringUtils.cpp(1582,23): warning C4244:         with
+C:\kodi\xbmc\utils\StringUtils.cpp(1582,23): warning C4244:         [
+C:\kodi\xbmc\utils\StringUtils.cpp(1582,23): warning C4244:             _Elem=char
+C:\kodi\xbmc\utils\StringUtils.cpp(1582,23): warning C4244:         ]
+  Temperature.cpp
+  TextSearch.cpp
+  TimeUtils.cpp
+  URIUtils.cpp
+C:\kodi\xbmc\utils\TimeUtils.cpp(66,28): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\utils\TimeUtils.cpp(66,28): warning C4244:         with
+C:\kodi\xbmc\utils\TimeUtils.cpp(66,28): warning C4244:         [
+C:\kodi\xbmc\utils\TimeUtils.cpp(66,28): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\utils\TimeUtils.cpp(66,28): warning C4244:         ]
+  UrlOptions.cpp
+  Utf8Utils.cpp
+  Variant.cpp
+  VC1BitstreamParser.cpp
+  Vector.cpp
+C:\kodi\xbmc\utils\Vector.cpp(31,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  XBMCTinyXML.cpp
+  XMLUtils.cpp
+  XSLTUtils.cpp
+  GUIViewControl.cpp
+  GUIViewState.cpp
+  ViewDatabase.cpp
+  ViewStateSettings.cpp
+  GUIWindowWeather.cpp
+  WeatherJob.cpp
+  WeatherManager.cpp
+  GraphicContext.cpp
+  OSScreenSaver.cpp
+  Resolution.cpp
+  WindowSystemFactory.cpp
+  WinSystem.cpp
+  GUIMediaWindow.cpp
+  GUIWindowDebugInfo.cpp
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,40): warning C4244:         with
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,40): warning C4244:         [
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,40): warning C4244:             T=float
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,40): warning C4244:         ]
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,24): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,24): warning C4244:         with
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,24): warning C4244:         [
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,24): warning C4244:             T=float
+C:\kodi\xbmc\windowing\GraphicContext.cpp(123,24): warning C4244:         ]
+  GUIWindowFileManager.cpp
+  GUIWindowHome.cpp
+C:\kodi\xbmc\windows\GUIWindowDebugInfo.cpp(72,33): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\windows\GUIWindowDebugInfo.cpp(79,17): warning C4244: '=': conversion from 'time_t' to 'unsigned int', possible loss of data
+  GUIWindowLoginScreen.cpp
+  GUIWindowPointer.cpp
+  GUIWindowScreensaver.cpp
+  GUIWindowScreensaverDim.cpp
+  GUIWindowSplash.cpp
+  GUIWindowStartup.cpp
+  GUIWindowSystemInfo.cpp
+  Bookmark.cpp
+C:\kodi\xbmc\windows\GUIWindowSplash.cpp(29,183): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windows\GUIWindowSplash.cpp(29,122): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windows\GUIWindowSplash.cpp(40,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windows\GUIWindowSplash.cpp(41,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GUIViewStateVideo.cpp
+  PlayerController.cpp
+  Teletext.cpp
+  VideoDatabase.cpp
+  VideoDbUrl.cpp
+  VideoInfoDownloader.cpp
+  VideoInfoScanner.cpp
+  VideoInfoTag.cpp
+  VideoLibraryQueue.cpp
+  VideoThumbLoader.cpp
+  VideoUtils.cpp
+  ViewModeSettings.cpp
+C:\kodi\xbmc\video\VideoDatabase.cpp(8820,42): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+  GUIDialogAudioSettings.cpp
+  GUIDialogFullScreenInfo.cpp
+  GUIDialogSubtitles.cpp
+C:\kodi\xbmc\video\VideoUtils.cpp(586,72): warning C4244: 'argument': conversion from 'int64_t' to 'double', possible loss of data
+  GUIDialogSubtitleSettings.cpp
+  GUIDialogTeletext.cpp
+  GUIDialogVideoBookmarks.cpp
+  GUIDialogVideoInfo.cpp
+  GUIDialogVideoOSD.cpp
+  GUIDialogVideoSettings.cpp
+  GUIDialogCMSSettings.cpp
+  VideoLibraryCleaningJob.cpp
+  VideoLibraryJob.cpp
+  VideoLibraryMarkWatchedJob.cpp
+C:\kodi\xbmc\video\dialogs\GUIDialogCMSSettings.cpp(163,169): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\kodi\xbmc\video\dialogs\GUIDialogCMSSettings.cpp(163,163): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\kodi\xbmc\video\dialogs\GUIDialogCMSSettings.cpp(163,158): warning C4305: 'argument': truncation from 'double' to 'float'
+  VideoLibraryProgressJob.cpp
+C:\kodi\xbmc\video\dialogs\GUIDialogCMSSettings.cpp(196,178): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  VideoLibraryRefreshingJob.cpp
+  VideoLibraryScanningJob.cpp
+  VideoLibraryResetResumePointJob.cpp
+  VideoInfoTagLoaderFactory.cpp
+  VideoTagLoaderFFmpeg.cpp
+  VideoTagLoaderNFO.cpp
+  VideoTagLoaderPlugin.cpp
+  GUIWindowFullScreen.cpp
+  GUIWindowVideoBase.cpp
+  GUIWindowVideoNav.cpp
+  GUIWindowVideoPlaylist.cpp
+  VideoFileItemListModifier.cpp
+  AudioSinkAE.cpp
+  DVDClock.cpp
+  DVDDemuxSPU.cpp
+C:\kodi\xbmc\cores\VideoPlayer\DVDClock.cpp(62,35): warning C4244: '+=': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDClock.cpp(75,35): warning C4244: '+=': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDClock.cpp(100,68): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDClock.cpp(120,42): warning C4244: '+=': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDClock.cpp(260,10): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  DVDFileInfo.cpp
+  DVDMessage.cpp
+  DVDMessageQueue.cpp
+  DVDOverlayContainer.cpp
+  DVDStreamInfo.cpp
+C:\kodi\xbmc\cores\VideoPlayer\DVDStreamInfo.cpp(259,20): warning C4244: '=': conversion from 'const int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDMessageQueue.cpp(324,13): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDMessageQueue.cpp(324,13): warning C4244:         with
+C:\kodi\xbmc\cores\VideoPlayer\DVDMessageQueue.cpp(324,13): warning C4244:         [
+C:\kodi\xbmc\cores\VideoPlayer\DVDMessageQueue.cpp(324,13): warning C4244:             _Ty=double
+C:\kodi\xbmc\cores\VideoPlayer\DVDMessageQueue.cpp(324,13): warning C4244:         ]
+  PTSTracker.cpp
+  Edl.cpp
+  VideoPlayer.cpp
+  VideoPlayerAudio.cpp
+  VideoPlayerAudioID3.cpp
+C:\kodi\xbmc\cores\VideoPlayer\Edl.cpp(217,32): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\Edl.cpp(218,30): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\Edl.cpp(890,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  VideoPlayerRadioRDS.cpp
+  VideoPlayerSubtitle.cpp
+  VideoPlayerTeletext.cpp
+  VideoPlayerVideo.cpp
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(531,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(1284,50): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(1288,50): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(2369,63): warning C4244: 'argument': conversion from 'const int64_t' to 'double', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(2371,21): warning C4244: 'argument': conversion from 'const double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(2389,90): warning C4244: 'argument': conversion from 'const int64_t' to 'const int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(2432,92): warning C4244: 'argument': conversion from 'const int64_t' to 'const int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(3251,39): warning C4244: 'argument': conversion from 'int64_t' to 'const int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(3499,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(3748,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4859,36): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4859,36): warning C4244:         with
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4859,36): warning C4244:         [
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4859,36): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4859,36): warning C4244:         ]
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4860,50): warning C4244: '=': conversion from '_Rep' to 'double', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4860,50): warning C4244:         with
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4860,50): warning C4244:         [
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4860,50): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4860,50): warning C4244:         ]
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4892,68): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4943,80): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4943,65): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(4943,53): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoPlayer.cpp(5133,75): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+  VideoReferenceClock.cpp
+  VideoBuffer.cpp
+  DVDCodecUtils.cpp
+  DVDFactoryCodec.cpp
+  DVDAudioCodecFFmpeg.cpp
+  DVDAudioCodecPassthrough.cpp
+  DVDOverlayCodec.cpp
+  DVDOverlayCodecFFmpeg.cpp
+  DVDOverlayCodecSSA.cpp
+  DVDOverlayCodecText.cpp
+  DVDOverlayCodecCCText.cpp
+  DVDOverlayCodecTX3G.cpp
+  OverlayCodecWebVTT.cpp
+  cc_decoder.c
+  cc_decoder708.cpp
+  AddonVideoCodec.cpp
+  DVDVideoCodec.cpp
+  DVDVideoCodecFFmpeg.cpp
+  DVDVideoPPFFmpeg.cpp
+  DXVA.cpp
+  DemuxMultiSource.cpp
+  DVDDemux.cpp
+  DVDDemuxBXA.cpp
+  DVDDemuxCC.cpp
+  DVDDemuxCDDA.cpp
+  DVDDemuxClient.cpp
+  DVDDemuxFFmpeg.cpp
+  DVDDemuxUtils.cpp
+  DVDDemuxVobsub.cpp
+  DVDFactoryDemuxer.cpp
+  BlurayStateSerializer.cpp
+C:\kodi\xbmc\cores\VideoPlayer\DVDDemuxers\DVDDemuxFFmpeg.cpp(1614,35): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+  DVDFactoryInputStream.cpp
+  DVDInputStream.cpp
+  DVDInputStreamFFmpeg.cpp
+  DVDInputStreamFile.cpp
+  DVDInputStreamMemory.cpp
+  DVDInputStreamNavigator.cpp
+  DVDInputStreamStack.cpp
+  DVDStateSerializer.cpp
+  InputStreamAddon.cpp
+  InputStreamMultiSource.cpp
+  InputStreamPVRBase.cpp
+C:\kodi\xbmc\cores\VideoPlayer\DVDInputStreams\DVDInputStreamNavigator.cpp(1568,18): warning C4244: 'initializing': conversion from 'int64_t' to 'int', possible loss of data
+  InputStreamPVRChannel.cpp
+  InputStreamPVRRecording.cpp
+C:\kodi\xbmc\cores\VideoPlayer\DVDInputStreams\InputStreamPVRBase.cpp(111,33): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDInputStreams\InputStreamPVRBase.cpp(112,33): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\DVDInputStreams\InputStreamPVRBase.cpp(113,31): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
+  DVDInputStreamBluray.cpp
+  DVDFactorySubtitle.cpp
+  DVDSubtitleLineCollection.cpp
+  DVDSubtitleParserMicroDVD.cpp
+  DVDSubtitleParserMPL2.cpp
+  DVDSubtitleParserSami.cpp
+  DVDSubtitleParserSubrip.cpp
+  DVDSubtitleParserVplayer.cpp
+  DVDSubtitleStream.cpp
+  DVDSubtitlesLibass.cpp
+  DVDSubtitleParserSSA.cpp
+  DVDSubtitleTagMicroDVD.cpp
+C:\kodi\xbmc\cores\VideoPlayer\DVDSubtitles\DVDSubtitlesLibass.cpp(542,12): warning C4244: 'return': conversion from 'const double' to 'int', possible loss of data
+  DVDSubtitleTagSami.cpp
+  SubtitleParserWebVTT.cpp
+  SubtitlesAdapter.cpp
+  WebVTTHandler.cpp
+  WebVTTISOHandler.cpp
+  ProcessInfo.cpp
+  BaseRenderer.cpp
+  ColorManager.cpp
+  OverlayRenderer.cpp
+  OverlayRendererUtil.cpp
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(495,30): warning C4244: '=': conversion from 'double' to 'cmsFloat32Number', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(508,79): warning C4244: '=': conversion from 'double' to 'cmsFloat32Number', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(517,29): warning C4244: '=': conversion from 'double' to 'cmsFloat32Number', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(591,29): warning C4244: '=': conversion from 'double' to 'cmsFloat32Number', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(592,29): warning C4244: '=': conversion from 'double' to 'cmsFloat32Number', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(593,29): warning C4244: '=': conversion from 'double' to 'cmsFloat32Number', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\ColorManager.cpp(601,52): warning C4244: '=': conversion from 'cmsFloat32Number' to 'uint16_t', possible loss of data
+  RenderCapture.cpp
+  RenderFactory.cpp
+  RenderFlags.cpp
+  RenderManager.cpp
+  DebugRenderer.cpp
+  WinRenderer.cpp
+  OverlayRendererDX.cpp
+  RenderCaptureDX.cpp
+  DXVAHD.cpp
+  ConvolutionKernels.cpp
+  ConversionMatrix.cpp
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(33,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(33,43): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(34,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(34,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(35,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(35,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(36,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(36,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(38,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(38,48): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(38,57): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(38,64): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(38,73): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(38,80): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(39,40): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(39,48): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(40,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(40,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(40,61): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(40,68): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(40,77): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(40,84): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(41,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(41,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(42,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(42,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(42,61): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(42,68): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(42,77): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(42,84): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(43,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(43,52): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(44,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(44,49): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(44,58): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(44,65): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(44,74): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(44,81): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(45,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(45,49): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(429,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(433,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(438,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(442,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(446,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(453,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(457,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(462,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(466,20): warning C4305: '=': truncation from 'double' to 'float'
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\VideoShaders\ConversionMatrix.cpp(470,20): warning C4305: '=': truncation from 'double' to 'float'
+  WinVideoFilter.cpp
+  ProcessInfoWin10.cpp
+  RendererBase.cpp
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\HwDecRender\DXVAHD.cpp(173,29): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\kodi\xbmc\cores\VideoPlayer\VideoRenderers\HwDecRender\DXVAHD.cpp(174,29): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+  RendererDXVA.cpp
+  RendererHQ.cpp
+  RendererShaders.cpp
+  RendererSoftware.cpp
+  ITouchInputHandling.cpp
+  GenericTouchActionHandler.cpp
+  GenericTouchInputHandler.cpp
+C:\kodi\xbmc\platform\win32\utils\memcpy_sse2.h(158,32): warning C4018: '<': signed/unsigned mismatch
+  GenericTouchPinchDetector.cpp
+  GenericTouchRotateDetector.cpp
+  GenericTouchSwipeDetector.cpp
+  SpeechRecognitionStub.cpp
+  CPUInfoWin10.cpp
+  RemoteControlXbox.cpp
+  Win10App.cpp
+  MessagePrinter.cpp
+  PlatformWin10.cpp
+  dxerr.cpp
+  MemUtils.cpp
+  WIN32Util.cpp
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(171,19): warning C4244: '+=': conversion from '_Rep' to 'size_t', possible loss of data
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(171,19): warning C4244:         with
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(171,19): warning C4244:         [
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(171,19): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(171,19): warning C4244:         ]
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(172,17): warning C4244: '+=': conversion from '_Rep' to 'size_t', possible loss of data
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(172,17): warning C4244:         with
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(172,17): warning C4244:         [
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(172,17): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(172,17): warning C4244:         ]
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(173,18): warning C4244: '+=': conversion from '_Rep' to 'size_t', possible loss of data
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(173,18): warning C4244:         with
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(173,18): warning C4244:         [
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(173,18): warning C4244:             _Rep=std::chrono::system_clock::rep
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(173,18): warning C4244:         ]
+C:\kodi\xbmc\platform\win10\CPUInfoWin10.cpp(175,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\platform\win10\input\RemoteControlXbox.cpp(111,25): warning C4018: '>': signed/unsigned mismatch
+C:\kodi\xbmc\platform\win10\input\RemoteControlXbox.cpp(117,53): warning C4244: '=': conversion from '_Rep' to 'uint32_t', possible loss of data
+C:\kodi\xbmc\platform\win10\input\RemoteControlXbox.cpp(117,53): warning C4244:         with
+C:\kodi\xbmc\platform\win10\input\RemoteControlXbox.cpp(117,53): warning C4244:         [
+C:\kodi\xbmc\platform\win10\input\RemoteControlXbox.cpp(117,53): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\platform\win10\input\RemoteControlXbox.cpp(117,53): warning C4244:         ]
+  XTimeUtils.cpp
+  WinLibraryDirectory.cpp
+  WinLibraryFile.cpp
+  NetworkWin10.cpp
+  PeripheralBusUSB.cpp
+  Win10PowerSyscall.cpp
+  WinIdleTimer.cpp
+  Win10StorageProvider.cpp
+  ThreadImplWin.cpp
+  Win32Directory.cpp
+  Win32File.cpp
+  Win32InterfaceForCLog.cpp
+C:\kodi\xbmc\platform\win32\filesystem\Win32Directory.cpp(96,36): warning C4244: '=': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+C:\kodi\xbmc\platform\win32\filesystem\Win32Directory.cpp(97,37): warning C4244: '=': conversion from 'uint64_t' to 'unsigned int', possible loss of data
+  DeviceResources.cpp
+  RenderSystemDX.cpp
+  ScreenshotSurfaceWindows.cpp
+  WinEventsWin10.cpp
+  WinSystemWin10.cpp
+  WinSystemWin10DX.cpp
+C:\kodi\xbmc\rendering\dx\DeviceResources.cpp(172,40): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\kodi\xbmc\rendering\dx\DeviceResources.cpp(171,40): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+C:\kodi\xbmc\rendering\dx\DeviceResources.cpp(174,41): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\kodi\xbmc\rendering\dx\DeviceResources.cpp(173,41): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  VideoSyncD3D.cpp
+C:\kodi\xbmc\rendering\dx\DeviceResources.cpp(1213,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\rendering\dx\DeviceResources.cpp(1214,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10DX.cpp(146,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10DX.cpp(146,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(90,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(90,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(97,31): warning C4244: '+=': conversion from 'double' to 'uint32_t', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(114,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(114,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(164,59): warning C4244: 'argument': conversion from 'const float' to 'UINT', possible loss of data
+C:\kodi\xbmc\rendering\dx\RenderSystemDX.cpp(164,41): warning C4244: 'argument': conversion from 'const float' to 'UINT', possible loss of data
+  dacp.cpp
+  AddonCallback.cpp
+  AddonClass.cpp
+  AddonUtils.cpp
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(149,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(149,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(150,50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(150,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(152,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(152,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(178,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(179,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(182,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(182,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(183,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(183,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(187,78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(187,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(193,90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(193,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(229,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(230,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(352,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(353,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinSystemWin10.cpp(405,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(187,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(188,27): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CallbackFunction.cpp
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(241,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(241,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(309,33): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(310,33): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(346,31): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(347,31): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(364,31): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(365,31): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(392,53): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(393,53): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+C:\kodi\xbmc\windowing\win10\WinEventsWin10.cpp(527,48): warning C4244: 'argument': conversion from 'float' to 'WORD', possible loss of data
+  Control.cpp
+  Dialog.cpp
+  DrmCryptoSession.cpp
+  InfoTagGame.cpp
+  InfoTagMusic.cpp
+C:\kodi\xbmc\interfaces\legacy\InfoTagMusic.cpp(101,32): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  InfoTagPicture.cpp
+  InfoTagRadioRDS.cpp
+  InfoTagVideo.cpp
+  ModuleXbmc.cpp
+  ModuleXbmcgui.cpp
+  ModuleXbmcplugin.cpp
+  ModuleXbmcvfs.cpp
+  Monitor.cpp
+  Player.cpp
+  String.cpp
+C:\kodi\xbmc\interfaces\legacy\Monitor.cpp(42,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\kodi\xbmc\interfaces\legacy\ModuleXbmc.cpp(153,26): warning C4244: 'initializing': conversion from '_Rep' to 'long', possible loss of data
+C:\kodi\xbmc\interfaces\legacy\ModuleXbmc.cpp(153,26): warning C4244:         with
+C:\kodi\xbmc\interfaces\legacy\ModuleXbmc.cpp(153,26): warning C4244:         [
+C:\kodi\xbmc\interfaces\legacy\ModuleXbmc.cpp(153,26): warning C4244:             _Rep=__int64
+C:\kodi\xbmc\interfaces\legacy\ModuleXbmc.cpp(153,26): warning C4244:         ]
+  WindowDialog.cpp
+  WindowDialogMixin.cpp
+  WindowXML.cpp
+  WsgiErrorStream.cpp
+  WsgiInputStream.cpp
+  WsgiResponseBody.cpp
+  WsgiResponse.cpp
+  AddonPythonInvoker.cpp
+  ContextItemAddonInvoker.cpp
+  PythonInvoker.cpp
+  XBPython.cpp
+  swig.cpp
+  PyContext.cpp
+  UPnP.cpp
+  UPnPInternal.cpp
+  UPnPPlayer.cpp
+  UPnPRenderer.cpp
+  UPnPServer.cpp
+  UPnPSettings.cpp
+  HTTPFileHandler.cpp
+  HTTPImageHandler.cpp
+  HTTPImageTransformationHandler.cpp
+  HTTPJsonRpcHandler.cpp
+  HTTPRequestHandlerUtils.cpp
+  HTTPVfsHandler.cpp
+  HTTPWebinterfaceAddonsHandler.cpp
+  HTTPWebinterfaceHandler.cpp
+  IHTTPRequestHandler.cpp
+  HTTPPythonHandler.cpp
+  HTTPPythonInvoker.cpp
+  HTTPPythonWsgiInvoker.cpp
+  AudioDecoder.cpp
+  File.cpp
+  DirectoryNode.cpp
+  DirectoryNodeGrouped.cpp
+  DirectoryNodeOverview.cpp
+  DirectoryNodeRoot.cpp
+  QueryParams.cpp
+  DirectoryNode.cpp
+  DirectoryNodeGrouped.cpp
+  DirectoryNodeOverview.cpp
+  DirectoryNodeRoot.cpp
+  QueryParams.cpp
+  GameSettings.cpp
+  ContextMenus.cpp
+  Network.cpp
+  GameSettings.cpp
+  SettingConditions.cpp
+  Settings.cpp
+  SettingConditions.cpp
+  ContextMenus.cpp
+  Addon.cpp
+  AudioDecoder.cpp
+  ContextMenus.cpp
+  General.cpp
+  Filesystem.cpp
+  Network.cpp
+  General.cpp
+  ListItem.cpp
+  Window.cpp
+  Progress.cpp
+  Keyboard.cpp
+  Progress.cpp
+  ContextMenus.cpp
+  Environment.cpp
+  PlayList.cpp
+  CharsetConverter.cpp
+  ContextMenus.cpp
+  Environment.cpp
+  CharsetConverter.cpp
+  Filesystem.cpp
+  Addon.cpp
+  CallbackHandler.cpp
+  File.cpp
+  Keyboard.cpp
+  LanguageHook.cpp
+  ListItem.cpp
+  PlayList.cpp
+  Settings.cpp
+  Window.cpp
+  CallbackHandler.cpp
+  LanguageHook.cpp
+  libkodi.vcxproj -> C:\kodi-build-wp\Release\libkodi.lib

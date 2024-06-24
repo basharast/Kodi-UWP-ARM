@@ -1,0 +1,13 @@
+# Target labels
+ taglib
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/taglib
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/taglib.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/taglib-complete.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-build.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-configure.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-download.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-install.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-patch.rule
+C:/kodi-build-wp/CMakeFiles/82550a92408345d963af9c2b2ad4de4c/taglib-update.rule

@@ -1,0 +1,46 @@
+^C:\KODI-BUILD-WP\CMAKEFILES\CAF97077AA9C7C4490AEF0F666D43F31\ADDON.XML.RULE
+setlocal
+cd C:\kodi
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_SOURCE_DIR=C:/kodi -DCORE_BINARY_DIR=C:/kodi-build-wp -DCORE_SYSTEM_NAME=windowsstore -P C:/kodi/xbmc/interfaces/json-rpc/schema/GenerateAddonXml.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\5931D6892E62FB8158A9312955F1166A\SERVICEDESCRIPTION.H.RULE
+setlocal
+cd C:\kodi-build-wp\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\kodi\project\BuildDependencies\win10-arm\bin\json-rpc\JsonSchemaBuilder.exe C:/kodi/xbmc/interfaces/json-rpc/schema/version.txt C:/kodi/xbmc/interfaces/json-rpc/schema/license.txt C:/kodi/xbmc/interfaces/json-rpc/schema/methods.json C:/kodi/xbmc/interfaces/json-rpc/schema/types.json C:/kodi/xbmc/interfaces/json-rpc/schema/notifications.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\9B666DBAA4751E7E4B58D6BA9E4A1AC0\GENERATE_JSON_HEADER.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI\XBMC\INTERFACES\JSON-RPC\SCHEMA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/interfaces/json-rpc/schema/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

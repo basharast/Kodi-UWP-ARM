@@ -1,0 +1,99 @@
+﻿  Building Custom Rule C:/kodi/lib/libUPnP/CMakeLists.txt
+  PltAction.cpp
+  PltArgument.cpp
+  PltConstants.cpp
+  PltCtrlPoint.cpp
+  PltCtrlPointTask.cpp
+  PltDatagramStream.cpp
+  PltDeviceData.cpp
+  PltDeviceHost.cpp
+  PltEvent.cpp
+  PltHttp.cpp
+C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceHost.cpp(648,1): warning C4102: 'bad_request': unreferenced label
+C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceHost.cpp(733,31): warning C4244: 'initializing': conversion from 'double' to 'NPT_Int32', possible loss of data
+C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceHost.cpp(756,31): warning C4244: 'initializing': conversion from 'double' to 'NPT_Int32', possible loss of data
+  PltHttpClientTask.cpp
+  PltHttpServer.cpp
+  PltHttpServerTask.cpp
+  PltIconsData.cpp
+  PltMimeType.cpp
+  PltProtocolInfo.cpp
+  PltService.cpp
+  PltSsdp.cpp
+  PltStateVariable.cpp
+  PltTaskManager.cpp
+  PltThreadTask.cpp
+  PltUPnP.cpp
+  PltDidl.cpp
+  PltFileMediaServer.cpp
+  PltMediaBrowser.cpp
+  PltMediaCache.cpp
+  PltMediaItem.cpp
+  PltMediaServer.cpp
+  ConnectionManagerSCPD.cpp
+  ContentDirectorySCPD.cpp
+  ContentDirectorywSearchSCPD.cpp
+  PltSyncMediaBrowser.cpp
+  Neptune.cpp
+  NptAutomaticCleaner.cpp
+  NptBase64.cpp
+  NptBufferedStreams.cpp
+  NptCommon.cpp
+  NptDataBuffer.cpp
+  NptDebug.cpp
+  NptFile.cpp
+  NptHash.cpp
+  NptHttp.cpp
+  NptList.cpp
+  NptLogging.cpp
+  NptMessaging.cpp
+  NptNetwork.cpp
+  NptQueue.cpp
+  NptResults.cpp
+  NptRingBuffer.cpp
+  NptSimpleMessageQueue.cpp
+  NptSockets.cpp
+  NptStreams.cpp
+  NptStrings.cpp
+  NptSystem.cpp
+  NptThreads.cpp
+  NptTime.cpp
+  NptTls.cpp
+  NptUri.cpp
+  NptUtils.cpp
+  NptBsdResolver.cpp
+  NptXml.cpp
+  NptBsdSockets.cpp
+  NptStdcDebug.cpp
+  NptStdcEnvironment.cpp
+  PltMediaRenderer.cpp
+  PltMediaController.cpp
+  AVTransportSCPD.cpp
+  RdrConnectionManagerSCPD.cpp
+  RenderingControlSCPD.cpp
+  X_MS_MediaReceiverRegistrarSCPD.cpp
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(134,9): warning C4005: 'EWOULDBLOCK': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(135,9): warning C4005: 'EINPROGRESS': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(136,9): warning C4005: 'ECONNREFUSED': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(137,9): warning C4005: 'ECONNABORTED': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(138,9): warning C4005: 'ECONNRESET': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(139,9): warning C4005: 'ETIMEDOUT': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(140,9): warning C4005: 'ENETRESET': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(141,9): warning C4005: 'EADDRINUSE': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(142,9): warning C4005: 'ENETDOWN': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(143,9): warning C4005: 'ENETUNREACH': macro redefinition
+C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp(144,9): warning C4005: 'ENOTCONN': macro redefinition
+  PltMediaConnect.cpp
+  NptPosixEnvironment.cpp
+  NptWin32Console.cpp
+  NptWin32Debug.cpp
+  NptWin32DynamicLibraries.cpp
+  NptWin32MessageQueue.cpp
+  NptWin32Network.cpp
+  NptWin32Queue.cpp
+  NptWin32SerialPort.cpp
+  NptWin32System.cpp
+  NptWin32Threads.cpp
+  NptWin32Time.cpp
+NptStdcDebug.obj : warning LNK4006: "void __cdecl NPT_DebugOutput(char const *)" (?NPT_DebugOutput@@YAXPBD@Z) already defined in NptWin32Debug.obj; second definition ignored
+  upnp.vcxproj -> C:\kodi-build-wp\build\upnp\Release\upnp.lib

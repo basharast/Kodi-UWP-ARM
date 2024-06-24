@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/spdlog
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/spdlog.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/spdlog-complete.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-build.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-configure.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-download.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-install.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-patch.rule
+C:/kodi-build-wp/CMakeFiles/fbbcd7ec7eb83b81a424ef98beda2de3/spdlog-update.rule

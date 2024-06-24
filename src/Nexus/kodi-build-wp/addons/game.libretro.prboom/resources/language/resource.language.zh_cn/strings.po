@@ -1,0 +1,50 @@
+# game.libretro.prboom language file
+# Addon Name: game.libretro.prboom
+# Addon id: game.libretro.prboom
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.prboom\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-01 10:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-prboom/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Doom (PrBoom) v2.5.0"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PrBoom, short for \"Professor Boom\", is a version of the classic 3D shoot'em'up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files."
+msgstr "PrBoom，是“Professor Boom”的缩写，是最初由 id Software 开发的经典 3D 射击游戏 Doom 的一个版本。[CR][CR]有关所需文件的列表，请参阅文档。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Internal resolution (Restart Required)"
+msgstr "内部分辨率（需重启）"
+
+msgctxt "#30002"
+msgid "Mouse Active When Using Gamepad"
+msgstr "使用游戏手柄时激活鼠标"
+
+msgctxt "#30003"
+msgid "Look on Parent Folders for IWADs"
+msgstr "在父文件夹查找 IWAD"
+
+msgctxt "#30004"
+msgid "Rumble Effects"
+msgstr "隆隆声效应"
+
+msgctxt "#30005"
+msgid "Analog Deadzone (Percent)"
+msgstr "模拟死区（百分比）"

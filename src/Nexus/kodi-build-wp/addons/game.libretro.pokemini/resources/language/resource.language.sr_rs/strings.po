@@ -1,0 +1,81 @@
+# game.libretro.pokemini language file
+# Addon Name: game.libretro.pokemini
+# Addon id: game.libretro.pokemini
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.pokemini\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2018-04-13 18:25i\n"
+"PO-Revision-Date: 2018-04-13 18:25i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sr_rs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - Pokemon Mini (PokeMini) v0.60"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PokeMini emulates the obscure Pokémon Mini handheld. While functional, it does not support color files or savestates currently.[CR][CR]To use a real BIOS, place [I]bios.min[/I] in the emulator's userdata folder."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Video Scale (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "60Hz Mode"
+msgstr ""
+
+msgctxt "#30003"
+msgid "LCD Filter"
+msgstr ""
+
+msgctxt "#30004"
+msgid "LCD Mode"
+msgstr ""
+
+msgctxt "#30005"
+msgid "LCD Contrast"
+msgstr ""
+
+msgctxt "#30006"
+msgid "LCD Brightness"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Palette"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Piezo Filter"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Low Pass Filter"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Low Pass Filter Level (%)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Screen Shake Level"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Controller Rumble Level"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Turbo Button Period"
+msgstr ""

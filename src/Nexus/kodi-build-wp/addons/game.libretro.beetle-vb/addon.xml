@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.beetle-vb"
+		name="Nintendo - Virtual Boy (Beetle VB)"
+		version="1.31.0.27"
+		provider-name="Mednafen Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.beetle-vb.dll">
+		<platforms>GB</platforms>
+		<extensions>vb|vboy|bin</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.beetle-vb</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Nintendo - Virtual Boy (Beetle VB) v1.27.1</summary>
+		<description lang="da_DK">Beetle VB emulerer Nintendo Virtual Boy, en tabletop spillekonsol, der er i stand til at vise stereoskopisk 3D-grafik.</description>
+		<description lang="en_GB">Beetle VB emulates the Nintendo Virtual Boy, a tabletop video game console capable of displaying stereoscopic 3D graphics.</description>
+		<description lang="it_IT">Beetle VB emula il Nintendo Virtual Boy, una console per videogiochi da tavolo in grado di visualizzare grafica 3D stereoscopica.</description>
+		<description lang="ko_KR">비틀 VB는 스테레오스코픽 &quot;3D &quot;를 표시할 수 있는 탁상용 비디오 게임 콘솔인 Nintendo Virtual Boy를 에뮬레이트합니다.</description>
+		<description lang="zh_CN">Beetle VB 模拟了任天堂 Virtual Boy，一款能够显示立体3D图形的桌面视频游戏机。</description>
+	</extension>
+</addon>

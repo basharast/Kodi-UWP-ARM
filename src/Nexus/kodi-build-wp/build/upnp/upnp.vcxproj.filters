@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltAction.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltArgument.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltConstants.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltCtrlPoint.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltCtrlPointTask.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDatagramStream.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceData.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltDeviceHost.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltEvent.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttp.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttpClientTask.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttpServer.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltHttpServerTask.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltIconsData.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltMimeType.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltProtocolInfo.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltService.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltSsdp.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltStateVariable.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltTaskManager.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltThreadTask.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Core\PltUPnP.cpp">
+      <Filter>Platinum\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltDidl.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltFileMediaServer.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaBrowser.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaCache.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaItem.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltMediaServer.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\ConnectionManagerSCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\ContentDirectorySCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\ContentDirectorywSearchSCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaServer\PltSyncMediaBrowser.cpp">
+      <Filter>Platinum\Source\Devices\MediaServer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\Neptune.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptAutomaticCleaner.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptBase64.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptBufferedStreams.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptCommon.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptDataBuffer.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptDebug.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptFile.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptHash.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptHttp.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptList.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptLogging.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptMessaging.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptNetwork.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptQueue.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptResults.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptRingBuffer.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptSimpleMessageQueue.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptSockets.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptStreams.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptStrings.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptSystem.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptThreads.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptTime.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptTls.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptUri.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptUtils.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\Core\NptXml.cpp">
+      <Filter>Neptune\Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdResolver.cpp">
+      <Filter>Neptune\Source\System\Bsd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Bsd\NptBsdSockets.cpp">
+      <Filter>Neptune\Source\System\Bsd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\StdC\NptStdcDebug.cpp">
+      <Filter>Neptune\Source\System\StdC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\StdC\NptStdcEnvironment.cpp">
+      <Filter>Neptune\Source\System\StdC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\PltMediaRenderer.cpp">
+      <Filter>Platinum\Source\Devices\MediaRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\PltMediaController.cpp">
+      <Filter>Platinum\Source\Devices\MediaRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\AVTransportSCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\RdrConnectionManagerSCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaRenderer\RenderingControlSCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect\X_MS_MediaReceiverRegistrarSCPD.cpp">
+      <Filter>Platinum\Source\Devices\MediaConnect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Platinum\Source\Devices\MediaConnect\PltMediaConnect.cpp">
+      <Filter>Platinum\Source\Devices\MediaConnect</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Posix\NptPosixEnvironment.cpp">
+      <Filter>Neptune\Source\System\Posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Console.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Debug.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32DynamicLibraries.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32MessageQueue.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Network.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Queue.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32SerialPort.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32System.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Threads.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi\lib\libUPnP\Neptune\Source\System\Win32\NptWin32Time.cpp">
+      <Filter>Neptune\Source\System\Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi\lib\libUPnP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Neptune">
+      <UniqueIdentifier>{763C0CF6-0E29-3FFF-A58A-6418D7A9E974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source">
+      <UniqueIdentifier>{FA87F0AF-A9D1-312E-8312-C147E31655E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source\Core">
+      <UniqueIdentifier>{DFF17B1F-35DF-3026-80E6-097B2915ED21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source\System">
+      <UniqueIdentifier>{E12A794E-12F9-37DD-9305-0D5CEF7CFEA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source\System\Bsd">
+      <UniqueIdentifier>{2D1C28D7-1F52-3E98-B0B7-1A9ACCF92598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source\System\Posix">
+      <UniqueIdentifier>{5CA252AF-6A9C-344B-B6FA-EB959B5CDE5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source\System\StdC">
+      <UniqueIdentifier>{81B6A484-ADE5-3D2B-B703-6756104BD619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neptune\Source\System\Win32">
+      <UniqueIdentifier>{91FE08E6-FD41-353C-98E3-FAE53F1C9589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum">
+      <UniqueIdentifier>{5F00D861-DE56-38DC-932C-E8E1EF1696AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum\Source">
+      <UniqueIdentifier>{902AB907-C7EE-364B-B1C8-F9748D062540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum\Source\Core">
+      <UniqueIdentifier>{D15C8724-78CD-3F46-9AAD-1757B0CED423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum\Source\Devices">
+      <UniqueIdentifier>{AC1B261A-2651-37CE-B1DD-339FE7A4745A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum\Source\Devices\MediaConnect">
+      <UniqueIdentifier>{F7FBF6F4-79E0-3F5E-8F36-5D978786B457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum\Source\Devices\MediaRenderer">
+      <UniqueIdentifier>{C6B41800-A815-3BD9-93DC-42B8C150142D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platinum\Source\Devices\MediaServer">
+      <UniqueIdentifier>{731C3082-D850-392A-A517-3F793A801AC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+stages:
+    - build
+
+variables:
+    GIT_SUBMODULE_STRATEGY: normal
+
+build-debian:
+    image: registry.videolan.org/vlc-debian-unstable:20200529132440
+    stage: build
+    tags:
+        - docker
+        - amd64
+    script:
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure
+        - make -j $(getconf _NPROCESSORS_ONLN)
+
+build-macos:
+    stage: build
+    tags:
+        - catalina
+        - amd64
+    script:
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure
+        - make -j $(getconf _NPROCESSORS_ONLN)
+
+build-win64:
+    image: registry.videolan.org/vlc-debian-win64:20201106143728
+    stage: build
+    tags:
+        - docker
+        - amd64
+    script:
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure --host=x86_64-w64-mingw32
+        - make -j $(getconf _NPROCESSORS_ONLN)
+
+build-win32:
+    image: registry.videolan.org/vlc-debian-win32:20201106141924
+    stage: build
+    tags:
+        - docker
+        - amd64
+    script:
+        - autoreconf -fisv
+        - mkdir build
+        - cd build
+        - ../configure --host=i686-w64-mingw32
+        - make -j $(getconf _NPROCESSORS_ONLN)

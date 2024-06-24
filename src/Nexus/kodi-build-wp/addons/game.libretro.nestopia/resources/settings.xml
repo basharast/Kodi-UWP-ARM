@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="nestopia_blargg_ntsc_filter" values="disabled|composite|svideo|rgb|monochrome" default="disabled"/>
+		<setting label="30002" type="select" id="nestopia_palette" values="cxa2025as|consumer|canonical|alternative|rgb|pal|composite-direct-fbx|pvm-style-d93-fbx|ntsc-hardware-fbx|nes-classic-fbx-fs|raw|custom" default="cxa2025as"/>
+		<setting label="30003" type="select" id="nestopia_nospritelimit" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="nestopia_overclock" values="1x|2x" default="1x"/>
+		<setting label="30005" type="select" id="nestopia_select_adapter" values="auto|ntsc|famicom" default="auto"/>
+		<setting label="30006" type="select" id="nestopia_fds_auto_insert" values="enabled|disabled" default="enabled"/>
+		<setting label="30007" type="select" id="nestopia_overscan_v" values="enabled|disabled" default="enabled"/>
+		<setting label="30008" type="select" id="nestopia_overscan_h" values="disabled|enabled" default="disabled"/>
+		<setting label="30009" type="select" id="nestopia_aspect" values="auto|ntsc|pal|4:3|uncorrected" default="auto"/>
+		<setting label="30010" type="select" id="nestopia_genie_distortion" values="disabled|enabled" default="disabled"/>
+		<setting label="30011" type="select" id="nestopia_favored_system" values="auto|ntsc|pal|famicom|dendy" default="auto"/>
+		<setting label="30012" type="select" id="nestopia_ram_power_state" values="0x00|0xFF|random" default="0x00"/>
+		<setting label="30013" type="select" id="nestopia_button_shift" values="disabled|enabled" default="disabled"/>
+		<setting label="30014" type="select" id="nestopia_arkanoid_device" values="mouse|pointer" default="mouse"/>
+		<setting label="30015" type="select" id="nestopia_zapper_device" values="lightgun|mouse|pointer" default="lightgun"/>
+		<setting label="30016" type="select" id="nestopia_show_crosshair" values="enabled|disabled" default="enabled"/>
+		<setting label="30017" type="select" id="nestopia_turbo_pulse" values="2|3|4|5|6|7|8|9" default="2"/>
+		<setting label="30018" type="select" id="nestopia_show_advanced_av_settings" values="disabled|enabled" default="disabled"/>
+		<setting label="30019" type="select" id="nestopia_audio_vol_sq1" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30020" type="select" id="nestopia_audio_vol_sq2" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30021" type="select" id="nestopia_audio_vol_tri" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30022" type="select" id="nestopia_audio_vol_noise" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30023" type="select" id="nestopia_audio_vol_dpcm" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30024" type="select" id="nestopia_audio_vol_fds" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30025" type="select" id="nestopia_audio_vol_mmc5" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30026" type="select" id="nestopia_audio_vol_vrc6" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30027" type="select" id="nestopia_audio_vol_vrc7" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30028" type="select" id="nestopia_audio_vol_n163" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+		<setting label="30029" type="select" id="nestopia_audio_vol_s5b" values="100|0|10|20|30|40|50|60|70|80|85|90|95" default="100"/>
+	</category>
+</settings>

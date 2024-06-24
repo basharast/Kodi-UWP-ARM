@@ -1,0 +1,20 @@
+^C:\KODI-BUILD-WP\CMAKEFILES\93B73102C1BBD1FD7532A1BAFAFD86F4\COMPILEINFO.CPP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCORE_SOURCE_DIR=C:/kodi -DCORE_SYSTEM_NAME=windowsstore -DCORE_PLATFORM_NAME_LC="windowsstore" -DCORE_BUILD_DIR=build -DCMAKE_BINARY_DIR=C:/kodi-build-wp -DARCH_DEFINES="-D_WINDOWS -DTARGET_WINDOWS -DTARGET_WINDOWS_STORE -DXBMC_EXPORT -DMS_UWP -DMS_STORE" -DAPP_SCMID=20230118-5715cb0ca6-dirty -DAPP_COPYRIGHT_YEARS=2005-2021 -DAPP_BUILD_DATE=20240620 -DAPP_SHARED_LIBRARY_SUFFIX=".dll" -DPYTHON_VERSION=3.8 -Dprefix=C:/kodi-build-wp/build -DKODI_WEBSERVER_EXTRA_WHITELIST="" -P C:/kodi/cmake/scripts/common/GenerateVersionedFiles.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

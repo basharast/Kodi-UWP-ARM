@@ -1,0 +1,8 @@
+C:\kodi-build-wp\build\Effects11\effects11.vcxproj;arm
+C:\kodi-build-wp\build\Effects11\effects11.vcxproj;arm
+C:\kodi-build-wp\build\swig\python_binding.vcxproj;arm
+C:\kodi-build-wp\build\swig\python_binding.vcxproj;arm
+C:\kodi-build-wp\build\upnp\upnp.vcxproj;arm
+C:\kodi-build-wp\build\upnp\upnp.vcxproj;arm
+C:\kodi-build-wp\kodi.vcxproj;arm
+C:\kodi-build-wp\libkodi.vcxproj;arm

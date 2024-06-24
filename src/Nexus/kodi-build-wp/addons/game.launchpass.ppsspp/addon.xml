@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.launchpass.ppsspp" name="PPSSPP" version="0.0.1.0" provider-name="LaunchPass">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+        </requires>
+        <extension point="xbmc.python.script" library="default.py">
+            <provides>game executable</provides>
+        </extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<source>https://github.com/Misunderstood-Wookiee/LaunchPass</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+                        <screenshot>resources/screenshot-01.jpg</screenshot>
+                        <screenshot>resources/screenshot-02.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">PPSSPP Launcher</summary>
+		<description lang="en_GB">LaunchPass is a modified fork of RetroPass without this project would not exist and is a themeable frontend for XBOX Retro Gaming Emulators</description>
+	</extension>
+</addon>

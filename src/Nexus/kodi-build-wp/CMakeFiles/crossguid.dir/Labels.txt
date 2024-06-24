@@ -1,0 +1,13 @@
+# Target labels
+ crossguid
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/crossguid
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/crossguid.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/crossguid-complete.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-build.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-configure.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-download.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-install.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-patch.rule
+C:/kodi-build-wp/CMakeFiles/27d77cab00293a48193a01cc116edb03/crossguid-update.rule

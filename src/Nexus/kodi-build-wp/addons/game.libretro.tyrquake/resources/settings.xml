@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="tyrquake_resolution" values="320x200|320x240|320x480|360x200|360x240|360x400|360x480|384x216|400x224|400x240|480x272|512x224|512x240|512x384|512x512|640x224|640x240|640x448|640x400|640x480|720x576|800x480|800x600|960x720|960x600|1024x768|1280x720|1280x800|1600x900|1600x1000|1600x1200|1920x1080|1920x1200" default="320x200"/>
+		<setting label="30002" type="select" id="tyrquake_framerate" values="auto|10|15|20|25|30|40|50|60|72|75|90|100|119|120|144|155|160|165|180|200|240|244|300|360" default="auto"/>
+		<setting label="30003" type="select" id="tyrquake_colored_lighting" values="disabled|enabled" default="disabled"/>
+		<setting label="30004" type="select" id="tyrquake_rumble" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="select" id="tyrquake_invert_y_axis" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="tyrquake_analog_deadzone" values="15|0|5|10|20|25|30" default="15"/>
+	</category>
+</settings>

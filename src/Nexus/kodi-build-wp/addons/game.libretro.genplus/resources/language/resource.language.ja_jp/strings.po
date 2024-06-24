@@ -1,0 +1,249 @@
+# game.libretro.genplus language file
+# Addon Name: game.libretro.genplus
+# Addon id: game.libretro.genplus
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.genplus\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja_jp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - MS/GG/MD/CD (Genesis Plus GX) v1.7.4"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Genesis Plus GX is an enhanced port of Genesis Plus to the libretro API.[CR][CR]Features support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive and Mega CD hardware."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Special thanks to twinaphex for backporting enhancements from the GX version"
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "System Hardware"
+msgstr ""
+
+msgctxt "#30002"
+msgid "System Region"
+msgstr ""
+
+msgctxt "#30003"
+msgid "System Boot ROM"
+msgstr ""
+
+msgctxt "#30004"
+msgid "CD System BRAM"
+msgstr ""
+
+msgctxt "#30005"
+msgid "CD add-on (MD mode) (Requires Restart)"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Cartridge Lock-On"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Core-Provided Aspect Ratio"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Borders"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Hide Master System Side Borders"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Game Gear Extended Screen"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Blargg NTSC Filter"
+msgstr ""
+
+msgctxt "#30012"
+msgid "LCD Ghosting Filter"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Interlaced Mode 2 Output"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Frameskip Threshold (%)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Master System FM (YM2413)"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Master System FM (YM2413) Core"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Mega Drive/Genesis FM"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Sound Output"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Low-Pass Filter %"
+msgstr ""
+
+msgctxt "#30022"
+msgid "PSG Preamp Level"
+msgstr ""
+
+msgctxt "#30023"
+msgid "FM Preamp Level"
+msgstr ""
+
+msgctxt "#30024"
+msgid "CD-DA Volume"
+msgstr ""
+
+msgctxt "#30025"
+msgid "PCM Volume"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Light Gun Input"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Show Light Gun Crosshair"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Invert Mouse Y-Axis"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Remove Per-Line Sprite Limit"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Enhanced per-tile vertical scroll"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Enhanced per-tile vertical scroll limit"
+msgstr ""
+
+msgctxt "#30032"
+msgid "CPU Speed"
+msgstr ""
+
+msgctxt "#30033"
+msgid "System Lock-Ups"
+msgstr ""
+
+msgctxt "#30034"
+msgid "68K Address Error"
+msgstr ""
+
+msgctxt "#30035"
+msgid "CD access time"
+msgstr ""
+
+msgctxt "#30036"
+msgid "PSG Tone Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30037"
+msgid "PSG Tone Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30038"
+msgid "PSG Tone Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30039"
+msgid "PSG Noise Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Mega Drive/Genesis FM Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Mega Drive/Genesis FM Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Mega Drive/Genesis FM Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Mega Drive/Genesis FM Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Mega Drive/Genesis FM Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Mega Drive/Genesis FM Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Master System FM (YM2413) Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Master System FM (YM2413) Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Master System FM (YM2413) Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Master System FM (YM2413) Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Master System FM (YM2413) Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Master System FM (YM2413) Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Master System FM (YM2413) Channel 6 Volume %"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Master System FM (YM2413) Channel 7 Volume %"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Master System FM (YM2413) Channel 8 Volume %"
+msgstr ""

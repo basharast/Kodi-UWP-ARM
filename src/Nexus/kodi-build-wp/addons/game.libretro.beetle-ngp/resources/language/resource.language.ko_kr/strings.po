@@ -1,0 +1,42 @@
+# game.libretro.beetle-ngp language file
+# Addon Name: game.libretro.beetle-ngp
+# Addon id: game.libretro.beetle-ngp
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-ngp\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2021-10-01 01:30+0000\n"
+"Last-Translator: Minho Park <parkmino@gmail.com>\n"
+"Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-ngp/ko_kr/>\n"
+"Language: ko_kr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo Pocket / Color (Beetle NeoPop) v0.9.36.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Based on NeoPop, this emulator is sufficient to play most commercially released games fairly well, but not very accurate in terms of low-level details."
+msgstr "NeoPop을 기반으로 하는 이 에뮬레이터는 대부분의 상업적으로 출시된 게임을 플레이하기에는 충분하지만, 세부 사항 측면에서는 그다지 정확하지 않습니다."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "설정"
+
+msgctxt "#30001"
+msgid "Language (*)"
+msgstr "언어 (*)"
+
+#~ msgctxt "#30002"
+#~ msgid "Sound Output Sample Rate"
+#~ msgstr "사운드 출력 샘플 레이트"
+
+#~ msgctxt "#30003"
+#~ msgid "Color Depth"
+#~ msgstr "색상 깊이"

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\flatc\src\flatc-build\CMakeFiles\5fde64b320c3c2d26a54e9f9fcb3b260\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{77205221-08F4-3096-82AB-BC9BC4BD987D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

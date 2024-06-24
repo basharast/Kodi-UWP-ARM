@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\TAGLIB\SRC\TAGLIB-BUILD\CMAKEFILES\D4F758635B0723921B535E5439D09030\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

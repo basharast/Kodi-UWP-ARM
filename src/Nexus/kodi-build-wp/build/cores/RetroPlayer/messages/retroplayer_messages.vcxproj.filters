@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\2ae44d84571dfd62dfc50a0b653114cb\savestate_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\e72361ada871286dafcad911e2d25de0\retroplayer_messages.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi\xbmc\cores\RetroPlayer\messages\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\kodi-build-wp\build\cores\RetroPlayer\messages\savestate_generated.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\kodi-build-wp\build\cores\RetroPlayer\messages\CMakeFiles\retroplayer_messages" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B43CD052-A5F7-3415-B01A-6FE8CB1267E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3ED566A9-95B1-379F-A903-6F4422B58B20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

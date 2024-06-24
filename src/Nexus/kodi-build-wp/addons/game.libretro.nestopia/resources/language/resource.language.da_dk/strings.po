@@ -1,0 +1,150 @@
+# game.libretro.nestopia language file
+# Addon Name: game.libretro.nestopia
+# Addon id: game.libretro.nestopia
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.nestopia\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2021-12-15 12:18+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-nestopia/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - NES / Famicom (Nestopia UE) 1.51.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals."
+msgstr "Nestopia er en bærbar open source NES-/Famicom-emulator. Den er designet til at være så nøjagtigt som muligt og understøtter et stort antal eksterne enheder."
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: Anarkhya (anarkhya.deviantart.com)"
+msgstr "Billedkreditering: Anarkhya (anarkhya.deviantart.com)"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Blargg NTSC Filter"
+msgstr "Blargg NTSC-filter"
+
+msgctxt "#30002"
+msgid "Palette"
+msgstr "Palette"
+
+msgctxt "#30003"
+msgid "Remove Sprite Limit"
+msgstr "Fjern begrænsning af sprite"
+
+msgctxt "#30004"
+msgid "CPU Speed (Overclock)"
+msgstr "CPU-hastighed (overclock)"
+
+msgctxt "#30005"
+msgid "4 Player Adapter"
+msgstr "Adapter til 4 spillere"
+
+msgctxt "#30006"
+msgid "FDS Auto Insert"
+msgstr "Indsæt automatisk FDS"
+
+msgctxt "#30007"
+msgid "Mask Overscan (Vertical)"
+msgstr "Maskér overskandering (lodret)"
+
+msgctxt "#30008"
+msgid "Mask Overscan (Horizontal)"
+msgstr "Maskér overskandering (vandret)"
+
+msgctxt "#30009"
+msgid "Preferred Aspect Ratio"
+msgstr "Foretrukket billedformat"
+
+msgctxt "#30010"
+msgid "Game Genie Sound Distortion"
+msgstr "Lydforvringning for Game Genie"
+
+msgctxt "#30011"
+msgid "System Region"
+msgstr "Systemets område"
+
+msgctxt "#30012"
+msgid "RAM Power-on State"
+msgstr "RAM starttilstand"
+
+msgctxt "#30013"
+msgid "Shift Buttons Clockwise"
+msgstr "Drej knapper med uret"
+
+msgctxt "#30014"
+msgid "Arkanoid device"
+msgstr "Arkanoid enhed"
+
+msgctxt "#30015"
+msgid "Zapper device"
+msgstr "Zapper-enhed"
+
+msgctxt "#30016"
+msgid "Show Crosshair"
+msgstr "Vis crosshair"
+
+msgctxt "#30017"
+msgid "Turbo Pulse Speed"
+msgstr "Hastighed på turbopuls"
+
+msgctxt "#30018"
+msgid "Show Advanced Audio Settings (Reopen menu)"
+msgstr "Vis avancerede lydindstillinger (åbner menu igen)"
+
+msgctxt "#30019"
+msgid "Square 1 Channel Volume %"
+msgstr "Firkant 1 kanallydstyrke %"
+
+msgctxt "#30020"
+msgid "Square 2 Channel Volume %"
+msgstr "Firkant 2 kanallydstyrke %"
+
+msgctxt "#30021"
+msgid "Triangle Channel Volume %"
+msgstr "Trekant kanallydstyrke %"
+
+msgctxt "#30022"
+msgid "Noise Channel Volume %"
+msgstr "Kanallydstyrke ved støj %"
+
+msgctxt "#30023"
+msgid "DPCM Channel Volume %"
+msgstr "DPCM kanallydstyrke %"
+
+msgctxt "#30024"
+msgid "FDS Channel Volume %"
+msgstr "FDS kanallydstyrke %"
+
+msgctxt "#30025"
+msgid "MMC5 Channel Volume %"
+msgstr "MMC5 kanallydstyrke %"
+
+msgctxt "#30026"
+msgid "VRC6 Channel Volume %"
+msgstr "VRC6 kanallydstyrke %"
+
+msgctxt "#30027"
+msgid "VRC7 Channel Volume %"
+msgstr "VRC7 kanallydstyrke %"
+
+msgctxt "#30028"
+msgid "N163 Channel Volume %"
+msgstr "N163 kanallydstyrke %"
+
+msgctxt "#30029"
+msgid "S5B Channel Volume %"
+msgstr "S5B kanallydstyrke %"

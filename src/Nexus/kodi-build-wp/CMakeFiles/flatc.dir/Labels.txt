@@ -1,0 +1,13 @@
+# Target labels
+ flatc
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/flatc
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/flatc.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/flatc-complete.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-build.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-configure.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-download.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-install.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-patch.rule
+C:/kodi-build-wp/CMakeFiles/18d9af64cafbf55e537f3c36d5a6f35b/flatc-update.rule

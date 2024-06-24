@@ -1,0 +1,5 @@
+C:/kodi-build-wp/build/fmt/src/fmt-build/CMakeFiles/fmt.dir
+C:/kodi-build-wp/build/fmt/src/fmt-build/CMakeFiles/PACKAGE.dir
+C:/kodi-build-wp/build/fmt/src/fmt-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/fmt/src/fmt-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/fmt/src/fmt-build/CMakeFiles/ZERO_CHECK.dir

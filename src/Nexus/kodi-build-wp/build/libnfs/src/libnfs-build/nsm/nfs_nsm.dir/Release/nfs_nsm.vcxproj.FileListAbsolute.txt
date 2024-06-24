@@ -1,0 +1,1 @@
+C:\kodi-build-wp\build\libnfs\src\libnfs-build\nsm\nfs_nsm.dir\Release\nfs_nsm.lib

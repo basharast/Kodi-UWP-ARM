@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="pokemini_video_scale" values="4x|1x|2x|3x|5x|6x|7x" default="4x"/>
+		<setting label="30002" type="select" id="pokemini_60hz_mode" values="enabled|disabled" default="enabled"/>
+		<setting label="30003" type="select" id="pokemini_lcdfilter" values="dotmatrix|scanline|none" default="dotmatrix"/>
+		<setting label="30004" type="select" id="pokemini_lcdmode" values="analog|3shades|2shades" default="analog"/>
+		<setting label="30005" type="select" id="pokemini_lcdcontrast" values="64|0|16|32|48|80|96" default="64"/>
+		<setting label="30006" type="select" id="pokemini_lcdbright" values="0|-80|-60|-40|-20|20|40|60|80" default="0"/>
+		<setting label="30007" type="select" id="pokemini_palette" values="Default|Old|Monochrome|Green|Green Vector|Red|Red Vector|Blue LCD|LEDBacklight|Girl Power|Blue|Blue Vector|Sepia|Monochrome Vector" default="Default"/>
+		<setting label="30008" type="select" id="pokemini_piezofilter" values="enabled|disabled" default="enabled"/>
+		<setting label="30009" type="select" id="pokemini_lowpass_filter" values="disabled|enabled" default="disabled"/>
+		<setting label="30010" type="select" id="pokemini_lowpass_range" values="60|5|10|15|20|25|30|35|40|45|50|55|65|70|75|80|85|90|95" default="60"/>
+		<setting label="30011" type="select" id="pokemini_screen_shake_lv" values="3|0|1|2" default="3"/>
+		<setting label="30012" type="select" id="pokemini_rumble_lv" values="10|0|1|2|3|4|5|6|7|8|9" default="10"/>
+		<setting label="30013" type="select" id="pokemini_turbo_period" values="18|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|65|66|67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100|101|102|103|104|105|106|107|108|109|110|111|112|113|114|115|116|117|118|119|120" default="18"/>
+	</category>
+</settings>

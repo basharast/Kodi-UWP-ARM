@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\spdlog\src\spdlog-build\CMakeFiles\1d0bd4985460b7c4d6090d1d58701901\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{223524C8-1D08-30BD-988F-DEA4D8952743}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

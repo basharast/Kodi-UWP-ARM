@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/libdvdread"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/libdvdread.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/libdvdread-complete.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-build.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-configure.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-download.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-install.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-mkdir.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-patch.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/67a497ad27785609b8dcb7b8ce489114/libdvdread-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libdvdread"
+		],
+		"name" : "libdvdread"
+	}
+}

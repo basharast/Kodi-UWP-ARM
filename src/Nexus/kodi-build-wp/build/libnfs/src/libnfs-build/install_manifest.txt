@@ -1,0 +1,16 @@
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/libnfs/libnfs-config.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/libnfs/libnfs-config-release.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/libnfs/FindNFS.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/libnfs/libnfs-config-version.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/pkgconfig/libnfs.pc
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-zdr.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-mount.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-nfs.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-nfs4.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-nlm.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-nsm.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-portmap.h
+C:/kodi/project/BuildDependencies/win10-arm/include/nfsc/libnfs-raw-rquota.h
+C:/kodi/project/BuildDependencies/win10-arm/lib/nfs.lib

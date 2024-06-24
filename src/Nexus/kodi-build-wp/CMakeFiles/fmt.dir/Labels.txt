@@ -1,0 +1,13 @@
+# Target labels
+ fmt
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/fmt
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/fmt.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/fmt-complete.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-build.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-configure.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-download.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-install.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-patch.rule
+C:/kodi-build-wp/CMakeFiles/0761ecae0a3aa92d6353dbd6a18bcc97/fmt-update.rule

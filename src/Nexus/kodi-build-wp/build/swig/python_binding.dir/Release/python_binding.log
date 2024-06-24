@@ -1,0 +1,8 @@
+﻿  AddonModuleXbmcaddon.i.cpp
+  AddonModuleXbmcdrm.i.cpp
+  AddonModuleXbmcgui.i.cpp
+  AddonModuleXbmc.i.cpp
+  AddonModuleXbmcplugin.i.cpp
+  AddonModuleXbmcvfs.i.cpp
+  AddonModuleXbmcwsgi.i.cpp
+  python_binding.vcxproj -> C:\kodi-build-wp\build\swig\Release\python_binding.lib

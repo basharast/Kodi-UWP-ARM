@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmcaddon.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmcdrm.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmcgui.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmc.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmcplugin.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmcvfs.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\kodi-build-wp\build\swig\AddonModuleXbmcwsgi.i.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmcaddon.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmcdrm.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmcgui.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmc.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmcplugin.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmcvfs.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\671868b888905bd5fa0599bbcfd1a836\AddonModuleXbmcwsgi.i.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi\xbmc\interfaces\swig\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B43CD052-A5F7-3415-B01A-6FE8CB1267E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E0D609E3-19EE-3FBA-91C5-CE732B825299}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,74 @@
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/pcre/src/pcre-build/CMakeFiles/CMakeScratch/TryCompile-iym9sp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3464d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3464d.dir\Debug\\" /Fd"cmTC_3464d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-iym9sp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-iym9sp\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'dirent.h': No such file or directory [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-iym9sp\cmTC_3464d.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/pcre/src/pcre-build/CMakeFiles/CMakeScratch/TryCompile-m0thfz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5ed7c.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ed7c.dir\Debug\\" /Fd"cmTC_5ed7c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-m0thfz\CheckIncludeFile.c"
+  CheckIncludeFile.c
+C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-m0thfz\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-m0thfz\cmTC_5ed7c.vcxproj]
+
+
+
+Determining if the include file type_traits.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/pcre/src/pcre-build/CMakeFiles/CMakeScratch/TryCompile-l9mxqb
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_052f0.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_052f0.dir\Debug\\" /Fd"cmTC_052f0.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /analyze- /errorReport:queue  /await "C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-l9mxqb\CheckIncludeFile.cxx"
+  CheckIncludeFile.cxx
+C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-l9mxqb\CheckIncludeFile.cxx(1,10): fatal  error C1083: Cannot open include file: 'type_traits.h': No such file or directory [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-l9mxqb\cmTC_052f0.vcxproj]
+
+
+
+Determining if the include file bits/type_traits.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/pcre/src/pcre-build/CMakeFiles/CMakeScratch/TryCompile-c1aps2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f18af.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.cxx
+C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-c1aps2\CheckIncludeFile.cxx(1,10): fatal  error C1083: Cannot open include file: 'bits/type_traits.h': No such file or directory [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-c1aps2\cmTC_f18af.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_f18af.dir\Debug\\" /Fd"cmTC_f18af.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /analyze- /errorReport:queue  /await "C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-c1aps2\CheckIncludeFile.cxx"
+
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/pcre/src/pcre-build/CMakeFiles/CMakeScratch/TryCompile-2aa2ii
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_63169.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D CHECK_FUNCTION_EXISTS=bcopy /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63169.dir\Debug\\" /Fd"cmTC_63169.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-2aa2ii\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol bcopy referenced in function main [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-2aa2ii\cmTC_63169.vcxproj]
+C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-2aa2ii\Debug\cmTC_63169.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-2aa2ii\cmTC_63169.vcxproj]
+
+
+
+Determining if the function strtoq exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/pcre/src/pcre-build/CMakeFiles/CMakeScratch/TryCompile-63is2a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb090.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D CHECK_FUNCTION_EXISTS=strtoq /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb090.dir\Debug\\" /Fd"cmTC_fb090.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-63is2a\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strtoq referenced in function main [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-63is2a\cmTC_fb090.vcxproj]
+C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-63is2a\Debug\cmTC_fb090.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\build\pcre\src\pcre-build\CMakeFiles\CMakeScratch\TryCompile-63is2a\cmTC_fb090.vcxproj]
+
+
+

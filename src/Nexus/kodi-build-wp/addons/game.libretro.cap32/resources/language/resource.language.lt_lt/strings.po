@@ -1,0 +1,101 @@
+# game.libretro.cap32 language file
+# Addon Name: game.libretro.cap32
+# Addon id: game.libretro.cap32
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cap32\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: lt_lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
+
+msgctxt "Addon Summary"
+msgid "Amstrad - CPC (Caprice32) 4.5 HI"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Written by Ulrich Doewich"
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Controls > User 1 Controller Config"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Controls > User 2 Controller Config"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Controls > Combo Key"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Controls > Use internal Remap DB"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Light Gun > Input"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Light Gun > Show Crosshair"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Advanced > Autorun"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Advanced > Ram size"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Video > Green Phosphor blueish"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Video > Monitor Intensity"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Video Advanced > Color Depth"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Status Bar"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Keyboard Transparency"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Floppy Sound"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Monitor Type"
+msgstr ""
+
+msgctxt "#30017"
+msgid "CPC Language"
+msgstr ""

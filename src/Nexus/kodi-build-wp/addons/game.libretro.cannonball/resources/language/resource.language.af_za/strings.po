@@ -1,0 +1,145 @@
+# game.libretro.cannonball language file
+# Addon Name: game.libretro.cannonball
+# Addon id: game.libretro.cannonball
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cannonball\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-01-30 03:30i\n"
+"PO-Revision-Date: 2020-01-30 03:30i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: af_za\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Cannonball git"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Cannonball is an enhanced version of the seminal arcade racer OutRun designed by Yu Suzuki."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Menu > Show at Start"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Menu > Road Scroll Speed"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Video > Frame Rate"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Video > Widescreen Mode"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Video > High-Resolution Mode"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Audio > Enable"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Audio > Advertise Sound (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Audio > Preview Music (Restart)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Audio > Fix Samples (Restart)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Input > Gear Mode"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Input > Analog Controls"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Input > Digital Steer Speed (Restart)"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Input > Digital Pedal Speed (Restart)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Input > Haptic Feedback Strength"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Engine > Use Japanese Tracks (Restart)"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Engine > Freeplay Mode"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Engine > Force AI to Play"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Engine > Time Limit (Restart)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Engine > Traffic Difficulty (Restart)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Engine > Extra Level Objects (Restart)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Engine > Use Prototype Stage 1 (Restart)"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Engine > New Attract Mode (Restart)"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Engine > Randomize Traffic Patterns (Restart)"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Engine > Fix Game Bugs (Restart)"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Engine > Fix Timing Bugs (Restart)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Engine > Time Trial Laps (Restart)"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Engine > Time Trial Traffic Level (Restart)"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Engine > Continuous Mode Traffic Level (Restart)"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Engine > Display Debug Info (Restart)"
+msgstr ""

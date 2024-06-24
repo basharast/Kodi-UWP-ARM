@@ -1,0 +1,186 @@
+# game.libretro.snes9x language file
+# Addon Name: game.libretro.snes9x
+# Addon id: game.libretro.snes9x
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-04 04:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x - Current) 1.60"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports."
+msgstr "Snes9x 是一款便携式自由软件 SNES 和 Super Famicom 模拟器。[CR][CR]Snes9x 是用 C++ 编写的，在 i386 Linux 和 Windows 移植上有三个汇编器 CPU 仿真核。"
+
+msgctxt "Addon Disclaimer"
+msgid "The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information."
+msgstr "Snes9X 团队与上述任何公司均无任何关联。Snes9X 团队的意见并不反映此处提到的各个公司的意见。公司和与该公司相关的所有产品均为该公司的商标。请联系该公司获取商标和版权信息。"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "Console Region (Reload Core)"
+msgstr "控制台区域（重新加载核心）"
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr "首选纵横比"
+
+msgctxt "#30003"
+msgid "Crop Overscan"
+msgstr "过扫剪裁"
+
+msgctxt "#30004"
+msgid "Hi-Res Blending"
+msgstr "高分辨率混合"
+
+msgctxt "#30005"
+msgid "Blargg NTSC Filter"
+msgstr "Blargg NTSC 滤波器"
+
+msgctxt "#30006"
+msgid "Audio Interpolation"
+msgstr "音频插值"
+
+msgctxt "#30007"
+msgid "Allow Opposing Directions"
+msgstr "允许反向"
+
+msgctxt "#30008"
+msgid "SuperFX Overclocking"
+msgstr "SuperFX 超频"
+
+msgctxt "#30009"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr "减少减速（Hack、不安全）"
+
+msgctxt "#30010"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr "减少闪烁（Hack、不安全）"
+
+msgctxt "#30011"
+msgid "Randomize Memory (Unsafe)"
+msgstr "随机化内存（不安全）"
+
+msgctxt "#30012"
+msgid "Block Invalid VRAM Access"
+msgstr "阻止无效的 VRAM 访问"
+
+msgctxt "#30013"
+msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+msgstr "回声缓冲区 Hack（不安全，仅对旧的添加音乐 Hack启用）"
+
+msgctxt "#30014"
+msgid "Light Gun Mode"
+msgstr "光线枪模式"
+
+msgctxt "#30015"
+msgid "Super Scope Reverse Trigger Buttons"
+msgstr "Super Scope 反向触发按钮"
+
+msgctxt "#30016"
+msgid "Super Scope Crosshair"
+msgstr "Super Scope 准星"
+
+msgctxt "#30017"
+msgid "Super Scope Color"
+msgstr "Super Scope 颜色"
+
+msgctxt "#30018"
+msgid "Justifier 1 Crosshair"
+msgstr "Justifier 1 准星"
+
+msgctxt "#30019"
+msgid "Justifier 1 Color"
+msgstr "Justifier 1 颜色"
+
+msgctxt "#30020"
+msgid "Justifier 2 Crosshair"
+msgstr "Justifier 2 准星"
+
+msgctxt "#30021"
+msgid "Justifier 2 Color"
+msgstr "Justifier 2 颜色"
+
+msgctxt "#30022"
+msgid "M.A.C.S. Rifle Crosshair"
+msgstr "M.A.C.S. 步枪准星"
+
+msgctxt "#30023"
+msgid "M.A.C.S. Rifle Color"
+msgstr "M.A.C.S. 步枪颜色"
+
+msgctxt "#30024"
+msgid "Show Layer 1"
+msgstr "显示第1层"
+
+msgctxt "#30025"
+msgid "Show Layer 2"
+msgstr "显示第2层"
+
+msgctxt "#30026"
+msgid "Show Layer 3"
+msgstr "显示第3层"
+
+msgctxt "#30027"
+msgid "Show Layer 4"
+msgstr "显示第4层"
+
+msgctxt "#30028"
+msgid "Show Sprite Layer"
+msgstr "显示 Sprite 层"
+
+msgctxt "#30029"
+msgid "Enable Graphic Clip Windows"
+msgstr "启用图形剪辑窗口"
+
+msgctxt "#30030"
+msgid "Enable Transparency Effects"
+msgstr "启用透明度效果"
+
+msgctxt "#30031"
+msgid "Enable Sound Channel 1"
+msgstr "启用声道1"
+
+msgctxt "#30032"
+msgid "Enable Sound Channel 2"
+msgstr "启用声道2"
+
+msgctxt "#30033"
+msgid "Enable Sound Channel 3"
+msgstr "启用声道3"
+
+msgctxt "#30034"
+msgid "Enable Sound Channel 4"
+msgstr "启用声道4"
+
+msgctxt "#30035"
+msgid "Enable Sound Channel 5"
+msgstr "启用声道5"
+
+msgctxt "#30036"
+msgid "Enable Sound Channel 6"
+msgstr "启用声道6"
+
+msgctxt "#30037"
+msgid "Enable Sound Channel 7"
+msgstr "启用声道7"
+
+msgctxt "#30038"
+msgid "Enable Sound Channel 8"
+msgstr "启用声道8"

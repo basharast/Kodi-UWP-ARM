@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89} = {61917EB4-A9C3-38EC-932D-C6DD36093F89}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{EB26C7B4-397D-34D1-80B3-FEF17DA54126}"
+	ProjectSection(ProjectDependencies) = postProject
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A} = {58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89} = {61917EB4-A9C3-38EC-932D-C6DD36093F89}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{61917EB4-A9C3-38EC-932D-C6DD36093F89}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+		MinSizeRel|ARM = MinSizeRel|ARM
+		RelWithDebInfo|ARM = RelWithDebInfo|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.Debug|ARM.Build.0 = Debug|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.Release|ARM.ActiveCfg = Release|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.Release|ARM.Build.0 = Release|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.MinSizeRel|ARM.Build.0 = MinSizeRel|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{58D2EF1E-38DD-34BA-9C1E-F27D660B8E6A}.RelWithDebInfo|ARM.Build.0 = RelWithDebInfo|ARM
+		{EB26C7B4-397D-34D1-80B3-FEF17DA54126}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EB26C7B4-397D-34D1-80B3-FEF17DA54126}.Release|ARM.ActiveCfg = Release|ARM
+		{EB26C7B4-397D-34D1-80B3-FEF17DA54126}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{EB26C7B4-397D-34D1-80B3-FEF17DA54126}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.Debug|ARM.ActiveCfg = Debug|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.Debug|ARM.Build.0 = Debug|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.Release|ARM.ActiveCfg = Release|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.Release|ARM.Build.0 = Release|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.MinSizeRel|ARM.Build.0 = MinSizeRel|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{61917EB4-A9C3-38EC-932D-C6DD36093F89}.RelWithDebInfo|ARM.Build.0 = RelWithDebInfo|ARM
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C629C60-F508-3BB7-97EB-1602EDE02AE9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

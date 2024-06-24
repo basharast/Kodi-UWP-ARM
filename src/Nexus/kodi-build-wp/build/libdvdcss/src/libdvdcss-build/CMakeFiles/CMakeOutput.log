@@ -1,0 +1,342 @@
+The target system is: WindowsStore - 10.0.18362.0 - 
+The host system is: Windows - 10.0.22000 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;;/O2;/Ob2;/DNDEBUG
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+Build started 1/20/2023 6:37:03 AM.
+Project "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(505,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj]
+  Creating directory "Debug\CompilerIdC.tlog\".
+  Creating directory "Generated Files\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\CL.exe /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\\" /I"Generated Files\\" /IDebug\ /nologo /W0 /WX- /diagnostics:column /sdl /MP /Od /Oi /Oy- /D _UNICODE /D UNICODE /D __WRL_NO_DEFAULT_LIB__ /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /APPCONTAINER /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:ARM Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\Hostx64\arm\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+(PrepareForBuild target) -> 
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(505,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdC\CompilerIdC.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.95
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/3.25.0-msvc1/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-i5lf3y
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1f3b9.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-i5lf3y\\" /I"Generated Files\\" /IcmTC_1f3b9.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f3b9.dir\Debug\\" /Fd"cmTC_1f3b9.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-i5lf3y\cmTC_1f3b9.vcxproj]
+  cmTC_1f3b9.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-i5lf3y\Debug\cmTC_1f3b9.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-i5lf3y\cmTC_1f3b9.vcxproj]
+  cmTC_1f3b9 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-i5lf3y\AppPackages\cmTC_1f3b9\cmTC_1f3b9_1.0.0.0_ARM_Debug_Test\cmTC_1f3b9_1.0.0.0_ARM_Debug.msix
+  cmTC_1f3b9 -> cmTC_1f3b9.dir\Debug\Symbols\cmTC_1f3b9_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-nxxvr7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4d0cf.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-nxxvr7\\" /I"Generated Files\\" /IcmTC_4d0cf.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d0cf.dir\Debug\\" /Fd"cmTC_4d0cf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-nxxvr7\HAVE_ERRNO_H.c"
+  HAVE_ERRNO_H.c
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-nxxvr7\cmTC_4d0cf.vcxproj]
+  cmTC_4d0cf.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-nxxvr7\Debug\cmTC_4d0cf.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-nxxvr7\cmTC_4d0cf.vcxproj]
+  cmTC_4d0cf -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-nxxvr7\AppPackages\cmTC_4d0cf\cmTC_4d0cf_1.0.0.0_ARM_Debug_Test\cmTC_4d0cf_1.0.0.0_ARM_Debug.msix
+  cmTC_4d0cf -> cmTC_4d0cf.dir\Debug\Symbols\cmTC_4d0cf_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-35tzkj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e61df.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_FCNTL_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-35tzkj\\" /I"Generated Files\\" /IcmTC_e61df.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e61df.dir\Debug\\" /Fd"cmTC_e61df.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-35tzkj\HAVE_FCNTL_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-35tzkj\cmTC_e61df.vcxproj]
+  cmTC_e61df.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-35tzkj\Debug\cmTC_e61df.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-35tzkj\cmTC_e61df.vcxproj]
+  cmTC_e61df -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-35tzkj\AppPackages\cmTC_e61df\cmTC_e61df_1.0.0.0_ARM_Debug_Test\cmTC_e61df_1.0.0.0_ARM_Debug.msix
+  cmTC_e61df -> cmTC_e61df.dir\Debug\Symbols\cmTC_e61df_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-gwdpb1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5acf1.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_INTTYPES_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gwdpb1\\" /I"Generated Files\\" /IcmTC_5acf1.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5acf1.dir\Debug\\" /Fd"cmTC_5acf1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gwdpb1\HAVE_INTTYPES_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gwdpb1\cmTC_5acf1.vcxproj]
+  cmTC_5acf1.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gwdpb1\Debug\cmTC_5acf1.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gwdpb1\cmTC_5acf1.vcxproj]
+  cmTC_5acf1 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gwdpb1\AppPackages\cmTC_5acf1\cmTC_5acf1_1.0.0.0_ARM_Debug_Test\cmTC_5acf1_1.0.0.0_ARM_Debug.msix
+  cmTC_5acf1 -> cmTC_5acf1.dir\Debug\Symbols\cmTC_5acf1_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files io.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-b5hycr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_85441.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_IO_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-b5hycr\\" /I"Generated Files\\" /IcmTC_85441.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85441.dir\Debug\\" /Fd"cmTC_85441.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-b5hycr\HAVE_IO_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-b5hycr\cmTC_85441.vcxproj]
+  cmTC_85441.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-b5hycr\Debug\cmTC_85441.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-b5hycr\cmTC_85441.vcxproj]
+  cmTC_85441 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-b5hycr\AppPackages\cmTC_85441\cmTC_85441_1.0.0.0_ARM_Debug_Test\cmTC_85441_1.0.0.0_ARM_Debug.msix
+  cmTC_85441 -> cmTC_85441.dir\Debug\Symbols\cmTC_85441_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-agdz38
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_91853.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-agdz38\\" /I"Generated Files\\" /IcmTC_91853.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91853.dir\Debug\\" /Fd"cmTC_91853.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-agdz38\HAVE_MEMORY_H.c"
+  HAVE_MEMORY_H.c
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-agdz38\cmTC_91853.vcxproj]
+  cmTC_91853.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-agdz38\Debug\cmTC_91853.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-agdz38\cmTC_91853.vcxproj]
+  cmTC_91853 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-agdz38\AppPackages\cmTC_91853\cmTC_91853_1.0.0.0_ARM_Debug_Test\cmTC_91853_1.0.0.0_ARM_Debug.msix
+  cmTC_91853 -> cmTC_91853.dir\Debug\Symbols\cmTC_91853_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-9xa74d
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2847d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-9xa74d\\" /I"Generated Files\\" /IcmTC_2847d.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2847d.dir\Debug\\" /Fd"cmTC_2847d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-9xa74d\HAVE_STDINT_H.c"
+  HAVE_STDINT_H.c
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-9xa74d\cmTC_2847d.vcxproj]
+  cmTC_2847d.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-9xa74d\Debug\cmTC_2847d.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-9xa74d\cmTC_2847d.vcxproj]
+  cmTC_2847d -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-9xa74d\AppPackages\cmTC_2847d\cmTC_2847d_1.0.0.0_ARM_Debug_Test\cmTC_2847d_1.0.0.0_ARM_Debug.msix
+  cmTC_2847d -> cmTC_2847d.dir\Debug\Symbols\cmTC_2847d_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-zmzi5y
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_51a22.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_STDLIB_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-zmzi5y\\" /I"Generated Files\\" /IcmTC_51a22.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51a22.dir\Debug\\" /Fd"cmTC_51a22.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-zmzi5y\HAVE_STDLIB_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-zmzi5y\cmTC_51a22.vcxproj]
+  cmTC_51a22.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-zmzi5y\Debug\cmTC_51a22.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-zmzi5y\cmTC_51a22.vcxproj]
+  cmTC_51a22 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-zmzi5y\AppPackages\cmTC_51a22\cmTC_51a22_1.0.0.0_ARM_Debug_Test\cmTC_51a22_1.0.0.0_ARM_Debug.msix
+  cmTC_51a22 -> cmTC_51a22.dir\Debug\Symbols\cmTC_51a22_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-f1uh9j
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_da565.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_STRING_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-f1uh9j\\" /I"Generated Files\\" /IcmTC_da565.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da565.dir\Debug\\" /Fd"cmTC_da565.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-f1uh9j\HAVE_STRING_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-f1uh9j\cmTC_da565.vcxproj]
+  cmTC_da565.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-f1uh9j\Debug\cmTC_da565.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-f1uh9j\cmTC_da565.vcxproj]
+  cmTC_da565 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-f1uh9j\AppPackages\cmTC_da565\cmTC_da565_1.0.0.0_ARM_Debug_Test\cmTC_da565_1.0.0.0_ARM_Debug.msix
+  cmTC_da565 -> cmTC_da565.dir\Debug\Symbols\cmTC_da565_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-ys5re3
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e4c25.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_STAT_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ys5re3\\" /I"Generated Files\\" /IcmTC_e4c25.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4c25.dir\Debug\\" /Fd"cmTC_e4c25.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ys5re3\HAVE_SYS_STAT_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ys5re3\cmTC_e4c25.vcxproj]
+  cmTC_e4c25.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ys5re3\Debug\cmTC_e4c25.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ys5re3\cmTC_e4c25.vcxproj]
+  cmTC_e4c25 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ys5re3\AppPackages\cmTC_e4c25\cmTC_e4c25_1.0.0.0_ARM_Debug_Test\cmTC_e4c25_1.0.0.0_ARM_Debug.msix
+  cmTC_e4c25 -> cmTC_e4c25.dir\Debug\Symbols\cmTC_e4c25_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-mcnnjz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_351d5.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_TYPES_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-mcnnjz\\" /I"Generated Files\\" /IcmTC_351d5.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_351d5.dir\Debug\\" /Fd"cmTC_351d5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-mcnnjz\HAVE_SYS_TYPES_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-mcnnjz\cmTC_351d5.vcxproj]
+  cmTC_351d5.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-mcnnjz\Debug\cmTC_351d5.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-mcnnjz\cmTC_351d5.vcxproj]
+  cmTC_351d5 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-mcnnjz\AppPackages\cmTC_351d5\cmTC_351d5_1.0.0.0_ARM_Debug_Test\cmTC_351d5_1.0.0.0_ARM_Debug.msix
+  cmTC_351d5 -> cmTC_351d5.dir\Debug\Symbols\cmTC_351d5_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if files windows.h exist passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-n09z5a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e5ff4.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_WINDOWS_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-n09z5a\\" /I"Generated Files\\" /IcmTC_e5ff4.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5ff4.dir\Debug\\" /Fd"cmTC_e5ff4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-n09z5a\HAVE_WINDOWS_H.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-n09z5a\cmTC_e5ff4.vcxproj]
+  cmTC_e5ff4.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-n09z5a\Debug\cmTC_e5ff4.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-n09z5a\cmTC_e5ff4.vcxproj]
+  cmTC_e5ff4 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-n09z5a\AppPackages\cmTC_e5ff4\cmTC_e5ff4_1.0.0.0_ARM_Debug_Test\cmTC_e5ff4_1.0.0.0_ARM_Debug.msix
+  cmTC_e5ff4 -> cmTC_e5ff4.dir\Debug\Symbols\cmTC_e5ff4_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the function mkdir exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-gjzmtt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_49eb9.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gjzmtt\\" /I"Generated Files\\" /IcmTC_49eb9.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D CHECK_FUNCTION_EXISTS=mkdir /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49eb9.dir\Debug\\" /Fd"cmTC_49eb9.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gjzmtt\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gjzmtt\cmTC_49eb9.vcxproj]
+  cmTC_49eb9.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gjzmtt\Debug\cmTC_49eb9.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gjzmtt\cmTC_49eb9.vcxproj]
+  cmTC_49eb9 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-gjzmtt\AppPackages\cmTC_49eb9\cmTC_49eb9_1.0.0.0_ARM_Debug_Test\cmTC_49eb9_1.0.0.0_ARM_Debug.msix
+  cmTC_49eb9 -> cmTC_49eb9.dir\Debug\Symbols\cmTC_49eb9_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-qnx8mp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_34304.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-qnx8mp\\" /I"Generated Files\\" /IcmTC_34304.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34304.dir\Debug\\" /Fd"cmTC_34304.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-qnx8mp\CheckIncludeFile.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-qnx8mp\cmTC_34304.vcxproj]
+  cmTC_34304.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-qnx8mp\Debug\cmTC_34304.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-qnx8mp\cmTC_34304.vcxproj]
+  cmTC_34304 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-qnx8mp\AppPackages\cmTC_34304\cmTC_34304_1.0.0.0_ARM_Debug_Test\cmTC_34304_1.0.0.0_ARM_Debug.msix
+  cmTC_34304 -> cmTC_34304.dir\Debug\Symbols\cmTC_34304_1.0.0.0_ARM_Debug.appxsym
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: /MP;/DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;/EHsc;/wd"4996";/wd"4146";/wd"4251";/wd"4668";/wd"5033";/EHsc;/await;/permissive-;;/O2;/Ob2;/DNDEBUG;/Zi;/Zc:twoPhase-
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+Build started 1/20/2023 6:39:30 AM.
+Project "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(505,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+  Creating directory "Generated Files\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\CL.exe /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\\" /I"Generated Files\\" /IDebug\ /nologo /W0 /WX- /diagnostics:column /sdl /MP /Od /Oi /Oy- /D _UNICODE /D UNICODE /D __WRL_NO_DEFAULT_LIB__ /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\HostX64\arm\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /APPCONTAINER /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:ARM Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\bin\Hostx64\arm\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+(PrepareForBuild target) -> 
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(505,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\3.25.0-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.70
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/3.25.0-msvc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-t6d6ni
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b4f83.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-t6d6ni\\" /I"Generated Files\\" /IcmTC_b4f83.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_b4f83.dir\Debug\\" /Fd"cmTC_b4f83.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue  /await /Zc:twoPhase- "C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-t6d6ni\cmTC_b4f83.vcxproj]
+  cmTC_b4f83.vcxproj -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-t6d6ni\Debug\cmTC_b4f83.exe
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\v17.0\AppxPackage\Microsoft.AppXPackage.Targets(2771,5): warning : Publisher name (CN=CMake) does not match signing certificate subject: CN=CMake Test Cert. Updating Publisher name. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-t6d6ni\cmTC_b4f83.vcxproj]
+  cmTC_b4f83 -> C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-t6d6ni\AppPackages\cmTC_b4f83\cmTC_b4f83_1.0.0.0_ARM_Debug_Test\cmTC_b4f83_1.0.0.0_ARM_Debug.msix
+  cmTC_b4f83 -> cmTC_b4f83.dir\Debug\Symbols\cmTC_b4f83_1.0.0.0_ARM_Debug.appxsym
+
+
+

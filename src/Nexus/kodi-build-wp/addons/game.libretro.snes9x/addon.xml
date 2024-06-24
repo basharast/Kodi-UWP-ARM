@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.snes9x"
+		name="Nintendo - SNES / SFC (Snes9x - Current)"
+		version="1.61.0.35"
+		provider-name="Snes9x Team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.snes" version="1.0.0"/>
+		<import addon="game.controller.snes.mouse" version="1.0.0"/>
+		<import addon="game.controller.snes.multitap" version="1.0.0"/>
+		<import addon="game.controller.snes.super.scope" version="1.0.0"/>
+		<import addon="game.controller.konami.justifier.snes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.snes9x.dll">
+		<platforms>SNES</platforms>
+		<extensions>smc|sfc|swc|fig|bs|st</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>Non-commercial</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.snes9x</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Snes9x - Current) 1.60</summary>
+		<description lang="da_DK">Snes9x er en bærbar, freeware SNES- og Super Famicom-emulator.[CR][CR]Snes9x er kodet i C++ med tre CPU emuleringskerner på i386 Linux- og Windows-versionerne.</description>
+		<description lang="en_GB">Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports.</description>
+		<description lang="fi_FI">Snes9x on kannettava, ilmainen SNES- ja Super Famicom -emulaattori.[CR][CR]Snes9x on koodattu C++-kielellä ja se sisältää kolme Assembler-prosessorin emulointiydintä i386 Linux- ja Windows-käännöksissä.</description>
+		<description lang="zh_CN">Snes9x 是一款便携式自由软件 SNES 和 Super Famicom 模拟器。[CR][CR]Snes9x 是用 C++ 编写的，在 i386 Linux 和 Windows 移植上有三个汇编器 CPU 仿真核。</description>
+		<disclaimer lang="da_DK">Snes9X-teamet er ikke forbundet med eller tilknyttet nogen nævnt virksomhed på nogen måde. Udtalelserne fra Snes9X-teamet afspejler ikke synspunkterne fra de forskellige virksomheder, der er nævnt her. Virksomheder og alle produkter, der vedrører det pågældende firma, er varemærker tilhørende det pågældende firma. Kontakt venligst det pågældende firma for varemærke- og copyrightoplysninger.</disclaimer>
+		<disclaimer lang="en_GB">The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information.</disclaimer>
+		<disclaimer lang="fi_FI">Snes9X-tiimi ei ole mitenkään yhteydessä tai sidoksissa mainittuihin yrityksiin, eivätkä Snes9X-tiimin mielipiteet heijasta mainittujen yritysten näkemyksiä. Yritykset ja kaikki niiden tuotteet ovat kyseisten yritysten tavaramerkkejä. Tavaramerkki- ja tekijänoikeustietoihin liittyen ole yhteydessä kyseisiin yrityksiin.</disclaimer>
+		<disclaimer lang="zh_CN">Snes9X 团队与上述任何公司均无任何关联。Snes9X 团队的意见并不反映此处提到的各个公司的意见。公司和与该公司相关的所有产品均为该公司的商标。请联系该公司获取商标和版权信息。</disclaimer>
+	</extension>
+</addon>

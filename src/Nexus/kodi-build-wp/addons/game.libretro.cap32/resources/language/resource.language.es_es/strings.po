@@ -1,0 +1,146 @@
+# game.libretro.cap32 language file
+# Addon Name: game.libretro.cap32
+# Addon id: game.libretro.cap32
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.cap32\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2023-01-19 02:26+0000\n"
+"Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
+"Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-cap32/es_es/>\n"
+"Language: es_es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15\n"
+
+msgctxt "Addon Summary"
+msgid "Amstrad - CPC (Caprice32) 4.5 HI"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models."
+msgstr "Caprice32 es un emulador para la serie de ordenadores domésticos Amstrad CPC de 8 bits. Imita fielmente los modelos CPC464, CPC664 y CPC6128."
+
+msgctxt "Addon Disclaimer"
+msgid "Written by Ulrich Doewich"
+msgstr "Escrito por Ulrich Doewich"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Ajustes"
+
+msgctxt "#30001"
+msgid "Controls > User 1 Controller Config"
+msgstr "Controles > Configuración Mando Usuario 1"
+
+msgctxt "#30002"
+msgid "Controls > User 2 Controller Config"
+msgstr "Controles > Configuración Mando Usuario 2"
+
+msgctxt "#30003"
+msgid "Controls > Combo Key"
+msgstr "Controles > Tecla Combo"
+
+msgctxt "#30004"
+msgid "Controls > Use internal Remap DB"
+msgstr "Controles > Usar BD Interna de Reasignación"
+
+msgctxt "#30005"
+msgid "Light Gun > Input"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Light Gun > Show Crosshair"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Model"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Advanced > Autorun"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Advanced > Ram size"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Video > Green Phosphor blueish"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Video > Monitor Intensity"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Video Advanced > Color Depth"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Status Bar"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Keyboard Transparency"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Floppy Sound"
+msgstr "Sonido de Disquete"
+
+msgctxt "#30016"
+msgid "Monitor Type"
+msgstr ""
+
+msgctxt "#30017"
+msgid "CPC Language"
+msgstr ""
+
+#~ msgctxt "#30005"
+#~ msgid "Model"
+#~ msgstr "Modelo"
+
+#~ msgctxt "#30006"
+#~ msgid "Advanced > Autorun"
+#~ msgstr "Avanzado > Autorun"
+
+#~ msgctxt "#30007"
+#~ msgid "Advanced > Ram size"
+#~ msgstr "Avanzado > Tamaño Ram"
+
+#~ msgctxt "#30008"
+#~ msgid "Video > Green Phosphor blueish"
+#~ msgstr "Vídeo > Fósforo Verde Azulado"
+
+#~ msgctxt "#30009"
+#~ msgid "Video > Monitor Intensity"
+#~ msgstr "Vídeo > Intensidad del Monitor"
+
+#~ msgctxt "#30010"
+#~ msgid "Video Advanced > Color Depth"
+#~ msgstr "Video Avanzado > Profundidad de Color"
+
+#~ msgctxt "#30011"
+#~ msgid "Status Bar"
+#~ msgstr "Barra de Estado"
+
+#~ msgctxt "#30012"
+#~ msgid "Floppy Sound"
+#~ msgstr "Sonido del Disquete"
+
+#~ msgctxt "#30013"
+#~ msgid "Monitor Type"
+#~ msgstr "Tipo de Monitor"
+
+#~ msgctxt "#30014"
+#~ msgid "CPC Language"
+#~ msgstr "Idioma del CPC"
+
+#~ msgctxt "#30009"
+#~ msgid "Status Bar"
+#~ msgstr "Barra de Estado"

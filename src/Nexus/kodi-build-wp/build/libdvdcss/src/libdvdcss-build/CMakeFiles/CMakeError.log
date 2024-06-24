@@ -1,0 +1,575 @@
+Determining if files IOKit/storage/IODVDMediaBSDClient.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-ajp39b
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c148e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  DARWIN_DVD_IOCTL.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ajp39b\DARWIN_DVD_IOCTL.c(2,10): fatal  error C1083: Cannot open include file: 'IOKit/storage/IODVDMediaBSDClient.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ajp39b\cmTC_c148e.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ajp39b\\" /I"Generated Files\\" /IcmTC_c148e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c148e.dir\Debug\\" /Fd"cmTC_c148e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ajp39b\DARWIN_DVD_IOCTL.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ajp39b\cmTC_c148e.vcxproj]
+
+
+Source:
+/* */
+#include <IOKit/storage/IODVDMediaBSDClient.h>
+
+
+int main(void){return 0;}
+
+Determining if files linux/cdrom.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-ck1r0v
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_89b42.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  DVD_STRUCT_IN_LINUX_CDROM_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ck1r0v\\" /I"Generated Files\\" /IcmTC_89b42.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89b42.dir\Debug\\" /Fd"cmTC_89b42.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ck1r0v\DVD_STRUCT_IN_LINUX_CDROM_H.c"
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ck1r0v\DVD_STRUCT_IN_LINUX_CDROM_H.c(2,10): fatal  error C1083: Cannot open include file: 'linux/cdrom.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ck1r0v\cmTC_89b42.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-ck1r0v\cmTC_89b42.vcxproj]
+
+
+Source:
+/* */
+#include <linux/cdrom.h>
+
+
+int main(void){return 0;}
+
+Determining if files linux/cdrom.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-4m28q1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e6ed2.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_LINUX_CDROM_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4m28q1\HAVE_LINUX_CDROM_H.c(2,10): fatal  error C1083: Cannot open include file: 'linux/cdrom.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4m28q1\cmTC_e6ed2.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4m28q1\\" /I"Generated Files\\" /IcmTC_e6ed2.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6ed2.dir\Debug\\" /Fd"cmTC_e6ed2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4m28q1\HAVE_LINUX_CDROM_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4m28q1\cmTC_e6ed2.vcxproj]
+
+
+Source:
+/* */
+#include <linux/cdrom.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/cdio.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-q24iuh
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c29a6.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  DVD_STRUCT_IN_SYS_CDIO_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-q24iuh\DVD_STRUCT_IN_SYS_CDIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/cdio.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-q24iuh\cmTC_c29a6.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-q24iuh\\" /I"Generated Files\\" /IcmTC_c29a6.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c29a6.dir\Debug\\" /Fd"cmTC_c29a6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-q24iuh\DVD_STRUCT_IN_SYS_CDIO_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-q24iuh\cmTC_c29a6.vcxproj]
+
+
+Source:
+/* */
+#include <sys/cdio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/cdio.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-jg0u82
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ff948.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_CDIO_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-jg0u82\HAVE_SYS_CDIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/cdio.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-jg0u82\cmTC_ff948.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-jg0u82\\" /I"Generated Files\\" /IcmTC_ff948.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff948.dir\Debug\\" /Fd"cmTC_ff948.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-jg0u82\HAVE_SYS_CDIO_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-jg0u82\cmTC_ff948.vcxproj]
+
+
+Source:
+/* */
+#include <sys/cdio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/dvdio.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-yt67r5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_238fa.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  DVD_STRUCT_IN_SYS_DVDIO_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yt67r5\DVD_STRUCT_IN_SYS_DVDIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/dvdio.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yt67r5\cmTC_238fa.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yt67r5\\" /I"Generated Files\\" /IcmTC_238fa.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_238fa.dir\Debug\\" /Fd"cmTC_238fa.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yt67r5\DVD_STRUCT_IN_SYS_DVDIO_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yt67r5\cmTC_238fa.vcxproj]
+
+
+Source:
+/* */
+#include <sys/dvdio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/dvdio.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-uklov2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d60fc.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-uklov2\\" /I"Generated Files\\" /IcmTC_d60fc.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d60fc.dir\Debug\\" /Fd"cmTC_d60fc.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-uklov2\HAVE_SYS_DVDIO_H.c"
+  HAVE_SYS_DVDIO_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-uklov2\HAVE_SYS_DVDIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/dvdio.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-uklov2\cmTC_d60fc.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-uklov2\cmTC_d60fc.vcxproj]
+
+
+Source:
+/* */
+#include <sys/dvdio.h>
+
+
+int main(void){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-suk6r7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb1cb.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-suk6r7\\" /I"Generated Files\\" /IcmTC_fb1cb.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb1cb.dir\Debug\\" /Fd"cmTC_fb1cb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-suk6r7\HAVE_DLFCN_H.c"
+  HAVE_DLFCN_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-suk6r7\HAVE_DLFCN_H.c(2,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-suk6r7\cmTC_fb1cb.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-suk6r7\cmTC_fb1cb.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files dvd.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-47j588
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_89b03.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-47j588\\" /I"Generated Files\\" /IcmTC_89b03.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89b03.dir\Debug\\" /Fd"cmTC_89b03.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-47j588\HAVE_DVD_H.c"
+  HAVE_DVD_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-47j588\HAVE_DVD_H.c(2,10): fatal  error C1083: Cannot open include file: 'dvd.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-47j588\cmTC_89b03.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-47j588\cmTC_89b03.vcxproj]
+
+
+Source:
+/* */
+#include <dvd.h>
+
+
+int main(void){return 0;}
+
+Determining if files pwd.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-oz7rrf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6d52d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-oz7rrf\\" /I"Generated Files\\" /IcmTC_6d52d.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d52d.dir\Debug\\" /Fd"cmTC_6d52d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-oz7rrf\HAVE_PWD_H.c"
+  HAVE_PWD_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-oz7rrf\HAVE_PWD_H.c(2,10): fatal  error C1083: Cannot open include file: 'pwd.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-oz7rrf\cmTC_6d52d.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-oz7rrf\cmTC_6d52d.vcxproj]
+
+
+Source:
+/* */
+#include <pwd.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-yhs064
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d6587.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_STRINGS_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yhs064\HAVE_STRINGS_H.c(2,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yhs064\cmTC_d6587.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yhs064\\" /I"Generated Files\\" /IcmTC_d6587.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6587.dir\Debug\\" /Fd"cmTC_d6587.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yhs064\HAVE_STRINGS_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-yhs064\cmTC_d6587.vcxproj]
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-hu3zh6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_16ff3.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_IOCTL_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-hu3zh6\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-hu3zh6\cmTC_16ff3.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-hu3zh6\\" /I"Generated Files\\" /IcmTC_16ff3.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16ff3.dir\Debug\\" /Fd"cmTC_16ff3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-hu3zh6\HAVE_SYS_IOCTL_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-hu3zh6\cmTC_16ff3.vcxproj]
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-3brjcw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f5086.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_PARAM_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-3brjcw\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-3brjcw\cmTC_f5086.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-3brjcw\\" /I"Generated Files\\" /IcmTC_f5086.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f5086.dir\Debug\\" /Fd"cmTC_f5086.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-3brjcw\HAVE_SYS_PARAM_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-3brjcw\cmTC_f5086.vcxproj]
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/scsi/impl/uscsi.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-acydan
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7920e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_SCSI_IMPL_USCSI_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-acydan\HAVE_SYS_SCSI_IMPL_USCSI_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/scsi/impl/uscsi.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-acydan\cmTC_7920e.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-acydan\\" /I"Generated Files\\" /IcmTC_7920e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7920e.dir\Debug\\" /Fd"cmTC_7920e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-acydan\HAVE_SYS_SCSI_IMPL_USCSI_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-acydan\cmTC_7920e.vcxproj]
+
+
+Source:
+/* */
+#include <sys/scsi/impl/uscsi.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/scsi/scsi_types.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-kvh4su
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04969.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_SCSI_SCSI_TYPES_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-kvh4su\HAVE_SYS_SCSI_SCSI_TYPES_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/scsi/scsi_types.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-kvh4su\cmTC_04969.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-kvh4su\\" /I"Generated Files\\" /IcmTC_04969.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04969.dir\Debug\\" /Fd"cmTC_04969.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-kvh4su\HAVE_SYS_SCSI_SCSI_TYPES_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-kvh4su\cmTC_04969.vcxproj]
+
+
+Source:
+/* */
+#include <sys/scsi/scsi_types.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/uio.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-4b6mq7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_badde.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_SYS_UIO_H.c
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4b6mq7\HAVE_SYS_UIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4b6mq7\cmTC_badde.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4b6mq7\\" /I"Generated Files\\" /IcmTC_badde.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_badde.dir\Debug\\" /Fd"cmTC_badde.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4b6mq7\HAVE_SYS_UIO_H.c"
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-4b6mq7\cmTC_badde.vcxproj]
+
+
+Source:
+/* */
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-8x8p2a
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_42c39.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_UNISTD_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-8x8p2a\\" /I"Generated Files\\" /IcmTC_42c39.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42c39.dir\Debug\\" /Fd"cmTC_42c39.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-8x8p2a\HAVE_UNISTD_H.c"
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-8x8p2a\HAVE_UNISTD_H.c(2,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-8x8p2a\cmTC_42c39.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-8x8p2a\cmTC_42c39.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files winioctl.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-shn7gm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_696b0.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  HAVE_WINIOCTL_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\\" /I"Generated Files\\" /IcmTC_696b0.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_696b0.dir\Debug\\" /Fd"cmTC_696b0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\HAVE_WINIOCTL_H.c"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(548,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(549,13): error C2061: syntax error: identifier 'MediaRemovable' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(549,13): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(550,13): error C2061: syntax error: identifier 'MediaHotplug' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(550,13): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(551,13): error C2061: syntax error: identifier 'DeviceHotplug' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(551,13): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(552,13): error C2061: syntax error: identifier 'WriteCacheEnableOverride' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(552,13): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(553,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(572,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(578,17): error C2061: syntax error: identifier 'DeviceNumber' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(578,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(585,17): error C2061: syntax error: identifier 'PartitionNumber' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(585,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(586,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(595,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(601,11): error C2061: syntax error: identifier 'Size' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(601,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(603,11): error C2061: syntax error: identifier 'NumberOfDevices' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(603,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(605,27): error C2061: syntax error: identifier 'Devices' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(605,27): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(605,34): error C2059: syntax error: '[' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(607,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(644,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(651,17): error C2061: syntax error: identifier 'Size' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(651,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(658,17): error C2061: syntax error: identifier 'Flags' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(658,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(665,17): error C2061: syntax error: identifier 'DeviceType' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(665,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(671,17): error C2061: syntax error: identifier 'DeviceNumber' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(671,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(696,17): error C2061: syntax error: identifier 'DeviceGuid' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(696,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(703,17): error C2061: syntax error: identifier 'PartitionNumber' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(703,17): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(704,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(712,5): error C2061: syntax error: identifier 'BYTE' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(713,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(720,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(721,11): error C2061: syntax error: identifier '_unused' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(721,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(722,11): error C2061: syntax error: identifier 'PathId' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(722,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(723,11): error C2061: syntax error: identifier 'TargetId' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(723,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(724,11): error C2061: syntax error: identifier 'Lun' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(724,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(725,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(739,5): error C2061: syntax error: identifier 'BOOLEAN' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(740,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(749,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(750,11): error C2061: syntax error: identifier 'NewState' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(750,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(751,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(761,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(762,11): error C2061: syntax error: identifier 'Flags' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(762,11): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(763,19): error C2061: syntax error: identifier 'RecoveredWrites' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(763,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(764,19): error C2061: syntax error: identifier 'UnrecoveredWrites' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(764,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(765,19): error C2061: syntax error: identifier 'RecoveredReads' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(765,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(766,19): error C2061: syntax error: identifier 'UnrecoveredReads' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(766,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(767,19): error C2061: syntax error: identifier 'CompressionRatioReads' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(767,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(768,19): error C2061: syntax error: identifier 'CompressionRatioWrites' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(768,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(769,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(779,5): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(780,1): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(943,13): error C2061: syntax error: identifier 'LARGE_INTEGER' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(945,19): error C2061: syntax error: identifier 'TracksPerCylinder' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(945,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(946,19): error C2061: syntax error: identifier 'SectorsPerTrack' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(946,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(947,19): error C2061: syntax error: identifier 'BytesPerSector' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(947,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(948,19): error C2061: syntax error: identifier 'NumberMediaSides' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(948,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(949,19): error C2061: syntax error: identifier 'MediaCharacteristics' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(949,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(950,9): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(953,13): error C2061: syntax error: identifier 'LARGE_INTEGER' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(955,19): error C2061: syntax error: identifier 'TracksPerCylinder' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(955,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(956,19): error C2061: syntax error: identifier 'SectorsPerTrack' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(956,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(957,19): error C2061: syntax error: identifier 'BytesPerSector' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(957,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(958,19): error C2061: syntax error: identifier 'NumberMediaSides' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(958,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(959,19): error C2061: syntax error: identifier 'MediaCharacteristics' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(959,19): error C2059: syntax error: ';' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(960,9): error C2059: syntax error: '}' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(964,13): error C2061: syntax error: identifier 'DWORD' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(965,21): error C2061: syntax error: identifier 'CurrentBlockSize' [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winioctl.h(965,21): fatal  error C1003: error count exceeds 100; stopping compilation [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-shn7gm\cmTC_696b0.vcxproj]
+
+
+Source:
+/* */
+#include <winioctl.h>
+
+
+int main(void){return 0;}
+
+Determining size of dvd_struct failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-wcvjaj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8c87e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  DVD_STRUCT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-wcvjaj\\" /I"Generated Files\\" /IcmTC_8c87e.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c87e.dir\Debug\\" /Fd"cmTC_8c87e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-wcvjaj\DVD_STRUCT.c"
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-wcvjaj\DVD_STRUCT.c(4,10): fatal  error C1083: Cannot open include file: 'sys/cdio.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-wcvjaj\cmTC_8c87e.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-wcvjaj\cmTC_8c87e.vcxproj]
+
+
+DVD_STRUCT.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/cdio.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(dvd_struct))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of size_t failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdcss/src/libdvdcss-build/CMakeFiles/CMakeScratch/TryCompile-vpprai
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_26444.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  SIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-vpprai\\" /I"Generated Files\\" /IcmTC_26444.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26444.dir\Debug\\" /Fd"cmTC_26444.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-vpprai\SIZE_T.c"
+C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-vpprai\SIZE_T.c(4,10): fatal  error C1083: Cannot open include file: 'linux/cdrom.h': No such file or directory [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-vpprai\cmTC_26444.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdcss\src\libdvdcss-build\CMakeFiles\CMakeScratch\TryCompile-vpprai\cmTC_26444.vcxproj]
+
+
+SIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "linux/cdrom.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(size_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.gw"
+		name="Handheld Electronic (GW)"
+		version="1.6.3.23"
+		provider-name="Andre Leiradella">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.gw.dll">
+		<platforms></platforms>
+		<extensions>mgw</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>zlib</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.gw</source>
+		<assets>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Handheld Electronic (GW) 1.6.3</summary>
+		<description lang="da_DK">GW er en Game &amp; Watch-simulator.</description>
+		<description lang="en_GB">GW is a Game &amp; Watch simulator.</description>
+		<description lang="it_IT">GW è un simulatore di giochi e orologi.</description>
+		<description lang="ko_KR">GW는 게임 &amp; 시계 시뮬레이터입니다.</description>
+		<description lang="zh_CN">GW 是一款 Game &amp; Watch 模拟器。</description>
+	</extension>
+</addon>

@@ -1,0 +1,4 @@
+C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/dvdread.dir
+C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/INSTALL.dir
+C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/ALL_BUILD.dir
+C:/kodi-build-wp/build/libdvdread/src/libdvdread-build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,13 @@
+# Target labels
+ pcre
+# Source files and their labels
+C:/kodi-build-wp/CMakeFiles/pcre
+C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/pcre.rule
+C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/pcre-complete.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-build.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-configure.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-download.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-install.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-mkdir.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-patch.rule
+C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-update.rule

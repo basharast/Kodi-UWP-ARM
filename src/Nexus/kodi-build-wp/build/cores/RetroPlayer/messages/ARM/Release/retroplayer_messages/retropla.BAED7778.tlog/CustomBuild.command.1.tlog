@@ -1,0 +1,32 @@
+^C:\KODI-BUILD-WP\CMAKEFILES\2AE44D84571DFD62DFC50A0B653114CB\SAVESTATE_GENERATED.H.RULE
+setlocal
+cd C:\kodi\xbmc\cores\RetroPlayer\messages
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\kodi\project\BuildDependencies\tools\bin\flatc -c -o C:/kodi-build-wp/build/cores/RetroPlayer/messages/ savestate.fbs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI-BUILD-WP\CMAKEFILES\E72361ADA871286DAFCAD911E2D25DE0\RETROPLAYER_MESSAGES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\KODI\XBMC\CORES\RETROPLAYER\MESSAGES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi -BC:/kodi-build-wp --check-stamp-file C:/kodi-build-wp/build/cores/RetroPlayer/messages/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

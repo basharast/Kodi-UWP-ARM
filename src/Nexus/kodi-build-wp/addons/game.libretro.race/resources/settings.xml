@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="race_language" values="english|japanese" default="english"/>
+		<setting label="30002" type="select" id="race_dark_filter_level" values="0|5|10|15|20|25|30|35|40|45|50" default="0"/>
+		<setting label="30003" type="select" id="race_frameskip" values="disabled|auto|manual" default="disabled"/>
+		<setting label="30004" type="select" id="race_frameskip_threshold" values="33|15|18|21|24|27|30|36|39|42|45|48|51|54|57|60" default="33"/>
+	</category>
+</settings>

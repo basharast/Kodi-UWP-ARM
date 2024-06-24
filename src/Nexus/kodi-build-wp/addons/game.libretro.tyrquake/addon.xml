@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.tyrquake"
+		name="Quake (TyrQuake)"
+		version="0.62.0.32"
+		provider-name="Kevin Shanahan (Tyrann)">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.default" version="1.0.0"/>
+		<import addon="game.controller.keyboard" version="1.0.0"/>
+		<import addon="game.controller.mouse" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_windowsstore="game.libretro.tyrquake.dll">
+		<platforms></platforms>
+		<extensions>pak</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<license>GPLv2</license>
+		<platform></platform>
+		<source>https://github.com/kodi-game/game.libretro.tyrquake</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+		<summary lang="en_GB">Quake (TyrQuake) v0.62</summary>
+		<description lang="da_DK">Tyr-Quake er et branch af Quake-kildekoden udgivet af id Software. Det er beregnet til at understøtte Quake og Quakeworld og rette små fejl, der er dukket op gennem årene.</description>
+		<description lang="en_GB">Tyr-Quake is a branch of the Quake source code released by id Software. It is intended to support Quake and Quakeworld while fixing little bugs that have come up over the years.</description>
+		<description lang="zh_CN">Tyr-Quake 是 id 软件发布的 Quake 源代码的一个分支。它旨在支持 Quake 和 Quakeworld，同时修复多年来出现的小错误。</description>
+	</extension>
+</addon>

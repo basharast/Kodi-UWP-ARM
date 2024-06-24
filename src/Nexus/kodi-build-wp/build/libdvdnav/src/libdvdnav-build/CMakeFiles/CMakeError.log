@@ -1,0 +1,100 @@
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-hegik0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_df3fa.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-hegik0\\" /I"Generated Files\\" /IcmTC_df3fa.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df3fa.dir\Debug\\" /Fd"cmTC_df3fa.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-hegik0\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-hegik0\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-hegik0\cmTC_df3fa.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-hegik0\cmTC_df3fa.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-7jmrn8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4785d.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-7jmrn8\\" /I"Generated Files\\" /IcmTC_4785d.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4785d.dir\Debug\\" /Fd"cmTC_4785d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-7jmrn8\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-7jmrn8\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-7jmrn8\cmTC_4785d.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-7jmrn8\cmTC_4785d.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-f6daou
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ba6b4.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-f6daou\\" /I"Generated Files\\" /IcmTC_ba6b4.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba6b4.dir\Debug\\" /Fd"cmTC_ba6b4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-f6daou\CheckIncludeFile.c"
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-f6daou\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-f6daou\cmTC_ba6b4.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-f6daou\cmTC_ba6b4.vcxproj]
+
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-pm8q8j
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4256c.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-pm8q8j\\" /I"Generated Files\\" /IcmTC_4256c.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4256c.dir\Debug\\" /Fd"cmTC_4256c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-pm8q8j\CheckFunctionExists.c"
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-pm8q8j\cmTC_4256c.vcxproj]
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-pm8q8j\cmTC_4256c.vcxproj]
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-pm8q8j\Debug\cmTC_4256c.exe : fatal error LNK1120: 1 unresolved externals [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-pm8q8j\cmTC_4256c.vcxproj]
+
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeScratch/TryCompile-wmworg
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb06a.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  StandardHeadersExist.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-wmworg\\" /I"Generated Files\\" /IcmTC_bb06a.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb06a.dir\Debug\\" /Fd"cmTC_bb06a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-wmworg\StandardHeadersExist.c"
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-wmworg\StandardHeadersExist.c(2,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-wmworg\cmTC_bb06a.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeScratch\TryCompile-wmworg\cmTC_bb06a.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <inttypes.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+#include <float.h>
+
+
+int main(void){return 0;}
+
+Determining if the DIR symbol is defined as in AC_HEADER_DIRENT failed with the following output:
+Change Dir: C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a938f.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.0-preview-22601-03+a2490dd3f for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32124 for ARM
+  CheckDIRSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeTmp\\" /I"Generated Files\\" /IcmTC_a938f.dir\Debug\ /Zi /W3 /WX- /diagnostics:column /sdl /MP /Od /Ob0 /Oi /Oy- /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /D __WRL_NO_DEFAULT_LIB__ /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a938f.dir\Debug\\" /Fd"cmTC_a938f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /FU"C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.41.33901\lib\x86\store\references\platform.winmd" /analyze- /errorReport:queue "C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeTmp\CheckDIRSymbolExists.c"
+C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeTmp\CheckDIRSymbolExists.c(4,10): fatal  error C1083: Cannot open include file: 'dirent.h': No such file or directory [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeTmp\cmTC_a938f.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.Windows.UI.Xaml.Common.targets(482,5): error MSB4181: The "CompileXaml" task returned false but did not log an error. [C:\kodi-build-wp\build\libdvdnav\src\libdvdnav-build\CMakeFiles\CMakeTmp\cmTC_a938f.vcxproj]
+
+
+File C:/kodi-build-wp/build/libdvdnav/src/libdvdnav-build/CMakeFiles/CMakeTmp/CheckDIRSymbolExists.c:
+/* */
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <dirent.h>
+
+int main()
+{if ((DIR *) 0) return 0;}
+

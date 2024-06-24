@@ -1,0 +1,90 @@
+# game.libretro.beetle-wswan language file
+# Addon Name: game.libretro.beetle-wswan
+# Addon id: game.libretro.beetle-wswan
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.beetle-wswan\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2019-02-05 20:27i\n"
+"PO-Revision-Date: 2022-08-01 10:14+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-beetle-wswan/da_dk/>\n"
+"Language: da_dk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Bandai - WonderSwan/Color (Beetle Cygne) v0.9.35.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Standalone port of Mednafen WonderSwan to libretro, itself a fork of Cygne."
+msgstr "Fritstående port af Mednafen WonderSwan til libretro, i sig selv en fork af Cygne."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgctxt "#30001"
+msgid "Display Rotation"
+msgstr "Skærmrotation"
+
+msgctxt "#30002"
+msgid "Rotate Button Mappings"
+msgstr "Roter mapping for knapper"
+
+msgctxt "#30003"
+msgid "Color Palette"
+msgstr "Farvepalette"
+
+msgctxt "#30004"
+msgid "Color Depth (Restart Required)"
+msgstr "Farvedybde (genstart påkrævet)"
+
+msgctxt "#30005"
+msgid "Frameskip"
+msgstr "Spring frame over"
+
+msgctxt "#30006"
+msgid "Frameskip Threshold (%)"
+msgstr "Tærskel når der springes en frame over (%)"
+
+msgctxt "#30007"
+msgid "60Hz Mode"
+msgstr "60Hz-tilstand"
+
+msgctxt "#30008"
+msgid "Sound Output Sample Rate"
+msgstr "Samplefrekvens for lydudgang"
+
+msgctxt "#30009"
+msgid "Audio Filter"
+msgstr "Lydfilter"
+
+#~ msgctxt "#30007"
+#~ msgid "Sound Output Sample Rate"
+#~ msgstr "Samplefrekvens for lydudgang"
+
+#~ msgctxt "#30003"
+#~ msgid "WS Colorization"
+#~ msgstr "WS farvelægning"
+
+#~ msgctxt "#30004"
+#~ msgid "Frameskip"
+#~ msgstr "Spring frame over"
+
+#~ msgctxt "#30005"
+#~ msgid "Frameskip Threshold (%)"
+#~ msgstr "Tærskel når der springes en frame over (%)"
+
+#~ msgctxt "#30006"
+#~ msgid "Sound Output Sample Rate"
+#~ msgstr "Samplefrekvens for lydudgang"
+
+#~ msgctxt "#30007"
+#~ msgid "Color Depth (Restart)"
+#~ msgstr "Farvedybde (genstart)"

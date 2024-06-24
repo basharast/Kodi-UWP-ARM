@@ -1,0 +1,77 @@
+;------------------------------------------------------------
+; LIBWIN32UTILS DLL DEFINITIONS FILE
+
+EXPORTS
+
+;------------------------------------------------------------
+; dirent exports
+
+opendir
+closedir
+readdir
+rewinddir
+
+;
+; Needed if !defined(_MSC_VER) && !defined(__cplusplus)
+;
+ptw32_push_cleanup
+ptw32_pop_cleanup
+;
+; Not for use directly. Needed by macros in pthread.h
+; to return internal SEH code.
+;
+ptw32_get_exception_services_code
+
+;------------------------------------------------------------
+; timer exports
+
+adler32
+compress
+crc32
+deflate
+deflateCopy
+deflateEnd
+deflateInit2_
+deflateInit_
+deflateParams
+deflateReset
+deflateSetDictionary
+gzclose
+gzdopen
+gzerror
+gzflush
+gzopen
+gzread
+gzwrite
+inflate
+inflateEnd
+inflateInit2_
+inflateInit_
+inflateReset
+inflateSetDictionary
+inflateSync
+uncompress
+zlibVersion
+gzprintf
+gzputc
+gzgetc
+gzseek
+gzrewind
+gztell
+gzeof
+gzsetparams
+zError
+inflateSyncPoint
+get_crc_table
+compress2
+gzputs
+gzgets
+
+;------------------------------------------------------------
+; other exports
+dlclose
+dlsym
+dlopen
+dlerror
+
+optind

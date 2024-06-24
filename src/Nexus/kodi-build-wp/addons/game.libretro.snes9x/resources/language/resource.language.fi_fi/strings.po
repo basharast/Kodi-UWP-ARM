@@ -1,0 +1,330 @@
+# game.libretro.snes9x language file
+# Addon Name: game.libretro.snes9x
+# Addon id: game.libretro.snes9x
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-04 04:14+0000\n"
+"Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
+"Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x/fi_fi/>\n"
+"Language: fi_fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x - Current) 1.60"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports."
+msgstr "Snes9x on kannettava, ilmainen SNES- ja Super Famicom -emulaattori.[CR][CR]Snes9x on koodattu C++-kielellä ja se sisältää kolme Assembler-prosessorin emulointiydintä i386 Linux- ja Windows-käännöksissä."
+
+msgctxt "Addon Disclaimer"
+msgid "The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information."
+msgstr "Snes9X-tiimi ei ole mitenkään yhteydessä tai sidoksissa mainittuihin yrityksiin, eivätkä Snes9X-tiimin mielipiteet heijasta mainittujen yritysten näkemyksiä. Yritykset ja kaikki niiden tuotteet ovat kyseisten yritysten tavaramerkkejä. Tavaramerkki- ja tekijänoikeustietoihin liittyen ole yhteydessä kyseisiin yrityksiin."
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Asetukset"
+
+msgctxt "#30001"
+msgid "Console Region (Reload Core)"
+msgstr "Konsolin alue (ytimen uudelleenlataus)"
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr "Ensisijainen kuvasuhde"
+
+msgctxt "#30003"
+msgid "Crop Overscan"
+msgstr "Yliskannauksen rajaus"
+
+msgctxt "#30004"
+msgid "Hi-Res Blending"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Blargg NTSC Filter"
+msgstr "Blargg NTSC -suodatin"
+
+msgctxt "#30006"
+msgid "Audio Interpolation"
+msgstr "Äänen interpolaatio"
+
+msgctxt "#30007"
+msgid "Allow Opposing Directions"
+msgstr "Salli vastakkaiset suunnat"
+
+msgctxt "#30008"
+msgid "SuperFX Overclocking"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr "Vähennä hidastusta (hakkerointi, turvaton)"
+
+msgctxt "#30010"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr "Vähennä välkettä (hakkerointi, turvaton)"
+
+msgctxt "#30011"
+msgid "Randomize Memory (Unsafe)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Block Invalid VRAM Access"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Light Gun Mode"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Super Scope Reverse Trigger Buttons"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Super Scope Crosshair"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Super Scope Color"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Justifier 1 Crosshair"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Justifier 1 Color"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Justifier 2 Crosshair"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Justifier 2 Color"
+msgstr ""
+
+msgctxt "#30022"
+msgid "M.A.C.S. Rifle Crosshair"
+msgstr ""
+
+msgctxt "#30023"
+msgid "M.A.C.S. Rifle Color"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Show Layer 1"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Show Layer 2"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Show Layer 3"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Show Layer 4"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Show Sprite Layer"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Enable Graphic Clip Windows"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Enable Transparency Effects"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Enable Sound Channel 1"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Enable Sound Channel 2"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Enable Sound Channel 3"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Enable Sound Channel 4"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Enable Sound Channel 5"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Enable Sound Channel 6"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Enable Sound Channel 7"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Enable Sound Channel 8"
+msgstr ""
+
+#~ msgctxt "#30004"
+#~ msgid "Enable Hi-Res Mode"
+#~ msgstr "Käytä korkearesoluutiotilaa"
+
+#~ msgctxt "#30005"
+#~ msgid "Hi-Res Blending"
+#~ msgstr "Korkearesoluutioinen sekoitus"
+
+#~ msgctxt "#30006"
+#~ msgid "Blargg NTSC Filter"
+#~ msgstr "Blargg NTSC -suodatin"
+
+#~ msgctxt "#30007"
+#~ msgid "Audio Interpolation"
+#~ msgstr "Äänen interpolaatio"
+
+#~ msgctxt "#30008"
+#~ msgid "Allow Opposing Directions"
+#~ msgstr "Salli vastakkaiset suunnat"
+
+#~ msgctxt "#30009"
+#~ msgid "SuperFX Overclocking"
+#~ msgstr "SuperFX-ylikellotus"
+
+#~ msgctxt "#30010"
+#~ msgid "Reduce Slowdown (Hack, Unsafe)"
+#~ msgstr "Vähennä hidastusta (hakkerointi, turvaton)"
+
+#~ msgctxt "#30011"
+#~ msgid "Reduce Flickering (Hack, Unsafe)"
+#~ msgstr "Vähennä välkettä (hakkerointi, turvaton)"
+
+#~ msgctxt "#30012"
+#~ msgid "Randomize Memory (Unsafe)"
+#~ msgstr "Satunnaista muisti (turvaton)"
+
+#~ msgctxt "#30013"
+#~ msgid "Block Invalid VRAM Access"
+#~ msgstr "Estä virheellinen VRAM-käyttö"
+
+#~ msgctxt "#30014"
+#~ msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+#~ msgstr "Echo Buffer -hakkerointi (vaarallinen, käytä vain vanhoille admusic-hakkeroinneille)"
+
+#~ msgctxt "#30015"
+#~ msgid "Light Gun Mode"
+#~ msgstr "Valoaseen tila"
+
+#~ msgctxt "#30016"
+#~ msgid "Super Scope Reverse Trigger Buttons"
+#~ msgstr "Super Scope - käänteiset liipaisinpainikkeet"
+
+#~ msgctxt "#30017"
+#~ msgid "Super Scope Crosshair"
+#~ msgstr "Super Scope -tähtäin"
+
+#~ msgctxt "#30018"
+#~ msgid "Super Scope Color"
+#~ msgstr "Super Scope -väri"
+
+#~ msgctxt "#30019"
+#~ msgid "Justifier 1 Crosshair"
+#~ msgstr "Justifier 1 -tähtäin"
+
+#~ msgctxt "#30020"
+#~ msgid "Justifier 1 Color"
+#~ msgstr "Justifier 1 -väri"
+
+#~ msgctxt "#30021"
+#~ msgid "Justifier 2 Crosshair"
+#~ msgstr "Justifier 2 -tähtäin"
+
+#~ msgctxt "#30022"
+#~ msgid "Justifier 2 Color"
+#~ msgstr "Justifier 2 -väri"
+
+#~ msgctxt "#30023"
+#~ msgid "M.A.C.S. Rifle Crosshair"
+#~ msgstr "M.A.C.S. -kiväärin tähtäin"
+
+#~ msgctxt "#30024"
+#~ msgid "M.A.C.S. Rifle Color"
+#~ msgstr "M.A.C.S. -kiväärin väri"
+
+#~ msgctxt "#30025"
+#~ msgid "Show Layer 1"
+#~ msgstr "Näytä taso 1"
+
+#~ msgctxt "#30026"
+#~ msgid "Show Layer 2"
+#~ msgstr "Näytä taso 2"
+
+#~ msgctxt "#30027"
+#~ msgid "Show Layer 3"
+#~ msgstr "Näytä taso 3"
+
+#~ msgctxt "#30028"
+#~ msgid "Show Layer 4"
+#~ msgstr "Näytä taso 4"
+
+#~ msgctxt "#30029"
+#~ msgid "Show Sprite Layer"
+#~ msgstr "Näytä Sprite-taso"
+
+#~ msgctxt "#30030"
+#~ msgid "Enable Graphic Clip Windows"
+#~ msgstr "Käytä grafiikkaleikeikkunoita"
+
+#~ msgctxt "#30031"
+#~ msgid "Enable Transparency Effects"
+#~ msgstr "Käytä läpinäkyvyystehosteita"
+
+#~ msgctxt "#30032"
+#~ msgid "Enable Sound Channel 1"
+#~ msgstr "Käytä äänikanavaa 1"
+
+#~ msgctxt "#30033"
+#~ msgid "Enable Sound Channel 2"
+#~ msgstr "Käytä äänikanavaa 2"
+
+#~ msgctxt "#30034"
+#~ msgid "Enable Sound Channel 3"
+#~ msgstr "Käytä äänikanavaa 3"
+
+#~ msgctxt "#30035"
+#~ msgid "Enable Sound Channel 4"
+#~ msgstr "Käytä äänikanavaa 4"
+
+#~ msgctxt "#30036"
+#~ msgid "Enable Sound Channel 5"
+#~ msgstr "Käytä äänikanavaa 5"
+
+#~ msgctxt "#30037"
+#~ msgid "Enable Sound Channel 6"
+#~ msgstr "Käytä äänikanavaa 6"
+
+#~ msgctxt "#30038"
+#~ msgid "Enable Sound Channel 7"
+#~ msgstr "Käytä äänikanavaa 7"
+
+#~ msgctxt "#30039"
+#~ msgid "Enable Sound Channel 8"
+#~ msgstr "Käytä äänikanavaa 8"

@@ -1,0 +1,45 @@
+# game.libretro.race language file
+# Addon Name: game.libretro.race
+# Addon id: game.libretro.race
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.race\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2020-09-01 12:29i\n"
+"PO-Revision-Date: 2020-09-01 12:29i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: eu_es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo Pocket / Color (RACE) v2.16"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "RACE is a Neo Geo Pocket (NGP) and Neo Geo Pocket Color (NGPC) emulator for multiple platforms."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Language (Restart)"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Dark Filter Level (percent)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Frameskip"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Frameskip Threshold (%)"
+msgstr ""

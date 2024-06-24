@@ -1,0 +1,26 @@
+# game.libretro.neocd language file
+# Addon Name: game.libretro.neocd
+# Addon id: game.libretro.neocd
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.neocd\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-25 20:17i\n"
+"PO-Revision-Date: 2021-10-01 03:30+0000\n"
+"Last-Translator: Minho Park <parkmino@gmail.com>\n"
+"Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-neocd/ko_kr/>\n"
+"Language: ko_kr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8\n"
+
+msgctxt "Addon Summary"
+msgid "SNK - Neo Geo CD (NeoCD) 2021"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "NeoCD for libretro is complete rewrite of the NeoCD emulator in modern C++11."
+msgstr "libretro용 NeoCD는 최신 C++11에서 NeoCD 에뮬레이터를 완전히 다시 작성했습니다."

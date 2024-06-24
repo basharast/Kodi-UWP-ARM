@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\c822b57c8a74cddd23755fdceeeb7631\libdvdnav-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\daa2b9388ea02eb65b0546974eb077a4\libdvdnav-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi-build-wp\CMakeFiles\8dd12047556b47b826235f7a595b5904\libdvdnav.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\kodi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\kodi-build-wp\CMakeFiles\libdvdnav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B43CD052-A5F7-3415-B01A-6FE8CB1267E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

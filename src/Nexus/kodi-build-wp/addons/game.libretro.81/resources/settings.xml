@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="select" id="81_fast_load" values="enabled|disabled" default="enabled"/>
+		<setting label="30002" type="select" id="81_8_16_contents" values="auto|ROM shadow|RAM|dK&#39;tronics 4K Graphics ROM + 4K RAM" default="auto"/>
+		<setting label="30003" type="select" id="81_border_size" values="normal|small|none" default="normal"/>
+		<setting label="30004" type="select" id="81_highres" values="auto|none|WRX" default="auto"/>
+		<setting label="30005" type="select" id="81_chroma_81" values="auto|disabled|enabled" default="auto"/>
+		<setting label="30006" type="select" id="81_video_presets" values="clean|tv|noisy" default="clean"/>
+		<setting label="30007" type="select" id="81_sound" values="none|auto|Zon X-81" default="none"/>
+		<setting label="30008" type="select" id="81_joypad_left" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30009" type="select" id="81_joypad_right" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30010" type="select" id="81_joypad_up" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30011" type="select" id="81_joypad_down" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30012" type="select" id="81_joypad_a" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30013" type="select" id="81_joypad_b" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30014" type="select" id="81_joypad_x" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30015" type="select" id="81_joypad_y" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30016" type="select" id="81_joypad_l" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30017" type="select" id="81_joypad_r" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30018" type="select" id="81_joypad_l2" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30019" type="select" id="81_joypad_r2" values="auto|default|new line|shift|space|.|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" default="auto"/>
+		<setting label="30020" type="select" id="81_keybovl_transp" values="enabled|disabled" default="enabled"/>
+		<setting label="30021" type="select" id="81_key_hold_time" values="100|300|500|1000" default="100"/>
+	</category>
+</settings>

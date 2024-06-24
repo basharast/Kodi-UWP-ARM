@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|ARM">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|ARM">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{102AFFDD-6F03-3A0E-9356-8A94AC30C2A8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>ARM</Platform>
+    <ProjectName>tag</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">tag.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">tagd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">tag.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">tag</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">tag.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">tag</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">tag.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">tag</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\kodi-build-wp\build\taglib\src\taglib-build\Debug\tagd.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\kodi-build-wp\build\taglib\src\taglib-build\Release\tag.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\kodi-build-wp\build\taglib\src\taglib-build\MinSizeRel\tag.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4146;4251;4668;5033;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\kodi-build-wp\build\taglib\src\taglib-build\RelWithDebInfo\tag.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;NDEBUG;TAGLIB_STATIC;PLATFORM_WINRT;HAVE_CONFIG_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\kodi-build-wp\build\taglib\src\taglib-build\taglib;C:\kodi-build-wp\build\taglib\src\taglib\taglib;C:\kodi-build-wp\build\taglib\src\taglib-build;C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit;C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1;C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape;C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack;C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff;C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav;C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod;C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m;C:\kodi-build-wp\build\taglib\src\taglib\taglib\it;C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm;C:\kodi-build-wp\build\taglib\src\taglib\3rdparty;C:\kodi\project\BuildDependencies\win10-arm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:ARM</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Building Custom Rule C:/kodi-build-wp/build/taglib/src/taglib/taglib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/taglib/src/taglib -BC:/kodi-build-wp/build/taglib/src/taglib-build --check-stamp-file C:/kodi-build-wp/build/taglib/src/taglib-build/taglib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Building Custom Rule C:/kodi-build-wp/build/taglib/src/taglib/taglib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/taglib/src/taglib -BC:/kodi-build-wp/build/taglib/src/taglib-build --check-stamp-file C:/kodi-build-wp/build/taglib/src/taglib-build/taglib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">Building Custom Rule C:/kodi-build-wp/build/taglib/src/taglib/taglib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/taglib/src/taglib -BC:/kodi-build-wp/build/taglib/src/taglib-build --check-stamp-file C:/kodi-build-wp/build/taglib/src/taglib-build/taglib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|ARM'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">Building Custom Rule C:/kodi-build-wp/build/taglib/src/taglib/taglib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/taglib/src/taglib -BC:/kodi-build-wp/build/taglib/src/taglib-build --check-stamp-file C:/kodi-build-wp/build/taglib/src/taglib-build/taglib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">C:\kodi-build-wp\build\taglib\src\taglib-build\taglib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|ARM'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\mpegfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\mpegproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\mpegheader.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\xingheader.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1\id3v1tag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1\id3v1genres.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2framefactory.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2synchdata.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2tag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2header.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2frame.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2footer.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2extendedheader.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\attachedpictureframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\commentsframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\eventtimingcodesframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\ownershipframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\popularimeterframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\privateframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\relativevolumeframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\synchronizedlyricsframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\textidentificationframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\unknownframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\urllinkframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\chapterframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\tableofcontentsframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\podcastframe.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\oggfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\oggpage.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\oggpageheader.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\xiphcomment.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis\vorbisfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis\vorbisproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac\oggflacfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc\mpcfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc\mpcproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apetag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apefooter.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apeitem.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apefile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apeproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tstring.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tstringlist.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tbytevector.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tbytevectorlist.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tbytevectorstream.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tiostream.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tfilestream.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tdebug.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tpropertymap.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\trefcounter.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tdebuglistener.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tzlib.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacpicture.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacmetadatablock.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacunknownmetadatablock.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack\wavpackfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack\wavpackproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex\speexfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex\speexproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio\trueaudiofile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio\trueaudioproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\rifffile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff\aifffile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff\aiffproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav\wavfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav\wavproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav\infotag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asftag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asffile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asfproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asfattribute.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asfpicture.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4file.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4atom.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4tag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4item.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4properties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4coverart.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modfilebase.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modtag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m\s3mfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m\s3mproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\it\itfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\it\itproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm\xmfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm\xmproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus\opusfile.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus\opusproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\tag.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\tagunion.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\fileref.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\audioproperties.cpp" />
+    <ClCompile Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\tagutils.cpp" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\tag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\fileref.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\audioproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\taglib_export.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib-build\taglib_config.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\taglib.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tstring.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tlist.h" />
+    <None Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tlist.tcc">
+    </None>
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tstringlist.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tbytevector.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tbytevectorlist.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tbytevectorstream.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tiostream.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tfilestream.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tmap.h" />
+    <None Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tmap.tcc">
+    </None>
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tpropertymap.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\trefcounter.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\toolkit\tdebuglistener.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\mpegfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\mpegproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\mpegheader.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\xingheader.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1\id3v1tag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v1\id3v1genres.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2extendedheader.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2frame.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2header.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2synchdata.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2footer.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2framefactory.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\id3v2tag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\attachedpictureframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\commentsframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\eventtimingcodesframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\ownershipframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\popularimeterframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\privateframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\relativevolumeframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\synchronizedlyricsframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\textidentificationframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\unknownframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\urllinkframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\chapterframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\tableofcontentsframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpeg\id3v2\frames\podcastframe.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\oggfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\oggpage.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\oggpageheader.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\xiphcomment.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis\vorbisfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\vorbis\vorbisproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\flac\oggflacfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex\speexfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\speex\speexproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus\opusfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ogg\opus\opusproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacpicture.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\flac\flacmetadatablock.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apefile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apeproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apetag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apefooter.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\ape\apeitem.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc\mpcfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mpc\mpcproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack\wavpackfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\wavpack\wavpackproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio\trueaudiofile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\trueaudio\trueaudioproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\rifffile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff\aifffile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\aiff\aiffproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav\wavfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav\wavproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\riff\wav\infotag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asffile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asfproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asftag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asfattribute.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\asf\asfpicture.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4file.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4atom.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4tag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4item.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4properties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mp4\mp4coverart.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modfilebase.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modtag.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\mod\modproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\it\itfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\it\itproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m\s3mfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\s3m\s3mproperties.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm\xmfile.h" />
+    <ClInclude Include="C:\kodi-build-wp\build\taglib\src\taglib\taglib\xm\xmproperties.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\kodi-build-wp\build\taglib\src\taglib-build\ZERO_CHECK.vcxproj">
+      <Project>{9FCC37AA-D200-3D2B-848F-5BB145AB06B9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

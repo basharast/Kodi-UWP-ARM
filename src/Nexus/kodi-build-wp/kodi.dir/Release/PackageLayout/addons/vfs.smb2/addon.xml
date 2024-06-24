@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="vfs.smb2"
+  version="20.0.0"
+  name="SMB support (libsmb2)"
+  provider-name="afedchin">
+  <requires>
+<import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2"/>
+<import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5"/>
+<import addon="kodi.binary.global.filesystem" minversion="1.1.7" version="1.1.7"/>
+<import addon="kodi.binary.global.network" minversion="1.0.0" version="1.0.4"/>
+<import addon="kodi.binary.instance.vfs" minversion="3.0.1" version="3.0.1"/></requires>
+  <extension
+    point="kodi.vfs"
+    protocols="smb"
+    files="true"
+    directories="true"
+    zeroconf="_smb._tcp."
+    supportPath="true"
+    supportUsername="true"
+    supportPassword="true"
+    supportPort="false"
+    supportDialog="true"
+    supportBrowsing="true"
+    supportWrite="true"
+    defaultPort="0"
+    label="20171"
+    library_windowsstore="vfs.smb2.dll" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">The add-on provides SMB2/3 protocol support</summary>
+    <description lang="en_GB">The add-on provides SMB2/3 protocol support</description>
+    <platform>windowsstore</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/afedchin/vfs.smb2</source>
+  </extension>
+</addon>

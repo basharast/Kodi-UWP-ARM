@@ -1,0 +1,10 @@
+C:/kodi/project/BuildDependencies/win10-arm/lib/libdvdnav.lib
+C:/kodi/project/BuildDependencies/win10-arm/bin/libdvdnav.dll
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdnav/dvd_types.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdnav/dvdnav.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdnav/dvdnav_events.h
+C:/kodi/project/BuildDependencies/win10-arm/include/dvdnav/version.h
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdnav/dvdnav.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdnav/dvdnav-release.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdnav/dvdnav-config.cmake
+C:/kodi/project/BuildDependencies/win10-arm/lib/cmake/dvdnav/dvdnav-config-version.cmake

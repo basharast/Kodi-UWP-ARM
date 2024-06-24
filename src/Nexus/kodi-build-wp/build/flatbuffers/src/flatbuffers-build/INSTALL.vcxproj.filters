@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\kodi-build-wp\build\flatbuffers\src\flatbuffers-build\CMakeFiles\a8bf91e73f15d214a254e07d4375c8ea\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{31069ED2-6743-3181-9BFD-415C0E2B7146}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

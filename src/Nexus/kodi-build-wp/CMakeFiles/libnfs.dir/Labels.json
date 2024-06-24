@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/libnfs"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/libnfs.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/libnfs-complete.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-build.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-configure.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-download.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-install.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-mkdir.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-patch.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/0cd107129b5b8323bee015d744af275a/libnfs-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libnfs"
+		],
+		"name" : "libnfs"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/pcre"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/pcre.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/pcre-complete.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-build.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-configure.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-download.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-install.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-mkdir.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-patch.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/4cb3de22214c3dd32bd3c586b6b93351/pcre-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pcre"
+		],
+		"name" : "pcre"
+	}
+}

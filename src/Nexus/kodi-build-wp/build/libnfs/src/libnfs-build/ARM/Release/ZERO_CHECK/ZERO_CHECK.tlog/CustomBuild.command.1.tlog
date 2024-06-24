@@ -1,0 +1,10 @@
+^C:\KODI-BUILD-WP\BUILD\LIBNFS\SRC\LIBNFS-BUILD\CMAKEFILES\7F21C65FB8DB65C9D25B55FE05F0E22C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/kodi-build-wp/build/libnfs/src/libnfs -BC:/kodi-build-wp/build/libnfs/src/libnfs-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/kodi-build-wp/build/libnfs/src/libnfs-build/libnfs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

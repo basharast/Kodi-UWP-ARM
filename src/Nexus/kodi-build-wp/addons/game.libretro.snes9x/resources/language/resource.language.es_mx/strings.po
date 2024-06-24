@@ -1,0 +1,330 @@
+# game.libretro.snes9x language file
+# Addon Name: game.libretro.snes9x
+# Addon id: game.libretro.snes9x
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.snes9x\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-04 04:14+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Spanish (Mexico) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-snes9x/es_mx/>\n"
+"Language: es_mx\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - SNES / SFC (Snes9x - Current) 1.60"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Snes9x is a portable, freeware SNES and Super Famicom emulator.[CR][CR]Snes9x is coded in C++, with three assembler CPU emulation cores on the i386 Linux and Windows ports."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "The Snes9X team is not connected or affiliated with any mentioned company in any way. The opinions of the Snes9X team do not reflect the views of the various companies mentioned here. Companies and all products pertaining to that company are trademarks of that company. Please contact that company for trademark and copyright information."
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "Ajustes"
+
+msgctxt "#30001"
+msgid "Console Region (Reload Core)"
+msgstr "Región de consola (recargar núcleo)"
+
+msgctxt "#30002"
+msgid "Preferred Aspect Ratio"
+msgstr "Relación de aspecto preferida"
+
+msgctxt "#30003"
+msgid "Crop Overscan"
+msgstr "Cortar sobreescaneo"
+
+msgctxt "#30004"
+msgid "Hi-Res Blending"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Blargg NTSC Filter"
+msgstr "Filtro NTSC Blargg"
+
+msgctxt "#30006"
+msgid "Audio Interpolation"
+msgstr "Interpolación de audio"
+
+msgctxt "#30007"
+msgid "Allow Opposing Directions"
+msgstr "Permitir direcciones opuestas"
+
+msgctxt "#30008"
+msgid "SuperFX Overclocking"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Reduce Slowdown (Hack, Unsafe)"
+msgstr "Reducir ralentización (hack, no seguro)"
+
+msgctxt "#30010"
+msgid "Reduce Flickering (Hack, Unsafe)"
+msgstr "Reducir parpadeo (hack, no seguro)"
+
+msgctxt "#30011"
+msgid "Randomize Memory (Unsafe)"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Block Invalid VRAM Access"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Light Gun Mode"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Super Scope Reverse Trigger Buttons"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Super Scope Crosshair"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Super Scope Color"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Justifier 1 Crosshair"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Justifier 1 Color"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Justifier 2 Crosshair"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Justifier 2 Color"
+msgstr ""
+
+msgctxt "#30022"
+msgid "M.A.C.S. Rifle Crosshair"
+msgstr ""
+
+msgctxt "#30023"
+msgid "M.A.C.S. Rifle Color"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Show Layer 1"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Show Layer 2"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Show Layer 3"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Show Layer 4"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Show Sprite Layer"
+msgstr "Mostrar capa de sprites"
+
+msgctxt "#30029"
+msgid "Enable Graphic Clip Windows"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Enable Transparency Effects"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Enable Sound Channel 1"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Enable Sound Channel 2"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Enable Sound Channel 3"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Enable Sound Channel 4"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Enable Sound Channel 5"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Enable Sound Channel 6"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Enable Sound Channel 7"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Enable Sound Channel 8"
+msgstr ""
+
+#~ msgctxt "#30004"
+#~ msgid "Enable Hi-Res Mode"
+#~ msgstr "Activar modo de alta resolución"
+
+#~ msgctxt "#30005"
+#~ msgid "Hi-Res Blending"
+#~ msgstr "Fundido de alta resolución"
+
+#~ msgctxt "#30006"
+#~ msgid "Blargg NTSC Filter"
+#~ msgstr "Filtro NTSC Blargg"
+
+#~ msgctxt "#30007"
+#~ msgid "Audio Interpolation"
+#~ msgstr "Interpolación de audio"
+
+#~ msgctxt "#30008"
+#~ msgid "Allow Opposing Directions"
+#~ msgstr "Permitir direcciones opuestas"
+
+#~ msgctxt "#30009"
+#~ msgid "SuperFX Overclocking"
+#~ msgstr "Overclocking SuperFX"
+
+#~ msgctxt "#30010"
+#~ msgid "Reduce Slowdown (Hack, Unsafe)"
+#~ msgstr "Reducir ralentización (hack, no seguro)"
+
+#~ msgctxt "#30011"
+#~ msgid "Reduce Flickering (Hack, Unsafe)"
+#~ msgstr "Reducir parpadeo (hack, no seguro)"
+
+#~ msgctxt "#30012"
+#~ msgid "Randomize Memory (Unsafe)"
+#~ msgstr "Aleatorizar emoria (no seguro)"
+
+#~ msgctxt "#30013"
+#~ msgid "Block Invalid VRAM Access"
+#~ msgstr "Bloquear accesos inválidos a VRAM"
+
+#~ msgctxt "#30014"
+#~ msgid "Echo Buffer Hack (Unsafe, only enable for old addmusic hacks)"
+#~ msgstr "Hack de eco de búfer (no seguro, activar solo para hacks addmusic antiguos)"
+
+#~ msgctxt "#30015"
+#~ msgid "Light Gun Mode"
+#~ msgstr "Modo pistola de luz"
+
+#~ msgctxt "#30016"
+#~ msgid "Super Scope Reverse Trigger Buttons"
+#~ msgstr "Botones de gatillos inversos Super Scope"
+
+#~ msgctxt "#30017"
+#~ msgid "Super Scope Crosshair"
+#~ msgstr "Mira Super Scope"
+
+#~ msgctxt "#30018"
+#~ msgid "Super Scope Color"
+#~ msgstr "Color de Super Scope"
+
+#~ msgctxt "#30019"
+#~ msgid "Justifier 1 Crosshair"
+#~ msgstr "Mira de Justifier 1"
+
+#~ msgctxt "#30020"
+#~ msgid "Justifier 1 Color"
+#~ msgstr "Color de Justifier 1"
+
+#~ msgctxt "#30021"
+#~ msgid "Justifier 2 Crosshair"
+#~ msgstr "Mira de Justifier 2"
+
+#~ msgctxt "#30022"
+#~ msgid "Justifier 2 Color"
+#~ msgstr "Color de Justifier 2"
+
+#~ msgctxt "#30023"
+#~ msgid "M.A.C.S. Rifle Crosshair"
+#~ msgstr "Mira de rifle M.A.C.S."
+
+#~ msgctxt "#30024"
+#~ msgid "M.A.C.S. Rifle Color"
+#~ msgstr "Color de rifle M.A.C.S."
+
+#~ msgctxt "#30025"
+#~ msgid "Show Layer 1"
+#~ msgstr "Mostrar capa 1"
+
+#~ msgctxt "#30026"
+#~ msgid "Show Layer 2"
+#~ msgstr "Mostrar capa 2"
+
+#~ msgctxt "#30027"
+#~ msgid "Show Layer 3"
+#~ msgstr "Mostrar capa 3"
+
+#~ msgctxt "#30028"
+#~ msgid "Show Layer 4"
+#~ msgstr "Mostrar capa 4"
+
+#~ msgctxt "#30029"
+#~ msgid "Show Sprite Layer"
+#~ msgstr "Mostrar capa de sprites"
+
+#~ msgctxt "#30030"
+#~ msgid "Enable Graphic Clip Windows"
+#~ msgstr "Activar ventanas de clip gráfico"
+
+#~ msgctxt "#30031"
+#~ msgid "Enable Transparency Effects"
+#~ msgstr "Activar efectos de transparencia"
+
+#~ msgctxt "#30032"
+#~ msgid "Enable Sound Channel 1"
+#~ msgstr "Activar 1º canal de sonido"
+
+#~ msgctxt "#30033"
+#~ msgid "Enable Sound Channel 2"
+#~ msgstr "Activar 2º canal de sonido"
+
+#~ msgctxt "#30034"
+#~ msgid "Enable Sound Channel 3"
+#~ msgstr "Activar 3º canal de sonido"
+
+#~ msgctxt "#30035"
+#~ msgid "Enable Sound Channel 4"
+#~ msgstr "Activar 4º canal de sonido"
+
+#~ msgctxt "#30036"
+#~ msgid "Enable Sound Channel 5"
+#~ msgstr "Activar 5º canal de sonido"
+
+#~ msgctxt "#30037"
+#~ msgid "Enable Sound Channel 6"
+#~ msgstr "Activar 6º canal de sonido"
+
+#~ msgctxt "#30038"
+#~ msgid "Enable Sound Channel 7"
+#~ msgstr "Activar 7º canal de sonido"
+
+#~ msgctxt "#30039"
+#~ msgid "Enable Sound Channel 8"
+#~ msgstr "Activar 8º canal de sonido"

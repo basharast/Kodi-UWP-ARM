@@ -1,0 +1,342 @@
+# game.libretro.genplus language file
+# Addon Name: game.libretro.genplus
+# Addon id: game.libretro.genplus
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.genplus\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2022-08-03 04:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-genplus/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "Sega - MS/GG/MD/CD (Genesis Plus GX) v1.7.4"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Genesis Plus GX is an enhanced port of Genesis Plus to the libretro API.[CR][CR]Features support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive and Mega CD hardware."
+msgstr "Genesis Plus GX 是 Genesis Plus 到 libretro API 的增强移植。[CR][CR]支持 SG-1000、Mark III、Master System、Game Gear、Mega Drive 和 Mega CD 硬件。"
+
+msgctxt "Addon Disclaimer"
+msgid "Special thanks to twinaphex for backporting enhancements from the GX version"
+msgstr "特别感谢 twinaphex 从 GX 版本中移植了增强功能"
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#30001"
+msgid "System Hardware"
+msgstr "系统硬件"
+
+msgctxt "#30002"
+msgid "System Region"
+msgstr "系统区域"
+
+msgctxt "#30003"
+msgid "System Boot ROM"
+msgstr "系统引导 ROM"
+
+msgctxt "#30004"
+msgid "CD System BRAM"
+msgstr "CD 系统 BRAM"
+
+msgctxt "#30005"
+msgid "CD add-on (MD mode) (Requires Restart)"
+msgstr "CD 插件（MD 模式）（需要重新启动）"
+
+msgctxt "#30006"
+msgid "Cartridge Lock-On"
+msgstr "卡带盒锁定"
+
+msgctxt "#30007"
+msgid "Core-Provided Aspect Ratio"
+msgstr "核心提供的纵横比"
+
+msgctxt "#30008"
+msgid "Borders"
+msgstr "边框"
+
+msgctxt "#30009"
+msgid "Hide Master System Side Borders"
+msgstr "隐藏主系统侧边框"
+
+msgctxt "#30010"
+msgid "Game Gear Extended Screen"
+msgstr "游戏装备扩展屏幕"
+
+msgctxt "#30011"
+msgid "Blargg NTSC Filter"
+msgstr "Blargg NTSC 滤波器"
+
+msgctxt "#30012"
+msgid "LCD Ghosting Filter"
+msgstr "LCD 重影滤波器"
+
+msgctxt "#30013"
+msgid "Interlaced Mode 2 Output"
+msgstr "隔行模式2输出"
+
+msgctxt "#30014"
+msgid "Frameskip"
+msgstr "帧跳过"
+
+msgctxt "#30015"
+msgid "Frameskip Threshold (%)"
+msgstr "帧跳过阈值（%）"
+
+msgctxt "#30016"
+msgid "Master System FM (YM2413)"
+msgstr "主系统 FM（YM2413）"
+
+msgctxt "#30017"
+msgid "Master System FM (YM2413) Core"
+msgstr "主系统 FM（YM2413）核心"
+
+msgctxt "#30018"
+msgid "Mega Drive/Genesis FM"
+msgstr "Mega Drive/Genesis FM"
+
+msgctxt "#30019"
+msgid "Sound Output"
+msgstr "声音输出"
+
+msgctxt "#30020"
+msgid "Audio Filter"
+msgstr "音频滤波器"
+
+msgctxt "#30021"
+msgid "Low-Pass Filter %"
+msgstr "低通滤波器 %"
+
+msgctxt "#30022"
+msgid "PSG Preamp Level"
+msgstr "PSG 前置放大器电平"
+
+msgctxt "#30023"
+msgid "FM Preamp Level"
+msgstr "FM 前置放大器电平"
+
+msgctxt "#30024"
+msgid "CD-DA Volume"
+msgstr "CD-DA 音量"
+
+msgctxt "#30025"
+msgid "PCM Volume"
+msgstr "PCM 音量"
+
+msgctxt "#30026"
+msgid "Light Gun Input"
+msgstr "光线枪输入"
+
+msgctxt "#30027"
+msgid "Show Light Gun Crosshair"
+msgstr "显示光线枪准星"
+
+msgctxt "#30028"
+msgid "Invert Mouse Y-Axis"
+msgstr "反转鼠标Y轴"
+
+msgctxt "#30029"
+msgid "Remove Per-Line Sprite Limit"
+msgstr "删除每行 Sprite 限制"
+
+msgctxt "#30030"
+msgid "Enhanced per-tile vertical scroll"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Enhanced per-tile vertical scroll limit"
+msgstr ""
+
+msgctxt "#30032"
+msgid "CPU Speed"
+msgstr ""
+
+msgctxt "#30033"
+msgid "System Lock-Ups"
+msgstr ""
+
+msgctxt "#30034"
+msgid "68K Address Error"
+msgstr ""
+
+msgctxt "#30035"
+msgid "CD access time"
+msgstr ""
+
+msgctxt "#30036"
+msgid "PSG Tone Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30037"
+msgid "PSG Tone Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30038"
+msgid "PSG Tone Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30039"
+msgid "PSG Noise Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Mega Drive/Genesis FM Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Mega Drive/Genesis FM Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Mega Drive/Genesis FM Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Mega Drive/Genesis FM Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Mega Drive/Genesis FM Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Mega Drive/Genesis FM Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Master System FM (YM2413) Channel 0 Volume %"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Master System FM (YM2413) Channel 1 Volume %"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Master System FM (YM2413) Channel 2 Volume %"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Master System FM (YM2413) Channel 3 Volume %"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Master System FM (YM2413) Channel 4 Volume %"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Master System FM (YM2413) Channel 5 Volume %"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Master System FM (YM2413) Channel 6 Volume %"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Master System FM (YM2413) Channel 7 Volume %"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Master System FM (YM2413) Channel 8 Volume %"
+msgstr ""
+
+#~ msgctxt "#30030"
+#~ msgid "CPU Speed"
+#~ msgstr "CPU 速度"
+
+#~ msgctxt "#30031"
+#~ msgid "System Lock-Ups"
+#~ msgstr "系统锁定"
+
+#~ msgctxt "#30032"
+#~ msgid "68K Address Error"
+#~ msgstr "68K 地址错误"
+
+#~ msgctxt "#30033"
+#~ msgid "CD access time"
+#~ msgstr "CD 访问时间"
+
+#~ msgctxt "#30034"
+#~ msgid "PSG Tone Channel 0 Volume %"
+#~ msgstr "PSG 音调通道0音量 %"
+
+#~ msgctxt "#30035"
+#~ msgid "PSG Tone Channel 1 Volume %"
+#~ msgstr "PSG 音调通道1音量 %"
+
+#~ msgctxt "#30036"
+#~ msgid "PSG Tone Channel 2 Volume %"
+#~ msgstr "PSG 音调通道2音量 %"
+
+#~ msgctxt "#30037"
+#~ msgid "PSG Noise Channel 3 Volume %"
+#~ msgstr "PSG 噪声通道3音量 %"
+
+#~ msgctxt "#30038"
+#~ msgid "Mega Drive/Genesis FM Channel 0 Volume %"
+#~ msgstr "Mega Drive/Genesis FM 频道0音量 %"
+
+#~ msgctxt "#30039"
+#~ msgid "Mega Drive/Genesis FM Channel 1 Volume %"
+#~ msgstr "Mega Drive/Genesis FM 频道1音量 %"
+
+#~ msgctxt "#30040"
+#~ msgid "Mega Drive/Genesis FM Channel 2 Volume %"
+#~ msgstr "Mega Drive/Genesis FM 频道2音量 %"
+
+#~ msgctxt "#30041"
+#~ msgid "Mega Drive/Genesis FM Channel 3 Volume %"
+#~ msgstr "Mega Drive/Genesis FM 频道3音量 %"
+
+#~ msgctxt "#30042"
+#~ msgid "Mega Drive/Genesis FM Channel 4 Volume %"
+#~ msgstr "Mega Drive/Genesis FM 频道4音量 %"
+
+#~ msgctxt "#30043"
+#~ msgid "Mega Drive/Genesis FM Channel 5 Volume %"
+#~ msgstr "Mega Drive/Genesis FM 频道5音量 %"
+
+#~ msgctxt "#30044"
+#~ msgid "Master System FM (YM2413) Channel 0 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道0音量 %"
+
+#~ msgctxt "#30045"
+#~ msgid "Master System FM (YM2413) Channel 1 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道1音量 %"
+
+#~ msgctxt "#30046"
+#~ msgid "Master System FM (YM2413) Channel 2 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道2音量 %"
+
+#~ msgctxt "#30047"
+#~ msgid "Master System FM (YM2413) Channel 3 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道3音量 %"
+
+#~ msgctxt "#30048"
+#~ msgid "Master System FM (YM2413) Channel 4 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道4音量 %"
+
+#~ msgctxt "#30049"
+#~ msgid "Master System FM (YM2413) Channel 5 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道5音量 %"
+
+#~ msgctxt "#30050"
+#~ msgid "Master System FM (YM2413) Channel 6 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道6音量 %"
+
+#~ msgctxt "#30051"
+#~ msgid "Master System FM (YM2413) Channel 7 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道7音量 %"
+
+#~ msgctxt "#30052"
+#~ msgid "Master System FM (YM2413) Channel 8 Volume %"
+#~ msgstr "主系统 FM（YM2413）通道8音量 %"

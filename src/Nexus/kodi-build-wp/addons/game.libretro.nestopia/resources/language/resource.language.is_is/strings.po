@@ -1,0 +1,149 @@
+# game.libretro.nestopia language file
+# Addon Name: game.libretro.nestopia
+# Addon id: game.libretro.nestopia
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.nestopia\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2017-02-04 09:56i\n"
+"PO-Revision-Date: 2017-02-04 09:56i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: is_is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
+
+msgctxt "Addon Summary"
+msgid "Nintendo - NES / Famicom (Nestopia UE) 1.51.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: Anarkhya (anarkhya.deviantart.com)"
+msgstr ""
+
+msgctxt "#30000"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Blargg NTSC Filter"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Palette"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Remove Sprite Limit"
+msgstr ""
+
+msgctxt "#30004"
+msgid "CPU Speed (Overclock)"
+msgstr ""
+
+msgctxt "#30005"
+msgid "4 Player Adapter"
+msgstr ""
+
+msgctxt "#30006"
+msgid "FDS Auto Insert"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Mask Overscan (Vertical)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Mask Overscan (Horizontal)"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Preferred Aspect Ratio"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Game Genie Sound Distortion"
+msgstr ""
+
+msgctxt "#30011"
+msgid "System Region"
+msgstr ""
+
+msgctxt "#30012"
+msgid "RAM Power-on State"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Shift Buttons Clockwise"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Arkanoid device"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Zapper device"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Show Crosshair"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Turbo Pulse Speed"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Show Advanced Audio Settings (Reopen menu)"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Square 1 Channel Volume %"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Square 2 Channel Volume %"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Triangle Channel Volume %"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Noise Channel Volume %"
+msgstr ""
+
+msgctxt "#30023"
+msgid "DPCM Channel Volume %"
+msgstr ""
+
+msgctxt "#30024"
+msgid "FDS Channel Volume %"
+msgstr ""
+
+msgctxt "#30025"
+msgid "MMC5 Channel Volume %"
+msgstr ""
+
+msgctxt "#30026"
+msgid "VRC6 Channel Volume %"
+msgstr ""
+
+msgctxt "#30027"
+msgid "VRC7 Channel Volume %"
+msgstr ""
+
+msgctxt "#30028"
+msgid "N163 Channel Volume %"
+msgstr ""
+
+msgctxt "#30029"
+msgid "S5B Channel Volume %"
+msgstr ""

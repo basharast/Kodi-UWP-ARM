@@ -1,0 +1,25 @@
+# game.libretro.freeintv language file
+# Addon Name: game.libretro.freeintv
+# Addon id: game.libretro.freeintv
+# Addon Provider: libretro
+msgid ""
+msgstr ""
+"Project-Id-Version: game.libretro.freeintv\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: 2021-08-26 21:21i\n"
+"PO-Revision-Date: 2021-08-26 21:21i\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: mk_mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+
+msgctxt "Addon Summary"
+msgid "Mattel - Intellivision (FreeIntv) 1.1"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "FreeIntv is a libretro emulation core for the Mattel Intellivision designed for joypad compatibility."
+msgstr ""

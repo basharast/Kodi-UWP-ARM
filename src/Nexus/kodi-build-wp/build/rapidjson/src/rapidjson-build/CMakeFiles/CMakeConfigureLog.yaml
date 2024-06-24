@@ -1,0 +1,120 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:12 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: /MP;/DWIN32;/D_WINDOWS;/DUNICODE;/D_UNICODE;/EHsc;/wd4996;/wd4146;/wd4251;/wd4668;/wd5033;/EHsc;/await;/permissive-;/O2;/Ob2;/DNDEBUG;/Zi
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.0-preview-24230-06+4be99f898 for .NET Framework
+      Build started 6/20/2024 11:42:44 AM.
+      
+      Project "C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:ARM Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\Hostx64\\arm\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.45
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/CMakeScratch/TryCompile-0sh152"
+      binary: "C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/CMakeScratch/TryCompile-0sh152"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/MP /DWIN32 /D_WINDOWS /DUNICODE /D_UNICODE /EHsc /wd\"4996\" /wd\"4146\" /wd\"4251\" /wd\"4668\" /wd\"5033\" /EHsc /await /permissive-  /O2 /Ob2 /DNDEBUG /Zi"
+      CMAKE_MODULE_PATH: "C:/kodi-build-wp/build/rapidjson/src/rapidjson/CMakeModules"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/CMakeScratch/TryCompile-0sh152'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2195e.vcxproj /p:Configuration=Debug /p:Platform=ARM /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.0-preview-24230-06+4be99f898 for .NET Framework
+        Build started 6/20/2024 11:42:47 AM.
+        
+        Project "C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\CMakeScratch\\TryCompile-0sh152\\cmTC_2195e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2195e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\CMakeScratch\\TryCompile-0sh152\\Debug\\".
+          Creating directory "cmTC_2195e.dir\\Debug\\cmTC_2195e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2195e.dir\\Debug\\cmTC_2195e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2195e.dir\\Debug\\cmTC_2195e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_2195e.dir\\Debug\\\\" /Fd"cmTC_2195e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /analyze- /errorReport:queue  /await "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.33901 for ARM
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /Oy- /D _ARM_WINAPI_PARTITION_DESKTOP_SDK_AVAILABLE=1 /D _UNICODE /D UNICODE /D WIN32 /D _WINDOWS /D UNICODE /D _UNICODE /D NDEBUG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"cmTC_2195e.dir\\Debug\\\\" /Fd"cmTC_2195e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /wd4996 /wd4146 /wd4251 /wd4668 /wd5033 /analyze- /errorReport:queue  /await "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.33901\\bin\\HostX64\\arm\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\CMakeScratch\\TryCompile-0sh152\\Debug\\cmTC_2195e.exe" /INCREMENTAL /ILK:"cmTC_2195e.dir\\Debug\\cmTC_2195e.ilk" /NOLOGO kernel32.lib user32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/CMakeScratch/TryCompile-0sh152/Debug/cmTC_2195e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/kodi-build-wp/build/rapidjson/src/rapidjson-build/CMakeFiles/CMakeScratch/TryCompile-0sh152/Debug/cmTC_2195e.lib" /MACHINE:ARM  /machine:ARM cmTC_2195e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2195e.vcxproj -> C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\CMakeScratch\\TryCompile-0sh152\\Debug\\cmTC_2195e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2195e.dir\\Debug\\cmTC_2195e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2195e.dir\\Debug\\cmTC_2195e.tlog\\cmTC_2195e.lastbuildstate".
+        Done Building Project "C:\\kodi-build-wp\\build\\rapidjson\\src\\rapidjson-build\\CMakeFiles\\CMakeScratch\\TryCompile-0sh152\\cmTC_2195e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.47
+        
+      exitCode: 0
+...

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{B53D4283-088F-32D7-A6C9-B26AA40CC76B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0051250-4F0A-305B-9AA8-D43043E18392} = {F0051250-4F0A-305B-9AA8-D43043E18392}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{533DD8A1-7E04-3F81-891A-7EB6CB5E5FD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B} = {B53D4283-088F-32D7-A6C9-B26AA40CC76B}
+		{F0051250-4F0A-305B-9AA8-D43043E18392} = {F0051250-4F0A-305B-9AA8-D43043E18392}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{F0051250-4F0A-305B-9AA8-D43043E18392}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "travis_doc", "travis_doc.vcxproj", "{0942BD3D-1244-346C-AFD6-B97CCEDF9AE5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0051250-4F0A-305B-9AA8-D43043E18392} = {F0051250-4F0A-305B-9AA8-D43043E18392}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+		MinSizeRel|ARM = MinSizeRel|ARM
+		RelWithDebInfo|ARM = RelWithDebInfo|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.Debug|ARM.Build.0 = Debug|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.Release|ARM.ActiveCfg = Release|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.Release|ARM.Build.0 = Release|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.MinSizeRel|ARM.Build.0 = MinSizeRel|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{B53D4283-088F-32D7-A6C9-B26AA40CC76B}.RelWithDebInfo|ARM.Build.0 = RelWithDebInfo|ARM
+		{533DD8A1-7E04-3F81-891A-7EB6CB5E5FD8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{533DD8A1-7E04-3F81-891A-7EB6CB5E5FD8}.Release|ARM.ActiveCfg = Release|ARM
+		{533DD8A1-7E04-3F81-891A-7EB6CB5E5FD8}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{533DD8A1-7E04-3F81-891A-7EB6CB5E5FD8}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.Debug|ARM.Build.0 = Debug|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.Release|ARM.ActiveCfg = Release|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.Release|ARM.Build.0 = Release|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.MinSizeRel|ARM.Build.0 = MinSizeRel|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+		{F0051250-4F0A-305B-9AA8-D43043E18392}.RelWithDebInfo|ARM.Build.0 = RelWithDebInfo|ARM
+		{0942BD3D-1244-346C-AFD6-B97CCEDF9AE5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0942BD3D-1244-346C-AFD6-B97CCEDF9AE5}.Release|ARM.ActiveCfg = Release|ARM
+		{0942BD3D-1244-346C-AFD6-B97CCEDF9AE5}.MinSizeRel|ARM.ActiveCfg = MinSizeRel|ARM
+		{0942BD3D-1244-346C-AFD6-B97CCEDF9AE5}.RelWithDebInfo|ARM.ActiveCfg = RelWithDebInfo|ARM
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5172B1B9-6AC2-3E11-BC18-36E0A2E0A975}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

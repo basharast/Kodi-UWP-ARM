@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/rapidjson"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/8dd12047556b47b826235f7a595b5904/rapidjson.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/daa2b9388ea02eb65b0546974eb077a4/rapidjson-complete.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-build.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-configure.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-download.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-install.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-mkdir.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-patch.rule"
+		},
+		{
+			"file" : "C:/kodi-build-wp/CMakeFiles/de4d9353cbbedb664739670b92e54e3f/rapidjson-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"rapidjson"
+		],
+		"name" : "rapidjson"
+	}
+}
