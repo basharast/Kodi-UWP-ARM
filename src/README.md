@@ -84,7 +84,7 @@ You can sync the updates to your own build, or try to wrap your head with it.
 
 This was based on `20230118-5715cb0ca6-dirty`, nothing was synced since commit `5715cb0ca6`.
 
-use compare tools such as 
+use compare tools such as `WinMergeU` to get the exact changes I made
 
 
 ## Advice
