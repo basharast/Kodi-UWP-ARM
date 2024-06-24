@@ -51,7 +51,7 @@ ____
 - You must have `VC/Tools/MSVC/14.41.33901`
 - This build was made using msvc `14.41.33901`
 - Test made only on `Release` (ARM)
-- Some project may fail on first build, just try one more time
+- Some projects may fail on first build, just try one more time
 - Once you start getting weird errors for CMake build..ARM..etc means you don't have the exact msvc I mentioned
 
 ## Note
